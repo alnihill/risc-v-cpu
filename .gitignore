@@ -1,0 +1,7 @@
+local/
+*.o
+*.elf
+*.asm
+*.bin
+*.v
+.DS_Store
