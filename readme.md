@@ -6,7 +6,7 @@ Then simulate the circuit in Digital. If nothing happens, make sure the clock is
 # Todo
 - [ ] Implement GDB server.
   - [ ] Finish implementing debug spec in circuit (JTAG stuff)
-  - [ ] Modify Digital to communicate through JTAG to CPU & host GDB server
+  - [x] Modify Digital to communicate through JTAG to CPU & host GDB server (maybe done, could be broken, yet to test with above step)
 - [x] Make ROM just an address space in memory block (yet to push because some other stuff depends on my Digital fork)
 - [ ] Reorganize circuit to be more readable/left-to-right
 - [ ] Modify Digital so that file IO can be done through memory-mapped component(s)
