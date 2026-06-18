@@ -8,6 +8,7 @@ void print_str(const char* s) {
 }
 
 int main() {
-    print_str("Hello world!");
+    while (true)
+        print_str("Hello world!");
     return 0;
 }

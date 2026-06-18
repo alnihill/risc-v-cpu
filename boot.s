@@ -46,6 +46,24 @@ other_trap_logic:
   # Wasn't an ecall... just hang here I guess.
   j other_trap_logic
   
-
 hang:
   j hang
+
+# =========================================================
+# DEBUG ROM (Park Loop) - Sits exactly at 0x190
+# =========================================================
+.section .debug_rom, "ax", @progbits
+.global debug_entry
+
+debug_entry:
+  # The CPU jumps here when DM asserts haltreq.
+  
+park_loop:
+  # 1. The CPU spins here infinitely while halted.
+  j park_loop
+
+.global debug_resume
+debug_resume:
+  # 2. When GDB sends a resume command, the DM hardware forces
+  #    the CPU's PC to this specific instruction.
+  dret
