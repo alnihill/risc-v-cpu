@@ -2998,6 +2998,10 @@ is high.</string>
           <string>wideShape</string>
           <boolean>true</boolean>
         </entry>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
+        </entry>
       </elementAttributes>
       <pos x="-4180" y="-1520"/>
     </visualElement>
@@ -3013,7 +3017,7 @@ is high.</string>
           <string>shift-ir</string>
         </entry>
       </elementAttributes>
-      <pos x="-4200" y="-1480"/>
+      <pos x="-4200" y="-1500"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3214,7 +3218,7 @@ is high.</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>1203</long>
+          <long>0</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -4544,6 +4548,20 @@ is high.</string>
       </elementAttributes>
       <pos x="-7040" y="-1280"/>
     </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>test-logic-reset</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-4200" y="-1480"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -5787,12 +5805,12 @@ is high.</string>
       <p2 x="-3580" y="-1480"/>
     </wire>
     <wire>
-      <p1 x="-4200" y="-1480"/>
-      <p2 x="-4180" y="-1480"/>
-    </wire>
-    <wire>
       <p1 x="-5580" y="-1480"/>
       <p2 x="-5560" y="-1480"/>
+    </wire>
+    <wire>
+      <p1 x="-4200" y="-1480"/>
+      <p2 x="-4180" y="-1480"/>
     </wire>
     <wire>
       <p1 x="-5600" y="-200"/>
@@ -5873,6 +5891,10 @@ is high.</string>
     <wire>
       <p1 x="-4100" y="-1500"/>
       <p2 x="-4080" y="-1500"/>
+    </wire>
+    <wire>
+      <p1 x="-4200" y="-1500"/>
+      <p2 x="-4180" y="-1500"/>
     </wire>
     <wire>
       <p1 x="-3780" y="-1500"/>

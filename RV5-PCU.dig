@@ -1042,7 +1042,7 @@ with sgn-ext-imm32 from RV5-IMM</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>postexec</string>
+          <string>jumpprogbuf</string>
         </entry>
       </elementAttributes>
       <pos x="-660" y="920"/>
@@ -1052,7 +1052,7 @@ with sgn-ext-imm32 from RV5-IMM</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>POSTEXEC</string>
+          <string>JUMPPROGBUF</string>
         </entry>
       </elementAttributes>
       <pos x="-660" y="920"/>
@@ -1066,7 +1066,7 @@ with sgn-ext-imm32 from RV5-IMM</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>postexec</string>
+          <string>jumpprogbuf</string>
         </entry>
       </elementAttributes>
       <pos x="560" y="500"/>
