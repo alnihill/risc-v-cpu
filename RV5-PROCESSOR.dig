@@ -6859,11 +6859,6 @@ jump to the progbuf:</string>
       <pos x="-12080" y="1380"/>
     </visualElement>
     <visualElement>
-      <elementName>GdbJtag</elementName>
-      <elementAttributes/>
-      <pos x="-13200" y="1220"/>
-    </visualElement>
-    <visualElement>
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
@@ -8662,7 +8657,7 @@ is bugged and requires it.</string>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="-6200" y="-2060"/>
+      <pos x="-6360" y="-1920"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
@@ -8764,7 +8759,7 @@ is bugged and requires it.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[726]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[725]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -9778,7 +9773,22 @@ is bugged and requires it.</string>
           <string>DPC194</string>
         </entry>
       </elementAttributes>
-      <pos x="-6340" y="-1960"/>
+      <pos x="-6320" y="-1960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>GdbServer</elementName>
+      <elementAttributes/>
+      <pos x="-13200" y="1220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>dmcontrol_resumereq</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-6100" y="-2020"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -10319,12 +10329,12 @@ is bugged and requires it.</string>
       <p2 x="-9060" y="1620"/>
     </wire>
     <wire>
-      <p1 x="-8920" y="1620"/>
-      <p2 x="-8880" y="1620"/>
-    </wire>
-    <wire>
       <p1 x="-8540" y="1620"/>
       <p2 x="-8520" y="1620"/>
+    </wire>
+    <wire>
+      <p1 x="-8920" y="1620"/>
+      <p2 x="-8880" y="1620"/>
     </wire>
     <wire>
       <p1 x="-11600" y="1620"/>
@@ -12055,8 +12065,8 @@ is bugged and requires it.</string>
       <p2 x="-5500" y="-1960"/>
     </wire>
     <wire>
-      <p1 x="-6360" y="-1960"/>
-      <p2 x="-6340" y="-1960"/>
+      <p1 x="-6340" y="-1960"/>
+      <p2 x="-6320" y="-1960"/>
     </wire>
     <wire>
       <p1 x="-7920" y="1960"/>
@@ -12381,6 +12391,10 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-8480" y="-480"/>
       <p2 x="-8460" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="-6120" y="-2020"/>
+      <p2 x="-6100" y="-2020"/>
     </wire>
     <wire>
       <p1 x="-7860" y="2020"/>
@@ -13087,12 +13101,12 @@ is bugged and requires it.</string>
       <p2 x="-11180" y="1780"/>
     </wire>
     <wire>
-      <p1 x="-8880" y="1560"/>
-      <p2 x="-8880" y="1620"/>
-    </wire>
-    <wire>
       <p1 x="-8880" y="2580"/>
       <p2 x="-8880" y="2620"/>
+    </wire>
+    <wire>
+      <p1 x="-8880" y="1560"/>
+      <p2 x="-8880" y="1620"/>
     </wire>
     <wire>
       <p1 x="-8880" y="1620"/>
@@ -13179,11 +13193,7 @@ is bugged and requires it.</string>
       <p2 x="-7640" y="2020"/>
     </wire>
     <wire>
-      <p1 x="-6360" y="-2060"/>
-      <p2 x="-6360" y="-1960"/>
-    </wire>
-    <wire>
-      <p1 x="-6360" y="-1960"/>
+      <p1 x="-6360" y="-1920"/>
       <p2 x="-6360" y="-1900"/>
     </wire>
     <wire>

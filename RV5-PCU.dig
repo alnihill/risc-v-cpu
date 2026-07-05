@@ -766,20 +766,6 @@ with sgn-ext-imm32 from RV5-IMM</string>
       <pos x="420" y="0"/>
     </visualElement>
     <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>is-debug</string>
-        </entry>
-      </elementAttributes>
-      <pos x="320" y="100"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
@@ -802,34 +788,6 @@ with sgn-ext-imm32 from RV5-IMM</string>
         </entry>
       </elementAttributes>
       <pos x="-660" y="560"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>dcsr</string>
-        </entry>
-      </elementAttributes>
-      <pos x="280" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Splitter</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Input Splitting</string>
-          <string>32</string>
-        </entry>
-        <entry>
-          <string>Output Splitting</string>
-          <string>15-15</string>
-        </entry>
-      </elementAttributes>
-      <pos x="300" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -1016,16 +974,6 @@ with sgn-ext-imm32 from RV5-IMM</string>
         </entry>
       </elementAttributes>
       <pos x="560" y="360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="340" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -1257,6 +1205,58 @@ with sgn-ext-imm32 from RV5-IMM</string>
       </elementAttributes>
       <pos x="200" y="580"/>
     </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>dcsr</string>
+        </entry>
+      </elementAttributes>
+      <pos x="300" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>32</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>15-15</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>is-debug</string>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="100"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -1300,16 +1300,16 @@ with sgn-ext-imm32 from RV5-IMM</string>
       <p2 x="-120" y="-140"/>
     </wire>
     <wire>
-      <p1 x="320" y="140"/>
-      <p2 x="340" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="280" y="140"/>
-      <p2 x="300" y="140"/>
-    </wire>
-    <wire>
       <p1 x="620" y="140"/>
       <p2 x="640" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="140"/>
+      <p2 x="320" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="140"/>
+      <p2 x="360" y="140"/>
     </wire>
     <wire>
       <p1 x="200" y="460"/>
@@ -1408,10 +1408,6 @@ with sgn-ext-imm32 from RV5-IMM</string>
       <p2 x="-120" y="-100"/>
     </wire>
     <wire>
-      <p1 x="320" y="100"/>
-      <p2 x="340" y="100"/>
-    </wire>
-    <wire>
       <p1 x="620" y="100"/>
       <p2 x="640" y="100"/>
     </wire>
@@ -1478,10 +1474,6 @@ with sgn-ext-imm32 from RV5-IMM</string>
     <wire>
       <p1 x="260" y="-120"/>
       <p2 x="300" y="-120"/>
-    </wire>
-    <wire>
-      <p1 x="420" y="120"/>
-      <p2 x="440" y="120"/>
     </wire>
     <wire>
       <p1 x="620" y="120"/>
