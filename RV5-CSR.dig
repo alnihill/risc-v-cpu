@@ -2122,21 +2122,6 @@
       <pos x="440" y="820"/>
     </visualElement>
     <visualElement>
-      <elementName>D_FF</elementName>
-      <elementAttributes/>
-      <pos x="200" y="900"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="300" y="880"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -2148,21 +2133,7 @@
           <string>haltreq</string>
         </entry>
       </elementAttributes>
-      <pos x="160" y="900"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>clk</string>
-        </entry>
-      </elementAttributes>
-      <pos x="200" y="920"/>
+      <pos x="420" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -2275,20 +2246,8 @@
       <p2 x="980" y="900"/>
     </wire>
     <wire>
-      <p1 x="160" y="900"/>
-      <p2 x="180" y="900"/>
-    </wire>
-    <wire>
-      <p1 x="380" y="900"/>
-      <p2 x="420" y="900"/>
-    </wire>
-    <wire>
       <p1 x="-80" y="900"/>
       <p2 x="-60" y="900"/>
-    </wire>
-    <wire>
-      <p1 x="180" y="900"/>
-      <p2 x="200" y="900"/>
     </wire>
     <wire>
       <p1 x="800" y="580"/>
@@ -2413,10 +2372,6 @@
     <wire>
       <p1 x="800" y="920"/>
       <p2 x="820" y="920"/>
-    </wire>
-    <wire>
-      <p1 x="260" y="920"/>
-      <p2 x="300" y="920"/>
     </wire>
     <wire>
       <p1 x="1020" y="600"/>
@@ -2565,10 +2520,6 @@
     <wire>
       <p1 x="-80" y="880"/>
       <p2 x="-60" y="880"/>
-    </wire>
-    <wire>
-      <p1 x="180" y="880"/>
-      <p2 x="300" y="880"/>
     </wire>
     <wire>
       <p1 x="-80" y="560"/>
@@ -2741,10 +2692,6 @@
     <wire>
       <p1 x="980" y="180"/>
       <p2 x="980" y="340"/>
-    </wire>
-    <wire>
-      <p1 x="180" y="880"/>
-      <p2 x="180" y="900"/>
     </wire>
     <wire>
       <p1 x="920" y="660"/>
