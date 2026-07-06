@@ -782,34 +782,6 @@ do a hard reset of the DMI.</string>
       <pos x="-5440" y="-1080"/>
     </visualElement>
     <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>dtmcs-dmistat</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-5580" y="-1540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>E-DMISTAT</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-5560" y="-1540"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
@@ -3975,7 +3947,7 @@ is high.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[312]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[310]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4467,58 +4439,6 @@ is high.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi-busy</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-5580" y="-1480"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>E-DMI-BUSY</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-5560" y="-1480"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>sticky-error</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-5580" y="-1440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>E-STICKY-ERR</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-5560" y="-1440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
           <string>dmi-op</string>
         </entry>
       </elementAttributes>
@@ -4583,10 +4503,6 @@ is high.</string>
     <wire>
       <p1 x="-6800" y="-1540"/>
       <p2 x="-6780" y="-1540"/>
-    </wire>
-    <wire>
-      <p1 x="-5580" y="-1540"/>
-      <p2 x="-5560" y="-1540"/>
     </wire>
     <wire>
       <p1 x="-3300" y="260"/>
@@ -5637,10 +5553,6 @@ is high.</string>
       <p2 x="-5160" y="-1440"/>
     </wire>
     <wire>
-      <p1 x="-5580" y="-1440"/>
-      <p2 x="-5560" y="-1440"/>
-    </wire>
-    <wire>
       <p1 x="-5160" y="-1440"/>
       <p2 x="-5100" y="-1440"/>
     </wire>
@@ -5803,10 +5715,6 @@ is high.</string>
     <wire>
       <p1 x="-3600" y="-1480"/>
       <p2 x="-3580" y="-1480"/>
-    </wire>
-    <wire>
-      <p1 x="-5580" y="-1480"/>
-      <p2 x="-5560" y="-1480"/>
     </wire>
     <wire>
       <p1 x="-4200" y="-1480"/>

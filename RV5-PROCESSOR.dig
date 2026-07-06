@@ -1415,7 +1415,7 @@ Note: Assembler test programs can be found at:
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dmi-rdata</string>
+          <string>dmi_rdata</string>
         </entry>
       </elementAttributes>
       <pos x="-11660" y="980"/>
@@ -1490,7 +1490,7 @@ Note: Assembler test programs can be found at:
           <string>dmi_wen</string>
         </entry>
       </elementAttributes>
-      <pos x="-12660" y="1500"/>
+      <pos x="-12520" y="1640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1741,7 +1741,7 @@ Note: Assembler test programs can be found at:
         </entry>
         <entry>
           <string>NetName</string>
-          <string>haltreq_n</string>
+          <string>haltreq</string>
         </entry>
       </elementAttributes>
       <pos x="-8860" y="2140"/>
@@ -1772,7 +1772,7 @@ Note: Assembler test programs can be found at:
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="-12660" y="1420"/>
+      <pos x="-12660" y="1560"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1786,7 +1786,7 @@ Note: Assembler test programs can be found at:
           <string>dmi-req</string>
         </entry>
       </elementAttributes>
-      <pos x="-12660" y="1400"/>
+      <pos x="-12660" y="1540"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1814,7 +1814,7 @@ Note: Assembler test programs can be found at:
           <string>abstractcs_busy</string>
         </entry>
       </elementAttributes>
-      <pos x="-12680" y="1380"/>
+      <pos x="-12680" y="1520"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
@@ -1824,7 +1824,7 @@ Note: Assembler test programs can be found at:
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="-12680" y="1380"/>
+      <pos x="-12680" y="1520"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1880,7 +1880,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11180" y="640"/>
+      <pos x="-11420" y="640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1890,7 +1890,7 @@ Note: Assembler test programs can be found at:
           <string>addr_dm</string>
         </entry>
       </elementAttributes>
-      <pos x="-10960" y="980"/>
+      <pos x="-11480" y="2980"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -1900,7 +1900,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="640"/>
+      <pos x="-11440" y="640"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -1910,7 +1910,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="940"/>
+      <pos x="-11440" y="940"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1938,7 +1938,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="780"/>
+      <pos x="-11440" y="780"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -1952,7 +1952,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="800"/>
+      <pos x="-11440" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -1966,7 +1966,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="820"/>
+      <pos x="-11440" y="820"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -1980,7 +1980,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="840"/>
+      <pos x="-11440" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -1994,7 +1994,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="660"/>
+      <pos x="-11440" y="660"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2018,7 +2018,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="680"/>
+      <pos x="-11440" y="680"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -2028,7 +2028,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="700"/>
+      <pos x="-11440" y="700"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -2038,7 +2038,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="720"/>
+      <pos x="-11440" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -2048,7 +2048,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="740"/>
+      <pos x="-11440" y="740"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -2058,7 +2058,7 @@ Note: Assembler test programs can be found at:
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="760"/>
+      <pos x="-11440" y="760"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -2325,39 +2325,6 @@ works.</string>
       <pos x="-13360" y="1320"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="-12740" y="1340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-12740" y="1360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>15</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>We only support the access register
-command. This is because it 
-can execute arbitrary code in
-progbuf, allowing us to do 
-everything we want.</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-8380" y="-3280"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -2444,7 +2411,7 @@ everything we want.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="860"/>
+      <pos x="-11440" y="860"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -2458,7 +2425,7 @@ everything we want.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="880"/>
+      <pos x="-11440" y="880"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -2472,7 +2439,7 @@ everything we want.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="900"/>
+      <pos x="-11440" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -2486,7 +2453,7 @@ everything we want.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="920"/>
+      <pos x="-11440" y="920"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2517,16 +2484,6 @@ everything we want.</string>
       <pos x="-9080" y="1800"/>
     </visualElement>
     <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>haltreq</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-14060" y="40"/>
-    </visualElement>
-    <visualElement>
       <elementName>And</elementName>
       <elementAttributes>
         <entry>
@@ -2534,7 +2491,7 @@ everything we want.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-14720" y="20"/>
+      <pos x="-13980" y="2620"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2548,7 +2505,7 @@ everything we want.</string>
           <string>dcsr</string>
         </entry>
       </elementAttributes>
-      <pos x="-14860" y="60"/>
+      <pos x="-14120" y="2660"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2562,7 +2519,7 @@ everything we want.</string>
           <string>2-2</string>
         </entry>
       </elementAttributes>
-      <pos x="-14800" y="60"/>
+      <pos x="-14060" y="2660"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2576,7 +2533,7 @@ everything we want.</string>
           <string>dmcontrol_resumereq</string>
         </entry>
       </elementAttributes>
-      <pos x="-14740" y="20"/>
+      <pos x="-14000" y="2620"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2590,7 +2547,7 @@ everything we want.</string>
           <string>dmcontrol_haltreq</string>
         </entry>
       </elementAttributes>
-      <pos x="-14280" y="0"/>
+      <pos x="-13500" y="2600"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -2600,12 +2557,12 @@ everything we want.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-14260" y="0"/>
+      <pos x="-13480" y="2600"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
       <elementAttributes/>
-      <pos x="-14580" y="40"/>
+      <pos x="-13840" y="2640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2619,12 +2576,12 @@ everything we want.</string>
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="-14580" y="60"/>
+      <pos x="-13840" y="2660"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
       <elementAttributes/>
-      <pos x="-14460" y="40"/>
+      <pos x="-13720" y="2640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2638,12 +2595,12 @@ everything we want.</string>
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="-14460" y="60"/>
+      <pos x="-13720" y="2660"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
       <elementAttributes/>
-      <pos x="-14340" y="40"/>
+      <pos x="-13600" y="2640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2657,7 +2614,7 @@ everything we want.</string>
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="-14340" y="60"/>
+      <pos x="-13600" y="2660"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -3025,20 +2982,6 @@ everything we want.</string>
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="-13220" y="1240"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>clk</string>
-        </entry>
-      </elementAttributes>
       <pos x="-14740" y="-1160"/>
     </visualElement>
     <visualElement>
@@ -3280,26 +3223,6 @@ everything we want.</string>
       <pos x="-14580" y="-240"/>
     </visualElement>
     <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>15</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>Todo:
-**MOVE AROUND MEM TO MAKE DATA0
-   SOMETHING THAT CAN BE ADDRESSED
-   BY HARTINFO**
-Access register impl
-dcsr cause field
-look into other unimplemented fields</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-13840" y="-620"/>
-    </visualElement>
-    <visualElement>
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
@@ -3307,7 +3230,7 @@ look into other unimplemented fields</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11020" y="960"/>
+      <pos x="-11540" y="2960"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -3321,21 +3244,21 @@ look into other unimplemented fields</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11040" y="1000"/>
+      <pos x="-11560" y="3000"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation rotation="3"/>
+          <rotation rotation="2"/>
         </entry>
         <entry>
           <string>NetName</string>
           <string>command-reg_validtransferex</string>
         </entry>
       </elementAttributes>
-      <pos x="-11000" y="1020"/>
+      <pos x="-11520" y="3020"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -3345,7 +3268,7 @@ look into other unimplemented fields</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-12480" y="1940"/>
+      <pos x="-11580" y="2840"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3359,7 +3282,7 @@ look into other unimplemented fields</string>
           <string>dmi_wen</string>
         </entry>
       </elementAttributes>
-      <pos x="-12620" y="1920"/>
+      <pos x="-11720" y="2820"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3373,7 +3296,7 @@ look into other unimplemented fields</string>
           <string>command-reg_arg0wen</string>
         </entry>
       </elementAttributes>
-      <pos x="-12520" y="1980"/>
+      <pos x="-11620" y="2880"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3383,7 +3306,7 @@ look into other unimplemented fields</string>
           <string>dm_wen</string>
         </entry>
       </elementAttributes>
-      <pos x="-12380" y="1960"/>
+      <pos x="-11480" y="2860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3397,7 +3320,7 @@ look into other unimplemented fields</string>
           <string>dmi_wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="-12340" y="1540"/>
+      <pos x="-11560" y="2700"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -3407,7 +3330,7 @@ look into other unimplemented fields</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-12320" y="1540"/>
+      <pos x="-11540" y="2700"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3421,21 +3344,21 @@ look into other unimplemented fields</string>
           <string>ra</string>
         </entry>
       </elementAttributes>
-      <pos x="-12340" y="1580"/>
+      <pos x="-11560" y="2740"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation rotation="3"/>
+          <rotation rotation="2"/>
         </entry>
         <entry>
           <string>NetName</string>
           <string>command-reg_arg0wen</string>
         </entry>
       </elementAttributes>
-      <pos x="-12300" y="1600"/>
+      <pos x="-11520" y="2760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3445,7 +3368,7 @@ look into other unimplemented fields</string>
           <string>dm_wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="-12260" y="1560"/>
+      <pos x="-11480" y="2720"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -4241,7 +4164,7 @@ for the clock cycle that they&apos;re written:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[337]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[331]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4325,7 +4248,7 @@ for the clock cycle that they&apos;re written:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[343]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[337]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4339,7 +4262,7 @@ for the clock cycle that they&apos;re written:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[343]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[337]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4367,7 +4290,7 @@ for the clock cycle that they&apos;re written:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[346]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[340]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4893,7 +4816,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4907,7 +4830,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4921,7 +4844,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4935,7 +4858,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4949,7 +4872,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4963,7 +4886,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4977,7 +4900,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4991,7 +4914,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -5005,7 +4928,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -5019,7 +4942,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -5033,7 +4956,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -5047,7 +4970,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -5061,7 +4984,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -5075,7 +4998,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -5089,7 +5012,7 @@ register as effectively read-only:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[401]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[395]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -5230,7 +5153,7 @@ can read them:</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[430]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[424]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -6882,7 +6805,7 @@ jump to the progbuf:</string>
         <entry>
           <string>Description</string>
           <string>This is an optional register, but OpenOCD
-is bugged and requires it.</string>
+is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
         </entry>
       </elementAttributes>
       <pos x="-7580" y="-1280"/>
@@ -7019,7 +6942,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11700" y="1700"/>
+      <pos x="-12720" y="2700"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -7029,7 +6952,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11700" y="1800"/>
+      <pos x="-12720" y="2800"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -7043,7 +6966,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11720" y="1720"/>
+      <pos x="-12740" y="2720"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -7057,7 +6980,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11720" y="1820"/>
+      <pos x="-12740" y="2820"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -7071,7 +6994,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11720" y="1920"/>
+      <pos x="-12740" y="2920"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -7085,7 +7008,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11720" y="2020"/>
+      <pos x="-12740" y="3020"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -7099,7 +7022,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11720" y="2120"/>
+      <pos x="-12740" y="3120"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -7113,7 +7036,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11720" y="2220"/>
+      <pos x="-12740" y="3220"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -7127,7 +7050,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11720" y="2320"/>
+      <pos x="-12740" y="3320"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -7141,7 +7064,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11720" y="2420"/>
+      <pos x="-12740" y="3420"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -7151,7 +7074,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11700" y="1900"/>
+      <pos x="-12720" y="2900"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -7161,7 +7084,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11700" y="2000"/>
+      <pos x="-12720" y="3000"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -7171,7 +7094,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11700" y="2100"/>
+      <pos x="-12720" y="3100"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -7181,7 +7104,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11700" y="2200"/>
+      <pos x="-12720" y="3200"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -7191,7 +7114,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11700" y="2300"/>
+      <pos x="-12720" y="3300"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -7201,7 +7124,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11700" y="2400"/>
+      <pos x="-12720" y="3400"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7215,7 +7138,7 @@ is bugged and requires it.</string>
           <string>abstractauto_autoexecprogbuf</string>
         </entry>
       </elementAttributes>
-      <pos x="-11600" y="1760"/>
+      <pos x="-12620" y="2760"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -7229,7 +7152,7 @@ is bugged and requires it.</string>
           <string>0-0</string>
         </entry>
       </elementAttributes>
-      <pos x="-11560" y="1760"/>
+      <pos x="-12580" y="2760"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -7243,7 +7166,7 @@ is bugged and requires it.</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="-11520" y="1720"/>
+      <pos x="-12540" y="2720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7257,7 +7180,7 @@ is bugged and requires it.</string>
           <string>abstractauto_autoexecprogbuf</string>
         </entry>
       </elementAttributes>
-      <pos x="-11600" y="1860"/>
+      <pos x="-12620" y="2860"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -7271,7 +7194,7 @@ is bugged and requires it.</string>
           <string>1-1</string>
         </entry>
       </elementAttributes>
-      <pos x="-11560" y="1860"/>
+      <pos x="-12580" y="2860"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -7285,7 +7208,7 @@ is bugged and requires it.</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="-11520" y="1820"/>
+      <pos x="-12540" y="2820"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7299,7 +7222,7 @@ is bugged and requires it.</string>
           <string>abstractauto_autoexecprogbuf</string>
         </entry>
       </elementAttributes>
-      <pos x="-11600" y="1960"/>
+      <pos x="-12620" y="2960"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -7313,7 +7236,7 @@ is bugged and requires it.</string>
           <string>2-2</string>
         </entry>
       </elementAttributes>
-      <pos x="-11560" y="1960"/>
+      <pos x="-12580" y="2960"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -7327,7 +7250,7 @@ is bugged and requires it.</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="-11520" y="1920"/>
+      <pos x="-12540" y="2920"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7341,7 +7264,7 @@ is bugged and requires it.</string>
           <string>abstractauto_autoexecprogbuf</string>
         </entry>
       </elementAttributes>
-      <pos x="-11600" y="2060"/>
+      <pos x="-12620" y="3060"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -7355,7 +7278,7 @@ is bugged and requires it.</string>
           <string>3-3</string>
         </entry>
       </elementAttributes>
-      <pos x="-11560" y="2060"/>
+      <pos x="-12580" y="3060"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -7369,7 +7292,7 @@ is bugged and requires it.</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="-11520" y="2020"/>
+      <pos x="-12540" y="3020"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7383,7 +7306,7 @@ is bugged and requires it.</string>
           <string>abstractauto_autoexecprogbuf</string>
         </entry>
       </elementAttributes>
-      <pos x="-11600" y="2160"/>
+      <pos x="-12620" y="3160"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -7397,7 +7320,7 @@ is bugged and requires it.</string>
           <string>4-4</string>
         </entry>
       </elementAttributes>
-      <pos x="-11560" y="2160"/>
+      <pos x="-12580" y="3160"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -7411,7 +7334,7 @@ is bugged and requires it.</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="-11520" y="2120"/>
+      <pos x="-12540" y="3120"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7425,7 +7348,7 @@ is bugged and requires it.</string>
           <string>abstractauto_autoexecprogbuf</string>
         </entry>
       </elementAttributes>
-      <pos x="-11600" y="2260"/>
+      <pos x="-12620" y="3260"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -7439,7 +7362,7 @@ is bugged and requires it.</string>
           <string>5-5</string>
         </entry>
       </elementAttributes>
-      <pos x="-11560" y="2260"/>
+      <pos x="-12580" y="3260"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -7453,7 +7376,7 @@ is bugged and requires it.</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="-11520" y="2220"/>
+      <pos x="-12540" y="3220"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7467,7 +7390,7 @@ is bugged and requires it.</string>
           <string>abstractauto_autoexecprogbuf</string>
         </entry>
       </elementAttributes>
-      <pos x="-11600" y="2360"/>
+      <pos x="-12620" y="3360"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -7481,7 +7404,7 @@ is bugged and requires it.</string>
           <string>6-6</string>
         </entry>
       </elementAttributes>
-      <pos x="-11560" y="2360"/>
+      <pos x="-12580" y="3360"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -7495,7 +7418,7 @@ is bugged and requires it.</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="-11520" y="2320"/>
+      <pos x="-12540" y="3320"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7509,7 +7432,7 @@ is bugged and requires it.</string>
           <string>abstractauto_autoexecprogbuf</string>
         </entry>
       </elementAttributes>
-      <pos x="-11600" y="2460"/>
+      <pos x="-12620" y="3460"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -7523,7 +7446,7 @@ is bugged and requires it.</string>
           <string>7-7</string>
         </entry>
       </elementAttributes>
-      <pos x="-11560" y="2460"/>
+      <pos x="-12580" y="3460"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -7537,7 +7460,7 @@ is bugged and requires it.</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="-11520" y="2420"/>
+      <pos x="-12540" y="3420"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7551,7 +7474,7 @@ is bugged and requires it.</string>
           <string>dmi_ren</string>
         </entry>
       </elementAttributes>
-      <pos x="-12760" y="1580"/>
+      <pos x="-12440" y="2100"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -7561,7 +7484,7 @@ is bugged and requires it.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-12740" y="1580"/>
+      <pos x="-12420" y="2100"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7575,7 +7498,7 @@ is bugged and requires it.</string>
           <string>dmi_wen</string>
         </entry>
       </elementAttributes>
-      <pos x="-12760" y="1620"/>
+      <pos x="-12440" y="2140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7589,7 +7512,7 @@ is bugged and requires it.</string>
           <string>dmi_access</string>
         </entry>
       </elementAttributes>
-      <pos x="-11540" y="1740"/>
+      <pos x="-12560" y="2740"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7603,7 +7526,7 @@ is bugged and requires it.</string>
           <string>dmi_access</string>
         </entry>
       </elementAttributes>
-      <pos x="-11540" y="1840"/>
+      <pos x="-12560" y="2840"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7617,7 +7540,7 @@ is bugged and requires it.</string>
           <string>dmi_access</string>
         </entry>
       </elementAttributes>
-      <pos x="-11540" y="1940"/>
+      <pos x="-12560" y="2940"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7631,7 +7554,7 @@ is bugged and requires it.</string>
           <string>dmi_access</string>
         </entry>
       </elementAttributes>
-      <pos x="-11540" y="2040"/>
+      <pos x="-12560" y="3040"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7645,7 +7568,7 @@ is bugged and requires it.</string>
           <string>dmi_access</string>
         </entry>
       </elementAttributes>
-      <pos x="-11540" y="2140"/>
+      <pos x="-12560" y="3140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7659,7 +7582,7 @@ is bugged and requires it.</string>
           <string>dmi_access</string>
         </entry>
       </elementAttributes>
-      <pos x="-11540" y="2240"/>
+      <pos x="-12560" y="3240"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7673,7 +7596,7 @@ is bugged and requires it.</string>
           <string>dmi_access</string>
         </entry>
       </elementAttributes>
-      <pos x="-11540" y="2340"/>
+      <pos x="-12560" y="3340"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7687,7 +7610,7 @@ is bugged and requires it.</string>
           <string>dmi_access</string>
         </entry>
       </elementAttributes>
-      <pos x="-11540" y="2440"/>
+      <pos x="-12560" y="3440"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -7701,7 +7624,7 @@ is bugged and requires it.</string>
           <int>9</int>
         </entry>
       </elementAttributes>
-      <pos x="-11260" y="1640"/>
+      <pos x="-12280" y="2640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7712,10 +7635,10 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dmplain</string>
+          <string>dmi_memaddr</string>
         </entry>
       </elementAttributes>
-      <pos x="-11740" y="1600"/>
+      <pos x="-12760" y="2600"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -7725,7 +7648,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11700" y="1600"/>
+      <pos x="-12720" y="2600"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -7739,7 +7662,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11720" y="1620"/>
+      <pos x="-12740" y="2620"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7753,7 +7676,7 @@ is bugged and requires it.</string>
           <string>abstractauto_autoexecdata</string>
         </entry>
       </elementAttributes>
-      <pos x="-11600" y="1660"/>
+      <pos x="-12620" y="2660"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -7767,7 +7690,7 @@ is bugged and requires it.</string>
           <string>0-0</string>
         </entry>
       </elementAttributes>
-      <pos x="-11560" y="1660"/>
+      <pos x="-12580" y="2660"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -7781,7 +7704,7 @@ is bugged and requires it.</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="-11520" y="1620"/>
+      <pos x="-12540" y="2620"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7795,7 +7718,7 @@ is bugged and requires it.</string>
           <string>dmi_access</string>
         </entry>
       </elementAttributes>
-      <pos x="-11540" y="1640"/>
+      <pos x="-12560" y="2640"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -8059,7 +7982,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="960"/>
+      <pos x="-11440" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8069,7 +7992,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="980"/>
+      <pos x="-11440" y="980"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8079,7 +8002,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1000"/>
+      <pos x="-11440" y="1000"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8089,7 +8012,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1020"/>
+      <pos x="-11440" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8099,7 +8022,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1040"/>
+      <pos x="-11440" y="1040"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8109,7 +8032,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1060"/>
+      <pos x="-11440" y="1060"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8119,7 +8042,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1080"/>
+      <pos x="-11440" y="1080"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8129,7 +8052,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1100"/>
+      <pos x="-11440" y="1100"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8139,7 +8062,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1120"/>
+      <pos x="-11440" y="1120"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8149,7 +8072,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1140"/>
+      <pos x="-11440" y="1140"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8159,7 +8082,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1160"/>
+      <pos x="-11440" y="1160"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8169,7 +8092,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1180"/>
+      <pos x="-11440" y="1180"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8179,7 +8102,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1200"/>
+      <pos x="-11440" y="1200"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8189,7 +8112,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1220"/>
+      <pos x="-11440" y="1220"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8199,7 +8122,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1240"/>
+      <pos x="-11440" y="1240"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8209,7 +8132,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-11200" y="1260"/>
+      <pos x="-11440" y="1260"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -8375,10 +8298,10 @@ is bugged and requires it.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dmplain</string>
+          <string>dmi_memaddr</string>
         </entry>
       </elementAttributes>
-      <pos x="-11040" y="920"/>
+      <pos x="-11360" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -8389,10 +8312,10 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dmplain</string>
+          <string>dmi_memaddr</string>
         </entry>
       </elementAttributes>
-      <pos x="-11740" y="1700"/>
+      <pos x="-12760" y="2700"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -8403,10 +8326,10 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dmplain</string>
+          <string>dmi_memaddr</string>
         </entry>
       </elementAttributes>
-      <pos x="-11740" y="1800"/>
+      <pos x="-12760" y="2800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -8417,10 +8340,10 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dmplain</string>
+          <string>dmi_memaddr</string>
         </entry>
       </elementAttributes>
-      <pos x="-11740" y="1900"/>
+      <pos x="-12760" y="2900"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -8431,10 +8354,10 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dmplain</string>
+          <string>dmi_memaddr</string>
         </entry>
       </elementAttributes>
-      <pos x="-11740" y="2000"/>
+      <pos x="-12760" y="3000"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -8445,10 +8368,10 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dmplain</string>
+          <string>dmi_memaddr</string>
         </entry>
       </elementAttributes>
-      <pos x="-11740" y="2100"/>
+      <pos x="-12760" y="3100"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -8459,10 +8382,10 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dmplain</string>
+          <string>dmi_memaddr</string>
         </entry>
       </elementAttributes>
-      <pos x="-11740" y="2200"/>
+      <pos x="-12760" y="3200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -8473,10 +8396,10 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dmplain</string>
+          <string>dmi_memaddr</string>
         </entry>
       </elementAttributes>
-      <pos x="-11740" y="2300"/>
+      <pos x="-12760" y="3300"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -8487,62 +8410,10 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dmplain</string>
+          <string>dmi_memaddr</string>
         </entry>
       </elementAttributes>
-      <pos x="-11740" y="2400"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="-11520" y="1500"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>p</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-11420" y="1540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>abstractauto_autoexecdata</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-11580" y="1540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Splitter</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Input Splitting</string>
-          <string>12</string>
-        </entry>
-        <entry>
-          <string>Output Splitting</string>
-          <string>0-0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-11540" y="1540"/>
+      <pos x="-12760" y="3400"/>
     </visualElement>
     <visualElement>
       <elementName>RS_FF_AS</elementName>
@@ -8628,7 +8499,7 @@ is bugged and requires it.</string>
           <string>autoexec</string>
         </entry>
       </elementAttributes>
-      <pos x="-10800" y="1760"/>
+      <pos x="-12180" y="2720"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -8638,7 +8509,7 @@ is bugged and requires it.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-8920" y="-560"/>
+      <pos x="-8880" y="-560"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -8652,7 +8523,7 @@ is bugged and requires it.</string>
           <string>command_wen</string>
         </entry>
       </elementAttributes>
-      <pos x="-8940" y="-520"/>
+      <pos x="-8900" y="-520"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -8759,7 +8630,7 @@ is bugged and requires it.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[725]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[715]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -8844,7 +8715,7 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dmplain</string>
+          <string>dmi_memaddr</string>
         </entry>
       </elementAttributes>
       <pos x="-6720" y="-2460"/>
@@ -9292,7 +9163,7 @@ is bugged and requires it.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-12600" y="1920"/>
+      <pos x="-11700" y="2820"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -9302,12 +9173,12 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-12800" y="1940"/>
+      <pos x="-11900" y="2840"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
-      <pos x="-12720" y="1960"/>
+      <pos x="-11820" y="2860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -9318,10 +9189,10 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dmplain</string>
+          <string>dmi_memaddr</string>
         </entry>
       </elementAttributes>
-      <pos x="-12820" y="1940"/>
+      <pos x="-11920" y="2840"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -9331,7 +9202,7 @@ is bugged and requires it.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-12820" y="1960"/>
+      <pos x="-11920" y="2860"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -9364,25 +9235,6 @@ is bugged and requires it.</string>
       <pos x="-5500" y="-1920"/>
     </visualElement>
     <visualElement>
-      <elementName>D_FF</elementName>
-      <elementAttributes/>
-      <pos x="-11000" y="1720"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>clk</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-11000" y="1740"/>
-    </visualElement>
-    <visualElement>
       <elementName>And</elementName>
       <elementAttributes>
         <entry>
@@ -9390,27 +9242,7 @@ is bugged and requires it.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-10920" y="1740"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="-12640" y="1600"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>dmi_access</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-12540" y="1620"/>
+      <pos x="-12320" y="2120"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -9424,7 +9256,7 @@ is bugged and requires it.</string>
           <string>dmi-req</string>
         </entry>
       </elementAttributes>
-      <pos x="-12660" y="1640"/>
+      <pos x="-12340" y="2160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -9438,7 +9270,7 @@ is bugged and requires it.</string>
           <string>dmi-req-last-low</string>
         </entry>
       </elementAttributes>
-      <pos x="-8940" y="-560"/>
+      <pos x="-8900" y="-560"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -9449,49 +9281,15 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi-req</string>
+          <string>dmi_rdata</string>
         </entry>
       </elementAttributes>
-      <pos x="-11040" y="1720"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>dmi-rdata</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-13180" y="1460"/>
-    </visualElement>
-    <visualElement>
-      <elementName>D_FF</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-13020" y="1460"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-12960" y="1460"/>
+      <pos x="-12960" y="1320"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
       <elementAttributes/>
-      <pos x="-13040" y="1620"/>
+      <pos x="-13120" y="1660"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -9505,7 +9303,7 @@ is bugged and requires it.</string>
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="-13040" y="1640"/>
+      <pos x="-13120" y="1680"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -9519,7 +9317,7 @@ is bugged and requires it.</string>
           <string>dmi-req</string>
         </entry>
       </elementAttributes>
-      <pos x="-13040" y="1620"/>
+      <pos x="-13120" y="1660"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -9529,7 +9327,7 @@ is bugged and requires it.</string>
           <string>dmi-req-last-low</string>
         </entry>
       </elementAttributes>
-      <pos x="-12980" y="1640"/>
+      <pos x="-13060" y="1680"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -9644,7 +9442,7 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>haltreq_n</string>
+          <string>haltreq</string>
         </entry>
       </elementAttributes>
       <pos x="-8520" y="1640"/>
@@ -9668,7 +9466,7 @@ is bugged and requires it.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>haltreq_n</string>
+          <string>haltreq</string>
         </entry>
       </elementAttributes>
       <pos x="-7560" y="2340"/>
@@ -9678,29 +9476,10 @@ is bugged and requires it.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>haltreq_n</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-13740" y="-60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
           <string>haltreq</string>
         </entry>
       </elementAttributes>
-      <pos x="-13960" y="-60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>D_FF</elementName>
-      <elementAttributes/>
-      <pos x="-13920" y="-60"/>
+      <pos x="-13180" y="2620"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -9710,31 +9489,7 @@ is bugged and requires it.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-13820" y="-80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>clk</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-13920" y="-40"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="-14160" y="20"/>
+      <pos x="-13380" y="2620"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -9748,12 +9503,12 @@ is bugged and requires it.</string>
           <string>is-debug</string>
         </entry>
       </elementAttributes>
-      <pos x="-14200" y="60"/>
+      <pos x="-13420" y="2660"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
-      <pos x="-14200" y="60"/>
+      <pos x="-13420" y="2660"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -9790,20 +9545,272 @@ is bugged and requires it.</string>
       </elementAttributes>
       <pos x="-6100" y="-2020"/>
     </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>14</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Debug park loop &gt; dret</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-13960" y="2700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>14</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>dret &gt; curr. instr</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-13760" y="2700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>14</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>curr. instr &gt; next instr</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-13620" y="2700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>halting</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>65</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-14220" y="2480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>We should halt if we&apos;re being asked to via dmcontrol or if we&apos;ve just completed
+a single-step:</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-14200" y="2500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>18</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>(We can get away with a hardcoded
+number of clock cycles for single-step.)</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-13880" y="2720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RISING-EDGE.dig</elementName>
+      <elementAttributes/>
+      <pos x="-13260" y="2600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-13260" y="2600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>18</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>We know our CPU handles halts in a
+single clock cycle, so to avoid complication
+we won&apos;t hold this signal high.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-13340" y="2700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-13220" y="1240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>70</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Additional debug module logic:</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-14220" y="2340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>51</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>autoexec</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>42</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-12900" y="2480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>We just check if we&apos;re accessing any data/progbuf words
+that we&apos;re supposed to autoexec on access of:</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-12880" y="2500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RISING-EDGE.dig</elementName>
+      <elementAttributes/>
+      <pos x="-12200" y="2100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>dmi_access</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-12120" y="2120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-12220" y="2100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Are we reading or writing to dmi
+on this clock cycle?</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-12520" y="2000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>If the debug module is accessing RAM,
+it is either because one of the dmi
+registers is memory-mapped, or 
+we are executing a command that
+requires us to do so.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-12020" y="2500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>dmi_memaddr</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-11540" y="2960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>29</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>memory access</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>33</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-12040" y="2480"/>
+    </visualElement>
   </visualElements>
   <wires>
-    <wire>
-      <p1 x="-14280" y="0"/>
-      <p2 x="-14260" y="0"/>
-    </wire>
-    <wire>
-      <p1 x="-12340" y="1540"/>
-      <p2 x="-12320" y="1540"/>
-    </wire>
-    <wire>
-      <p1 x="-11580" y="1540"/>
-      <p2 x="-11540" y="1540"/>
-    </wire>
     <wire>
       <p1 x="-9080" y="1540"/>
       <p2 x="-9060" y="1540"/>
@@ -9813,8 +9820,8 @@ is bugged and requires it.</string>
       <p2 x="-8680" y="-520"/>
     </wire>
     <wire>
-      <p1 x="-8940" y="-520"/>
-      <p2 x="-8920" y="-520"/>
+      <p1 x="-8900" y="-520"/>
+      <p2 x="-8880" y="-520"/>
     </wire>
     <wire>
       <p1 x="-6560" y="-2060"/>
@@ -9827,14 +9834,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-6420" y="-2060"/>
       <p2 x="-6400" y="-2060"/>
-    </wire>
-    <wire>
-      <p1 x="-11600" y="2060"/>
-      <p2 x="-11560" y="2060"/>
-    </wire>
-    <wire>
-      <p1 x="-11540" y="2060"/>
-      <p2 x="-11520" y="2060"/>
     </wire>
     <wire>
       <p1 x="-8860" y="2060"/>
@@ -9897,32 +9896,20 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="1040"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1040"/>
-      <p2 x="-11180" y="1040"/>
+      <p1 x="-11440" y="1040"/>
+      <p2 x="-11420" y="1040"/>
     </wire>
     <wire>
       <p1 x="-6220" y="-2580"/>
       <p2 x="-6200" y="-2580"/>
     </wire>
     <wire>
-      <p1 x="-14740" y="20"/>
-      <p2 x="-14720" y="20"/>
-    </wire>
-    <wire>
       <p1 x="-8780" y="20"/>
       <p2 x="-8740" y="20"/>
     </wire>
     <wire>
-      <p1 x="-14180" y="20"/>
-      <p2 x="-14160" y="20"/>
-    </wire>
-    <wire>
       <p1 x="-8880" y="2580"/>
       <p2 x="-8860" y="2580"/>
-    </wire>
-    <wire>
-      <p1 x="-12280" y="1560"/>
-      <p2 x="-12260" y="1560"/>
     </wire>
     <wire>
       <p1 x="-8880" y="1560"/>
@@ -9941,8 +9928,12 @@ is bugged and requires it.</string>
       <p2 x="-8580" y="-540"/>
     </wire>
     <wire>
-      <p1 x="-8840" y="-540"/>
-      <p2 x="-8820" y="-540"/>
+      <p1 x="-8800" y="-540"/>
+      <p2 x="-8780" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="-12760" y="3100"/>
+      <p2 x="-12720" y="3100"/>
     </wire>
     <wire>
       <p1 x="-6560" y="-2080"/>
@@ -10013,8 +10004,8 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="1060"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1060"/>
-      <p2 x="-11180" y="1060"/>
+      <p1 x="-11440" y="1060"/>
+      <p2 x="-11420" y="1060"/>
     </wire>
     <wire>
       <p1 x="-6760" y="-2600"/>
@@ -10033,48 +10024,24 @@ is bugged and requires it.</string>
       <p2 x="-5960" y="-2600"/>
     </wire>
     <wire>
-      <p1 x="-13860" y="-40"/>
-      <p2 x="-13820" y="-40"/>
-    </wire>
-    <wire>
-      <p1 x="-14520" y="40"/>
-      <p2 x="-14460" y="40"/>
-    </wire>
-    <wire>
-      <p1 x="-14400" y="40"/>
-      <p2 x="-14340" y="40"/>
-    </wire>
-    <wire>
-      <p1 x="-14640" y="40"/>
-      <p2 x="-14580" y="40"/>
-    </wire>
-    <wire>
-      <p1 x="-14280" y="40"/>
-      <p2 x="-14260" y="40"/>
-    </wire>
-    <wire>
       <p1 x="-8780" y="40"/>
       <p2 x="-8740" y="40"/>
-    </wire>
-    <wire>
-      <p1 x="-14080" y="40"/>
-      <p2 x="-14060" y="40"/>
     </wire>
     <wire>
       <p1 x="-8980" y="2600"/>
       <p2 x="-8960" y="2600"/>
     </wire>
     <wire>
+      <p1 x="-13500" y="2600"/>
+      <p2 x="-13480" y="2600"/>
+    </wire>
+    <wire>
+      <p1 x="-12760" y="2600"/>
+      <p2 x="-12720" y="2600"/>
+    </wire>
+    <wire>
       <p1 x="-9080" y="1580"/>
       <p2 x="-9060" y="1580"/>
-    </wire>
-    <wire>
-      <p1 x="-12760" y="1580"/>
-      <p2 x="-12740" y="1580"/>
-    </wire>
-    <wire>
-      <p1 x="-12340" y="1580"/>
-      <p2 x="-12320" y="1580"/>
     </wire>
     <wire>
       <p1 x="-8540" y="1580"/>
@@ -10085,12 +10052,20 @@ is bugged and requires it.</string>
       <p2 x="-7920" y="-560"/>
     </wire>
     <wire>
-      <p1 x="-8940" y="-560"/>
-      <p2 x="-8920" y="-560"/>
+      <p1 x="-8900" y="-560"/>
+      <p2 x="-8880" y="-560"/>
     </wire>
     <wire>
-      <p1 x="-8820" y="-560"/>
+      <p1 x="-8780" y="-560"/>
       <p2 x="-8680" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="-12740" y="3120"/>
+      <p2 x="-12720" y="3120"/>
+    </wire>
+    <wire>
+      <p1 x="-12660" y="3120"/>
+      <p2 x="-12540" y="3120"/>
     </wire>
     <wire>
       <p1 x="-6880" y="-2100"/>
@@ -10105,12 +10080,16 @@ is bugged and requires it.</string>
       <p2 x="-8840" y="2100"/>
     </wire>
     <wire>
-      <p1 x="-11740" y="2100"/>
-      <p2 x="-11700" y="2100"/>
-    </wire>
-    <wire>
       <p1 x="-7480" y="2100"/>
       <p2 x="-7280" y="2100"/>
+    </wire>
+    <wire>
+      <p1 x="-12440" y="2100"/>
+      <p2 x="-12420" y="2100"/>
+    </wire>
+    <wire>
+      <p1 x="-12220" y="2100"/>
+      <p2 x="-12200" y="2100"/>
     </wire>
     <wire>
       <p1 x="-7440" y="-1080"/>
@@ -10157,28 +10136,12 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="1080"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1080"/>
-      <p2 x="-11180" y="1080"/>
+      <p1 x="-11440" y="1080"/>
+      <p2 x="-11420" y="1080"/>
     </wire>
     <wire>
       <p1 x="-6760" y="-2620"/>
       <p2 x="-6740" y="-2620"/>
-    </wire>
-    <wire>
-      <p1 x="-13960" y="-60"/>
-      <p2 x="-13940" y="-60"/>
-    </wire>
-    <wire>
-      <p1 x="-13940" y="-60"/>
-      <p2 x="-13920" y="-60"/>
-    </wire>
-    <wire>
-      <p1 x="-14860" y="60"/>
-      <p2 x="-14800" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="-14780" y="60"/>
-      <p2 x="-14720" y="60"/>
     </wire>
     <wire>
       <p1 x="-8680" y="60"/>
@@ -10197,16 +10160,28 @@ is bugged and requires it.</string>
       <p2 x="-8760" y="2620"/>
     </wire>
     <wire>
+      <p1 x="-14000" y="2620"/>
+      <p2 x="-13980" y="2620"/>
+    </wire>
+    <wire>
+      <p1 x="-13400" y="2620"/>
+      <p2 x="-13380" y="2620"/>
+    </wire>
+    <wire>
+      <p1 x="-13200" y="2620"/>
+      <p2 x="-13180" y="2620"/>
+    </wire>
+    <wire>
+      <p1 x="-12740" y="2620"/>
+      <p2 x="-12720" y="2620"/>
+    </wire>
+    <wire>
+      <p1 x="-12660" y="2620"/>
+      <p2 x="-12540" y="2620"/>
+    </wire>
+    <wire>
       <p1 x="-9080" y="1600"/>
       <p2 x="-9060" y="1600"/>
-    </wire>
-    <wire>
-      <p1 x="-11740" y="1600"/>
-      <p2 x="-11700" y="1600"/>
-    </wire>
-    <wire>
-      <p1 x="-12660" y="1600"/>
-      <p2 x="-12640" y="1600"/>
     </wire>
     <wire>
       <p1 x="-8480" y="1600"/>
@@ -10215,6 +10190,14 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-8080" y="-580"/>
       <p2 x="-8060" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="-12560" y="3140"/>
+      <p2 x="-12540" y="3140"/>
+    </wire>
+    <wire>
+      <p1 x="-12460" y="3140"/>
+      <p2 x="-12360" y="3140"/>
     </wire>
     <wire>
       <p1 x="-6780" y="-2120"/>
@@ -10233,12 +10216,12 @@ is bugged and requires it.</string>
       <p2 x="-7280" y="2120"/>
     </wire>
     <wire>
-      <p1 x="-11720" y="2120"/>
-      <p2 x="-11700" y="2120"/>
+      <p1 x="-12340" y="2120"/>
+      <p2 x="-12320" y="2120"/>
     </wire>
     <wire>
-      <p1 x="-11640" y="2120"/>
-      <p2 x="-11520" y="2120"/>
+      <p1 x="-12140" y="2120"/>
+      <p2 x="-12120" y="2120"/>
     </wire>
     <wire>
       <p1 x="-10220" y="-1100"/>
@@ -10289,16 +10272,8 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="1100"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1100"/>
-      <p2 x="-11180" y="1100"/>
-    </wire>
-    <wire>
-      <p1 x="-13940" y="-80"/>
-      <p2 x="-13820" y="-80"/>
-    </wire>
-    <wire>
-      <p1 x="-8680" y="2640"/>
-      <p2 x="-8660" y="2640"/>
+      <p1 x="-11440" y="1100"/>
+      <p2 x="-11420" y="1100"/>
     </wire>
     <wire>
       <p1 x="-8560" y="80"/>
@@ -10309,20 +10284,36 @@ is bugged and requires it.</string>
       <p2 x="-8080" y="80"/>
     </wire>
     <wire>
-      <p1 x="-12760" y="1620"/>
-      <p2 x="-12740" y="1620"/>
+      <p1 x="-8680" y="2640"/>
+      <p2 x="-8660" y="2640"/>
     </wire>
     <wire>
-      <p1 x="-11720" y="1620"/>
-      <p2 x="-11700" y="1620"/>
+      <p1 x="-13780" y="2640"/>
+      <p2 x="-13720" y="2640"/>
     </wire>
     <wire>
-      <p1 x="-11640" y="1620"/>
-      <p2 x="-11600" y="1620"/>
+      <p1 x="-13660" y="2640"/>
+      <p2 x="-13600" y="2640"/>
     </wire>
     <wire>
-      <p1 x="-12560" y="1620"/>
-      <p2 x="-12540" y="1620"/>
+      <p1 x="-13900" y="2640"/>
+      <p2 x="-13840" y="2640"/>
+    </wire>
+    <wire>
+      <p1 x="-13540" y="2640"/>
+      <p2 x="-13480" y="2640"/>
+    </wire>
+    <wire>
+      <p1 x="-13300" y="2640"/>
+      <p2 x="-13260" y="2640"/>
+    </wire>
+    <wire>
+      <p1 x="-12560" y="2640"/>
+      <p2 x="-12540" y="2640"/>
+    </wire>
+    <wire>
+      <p1 x="-12460" y="2640"/>
+      <p2 x="-12280" y="2640"/>
     </wire>
     <wire>
       <p1 x="-9080" y="1620"/>
@@ -10337,8 +10328,12 @@ is bugged and requires it.</string>
       <p2 x="-8880" y="1620"/>
     </wire>
     <wire>
-      <p1 x="-11600" y="1620"/>
-      <p2 x="-11520" y="1620"/>
+      <p1 x="-12620" y="3160"/>
+      <p2 x="-12580" y="3160"/>
+    </wire>
+    <wire>
+      <p1 x="-12560" y="3160"/>
+      <p2 x="-12540" y="3160"/>
     </wire>
     <wire>
       <p1 x="-6300" y="-2140"/>
@@ -10365,12 +10360,12 @@ is bugged and requires it.</string>
       <p2 x="-7380" y="2140"/>
     </wire>
     <wire>
-      <p1 x="-11540" y="2140"/>
-      <p2 x="-11520" y="2140"/>
+      <p1 x="-12440" y="2140"/>
+      <p2 x="-12420" y="2140"/>
     </wire>
     <wire>
-      <p1 x="-11440" y="2140"/>
-      <p2 x="-11340" y="2140"/>
+      <p1 x="-12240" y="2140"/>
+      <p2 x="-12200" y="2140"/>
     </wire>
     <wire>
       <p1 x="-10220" y="-1120"/>
@@ -10413,12 +10408,32 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="1120"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1120"/>
-      <p2 x="-11180" y="1120"/>
+      <p1 x="-11440" y="1120"/>
+      <p2 x="-11420" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="-14120" y="2660"/>
+      <p2 x="-14060" y="2660"/>
+    </wire>
+    <wire>
+      <p1 x="-14040" y="2660"/>
+      <p2 x="-13980" y="2660"/>
     </wire>
     <wire>
       <p1 x="-8780" y="2660"/>
       <p2 x="-8760" y="2660"/>
+    </wire>
+    <wire>
+      <p1 x="-12620" y="2660"/>
+      <p2 x="-12580" y="2660"/>
+    </wire>
+    <wire>
+      <p1 x="-12560" y="2660"/>
+      <p2 x="-12540" y="2660"/>
+    </wire>
+    <wire>
+      <p1 x="-12440" y="2660"/>
+      <p2 x="-12280" y="2660"/>
     </wire>
     <wire>
       <p1 x="-8780" y="100"/>
@@ -10433,18 +10448,6 @@ is bugged and requires it.</string>
       <p2 x="-7980" y="100"/>
     </wire>
     <wire>
-      <p1 x="-11540" y="1640"/>
-      <p2 x="-11520" y="1640"/>
-    </wire>
-    <wire>
-      <p1 x="-11440" y="1640"/>
-      <p2 x="-11260" y="1640"/>
-    </wire>
-    <wire>
-      <p1 x="-12660" y="1640"/>
-      <p2 x="-12640" y="1640"/>
-    </wire>
-    <wire>
       <p1 x="-9080" y="1640"/>
       <p2 x="-9060" y="1640"/>
     </wire>
@@ -10455,6 +10458,10 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-8520" y="1640"/>
       <p2 x="-8500" y="1640"/>
+    </wire>
+    <wire>
+      <p1 x="-12680" y="1640"/>
+      <p2 x="-12520" y="1640"/>
     </wire>
     <wire>
       <p1 x="-9400" y="2160"/>
@@ -10469,12 +10476,8 @@ is bugged and requires it.</string>
       <p2 x="-7300" y="2160"/>
     </wire>
     <wire>
-      <p1 x="-11600" y="2160"/>
-      <p2 x="-11560" y="2160"/>
-    </wire>
-    <wire>
-      <p1 x="-11540" y="2160"/>
-      <p2 x="-11520" y="2160"/>
+      <p1 x="-12340" y="2160"/>
+      <p2 x="-12320" y="2160"/>
     </wire>
     <wire>
       <p1 x="-10220" y="-1140"/>
@@ -10517,8 +10520,8 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="1140"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1140"/>
-      <p2 x="-11180" y="1140"/>
+      <p1 x="-11440" y="1140"/>
+      <p2 x="-11420" y="1140"/>
     </wire>
     <wire>
       <p1 x="-8800" y="-120"/>
@@ -10537,16 +10540,8 @@ is bugged and requires it.</string>
       <p2 x="-8080" y="120"/>
     </wire>
     <wire>
-      <p1 x="-11600" y="1660"/>
-      <p2 x="-11560" y="1660"/>
-    </wire>
-    <wire>
-      <p1 x="-11540" y="1660"/>
-      <p2 x="-11520" y="1660"/>
-    </wire>
-    <wire>
-      <p1 x="-11420" y="1660"/>
-      <p2 x="-11260" y="1660"/>
+      <p1 x="-12420" y="2680"/>
+      <p2 x="-12280" y="2680"/>
     </wire>
     <wire>
       <p1 x="-9080" y="1660"/>
@@ -10561,8 +10556,12 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="640"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="640"/>
-      <p2 x="-11180" y="640"/>
+      <p1 x="-11440" y="640"/>
+      <p2 x="-11420" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="-12760" y="3200"/>
+      <p2 x="-12720" y="3200"/>
     </wire>
     <wire>
       <p1 x="-6100" y="-2180"/>
@@ -10625,8 +10624,8 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="1160"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1160"/>
-      <p2 x="-11180" y="1160"/>
+      <p1 x="-11440" y="1160"/>
+      <p2 x="-11420" y="1160"/>
     </wire>
     <wire>
       <p1 x="-8700" y="-140"/>
@@ -10661,6 +10660,18 @@ is bugged and requires it.</string>
       <p2 x="-8740" y="2700"/>
     </wire>
     <wire>
+      <p1 x="-12400" y="2700"/>
+      <p2 x="-12280" y="2700"/>
+    </wire>
+    <wire>
+      <p1 x="-12760" y="2700"/>
+      <p2 x="-12720" y="2700"/>
+    </wire>
+    <wire>
+      <p1 x="-11560" y="2700"/>
+      <p2 x="-11540" y="2700"/>
+    </wire>
+    <wire>
       <p1 x="-6160" y="-1680"/>
       <p2 x="-5980" y="-1680"/>
     </wire>
@@ -10671,10 +10682,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-6660" y="-1680"/>
       <p2 x="-6580" y="-1680"/>
-    </wire>
-    <wire>
-      <p1 x="-11400" y="1680"/>
-      <p2 x="-11260" y="1680"/>
     </wire>
     <wire>
       <p1 x="-9080" y="1680"/>
@@ -10697,8 +10704,16 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="660"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="660"/>
-      <p2 x="-11180" y="660"/>
+      <p1 x="-11440" y="660"/>
+      <p2 x="-11420" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="-12660" y="3220"/>
+      <p2 x="-12540" y="3220"/>
+    </wire>
+    <wire>
+      <p1 x="-12740" y="3220"/>
+      <p2 x="-12720" y="3220"/>
     </wire>
     <wire>
       <p1 x="-6660" y="-2200"/>
@@ -10719,10 +10734,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-8140" y="2200"/>
       <p2 x="-8120" y="2200"/>
-    </wire>
-    <wire>
-      <p1 x="-11740" y="2200"/>
-      <p2 x="-11700" y="2200"/>
     </wire>
     <wire>
       <p1 x="-10160" y="-1180"/>
@@ -10753,8 +10764,8 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="1180"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1180"/>
-      <p2 x="-11180" y="1180"/>
+      <p1 x="-11440" y="1180"/>
+      <p2 x="-11420" y="1180"/>
     </wire>
     <wire>
       <p1 x="-8800" y="-160"/>
@@ -10785,20 +10796,32 @@ is bugged and requires it.</string>
       <p2 x="-8960" y="2720"/>
     </wire>
     <wire>
+      <p1 x="-12740" y="2720"/>
+      <p2 x="-12720" y="2720"/>
+    </wire>
+    <wire>
+      <p1 x="-12660" y="2720"/>
+      <p2 x="-12540" y="2720"/>
+    </wire>
+    <wire>
+      <p1 x="-12380" y="2720"/>
+      <p2 x="-12280" y="2720"/>
+    </wire>
+    <wire>
+      <p1 x="-12200" y="2720"/>
+      <p2 x="-12180" y="2720"/>
+    </wire>
+    <wire>
+      <p1 x="-11500" y="2720"/>
+      <p2 x="-11480" y="2720"/>
+    </wire>
+    <wire>
       <p1 x="-5900" y="-1700"/>
       <p2 x="-5860" y="-1700"/>
     </wire>
     <wire>
       <p1 x="-6680" y="-1700"/>
       <p2 x="-6660" y="-1700"/>
-    </wire>
-    <wire>
-      <p1 x="-11380" y="1700"/>
-      <p2 x="-11260" y="1700"/>
-    </wire>
-    <wire>
-      <p1 x="-11740" y="1700"/>
-      <p2 x="-11700" y="1700"/>
     </wire>
     <wire>
       <p1 x="-9080" y="1700"/>
@@ -10817,8 +10840,16 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="680"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="680"/>
-      <p2 x="-11180" y="680"/>
+      <p1 x="-11440" y="680"/>
+      <p2 x="-11420" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="-12560" y="3240"/>
+      <p2 x="-12540" y="3240"/>
+    </wire>
+    <wire>
+      <p1 x="-12460" y="3240"/>
+      <p2 x="-12340" y="3240"/>
     </wire>
     <wire>
       <p1 x="-6500" y="-2220"/>
@@ -10833,14 +10864,6 @@ is bugged and requires it.</string>
       <p2 x="-7580" y="2220"/>
     </wire>
     <wire>
-      <p1 x="-11640" y="2220"/>
-      <p2 x="-11520" y="2220"/>
-    </wire>
-    <wire>
-      <p1 x="-11720" y="2220"/>
-      <p2 x="-11700" y="2220"/>
-    </wire>
-    <wire>
       <p1 x="-9800" y="-1200"/>
       <p2 x="-9780" y="-1200"/>
     </wire>
@@ -10853,32 +10876,32 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="1200"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1200"/>
-      <p2 x="-11180" y="1200"/>
+      <p1 x="-11440" y="1200"/>
+      <p2 x="-11420" y="1200"/>
     </wire>
     <wire>
       <p1 x="-5880" y="-2740"/>
       <p2 x="-5840" y="-2740"/>
     </wire>
     <wire>
+      <p1 x="-12560" y="2740"/>
+      <p2 x="-12540" y="2740"/>
+    </wire>
+    <wire>
+      <p1 x="-12460" y="2740"/>
+      <p2 x="-12440" y="2740"/>
+    </wire>
+    <wire>
+      <p1 x="-12360" y="2740"/>
+      <p2 x="-12280" y="2740"/>
+    </wire>
+    <wire>
+      <p1 x="-11560" y="2740"/>
+      <p2 x="-11540" y="2740"/>
+    </wire>
+    <wire>
       <p1 x="-6000" y="-1720"/>
       <p2 x="-5980" y="-1720"/>
-    </wire>
-    <wire>
-      <p1 x="-11720" y="1720"/>
-      <p2 x="-11700" y="1720"/>
-    </wire>
-    <wire>
-      <p1 x="-11640" y="1720"/>
-      <p2 x="-11520" y="1720"/>
-    </wire>
-    <wire>
-      <p1 x="-11360" y="1720"/>
-      <p2 x="-11260" y="1720"/>
-    </wire>
-    <wire>
-      <p1 x="-11040" y="1720"/>
-      <p2 x="-11000" y="1720"/>
     </wire>
     <wire>
       <p1 x="-9080" y="1720"/>
@@ -10893,12 +10916,20 @@ is bugged and requires it.</string>
       <p2 x="-14640" y="-700"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="700"/>
-      <p2 x="-11180" y="700"/>
+      <p1 x="-11440" y="700"/>
+      <p2 x="-11420" y="700"/>
     </wire>
     <wire>
       <p1 x="-12000" y="700"/>
       <p2 x="-11980" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="-12620" y="3260"/>
+      <p2 x="-12580" y="3260"/>
+    </wire>
+    <wire>
+      <p1 x="-12560" y="3260"/>
+      <p2 x="-12540" y="3260"/>
     </wire>
     <wire>
       <p1 x="-6620" y="-2240"/>
@@ -10913,16 +10944,8 @@ is bugged and requires it.</string>
       <p2 x="-7980" y="2240"/>
     </wire>
     <wire>
-      <p1 x="-11540" y="2240"/>
-      <p2 x="-11520" y="2240"/>
-    </wire>
-    <wire>
-      <p1 x="-11440" y="2240"/>
-      <p2 x="-11320" y="2240"/>
-    </wire>
-    <wire>
       <p1 x="-13140" y="1220"/>
-      <p2 x="-13100" y="1220"/>
+      <p2 x="-12940" y="1220"/>
     </wire>
     <wire>
       <p1 x="-12740" y="1220"/>
@@ -10937,16 +10960,12 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="1220"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1220"/>
-      <p2 x="-11180" y="1220"/>
+      <p1 x="-11440" y="1220"/>
+      <p2 x="-11420" y="1220"/>
     </wire>
     <wire>
       <p1 x="-9080" y="1220"/>
       <p2 x="-9060" y="1220"/>
-    </wire>
-    <wire>
-      <p1 x="-13100" y="1220"/>
-      <p2 x="-12940" y="1220"/>
     </wire>
     <wire>
       <p1 x="-6220" y="-2760"/>
@@ -10961,20 +10980,16 @@ is bugged and requires it.</string>
       <p2 x="-8820" y="2760"/>
     </wire>
     <wire>
-      <p1 x="-10940" y="1740"/>
-      <p2 x="-10920" y="1740"/>
+      <p1 x="-12620" y="2760"/>
+      <p2 x="-12580" y="2760"/>
     </wire>
     <wire>
-      <p1 x="-11540" y="1740"/>
-      <p2 x="-11520" y="1740"/>
+      <p1 x="-12560" y="2760"/>
+      <p2 x="-12540" y="2760"/>
     </wire>
     <wire>
-      <p1 x="-11440" y="1740"/>
-      <p2 x="-11420" y="1740"/>
-    </wire>
-    <wire>
-      <p1 x="-11340" y="1740"/>
-      <p2 x="-11260" y="1740"/>
+      <p1 x="-12340" y="2760"/>
+      <p2 x="-12280" y="2760"/>
     </wire>
     <wire>
       <p1 x="-9080" y="1740"/>
@@ -10989,8 +11004,8 @@ is bugged and requires it.</string>
       <p2 x="-8220" y="1740"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="720"/>
-      <p2 x="-11180" y="720"/>
+      <p1 x="-11440" y="720"/>
+      <p2 x="-11420" y="720"/>
     </wire>
     <wire>
       <p1 x="-12000" y="720"/>
@@ -11009,14 +11024,6 @@ is bugged and requires it.</string>
       <p2 x="-7680" y="2260"/>
     </wire>
     <wire>
-      <p1 x="-11600" y="2260"/>
-      <p2 x="-11560" y="2260"/>
-    </wire>
-    <wire>
-      <p1 x="-11540" y="2260"/>
-      <p2 x="-11520" y="2260"/>
-    </wire>
-    <wire>
       <p1 x="-9020" y="1240"/>
       <p2 x="-8960" y="1240"/>
     </wire>
@@ -11033,16 +11040,16 @@ is bugged and requires it.</string>
       <p2 x="-12720" y="1240"/>
     </wire>
     <wire>
-      <p1 x="-13220" y="1240"/>
-      <p2 x="-13200" y="1240"/>
-    </wire>
-    <wire>
       <p1 x="-12000" y="1240"/>
       <p2 x="-11980" y="1240"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1240"/>
-      <p2 x="-11180" y="1240"/>
+      <p1 x="-11440" y="1240"/>
+      <p2 x="-11420" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="-13220" y="1240"/>
+      <p2 x="-13200" y="1240"/>
     </wire>
     <wire>
       <p1 x="-5980" y="-2780"/>
@@ -11065,6 +11072,10 @@ is bugged and requires it.</string>
       <p2 x="-8720" y="2780"/>
     </wire>
     <wire>
+      <p1 x="-12320" y="2780"/>
+      <p2 x="-12280" y="2780"/>
+    </wire>
+    <wire>
       <p1 x="-6060" y="-1760"/>
       <p2 x="-6040" y="-1760"/>
     </wire>
@@ -11083,22 +11094,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-6160" y="-1760"/>
       <p2 x="-6140" y="-1760"/>
-    </wire>
-    <wire>
-      <p1 x="-11600" y="1760"/>
-      <p2 x="-11560" y="1760"/>
-    </wire>
-    <wire>
-      <p1 x="-11540" y="1760"/>
-      <p2 x="-11520" y="1760"/>
-    </wire>
-    <wire>
-      <p1 x="-11320" y="1760"/>
-      <p2 x="-11260" y="1760"/>
-    </wire>
-    <wire>
-      <p1 x="-10840" y="1760"/>
-      <p2 x="-10800" y="1760"/>
     </wire>
     <wire>
       <p1 x="-9080" y="1760"/>
@@ -11125,12 +11120,16 @@ is bugged and requires it.</string>
       <p2 x="-12360" y="740"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="740"/>
-      <p2 x="-11180" y="740"/>
+      <p1 x="-11440" y="740"/>
+      <p2 x="-11420" y="740"/>
     </wire>
     <wire>
       <p1 x="-12000" y="740"/>
       <p2 x="-11980" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="-12760" y="3300"/>
+      <p2 x="-12720" y="3300"/>
     </wire>
     <wire>
       <p1 x="-6740" y="-2280"/>
@@ -11145,8 +11144,8 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="1260"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1260"/>
-      <p2 x="-11180" y="1260"/>
+      <p1 x="-11440" y="1260"/>
+      <p2 x="-11420" y="1260"/>
     </wire>
     <wire>
       <p1 x="-12560" y="1260"/>
@@ -11181,16 +11180,16 @@ is bugged and requires it.</string>
       <p2 x="-8820" y="2800"/>
     </wire>
     <wire>
+      <p1 x="-12300" y="2800"/>
+      <p2 x="-12280" y="2800"/>
+    </wire>
+    <wire>
+      <p1 x="-12760" y="2800"/>
+      <p2 x="-12720" y="2800"/>
+    </wire>
+    <wire>
       <p1 x="-5740" y="-1780"/>
       <p2 x="-5700" y="-1780"/>
-    </wire>
-    <wire>
-      <p1 x="-11180" y="1780"/>
-      <p2 x="-10920" y="1780"/>
-    </wire>
-    <wire>
-      <p1 x="-11300" y="1780"/>
-      <p2 x="-11260" y="1780"/>
     </wire>
     <wire>
       <p1 x="-9080" y="1780"/>
@@ -11229,20 +11228,24 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="760"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="760"/>
-      <p2 x="-11180" y="760"/>
+      <p1 x="-11440" y="760"/>
+      <p2 x="-11420" y="760"/>
     </wire>
     <wire>
       <p1 x="-12380" y="760"/>
       <p2 x="-12360" y="760"/>
     </wire>
     <wire>
-      <p1 x="-7700" y="2300"/>
-      <p2 x="-7680" y="2300"/>
+      <p1 x="-12740" y="3320"/>
+      <p2 x="-12720" y="3320"/>
     </wire>
     <wire>
-      <p1 x="-11740" y="2300"/>
-      <p2 x="-11700" y="2300"/>
+      <p1 x="-12660" y="3320"/>
+      <p2 x="-12540" y="3320"/>
+    </wire>
+    <wire>
+      <p1 x="-7700" y="2300"/>
+      <p2 x="-7680" y="2300"/>
     </wire>
     <wire>
       <p1 x="-7520" y="2300"/>
@@ -11281,20 +11284,24 @@ is bugged and requires it.</string>
       <p2 x="-8960" y="2820"/>
     </wire>
     <wire>
+      <p1 x="-12740" y="2820"/>
+      <p2 x="-12720" y="2820"/>
+    </wire>
+    <wire>
+      <p1 x="-12660" y="2820"/>
+      <p2 x="-12540" y="2820"/>
+    </wire>
+    <wire>
+      <p1 x="-11720" y="2820"/>
+      <p2 x="-11700" y="2820"/>
+    </wire>
+    <wire>
       <p1 x="-6160" y="-1800"/>
       <p2 x="-5820" y="-1800"/>
     </wire>
     <wire>
       <p1 x="-6480" y="-1800"/>
       <p2 x="-6460" y="-1800"/>
-    </wire>
-    <wire>
-      <p1 x="-11280" y="1800"/>
-      <p2 x="-11260" y="1800"/>
-    </wire>
-    <wire>
-      <p1 x="-11740" y="1800"/>
-      <p2 x="-11700" y="1800"/>
     </wire>
     <wire>
       <p1 x="-8460" y="1800"/>
@@ -11333,16 +11340,16 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="780"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="780"/>
-      <p2 x="-11180" y="780"/>
+      <p1 x="-11440" y="780"/>
+      <p2 x="-11420" y="780"/>
     </wire>
     <wire>
-      <p1 x="-11720" y="2320"/>
-      <p2 x="-11700" y="2320"/>
+      <p1 x="-12560" y="3340"/>
+      <p2 x="-12540" y="3340"/>
     </wire>
     <wire>
-      <p1 x="-11640" y="2320"/>
-      <p2 x="-11520" y="2320"/>
+      <p1 x="-12460" y="3340"/>
+      <p2 x="-12320" y="3340"/>
     </wire>
     <wire>
       <p1 x="-7580" y="2320"/>
@@ -11373,20 +11380,28 @@ is bugged and requires it.</string>
       <p2 x="-8840" y="2840"/>
     </wire>
     <wire>
+      <p1 x="-12560" y="2840"/>
+      <p2 x="-12540" y="2840"/>
+    </wire>
+    <wire>
+      <p1 x="-12460" y="2840"/>
+      <p2 x="-12420" y="2840"/>
+    </wire>
+    <wire>
+      <p1 x="-11620" y="2840"/>
+      <p2 x="-11580" y="2840"/>
+    </wire>
+    <wire>
+      <p1 x="-11920" y="2840"/>
+      <p2 x="-11900" y="2840"/>
+    </wire>
+    <wire>
       <p1 x="-6520" y="-1820"/>
       <p2 x="-6500" y="-1820"/>
     </wire>
     <wire>
       <p1 x="-6480" y="-1820"/>
       <p2 x="-6460" y="-1820"/>
-    </wire>
-    <wire>
-      <p1 x="-11720" y="1820"/>
-      <p2 x="-11700" y="1820"/>
-    </wire>
-    <wire>
-      <p1 x="-11640" y="1820"/>
-      <p2 x="-11520" y="1820"/>
     </wire>
     <wire>
       <p1 x="-8760" y="1820"/>
@@ -11437,8 +11452,16 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="800"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="800"/>
-      <p2 x="-11180" y="800"/>
+      <p1 x="-11440" y="800"/>
+      <p2 x="-11420" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="-12620" y="3360"/>
+      <p2 x="-12580" y="3360"/>
+    </wire>
+    <wire>
+      <p1 x="-12560" y="3360"/>
+      <p2 x="-12540" y="3360"/>
     </wire>
     <wire>
       <p1 x="-6720" y="-2340"/>
@@ -11451,14 +11474,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-6580" y="-2340"/>
       <p2 x="-6540" y="-2340"/>
-    </wire>
-    <wire>
-      <p1 x="-11540" y="2340"/>
-      <p2 x="-11520" y="2340"/>
-    </wire>
-    <wire>
-      <p1 x="-11440" y="2340"/>
-      <p2 x="-11300" y="2340"/>
     </wire>
     <wire>
       <p1 x="-7560" y="2340"/>
@@ -11481,7 +11496,7 @@ is bugged and requires it.</string>
       <p2 x="-12400" y="1320"/>
     </wire>
     <wire>
-      <p1 x="-13060" y="1320"/>
+      <p1 x="-12960" y="1320"/>
       <p2 x="-12940" y="1320"/>
     </wire>
     <wire>
@@ -11490,7 +11505,7 @@ is bugged and requires it.</string>
     </wire>
     <wire>
       <p1 x="-11960" y="1320"/>
-      <p2 x="-11160" y="1320"/>
+      <p2 x="-11400" y="1320"/>
     </wire>
     <wire>
       <p1 x="-14740" y="-300"/>
@@ -11499,6 +11514,30 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-14800" y="-300"/>
       <p2 x="-14760" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="-12620" y="2860"/>
+      <p2 x="-12580" y="2860"/>
+    </wire>
+    <wire>
+      <p1 x="-12560" y="2860"/>
+      <p2 x="-12540" y="2860"/>
+    </wire>
+    <wire>
+      <p1 x="-11500" y="2860"/>
+      <p2 x="-11480" y="2860"/>
+    </wire>
+    <wire>
+      <p1 x="-11840" y="2860"/>
+      <p2 x="-11820" y="2860"/>
+    </wire>
+    <wire>
+      <p1 x="-11780" y="2860"/>
+      <p2 x="-11700" y="2860"/>
+    </wire>
+    <wire>
+      <p1 x="-11920" y="2860"/>
+      <p2 x="-11900" y="2860"/>
     </wire>
     <wire>
       <p1 x="-5700" y="-1840"/>
@@ -11537,14 +11576,6 @@ is bugged and requires it.</string>
       <p2 x="-8100" y="1840"/>
     </wire>
     <wire>
-      <p1 x="-11540" y="1840"/>
-      <p2 x="-11520" y="1840"/>
-    </wire>
-    <wire>
-      <p1 x="-11440" y="1840"/>
-      <p2 x="-11400" y="1840"/>
-    </wire>
-    <wire>
       <p1 x="-13200" y="-820"/>
       <p2 x="-13180" y="-820"/>
     </wire>
@@ -11573,20 +11604,12 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="820"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="820"/>
-      <p2 x="-11180" y="820"/>
+      <p1 x="-11440" y="820"/>
+      <p2 x="-11420" y="820"/>
     </wire>
     <wire>
       <p1 x="-6720" y="-2360"/>
       <p2 x="-6700" y="-2360"/>
-    </wire>
-    <wire>
-      <p1 x="-11600" y="2360"/>
-      <p2 x="-11560" y="2360"/>
-    </wire>
-    <wire>
-      <p1 x="-11540" y="2360"/>
-      <p2 x="-11520" y="2360"/>
     </wire>
     <wire>
       <p1 x="-9040" y="1340"/>
@@ -11625,6 +11648,10 @@ is bugged and requires it.</string>
       <p2 x="-6020" y="-2880"/>
     </wire>
     <wire>
+      <p1 x="-11620" y="2880"/>
+      <p2 x="-11580" y="2880"/>
+    </wire>
+    <wire>
       <p1 x="-5620" y="-1860"/>
       <p2 x="-5600" y="-1860"/>
     </wire>
@@ -11653,14 +11680,6 @@ is bugged and requires it.</string>
       <p2 x="-8200" y="1860"/>
     </wire>
     <wire>
-      <p1 x="-11600" y="1860"/>
-      <p2 x="-11560" y="1860"/>
-    </wire>
-    <wire>
-      <p1 x="-11540" y="1860"/>
-      <p2 x="-11520" y="1860"/>
-    </wire>
-    <wire>
       <p1 x="-13200" y="-840"/>
       <p2 x="-13180" y="-840"/>
     </wire>
@@ -11685,8 +11704,12 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="840"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="840"/>
-      <p2 x="-11180" y="840"/>
+      <p1 x="-11440" y="840"/>
+      <p2 x="-11420" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="-12760" y="3400"/>
+      <p2 x="-12720" y="3400"/>
     </wire>
     <wire>
       <p1 x="-12560" y="1360"/>
@@ -11719,6 +11742,10 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-6120" y="-2900"/>
       <p2 x="-6100" y="-2900"/>
+    </wire>
+    <wire>
+      <p1 x="-12760" y="2900"/>
+      <p2 x="-12720" y="2900"/>
     </wire>
     <wire>
       <p1 x="-5800" y="-1880"/>
@@ -11757,16 +11784,20 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="860"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="860"/>
-      <p2 x="-11180" y="860"/>
+      <p1 x="-11440" y="860"/>
+      <p2 x="-11420" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="-12660" y="3420"/>
+      <p2 x="-12540" y="3420"/>
+    </wire>
+    <wire>
+      <p1 x="-12740" y="3420"/>
+      <p2 x="-12720" y="3420"/>
     </wire>
     <wire>
       <p1 x="-6540" y="-2400"/>
       <p2 x="-6520" y="-2400"/>
-    </wire>
-    <wire>
-      <p1 x="-11740" y="2400"/>
-      <p2 x="-11700" y="2400"/>
     </wire>
     <wire>
       <p1 x="-9040" y="1380"/>
@@ -11779,6 +11810,14 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-13020" y="1380"/>
       <p2 x="-13000" y="1380"/>
+    </wire>
+    <wire>
+      <p1 x="-12740" y="2920"/>
+      <p2 x="-12720" y="2920"/>
+    </wire>
+    <wire>
+      <p1 x="-12660" y="2920"/>
+      <p2 x="-12540" y="2920"/>
     </wire>
     <wire>
       <p1 x="-6700" y="-1900"/>
@@ -11795,10 +11834,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-6160" y="-1900"/>
       <p2 x="-5920" y="-1900"/>
-    </wire>
-    <wire>
-      <p1 x="-11740" y="1900"/>
-      <p2 x="-11700" y="1900"/>
     </wire>
     <wire>
       <p1 x="-14200" y="-880"/>
@@ -11833,16 +11868,16 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="880"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="880"/>
-      <p2 x="-11180" y="880"/>
+      <p1 x="-11440" y="880"/>
+      <p2 x="-11420" y="880"/>
     </wire>
     <wire>
-      <p1 x="-11640" y="2420"/>
-      <p2 x="-11520" y="2420"/>
+      <p1 x="-12560" y="3440"/>
+      <p2 x="-12540" y="3440"/>
     </wire>
     <wire>
-      <p1 x="-11720" y="2420"/>
-      <p2 x="-11700" y="2420"/>
+      <p1 x="-12460" y="3440"/>
+      <p2 x="-12300" y="3440"/>
     </wire>
     <wire>
       <p1 x="-8720" y="1400"/>
@@ -11865,20 +11900,16 @@ is bugged and requires it.</string>
       <p2 x="-8020" y="-380"/>
     </wire>
     <wire>
+      <p1 x="-12560" y="2940"/>
+      <p2 x="-12540" y="2940"/>
+    </wire>
+    <wire>
+      <p1 x="-12460" y="2940"/>
+      <p2 x="-12400" y="2940"/>
+    </wire>
+    <wire>
       <p1 x="-6700" y="-1920"/>
       <p2 x="-6680" y="-1920"/>
-    </wire>
-    <wire>
-      <p1 x="-12620" y="1920"/>
-      <p2 x="-12600" y="1920"/>
-    </wire>
-    <wire>
-      <p1 x="-11720" y="1920"/>
-      <p2 x="-11700" y="1920"/>
-    </wire>
-    <wire>
-      <p1 x="-11640" y="1920"/>
-      <p2 x="-11520" y="1920"/>
     </wire>
     <wire>
       <p1 x="-7400" y="-900"/>
@@ -11925,8 +11956,16 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="900"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="900"/>
-      <p2 x="-11180" y="900"/>
+      <p1 x="-11440" y="900"/>
+      <p2 x="-11420" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="-12620" y="3460"/>
+      <p2 x="-12580" y="3460"/>
+    </wire>
+    <wire>
+      <p1 x="-12560" y="3460"/>
+      <p2 x="-12540" y="3460"/>
     </wire>
     <wire>
       <p1 x="-6720" y="-2440"/>
@@ -11941,14 +11980,6 @@ is bugged and requires it.</string>
       <p2 x="-6520" y="-2440"/>
     </wire>
     <wire>
-      <p1 x="-11540" y="2440"/>
-      <p2 x="-11520" y="2440"/>
-    </wire>
-    <wire>
-      <p1 x="-11440" y="2440"/>
-      <p2 x="-11280" y="2440"/>
-    </wire>
-    <wire>
       <p1 x="-9180" y="1420"/>
       <p2 x="-8060" y="1420"/>
     </wire>
@@ -11961,6 +11992,14 @@ is bugged and requires it.</string>
       <p2 x="-7920" y="-400"/>
     </wire>
     <wire>
+      <p1 x="-12620" y="2960"/>
+      <p2 x="-12580" y="2960"/>
+    </wire>
+    <wire>
+      <p1 x="-12560" y="2960"/>
+      <p2 x="-12540" y="2960"/>
+    </wire>
+    <wire>
       <p1 x="-5420" y="-1940"/>
       <p2 x="-5400" y="-1940"/>
     </wire>
@@ -11971,22 +12010,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-6600" y="-1940"/>
       <p2 x="-6560" y="-1940"/>
-    </wire>
-    <wire>
-      <p1 x="-11540" y="1940"/>
-      <p2 x="-11520" y="1940"/>
-    </wire>
-    <wire>
-      <p1 x="-11440" y="1940"/>
-      <p2 x="-11380" y="1940"/>
-    </wire>
-    <wire>
-      <p1 x="-12520" y="1940"/>
-      <p2 x="-12480" y="1940"/>
-    </wire>
-    <wire>
-      <p1 x="-12820" y="1940"/>
-      <p2 x="-12800" y="1940"/>
     </wire>
     <wire>
       <p1 x="-13840" y="-920"/>
@@ -12021,24 +12044,12 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="920"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="920"/>
-      <p2 x="-11180" y="920"/>
-    </wire>
-    <wire>
-      <p1 x="-11060" y="920"/>
-      <p2 x="-11040" y="920"/>
+      <p1 x="-11440" y="920"/>
+      <p2 x="-11420" y="920"/>
     </wire>
     <wire>
       <p1 x="-6720" y="-2460"/>
       <p2 x="-6700" y="-2460"/>
-    </wire>
-    <wire>
-      <p1 x="-11600" y="2460"/>
-      <p2 x="-11560" y="2460"/>
-    </wire>
-    <wire>
-      <p1 x="-11540" y="2460"/>
-      <p2 x="-11520" y="2460"/>
     </wire>
     <wire>
       <p1 x="-9080" y="1440"/>
@@ -12051,6 +12062,10 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-8040" y="-420"/>
       <p2 x="-8020" y="-420"/>
+    </wire>
+    <wire>
+      <p1 x="-11500" y="2980"/>
+      <p2 x="-11480" y="2980"/>
     </wire>
     <wire>
       <p1 x="-6680" y="-1960"/>
@@ -12079,30 +12094,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-8860" y="1960"/>
       <p2 x="-8840" y="1960"/>
-    </wire>
-    <wire>
-      <p1 x="-12400" y="1960"/>
-      <p2 x="-12380" y="1960"/>
-    </wire>
-    <wire>
-      <p1 x="-11600" y="1960"/>
-      <p2 x="-11560" y="1960"/>
-    </wire>
-    <wire>
-      <p1 x="-11540" y="1960"/>
-      <p2 x="-11520" y="1960"/>
-    </wire>
-    <wire>
-      <p1 x="-12740" y="1960"/>
-      <p2 x="-12720" y="1960"/>
-    </wire>
-    <wire>
-      <p1 x="-12680" y="1960"/>
-      <p2 x="-12600" y="1960"/>
-    </wire>
-    <wire>
-      <p1 x="-12820" y="1960"/>
-      <p2 x="-12800" y="1960"/>
     </wire>
     <wire>
       <p1 x="-11900" y="-940"/>
@@ -12137,8 +12128,8 @@ is bugged and requires it.</string>
       <p2 x="-12360" y="940"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="940"/>
-      <p2 x="-11180" y="940"/>
+      <p1 x="-11440" y="940"/>
+      <p2 x="-11420" y="940"/>
     </wire>
     <wire>
       <p1 x="-12000" y="940"/>
@@ -12153,20 +12144,20 @@ is bugged and requires it.</string>
       <p2 x="-6820" y="-2480"/>
     </wire>
     <wire>
-      <p1 x="-13180" y="1460"/>
-      <p2 x="-13060" y="1460"/>
-    </wire>
-    <wire>
       <p1 x="-9080" y="1460"/>
       <p2 x="-9060" y="1460"/>
     </wire>
     <wire>
-      <p1 x="-13060" y="1460"/>
-      <p2 x="-13020" y="1460"/>
-    </wire>
-    <wire>
       <p1 x="-8760" y="-440"/>
       <p2 x="-8740" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="-11560" y="3000"/>
+      <p2 x="-11540" y="3000"/>
+    </wire>
+    <wire>
+      <p1 x="-12760" y="3000"/>
+      <p2 x="-12720" y="3000"/>
     </wire>
     <wire>
       <p1 x="-5920" y="-1980"/>
@@ -12183,10 +12174,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-8860" y="1980"/>
       <p2 x="-8840" y="1980"/>
-    </wire>
-    <wire>
-      <p1 x="-12520" y="1980"/>
-      <p2 x="-12480" y="1980"/>
     </wire>
     <wire>
       <p1 x="-11880" y="-960"/>
@@ -12229,12 +12216,8 @@ is bugged and requires it.</string>
       <p2 x="-12420" y="960"/>
     </wire>
     <wire>
-      <p1 x="-11140" y="960"/>
-      <p2 x="-11060" y="960"/>
-    </wire>
-    <wire>
-      <p1 x="-11200" y="960"/>
-      <p2 x="-11180" y="960"/>
+      <p1 x="-11440" y="960"/>
+      <p2 x="-11420" y="960"/>
     </wire>
     <wire>
       <p1 x="-12000" y="960"/>
@@ -12249,8 +12232,8 @@ is bugged and requires it.</string>
       <p2 x="-11740" y="960"/>
     </wire>
     <wire>
-      <p1 x="-11060" y="960"/>
-      <p2 x="-11020" y="960"/>
+      <p1 x="-11380" y="960"/>
+      <p2 x="-11360" y="960"/>
     </wire>
     <wire>
       <p1 x="-6740" y="-2500"/>
@@ -12263,10 +12246,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-9080" y="1480"/>
       <p2 x="-9060" y="1480"/>
-    </wire>
-    <wire>
-      <p1 x="-13100" y="1480"/>
-      <p2 x="-13020" y="1480"/>
     </wire>
     <wire>
       <p1 x="-8760" y="-460"/>
@@ -12283,6 +12262,14 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-14800" y="-460"/>
       <p2 x="-14760" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="-12740" y="3020"/>
+      <p2 x="-12720" y="3020"/>
+    </wire>
+    <wire>
+      <p1 x="-12660" y="3020"/>
+      <p2 x="-12540" y="3020"/>
     </wire>
     <wire>
       <p1 x="-6300" y="-2000"/>
@@ -12303,10 +12290,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-7800" y="2000"/>
       <p2 x="-7640" y="2000"/>
-    </wire>
-    <wire>
-      <p1 x="-11740" y="2000"/>
-      <p2 x="-11700" y="2000"/>
     </wire>
     <wire>
       <p1 x="-8920" y="-980"/>
@@ -12345,16 +12328,12 @@ is bugged and requires it.</string>
       <p2 x="-11660" y="980"/>
     </wire>
     <wire>
-      <p1 x="-10980" y="980"/>
-      <p2 x="-10960" y="980"/>
-    </wire>
-    <wire>
       <p1 x="-12000" y="980"/>
       <p2 x="-11980" y="980"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="980"/>
-      <p2 x="-11180" y="980"/>
+      <p1 x="-11440" y="980"/>
+      <p2 x="-11420" y="980"/>
     </wire>
     <wire>
       <p1 x="-6840" y="-2520"/>
@@ -12367,14 +12346,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-9080" y="1500"/>
       <p2 x="-9060" y="1500"/>
-    </wire>
-    <wire>
-      <p1 x="-12680" y="1500"/>
-      <p2 x="-12660" y="1500"/>
-    </wire>
-    <wire>
-      <p1 x="-11600" y="1500"/>
-      <p2 x="-11520" y="1500"/>
     </wire>
     <wire>
       <p1 x="-8800" y="-480"/>
@@ -12391,6 +12362,14 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-8480" y="-480"/>
       <p2 x="-8460" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="-12560" y="3040"/>
+      <p2 x="-12540" y="3040"/>
+    </wire>
+    <wire>
+      <p1 x="-12460" y="3040"/>
+      <p2 x="-12380" y="3040"/>
     </wire>
     <wire>
       <p1 x="-6120" y="-2020"/>
@@ -12429,14 +12408,6 @@ is bugged and requires it.</string>
       <p2 x="-7280" y="2020"/>
     </wire>
     <wire>
-      <p1 x="-11720" y="2020"/>
-      <p2 x="-11700" y="2020"/>
-    </wire>
-    <wire>
-      <p1 x="-11640" y="2020"/>
-      <p2 x="-11520" y="2020"/>
-    </wire>
-    <wire>
       <p1 x="-8920" y="-1000"/>
       <p2 x="-8900" y="-1000"/>
     </wire>
@@ -12469,16 +12440,12 @@ is bugged and requires it.</string>
       <p2 x="-13800" y="-1000"/>
     </wire>
     <wire>
-      <p1 x="-11040" y="1000"/>
-      <p2 x="-11020" y="1000"/>
-    </wire>
-    <wire>
       <p1 x="-12000" y="1000"/>
       <p2 x="-11980" y="1000"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1000"/>
-      <p2 x="-11180" y="1000"/>
+      <p1 x="-11440" y="1000"/>
+      <p2 x="-11420" y="1000"/>
     </wire>
     <wire>
       <p1 x="-6660" y="-2540"/>
@@ -12497,16 +12464,20 @@ is bugged and requires it.</string>
       <p2 x="-9060" y="1520"/>
     </wire>
     <wire>
-      <p1 x="-11440" y="1520"/>
-      <p2 x="-11420" y="1520"/>
-    </wire>
-    <wire>
       <p1 x="-8580" y="-500"/>
       <p2 x="-8560" y="-500"/>
     </wire>
     <wire>
       <p1 x="-14720" y="-500"/>
       <p2 x="-14700" y="-500"/>
+    </wire>
+    <wire>
+      <p1 x="-12620" y="3060"/>
+      <p2 x="-12580" y="3060"/>
+    </wire>
+    <wire>
+      <p1 x="-12560" y="3060"/>
+      <p2 x="-12540" y="3060"/>
     </wire>
     <wire>
       <p1 x="-9400" y="2040"/>
@@ -12535,14 +12506,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-7660" y="2040"/>
       <p2 x="-7280" y="2040"/>
-    </wire>
-    <wire>
-      <p1 x="-11540" y="2040"/>
-      <p2 x="-11520" y="2040"/>
-    </wire>
-    <wire>
-      <p1 x="-11440" y="2040"/>
-      <p2 x="-11360" y="2040"/>
     </wire>
     <wire>
       <p1 x="-9460" y="2040"/>
@@ -12581,8 +12544,8 @@ is bugged and requires it.</string>
       <p2 x="-11980" y="1020"/>
     </wire>
     <wire>
-      <p1 x="-11200" y="1020"/>
-      <p2 x="-11180" y="1020"/>
+      <p1 x="-11440" y="1020"/>
+      <p2 x="-11420" y="1020"/>
     </wire>
     <wire>
       <p1 x="-6220" y="-2560"/>
@@ -12613,10 +12576,6 @@ is bugged and requires it.</string>
       <p2 x="-6660" y="-1680"/>
     </wire>
     <wire>
-      <p1 x="-13060" y="1320"/>
-      <p2 x="-13060" y="1460"/>
-    </wire>
-    <wire>
       <p1 x="-8200" y="1560"/>
       <p2 x="-8200" y="1580"/>
     </wire>
@@ -12625,8 +12584,8 @@ is bugged and requires it.</string>
       <p2 x="-8200" y="1240"/>
     </wire>
     <wire>
-      <p1 x="-12300" y="1580"/>
-      <p2 x="-12300" y="1600"/>
+      <p1 x="-12300" y="2800"/>
+      <p2 x="-12300" y="3440"/>
     </wire>
     <wire>
       <p1 x="-8460" y="1220"/>
@@ -12639,10 +12598,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-6160" y="-1900"/>
       <p2 x="-6160" y="-1800"/>
-    </wire>
-    <wire>
-      <p1 x="-11280" y="1800"/>
-      <p2 x="-11280" y="2440"/>
     </wire>
     <wire>
       <p1 x="-8720" y="1300"/>
@@ -12705,8 +12660,8 @@ is bugged and requires it.</string>
       <p2 x="-8480" y="1240"/>
     </wire>
     <wire>
-      <p1 x="-11300" y="1780"/>
-      <p2 x="-11300" y="2340"/>
+      <p1 x="-12320" y="2780"/>
+      <p2 x="-12320" y="3340"/>
     </wire>
     <wire>
       <p1 x="-8740" y="1300"/>
@@ -12737,10 +12692,6 @@ is bugged and requires it.</string>
       <p2 x="-13100" y="-860"/>
     </wire>
     <wire>
-      <p1 x="-13100" y="1220"/>
-      <p2 x="-13100" y="1480"/>
-    </wire>
-    <wire>
       <p1 x="-6960" y="-2140"/>
       <p2 x="-6960" y="-2100"/>
     </wire>
@@ -12753,10 +12704,6 @@ is bugged and requires it.</string>
       <p2 x="-8240" y="1580"/>
     </wire>
     <wire>
-      <p1 x="-11060" y="920"/>
-      <p2 x="-11060" y="960"/>
-    </wire>
-    <wire>
       <p1 x="-8500" y="1220"/>
       <p2 x="-8500" y="1240"/>
     </wire>
@@ -12765,8 +12712,8 @@ is bugged and requires it.</string>
       <p2 x="-8500" y="1640"/>
     </wire>
     <wire>
-      <p1 x="-11320" y="1760"/>
-      <p2 x="-11320" y="2240"/>
+      <p1 x="-12340" y="2760"/>
+      <p2 x="-12340" y="3240"/>
     </wire>
     <wire>
       <p1 x="-8760" y="1300"/>
@@ -12805,8 +12752,8 @@ is bugged and requires it.</string>
       <p2 x="-8520" y="1240"/>
     </wire>
     <wire>
-      <p1 x="-11340" y="1740"/>
-      <p2 x="-11340" y="2140"/>
+      <p1 x="-12360" y="2740"/>
+      <p2 x="-12360" y="3140"/>
     </wire>
     <wire>
       <p1 x="-8780" y="1180"/>
@@ -12821,12 +12768,12 @@ is bugged and requires it.</string>
       <p2 x="-8780" y="2620"/>
     </wire>
     <wire>
-      <p1 x="-6480" y="-1820"/>
-      <p2 x="-6480" y="-1800"/>
+      <p1 x="-8780" y="-560"/>
+      <p2 x="-8780" y="-540"/>
     </wire>
     <wire>
-      <p1 x="-11600" y="1500"/>
-      <p2 x="-11600" y="1620"/>
+      <p1 x="-6480" y="-1820"/>
+      <p2 x="-6480" y="-1800"/>
     </wire>
     <wire>
       <p1 x="-9040" y="1260"/>
@@ -12849,8 +12796,8 @@ is bugged and requires it.</string>
       <p2 x="-8540" y="1240"/>
     </wire>
     <wire>
-      <p1 x="-11360" y="1720"/>
-      <p2 x="-11360" y="2040"/>
+      <p1 x="-12380" y="2720"/>
+      <p2 x="-12380" y="3040"/>
     </wire>
     <wire>
       <p1 x="-8800" y="1300"/>
@@ -12901,6 +12848,10 @@ is bugged and requires it.</string>
       <p2 x="-12400" y="1320"/>
     </wire>
     <wire>
+      <p1 x="-12400" y="2700"/>
+      <p2 x="-12400" y="2940"/>
+    </wire>
+    <wire>
       <p1 x="-7540" y="2320"/>
       <p2 x="-7540" y="2340"/>
     </wire>
@@ -12909,20 +12860,8 @@ is bugged and requires it.</string>
       <p2 x="-8820" y="1320"/>
     </wire>
     <wire>
-      <p1 x="-8820" y="-560"/>
-      <p2 x="-8820" y="-540"/>
-    </wire>
-    <wire>
-      <p1 x="-12660" y="1400"/>
-      <p2 x="-12660" y="1420"/>
-    </wire>
-    <wire>
-      <p1 x="-11380" y="1700"/>
-      <p2 x="-11380" y="1940"/>
-    </wire>
-    <wire>
-      <p1 x="-13940" y="-80"/>
-      <p2 x="-13940" y="-60"/>
+      <p1 x="-12660" y="1540"/>
+      <p2 x="-12660" y="1560"/>
     </wire>
     <wire>
       <p1 x="-11640" y="-980"/>
@@ -12981,6 +12920,10 @@ is bugged and requires it.</string>
       <p2 x="-6020" y="-2720"/>
     </wire>
     <wire>
+      <p1 x="-12420" y="2680"/>
+      <p2 x="-12420" y="2840"/>
+    </wire>
+    <wire>
       <p1 x="-8840" y="1300"/>
       <p2 x="-8840" y="1320"/>
     </wire>
@@ -12993,8 +12936,8 @@ is bugged and requires it.</string>
       <p2 x="-8840" y="2840"/>
     </wire>
     <wire>
-      <p1 x="-11400" y="1680"/>
-      <p2 x="-11400" y="1840"/>
+      <p1 x="-11400" y="1280"/>
+      <p2 x="-11400" y="1320"/>
     </wire>
     <wire>
       <p1 x="-7820" y="2020"/>
@@ -13029,12 +12972,12 @@ is bugged and requires it.</string>
       <p2 x="-8600" y="1240"/>
     </wire>
     <wire>
-      <p1 x="-11160" y="1280"/>
-      <p2 x="-11160" y="1320"/>
-    </wire>
-    <wire>
       <p1 x="-6040" y="-1760"/>
       <p2 x="-6040" y="-1720"/>
+    </wire>
+    <wire>
+      <p1 x="-12440" y="2660"/>
+      <p2 x="-12440" y="2740"/>
     </wire>
     <wire>
       <p1 x="-7580" y="2060"/>
@@ -13042,15 +12985,7 @@ is bugged and requires it.</string>
     </wire>
     <wire>
       <p1 x="-12700" y="1320"/>
-      <p2 x="-12700" y="1420"/>
-    </wire>
-    <wire>
-      <p1 x="-11420" y="1660"/>
-      <p2 x="-11420" y="1740"/>
-    </wire>
-    <wire>
-      <p1 x="-11420" y="1520"/>
-      <p2 x="-11420" y="1540"/>
+      <p2 x="-12700" y="1560"/>
     </wire>
     <wire>
       <p1 x="-9120" y="2080"/>
@@ -13095,10 +13030,6 @@ is bugged and requires it.</string>
     <wire>
       <p1 x="-8620" y="1220"/>
       <p2 x="-8620" y="1240"/>
-    </wire>
-    <wire>
-      <p1 x="-11180" y="1720"/>
-      <p2 x="-11180" y="1780"/>
     </wire>
     <wire>
       <p1 x="-8880" y="2580"/>
@@ -13269,10 +13200,6 @@ is bugged and requires it.</string>
       <p2 x="-8440" y="1240"/>
     </wire>
     <wire>
-      <p1 x="-11000" y="1000"/>
-      <p2 x="-11000" y="1020"/>
-    </wire>
-    <wire>
       <p1 x="-8700" y="-940"/>
       <p2 x="-8700" y="-780"/>
     </wire>
@@ -13281,12 +13208,20 @@ is bugged and requires it.</string>
       <p2 x="-6140" y="-1760"/>
     </wire>
     <wire>
-      <p1 x="-7680" y="2060"/>
-      <p2 x="-7680" y="2080"/>
+      <p1 x="-11520" y="2740"/>
+      <p2 x="-11520" y="2760"/>
+    </wire>
+    <wire>
+      <p1 x="-11520" y="3000"/>
+      <p2 x="-11520" y="3020"/>
     </wire>
     <wire>
       <p1 x="-11520" y="-1080"/>
       <p2 x="-11520" y="-1020"/>
+    </wire>
+    <wire>
+      <p1 x="-7680" y="2060"/>
+      <p2 x="-7680" y="2080"/>
     </wire>
     <wire>
       <p1 x="-6400" y="-2240"/>
