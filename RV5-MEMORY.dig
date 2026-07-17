@@ -4937,20 +4937,6 @@ for all read sizes.</string>
       </elementAttributes>
       <pos x="-820" y="-1640"/>
     </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>d0O</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1120" y="100"/>
-    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -5476,10 +5462,6 @@ for all read sizes.</string>
     <wire>
       <p1 x="1480" y="100"/>
       <p2 x="1500" y="100"/>
-    </wire>
-    <wire>
-      <p1 x="1080" y="100"/>
-      <p2 x="1120" y="100"/>
     </wire>
     <wire>
       <p1 x="-1340" y="-1640"/>
@@ -6388,10 +6370,6 @@ for all read sizes.</string>
     <wire>
       <p1 x="1080" y="1100"/>
       <p2 x="1080" y="1120"/>
-    </wire>
-    <wire>
-      <p1 x="1080" y="100"/>
-      <p2 x="1080" y="200"/>
     </wire>
     <wire>
       <p1 x="1400" y="1360"/>
