@@ -23,8 +23,9 @@ Then simulate the circuit in Digital. If nothing happens, make sure the clock is
   - [x] Modify Digital to communicate through JTAG to CPU & host GDB server
 - [x] Make ROM just an address space in memory block
 - [x] Ensure JTAG TAP runs well when not on the same clock 
-- [ ] Implement dmihardreset in JTAG TAP
 - [ ] Reorganize circuit to be like the one in the textbook
+- [ ] Implement dmihardreset in JTAG TAP
 - [ ] Make dummy JTAG TAP for parallel writes
 - [ ] Implement system calls like what is available in RARS
 - [ ] Write the program for the ROM for loading programs into RAM. (Maybe even verifying output?)
+- [ ] Write proper setup documentation
