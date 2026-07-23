@@ -107,20 +107,6 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>funct7</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>7</int>
-        </entry>
-      </elementAttributes>
-      <pos x="980" y="540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>rs2</string>
         </entry>
         <entry>
@@ -143,20 +129,6 @@
         </entry>
       </elementAttributes>
       <pos x="980" y="460"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>funct3</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="980" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -195,38 +167,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>funct7</string>
-        </entry>
-      </elementAttributes>
-      <pos x="980" y="540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
           <string>rs2</string>
         </entry>
       </elementAttributes>
       <pos x="980" y="500"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>funct3</string>
-        </entry>
-      </elementAttributes>
-      <pos x="980" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3417,30 +3361,6 @@ that do not start with &apos;n&apos; still need to be converted.</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>csr_opwrite</string>
-        </entry>
-      </elementAttributes>
-      <pos x="980" y="1980"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>csr_opwrite</string>
-        </entry>
-      </elementAttributes>
-      <pos x="980" y="1980"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>csr_opset</string>
         </entry>
       </elementAttributes>
@@ -3567,7 +3487,7 @@ that do not start with &apos;n&apos; still need to be converted.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[300]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[294]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -3581,7 +3501,7 @@ that do not start with &apos;n&apos; still need to be converted.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[300]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[294]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -3590,6 +3510,205 @@ that do not start with &apos;n&apos; still need to be converted.</string>
       </elementAttributes>
       <pos x="-860" y="400"/>
     </visualElement>
+    <visualElement>
+      <elementName>FROMTRUTH6.dig</elementName>
+      <elementAttributes/>
+      <pos x="-1260" y="1240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>7</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>6-6,5-5,4-4,3-3,2-2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1300" y="1240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>opcode</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1320" y="1240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>L%RPwb_sel</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1060" y="1240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1-1,0-0</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1100" y="1240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>L%RPram_wen</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1060" y="1280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>L%RPram_ren</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1060" y="1300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>L%RPreg_wen</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1060" y="1320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>L%RPbranch_sel</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1060" y="1340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>L%RPjal_sel</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1060" y="1360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>L%RPjalr_sel</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1060" y="1380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1-1,0-0</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1100" y="1400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>L%RPalu_asel</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1060" y="1400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>L%RPalu_bsel</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1060" y="1440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>2-2,1-1,0-0</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1100" y="1460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>L%RPimm_sel</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1060" y="1460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1-1,0-0</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1100" y="1520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>L%RPopclass</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1060" y="1520"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -3597,8 +3716,20 @@ that do not start with &apos;n&apos; still need to be converted.</string>
       <p2 x="-1300" y="0"/>
     </wire>
     <wire>
+      <p1 x="-1280" y="1280"/>
+      <p2 x="-1260" y="1280"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="1280"/>
+      <p2 x="-1060" y="1280"/>
+    </wire>
+    <wire>
       <p1 x="960" y="260"/>
       <p2 x="1020" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="1540"/>
+      <p2 x="-1100" y="1540"/>
     </wire>
     <wire>
       <p1 x="320" y="520"/>
@@ -3653,6 +3784,14 @@ that do not start with &apos;n&apos; still need to be converted.</string>
       <p2 x="-1300" y="20"/>
     </wire>
     <wire>
+      <p1 x="-1280" y="1300"/>
+      <p2 x="-1260" y="1300"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="1300"/>
+      <p2 x="-1060" y="1300"/>
+    </wire>
+    <wire>
       <p1 x="960" y="280"/>
       <p2 x="1020" y="280"/>
     </wire>
@@ -3695,6 +3834,14 @@ that do not start with &apos;n&apos; still need to be converted.</string>
     <wire>
       <p1 x="-1400" y="40"/>
       <p2 x="-1300" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="-1280" y="1320"/>
+      <p2 x="-1260" y="1320"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="1320"/>
+      <p2 x="-1060" y="1320"/>
     </wire>
     <wire>
       <p1 x="320" y="300"/>
@@ -3741,6 +3888,10 @@ that do not start with &apos;n&apos; still need to be converted.</string>
       <p2 x="260" y="1340"/>
     </wire>
     <wire>
+      <p1 x="-1120" y="1340"/>
+      <p2 x="-1060" y="1340"/>
+    </wire>
+    <wire>
       <p1 x="-1400" y="60"/>
       <p2 x="-1300" y="60"/>
     </wire>
@@ -3783,6 +3934,10 @@ that do not start with &apos;n&apos; still need to be converted.</string>
     <wire>
       <p1 x="340" y="1360"/>
       <p2 x="360" y="1360"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="1360"/>
+      <p2 x="-1060" y="1360"/>
     </wire>
     <wire>
       <p1 x="680" y="1620"/>
@@ -3837,6 +3992,10 @@ that do not start with &apos;n&apos; still need to be converted.</string>
       <p2 x="260" y="1380"/>
     </wire>
     <wire>
+      <p1 x="-1120" y="1380"/>
+      <p2 x="-1060" y="1380"/>
+    </wire>
+    <wire>
       <p1 x="-860" y="360"/>
       <p2 x="-840" y="360"/>
     </wire>
@@ -3867,6 +4026,14 @@ that do not start with &apos;n&apos; still need to be converted.</string>
     <wire>
       <p1 x="580" y="1400"/>
       <p2 x="600" y="1400"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="1400"/>
+      <p2 x="-1100" y="1400"/>
+    </wire>
+    <wire>
+      <p1 x="-1080" y="1400"/>
+      <p2 x="-1060" y="1400"/>
     </wire>
     <wire>
       <p1 x="480" y="2680"/>
@@ -3917,6 +4084,10 @@ that do not start with &apos;n&apos; still need to be converted.</string>
       <p2 x="260" y="1420"/>
     </wire>
     <wire>
+      <p1 x="-1120" y="1420"/>
+      <p2 x="-1100" y="1420"/>
+    </wire>
+    <wire>
       <p1 x="220" y="400"/>
       <p2 x="340" y="400"/>
     </wire>
@@ -3943,6 +4114,10 @@ that do not start with &apos;n&apos; still need to be converted.</string>
     <wire>
       <p1 x="580" y="1440"/>
       <p2 x="600" y="1440"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="1440"/>
+      <p2 x="-1060" y="1440"/>
     </wire>
     <wire>
       <p1 x="420" y="420"/>
@@ -3993,6 +4168,14 @@ that do not start with &apos;n&apos; still need to be converted.</string>
       <p2 x="260" y="1460"/>
     </wire>
     <wire>
+      <p1 x="-1120" y="1460"/>
+      <p2 x="-1100" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="-1080" y="1460"/>
+      <p2 x="-1060" y="1460"/>
+    </wire>
+    <wire>
       <p1 x="320" y="440"/>
       <p2 x="340" y="440"/>
     </wire>
@@ -4027,6 +4210,10 @@ that do not start with &apos;n&apos; still need to be converted.</string>
     <wire>
       <p1 x="960" y="200"/>
       <p2 x="1020" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="1480"/>
+      <p2 x="-1100" y="1480"/>
     </wire>
     <wire>
       <p1 x="220" y="460"/>
@@ -4065,6 +4252,22 @@ that do not start with &apos;n&apos; still need to be converted.</string>
       <p2 x="240" y="1240"/>
     </wire>
     <wire>
+      <p1 x="-1280" y="1240"/>
+      <p2 x="-1260" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="-1320" y="1240"/>
+      <p2 x="-1300" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="1240"/>
+      <p2 x="-1100" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="-1080" y="1240"/>
+      <p2 x="-1060" y="1240"/>
+    </wire>
+    <wire>
       <p1 x="740" y="2520"/>
       <p2 x="760" y="2520"/>
     </wire>
@@ -4075,6 +4278,10 @@ that do not start with &apos;n&apos; still need to be converted.</string>
     <wire>
       <p1 x="960" y="220"/>
       <p2 x="1020" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="1500"/>
+      <p2 x="-1100" y="1500"/>
     </wire>
     <wire>
       <p1 x="220" y="1760"/>
@@ -4113,8 +4320,24 @@ that do not start with &apos;n&apos; still need to be converted.</string>
       <p2 x="660" y="2540"/>
     </wire>
     <wire>
+      <p1 x="-1280" y="1260"/>
+      <p2 x="-1260" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="1260"/>
+      <p2 x="-1100" y="1260"/>
+    </wire>
+    <wire>
       <p1 x="960" y="240"/>
       <p2 x="1020" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="1520"/>
+      <p2 x="-1100" y="1520"/>
+    </wire>
+    <wire>
+      <p1 x="-1080" y="1520"/>
+      <p2 x="-1060" y="1520"/>
     </wire>
     <wire>
       <p1 x="320" y="1780"/>
