@@ -1602,6 +1602,10 @@ works.</string>
           <string>wideShape</string>
           <boolean>true</boolean>
         </entry>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
+        </entry>
       </elementAttributes>
       <pos x="-6420" y="3180"/>
     </visualElement>
@@ -10351,7 +10355,7 @@ requires us to do so.</string>
           <string>wb_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="-6540" y="1880"/>
+      <pos x="-6400" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -10849,12 +10853,12 @@ requires us to do so.</string>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
-          <string>intFormat</string>
-          <intFormat>hex</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>32</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
         </entry>
       </elementAttributes>
       <pos x="-6800" y="1460"/>
@@ -10896,6 +10900,62 @@ requires us to do so.</string>
         </entry>
       </elementAttributes>
       <pos x="-9360" y="1320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>csr_wen</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-6440" y="3200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="-6500" y="1840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>csr_wen</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-6580" y="1840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-6540" y="1840"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -11738,6 +11798,10 @@ requires us to do so.</string>
     <wire>
       <p1 x="-6340" y="3200"/>
       <p2 x="-6300" y="3200"/>
+    </wire>
+    <wire>
+      <p1 x="-6440" y="3200"/>
+      <p2 x="-6420" y="3200"/>
     </wire>
     <wire>
       <p1 x="-12180" y="640"/>
@@ -12796,6 +12860,18 @@ requires us to do so.</string>
       <p2 x="-9300" y="1840"/>
     </wire>
     <wire>
+      <p1 x="-6520" y="1840"/>
+      <p2 x="-6500" y="1840"/>
+    </wire>
+    <wire>
+      <p1 x="-6580" y="1840"/>
+      <p2 x="-6560" y="1840"/>
+    </wire>
+    <wire>
+      <p1 x="-6560" y="1840"/>
+      <p2 x="-6540" y="1840"/>
+    </wire>
+    <wire>
       <p1 x="-13200" y="-820"/>
       <p2 x="-13180" y="-820"/>
     </wire>
@@ -12888,6 +12964,10 @@ requires us to do so.</string>
       <p2 x="-6460" y="-1860"/>
     </wire>
     <wire>
+      <p1 x="-6420" y="1860"/>
+      <p2 x="-6400" y="1860"/>
+    </wire>
+    <wire>
       <p1 x="-9540" y="1860"/>
       <p2 x="-9520" y="1860"/>
     </wire>
@@ -12934,6 +13014,10 @@ requires us to do so.</string>
     <wire>
       <p1 x="-5460" y="1860"/>
       <p2 x="-5420" y="1860"/>
+    </wire>
+    <wire>
+      <p1 x="-6560" y="1860"/>
+      <p2 x="-6540" y="1860"/>
     </wire>
     <wire>
       <p1 x="-13200" y="-840"/>
@@ -13016,10 +13100,6 @@ requires us to do so.</string>
       <p2 x="-6700" y="1880"/>
     </wire>
     <wire>
-      <p1 x="-6560" y="1880"/>
-      <p2 x="-6540" y="1880"/>
-    </wire>
-    <wire>
       <p1 x="-9680" y="1880"/>
       <p2 x="-9660" y="1880"/>
     </wire>
@@ -13066,6 +13146,10 @@ requires us to do so.</string>
     <wire>
       <p1 x="-5460" y="1880"/>
       <p2 x="-5420" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="-6560" y="1880"/>
+      <p2 x="-6500" y="1880"/>
     </wire>
     <wire>
       <p1 x="-13200" y="-860"/>
@@ -14282,6 +14366,10 @@ requires us to do so.</string>
     <wire>
       <p1 x="-12320" y="2780"/>
       <p2 x="-12320" y="3340"/>
+    </wire>
+    <wire>
+      <p1 x="-6560" y="1840"/>
+      <p2 x="-6560" y="1860"/>
     </wire>
     <wire>
       <p1 x="-12580" y="1300"/>
