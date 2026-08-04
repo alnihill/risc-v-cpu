@@ -7354,7 +7354,7 @@ requires us to do so.</string>
           <string>pc</string>
         </entry>
       </elementAttributes>
-      <pos x="-7360" y="1860"/>
+      <pos x="-7220" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -7375,7 +7375,7 @@ requires us to do so.</string>
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>172</int>
+          <int>91</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -7393,7 +7393,7 @@ requires us to do so.</string>
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>172</int>
+          <int>91</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -7411,7 +7411,7 @@ requires us to do so.</string>
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>172</int>
+          <int>91</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -7478,7 +7478,7 @@ requires us to do so.</string>
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>172</int>
+          <int>91</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -8101,7 +8101,7 @@ requires us to do so.</string>
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>172</int>
+          <int>91</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -8265,34 +8265,6 @@ requires us to do so.</string>
         </entry>
       </elementAttributes>
       <pos x="-5360" y="1940"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>inst_out</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-7020" y="1680"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>pc</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-7020" y="1660"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -9564,6 +9536,37 @@ requires us to do so.</string>
       </elementAttributes>
       <pos x="-6320" y="2820"/>
     </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>inst_out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-7060" y="1860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>In a harvard-style CPU, there would
+be actual instruction memory here.
+Instead, we have a tunnel to our
+memory block and a tunnel back.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-7300" y="1900"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -10287,7 +10290,7 @@ requires us to do so.</string>
       <p2 x="-8080" y="120"/>
     </wire>
     <wire>
-      <p1 x="-7020" y="1660"/>
+      <p1 x="-7360" y="1660"/>
       <p2 x="-6920" y="1660"/>
     </wire>
     <wire>
@@ -10427,16 +10430,16 @@ requires us to do so.</string>
       <p2 x="-6580" y="-1680"/>
     </wire>
     <wire>
-      <p1 x="-7020" y="1680"/>
-      <p2 x="-6940" y="1680"/>
-    </wire>
-    <wire>
       <p1 x="-5880" y="1680"/>
       <p2 x="-5460" y="1680"/>
     </wire>
     <wire>
       <p1 x="-9480" y="1680"/>
       <p2 x="-7520" y="1680"/>
+    </wire>
+    <wire>
+      <p1 x="-7000" y="1680"/>
+      <p2 x="-6940" y="1680"/>
     </wire>
     <wire>
       <p1 x="-12660" y="4240"/>
@@ -11655,8 +11658,16 @@ requires us to do so.</string>
       <p2 x="-5920" y="1860"/>
     </wire>
     <wire>
+      <p1 x="-7060" y="1860"/>
+      <p2 x="-7000" y="1860"/>
+    </wire>
+    <wire>
       <p1 x="-5920" y="1860"/>
       <p2 x="-5860" y="1860"/>
+    </wire>
+    <wire>
+      <p1 x="-7360" y="1860"/>
+      <p2 x="-7220" y="1860"/>
     </wire>
     <wire>
       <p1 x="-13200" y="-840"/>
@@ -13075,6 +13086,10 @@ requires us to do so.</string>
       <p2 x="-12120" y="4300"/>
     </wire>
     <wire>
+      <p1 x="-7000" y="1680"/>
+      <p2 x="-7000" y="1860"/>
+    </wire>
+    <wire>
       <p1 x="-12380" y="2720"/>
       <p2 x="-12380" y="3040"/>
     </wire>
@@ -13321,6 +13336,10 @@ requires us to do so.</string>
     <wire>
       <p1 x="-11200" y="-1100"/>
       <p2 x="-11200" y="-1080"/>
+    </wire>
+    <wire>
+      <p1 x="-7360" y="1660"/>
+      <p2 x="-7360" y="1860"/>
     </wire>
     <wire>
       <p1 x="-6340" y="1960"/>

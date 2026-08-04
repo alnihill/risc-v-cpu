@@ -692,11 +692,6 @@
       <pos x="480" y="540"/>
     </visualElement>
     <visualElement>
-      <elementName>OTHERFROMTRUTH2.dig</elementName>
-      <elementAttributes/>
-      <pos x="540" y="540"/>
-    </visualElement>
-    <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
@@ -705,6 +700,11 @@
         </entry>
       </elementAttributes>
       <pos x="240" y="860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>_SYSTEM_IMM_DECODE.dig</elementName>
+      <elementAttributes/>
+      <pos x="540" y="540"/>
     </visualElement>
   </visualElements>
   <wires>
