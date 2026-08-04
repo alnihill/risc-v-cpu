@@ -10496,11 +10496,6 @@ requires us to do so.</string>
       <pos x="-6340" y="2080"/>
     </visualElement>
     <visualElement>
-      <elementName>RV5-INSTRUCTION-DECODE.dig</elementName>
-      <elementAttributes/>
-      <pos x="-6560" y="1960"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -10519,6 +10514,11 @@ requires us to do so.</string>
         </entry>
       </elementAttributes>
       <pos x="-6340" y="1980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RV5-CONTROL.dig</elementName>
+      <elementAttributes/>
+      <pos x="-6560" y="1960"/>
     </visualElement>
   </visualElements>
   <wires>

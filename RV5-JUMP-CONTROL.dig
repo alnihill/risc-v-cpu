@@ -250,6 +250,16 @@
       </elementAttributes>
       <pos x="480" y="340"/>
     </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>TODO: DOC</string>
+        </entry>
+      </elementAttributes>
+      <pos x="40" y="360"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>

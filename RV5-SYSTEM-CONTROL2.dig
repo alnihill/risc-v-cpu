@@ -19,7 +19,7 @@
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>42</int>
+          <int>41</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -695,6 +695,16 @@
       <elementName>OTHERFROMTRUTH2.dig</elementName>
       <elementAttributes/>
       <pos x="540" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>TODO: DOC</string>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="860"/>
     </visualElement>
   </visualElements>
   <wires>

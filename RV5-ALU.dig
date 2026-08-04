@@ -120,7 +120,7 @@
         </entry>
         <entry>
           <string>RectHeight</string>
-          <int>56</int>
+          <int>58</int>
         </entry>
         <entry>
           <string>RectInside</string>
@@ -1138,6 +1138,16 @@
         </entry>
       </elementAttributes>
       <pos x="620" y="1020"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>TODO: DOC</string>
+        </entry>
+      </elementAttributes>
+      <pos x="120" y="1120"/>
     </visualElement>
   </visualElements>
   <wires>

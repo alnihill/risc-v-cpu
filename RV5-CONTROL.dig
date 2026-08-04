@@ -1172,6 +1172,34 @@
       </elementAttributes>
       <pos x="-520" y="-560"/>
     </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>RV5-CONTROL</string>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>66</int>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>108</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-840" y="-720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>TODO: DOC</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-600" y="320"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>

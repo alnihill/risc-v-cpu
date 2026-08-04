@@ -19,7 +19,7 @@
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>38</int>
+          <int>39</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -27,7 +27,7 @@
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>80</int>
+          <int>67</int>
         </entry>
       </elementAttributes>
       <pos x="180" y="100"/>
@@ -784,6 +784,16 @@
       <elementName>Not</elementName>
       <elementAttributes/>
       <pos x="860" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>TODO: DOC</string>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="820"/>
     </visualElement>
   </visualElements>
   <wires>

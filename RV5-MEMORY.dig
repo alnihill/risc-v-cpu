@@ -4937,6 +4937,16 @@ for all read sizes.</string>
       </elementAttributes>
       <pos x="-820" y="-1640"/>
     </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>TODO: DOC</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-400" y="-260"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
