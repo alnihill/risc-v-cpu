@@ -58,11 +58,6 @@
       <pos x="-40" y="-140"/>
     </visualElement>
     <visualElement>
-      <elementName>RV5-ALU-CONTROL2.dig</elementName>
-      <elementAttributes/>
-      <pos x="-40" y="-440"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -91,11 +86,6 @@
       <pos x="-60" y="-340"/>
     </visualElement>
     <visualElement>
-      <elementName>RV5-MEM-CONTROL2.dig</elementName>
-      <elementAttributes/>
-      <pos x="-40" y="-660"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -108,11 +98,6 @@
         </entry>
       </elementAttributes>
       <pos x="-60" y="-620"/>
-    </visualElement>
-    <visualElement>
-      <elementName>RV5-SYSTEM-CONTROL2.dig</elementName>
-      <elementAttributes/>
-      <pos x="-40" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1176,12 +1161,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>RV5-CONTROL</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>66</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>RV5-CONTROL</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -1199,6 +1184,21 @@
         </entry>
       </elementAttributes>
       <pos x="-600" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RV5-MEM-CONTROL.dig</elementName>
+      <elementAttributes/>
+      <pos x="-40" y="-660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RV5-ALU-CONTROL.dig</elementName>
+      <elementAttributes/>
+      <pos x="-40" y="-440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RV5-SYSTEM-CONTROL.dig</elementName>
+      <elementAttributes/>
+      <pos x="-40" y="40"/>
     </visualElement>
   </visualElements>
   <wires>

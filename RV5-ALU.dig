@@ -266,36 +266,6 @@
       <pos x="920" y="200"/>
     </visualElement>
     <visualElement>
-      <elementName>RV5-SLL.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>SLL</string>
-        </entry>
-      </elementAttributes>
-      <pos x="380" y="220"/>
-    </visualElement>
-    <visualElement>
-      <elementName>RV5-SRA.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>SRA</string>
-        </entry>
-      </elementAttributes>
-      <pos x="380" y="460"/>
-    </visualElement>
-    <visualElement>
-      <elementName>RV5-SRL.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>SRL</string>
-        </entry>
-      </elementAttributes>
-      <pos x="380" y="340"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
@@ -1148,6 +1118,21 @@
         </entry>
       </elementAttributes>
       <pos x="120" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>SLL.dig</elementName>
+      <elementAttributes/>
+      <pos x="380" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>SRL.dig</elementName>
+      <elementAttributes/>
+      <pos x="380" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>SRA.dig</elementName>
+      <elementAttributes/>
+      <pos x="380" y="460"/>
     </visualElement>
   </visualElements>
   <wires>

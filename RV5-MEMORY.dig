@@ -1037,11 +1037,6 @@
       <pos x="1060" y="1060"/>
     </visualElement>
     <visualElement>
-      <elementName>RV5-SRL.dig</elementName>
-      <elementAttributes/>
-      <pos x="760" y="1000"/>
-    </visualElement>
-    <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
@@ -2040,7 +2035,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[168]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[167]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -2054,7 +2049,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[168]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[167]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -2068,7 +2063,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[168]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[167]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -2875,7 +2870,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[237]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[236]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -2889,7 +2884,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[237]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[236]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -2903,7 +2898,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[237]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[236]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4091,7 +4086,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[339]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[338]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4105,7 +4100,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[339]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[338]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4119,7 +4114,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[339]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[338]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4946,6 +4941,11 @@ for all read sizes.</string>
         </entry>
       </elementAttributes>
       <pos x="-400" y="-260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>SRL.dig</elementName>
+      <elementAttributes/>
+      <pos x="760" y="1000"/>
     </visualElement>
   </visualElements>
   <wires>
