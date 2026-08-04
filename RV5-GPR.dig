@@ -9,6 +9,10 @@
       </romList>
     </entry>
     <entry>
+      <string>Height</string>
+      <int>32</int>
+    </entry>
+    <entry>
       <string>Width</string>
       <int>4</int>
     </entry>

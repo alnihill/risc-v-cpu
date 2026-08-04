@@ -749,7 +749,11 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>inst[30]</string>
+          <string>system-imm</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>12</int>
         </entry>
       </elementAttributes>
       <pos x="-640" y="-600"/>
@@ -759,34 +763,10 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>inst[30]</string>
+          <string>system-imm</string>
         </entry>
       </elementAttributes>
       <pos x="-620" y="-600"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>system-imm</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>12</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-640" y="-560"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>system-imm</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-620" y="-560"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -1154,6 +1134,44 @@
       </elementAttributes>
       <pos x="1120" y="540"/>
     </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>inst[30]</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-480" y="-560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>system-imm</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-560" y="-560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>12</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>10-10</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-520" y="-560"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -1301,12 +1319,16 @@
       <p2 x="740" y="300"/>
     </wire>
     <wire>
-      <p1 x="160" y="-560"/>
-      <p2 x="180" y="-560"/>
+      <p1 x="-500" y="-560"/>
+      <p2 x="-480" y="-560"/>
     </wire>
     <wire>
-      <p1 x="-640" y="-560"/>
-      <p2 x="-620" y="-560"/>
+      <p1 x="-560" y="-560"/>
+      <p2 x="-520" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-560"/>
+      <p2 x="180" y="-560"/>
     </wire>
     <wire>
       <p1 x="720" y="560"/>
@@ -1409,12 +1431,12 @@
       <p2 x="740" y="340"/>
     </wire>
     <wire>
-      <p1 x="160" y="-600"/>
-      <p2 x="180" y="-600"/>
-    </wire>
-    <wire>
       <p1 x="-640" y="-600"/>
       <p2 x="-620" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-600"/>
+      <p2 x="180" y="-600"/>
     </wire>
     <wire>
       <p1 x="-280" y="-220"/>
