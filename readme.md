@@ -29,3 +29,7 @@ Then simulate the circuit in Digital. If nothing happens, make sure the clock is
 - [ ] Implement system calls like what is available in RARS
 - [ ] Write the program for the ROM for loading programs into RAM. (Maybe even verifying output?)
 - [ ] Write proper setup documentation
+
+
+<img width="622" height="350" alt="Screenshot 2026-08-06 at 7 41 05 PM" src="https://github.com/user-attachments/assets/34b9bcc6-c28a-46cd-abf1-58cc598b8216" />
+<img width="2178" height="1460" alt="transitional" src="https://github.com/user-attachments/assets/63275d6b-d3eb-4a07-8ce5-265c2ae90745" />
