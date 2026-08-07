@@ -4772,12 +4772,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>RAM</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>28</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>RAM</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -5044,12 +5044,12 @@ what ranges our addresses are in.</string>
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Memory-Mapped Items</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>81</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Memory-Mapped Items</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -5145,6 +5145,23 @@ three data outputs, and three sets of control signals.</string>
         </entry>
       </elementAttributes>
       <pos x="100" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>We might need to sign extend.
+Additionally, if we&apos;re reading a byte
+or a half, we need to isolate that
+value from the rest of the word.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="1860"/>
     </visualElement>
   </visualElements>
   <wires>

@@ -18,19 +18,28 @@
 6. Set whatever breakpoints you want. Then resume the process with ``continue``.
 7. In the terminal that appeared within digital, enter the command ``test``. Later it will be ``load main.bin``, but right now it is ``test``.
 
-# Todo
-- [x] Implement GDB server.
-  - [x] Finish implementing debug spec in circuit (JTAG stuff)
-  - [x] Modify Digital to communicate through JTAG to CPU & host GDB server
-- [x] Make ROM just an address space in memory block
-- [x] Ensure JTAG TAP runs well when not on the same clock 
-- [ ] Reorganize circuit to be like the one in the textbook
-- [ ] Implement dmihardreset in JTAG TAP
-- [ ] Make dummy JTAG TAP for parallel writes
-- [ ] Implement system calls like what is available in RARS
-- [ ] Write the program for the ROM for loading programs into RAM. (Maybe even verifying output?)
-- [ ] Write proper setup documentation
-
-
-<img width="622" height="350" alt="Screenshot 2026-08-06 at 7 41 05 PM" src="https://github.com/user-attachments/assets/34b9bcc6-c28a-46cd-abf1-58cc598b8216" />
-<img width="2178" height="1460" alt="transitional" src="https://github.com/user-attachments/assets/63275d6b-d3eb-4a07-8ce5-265c2ae90745" />
+# Todo: 
+## Circuit Form
+RV5-PC-SELECT: Needs to transition to be RV5-PCU
+RV5-CONTROL: Needs documentation
+RV5-CSR: Needs documentation and logic simplification
+RV5-IMM-GEN: **Done**
+RV5-ALU: Needs documentation and to transition to new output format
+RV5-MEMORY: Needs logic simplification
+RV5-MEM-CONTROL: Needs documentation
+RV5-ALU-CONTROL: Needs documentation
+RV5-BRANCH-CONTROL: Needs documentation
+RV5-JUMP-CONTROL: Needs documentation
+RV5-SYSTEM-CONTROL: Needs documentation
+## Student Experience
+### Most important (nobody else could do as quickly as I could)
+- [ ] Implement syscalls for labs
+  - Part way there! I have syscalls for printing characters, strings, and getting numeric input.
+- [ ] Finish the loader program
+  - Just need to make it support custom .bin paths. Pretty easy.
+- [ ] Make dummy JTAG TAP for parallel writes. Potentially implement dmihardreset?
+- [ ] Document setup
+### Less important (easy for anyone to do) 
+- [ ] Rewrite lab macro calls and pseudoinstructions to work with the GNU standard instead of RARS 
+## Digital Fork
+- [ ] Finalize FileMapper
