@@ -31,6 +31,8 @@ RV5-ALU-CONTROL: Needs documentation
 RV5-BRANCH-CONTROL: Needs documentation  
 RV5-JUMP-CONTROL: Needs documentation  
 RV5-SYSTEM-CONTROL: Needs documentation  
+Simplify is-debug and in-progbuf logic  
+Standardize tunnel naming scheme  
 ## Student Experience
 ### Most important (nobody else could do as quickly as I could)
 - [ ] Implement syscalls for labs
