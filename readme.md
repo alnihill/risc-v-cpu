@@ -12,7 +12,7 @@
 
 # How to compile & run code (for now)
 1. Run ``build-firmware.sh``. This only needs to be done once unless you pull new changes to the firmware.
-2. Edit main.asm. Then run build.sh. This will create (among other things) a main.bin in the working directory.
+2. Edit ``main.asm``. Then run ``build.sh``. This will create (among other things) a main.bin in the working directory.
 3. Run the simulation. If nothing happens, make sure the clock is configured to run automatically (right click > start real time clock). Also make sure it is running at a high speed. (Right now "unlimited" is best for comfortable debugging, although I'm hoping the TAP changes will reduce that requirement.)
 5. Run ``gdb-multiarch``/``riscv64-elf-gdb``/whatever you have. Then run ``set remotetimeout unlimited``. Then run ``target remote localhost:3333``.
 6. Set whatever breakpoints you want. Then resume the process with ``continue``.
