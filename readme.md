@@ -37,7 +37,7 @@ Standardize tunnel naming scheme
 ### Most important (nobody else could do as quickly as I could)
 - [ ] Implement syscalls for labs
   - Part way there! I have syscalls for printing characters, strings, and getting numeric input.
-- [ ] Finish the loader program
+- [x] Finish the loader program
   - Just need to make it support custom .bin paths. Pretty easy.
 - [ ] Make dummy JTAG TAP for parallel writes. Potentially implement dmihardreset?
 - [ ] Document setup
@@ -45,3 +45,4 @@ Standardize tunnel naming scheme
 - [ ] Rewrite lab macro calls and pseudoinstructions to work with the GNU standard instead of RARS 
 ## Digital Fork
 - [ ] Finalize FileMapper
+- [ ] Make GdbServer configureable

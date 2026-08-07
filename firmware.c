@@ -55,7 +55,7 @@ static inline void print_int(int n) {
     print_char(mod(n, 10) + '0');
 }
 
-static inline unsigned int map_file(const char *path) {
+static inline unsigned int map_file(const char *path, unsigned int* size) {
     unsigned int i = 0;
     while (*path && i < 255) {
         *(volatile char*)(0x20000 + i) = *path;
@@ -66,16 +66,20 @@ static inline unsigned int map_file(const char *path) {
 
     *(volatile unsigned int*)(0x20100) = 1;
 
-    unsigned int status = *(volatile unsigned int*)(0x20104);
-    if (status == 2 || status == 3) {
-        return -1;
-    }
+    *size = *(volatile unsigned int*)(0x20108);
 
-    return *(volatile unsigned int*)(0x20108);
+    return *(volatile unsigned int*)(0x20104);
 }
 
 static inline char read_file(unsigned int address) {
     return *(volatile char*)(0x21000 + address);
+}
+
+static inline unsigned int strlen(const char *a) {
+    unsigned int res = 0;
+    for (; *a; a++, res++) {}
+
+    return res;
 }
 
 static inline int strcmp(const char *a, const char *b) {
@@ -86,11 +90,21 @@ static inline int strcmp(const char *a, const char *b) {
     return *(unsigned char*)a - *(unsigned char *)b;
 }
 
+static inline int strncmp(const char *a, const char *b, unsigned int n) {
+    for (; n > 0; a++, b++, n--) {
+        if (*a != *b || !*a) {
+            return (unsigned char)*a - (unsigned char)*b;
+        }
+    }
+
+    return 0;
+}
+
 static inline void print_help() {
     print_str("Available commands: \n"
         "help: displays these commands\n"
         "about: tells you about this environment\n"
-        "load [path-to-file]: [UNIMPLEMENTED]\n");
+        "load [path-to-file]: loads a file into memory and then branches to it\n");
     print_char('\n');
 }
 
@@ -138,34 +152,22 @@ int main() {
         else if (!strcmp(command, "about")) {
             print_about();
         }
-        else if (!strcmp(command, "test")) {
-            unsigned int size = map_file("./main.bin");
-            if (size == -1) {
+        else if (!strcmp(command, "load")) {
+            print_str("load needs an argument!\n");
+        }
+        else if (!strncmp(command, "load ", strlen("load "))) {
+            if (!command[5]) {
+                print_str("load needs an argument!\n");
+            }
+            unsigned int size;
+            unsigned int status = map_file(&command[5], &size);
+            if (status == 2 || status == 3) {
                 print_str("Failed to map file\n");
             }
             else {
-                print_str("Mapped file!\n"); 
-                print_int(*(unsigned char*)(0x21000));
-                print_char('\n');
-                print_int(*(unsigned char*)(0x21001));
-                print_char('\n');
-                print_int(*(unsigned char*)(0x21002));
-                print_char('\n');
-                print_int(*(unsigned char*)(0x21003));
-                print_char('\n');
-
+                print_str("Branching to file..!\n"); 
                 Entrypoint entrypoint = (Entrypoint)(0x21000);
                 entrypoint();
-
-                /*
-                print_str("Here is its contents:\n");
-                print_char('\n');
-
-                for (unsigned int j = 0; j < size; j++) {
-                    print_char(read_file(j));
-                }
-                print_char('\n');
-                */
             }
         }
         else {
