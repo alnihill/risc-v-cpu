@@ -20,17 +20,17 @@
 
 # Todo: 
 ## Circuit Form
-RV5-PC-SELECT: Needs to transition to be RV5-PCU
-RV5-CONTROL: Needs documentation
-RV5-CSR: Needs documentation and logic simplification
-RV5-IMM-GEN: **Done**
-RV5-ALU: Needs documentation and to transition to new output format
-RV5-MEMORY: Needs logic simplification
-RV5-MEM-CONTROL: Needs documentation
-RV5-ALU-CONTROL: Needs documentation
-RV5-BRANCH-CONTROL: Needs documentation
-RV5-JUMP-CONTROL: Needs documentation
-RV5-SYSTEM-CONTROL: Needs documentation
+RV5-PC-SELECT: Needs to transition to be RV5-PCU  
+RV5-CONTROL: Needs documentation  
+RV5-CSR: Needs documentation and logic simplification  
+RV5-IMM-GEN: **Done**  
+RV5-ALU: Needs documentation and to transition to new output format  
+RV5-MEMORY: Needs logic simplification  
+RV5-MEM-CONTROL: Needs documentation  
+RV5-ALU-CONTROL: Needs documentation  
+RV5-BRANCH-CONTROL: Needs documentation  
+RV5-JUMP-CONTROL: Needs documentation  
+RV5-SYSTEM-CONTROL: Needs documentation  
 ## Student Experience
 ### Most important (nobody else could do as quickly as I could)
 - [ ] Implement syscalls for labs
