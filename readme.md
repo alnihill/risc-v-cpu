@@ -11,11 +11,12 @@
 ... and let's hope I didn't forget anything!
 
 # How to compile & run code (for now)
-1. Edit main.c. Then run b.sh. This will create (among other things) a main.bin in the working directory.
-2. Open the main CPU circuit, navigate to Edit > Circuit specific settings > Advanced, and ensure that "Program file" points to the ouptted main.bin.
-3. Run the simulation
-4. Run ``gdb-multiarch``/``riscv64-elf-gdb``/whatever you have. Then run ``set remotetimeout unlimited``. Then run ``target remote localhost:3333``.
-Then simulate the circuit in Digital. If nothing happens, make sure the clock is configured to run automatically (right click > start real time clock).
+1. Run ``build-firmware.sh``. This only needs to be done once unless you pull new changes to the firmware.
+2. Edit main.asm. Then run build.sh. This will create (among other things) a main.bin in the working directory.
+3. Run the simulation. If nothing happens, make sure the clock is configured to run automatically (right click > start real time clock). Also make sure it is running at a high speed. (Right now "unlimited" is best for comfortable debugging, although I'm hoping the TAP changes will reduce that requirement.)
+5. Run ``gdb-multiarch``/``riscv64-elf-gdb``/whatever you have. Then run ``set remotetimeout unlimited``. Then run ``target remote localhost:3333``.
+6. Set whatever breakpoints you want. Then resume the process with ``continue``.
+7. In the terminal that appeared within digital, enter the command ``test``. Later it will be ``load main.bin``, but right now it is ``test``.
 
 # Todo
 - [x] Implement GDB server.
