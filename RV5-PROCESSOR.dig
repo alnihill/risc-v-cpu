@@ -14,7 +14,7 @@
     </entry>
     <entry>
       <string>preloadProgramFile</string>
-      <file>/Users/me/Desktop/PROJECT/main.bin</file>
+      <file>./firmware.bin</file>
     </entry>
   </attributes>
   <visualElements>
@@ -180,7 +180,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4099</long>
+          <long>65539</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -204,7 +204,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4129</long>
+          <long>65569</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2055,24 +2055,6 @@ memory block and a tunnel back.</string>
       <pos x="-13580" y="-3080"/>
     </visualElement>
     <visualElement>
-      <elementName>Clock</elementName>
-      <elementAttributes>
-        <entry>
-          <string>runRealTime</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>clock</string>
-        </entry>
-        <entry>
-          <string>Frequency</string>
-          <int>2147483647</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-13900" y="-3120"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -2374,6 +2356,24 @@ memory block and a tunnel back.</string>
         </entry>
       </elementAttributes>
       <pos x="-10400" y="-2840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>clock</string>
+        </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>2147483647</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-13900" y="-3120"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -2962,14 +2962,6 @@ memory block and a tunnel back.</string>
       <p2 x="-13580" y="-2760"/>
     </wire>
     <wire>
-      <p1 x="-12200" y="-2380"/>
-      <p2 x="-12180" y="-2380"/>
-    </wire>
-    <wire>
-      <p1 x="-13940" y="-1740"/>
-      <p2 x="-11520" y="-1740"/>
-    </wire>
-    <wire>
       <p1 x="-12600" y="-3020"/>
       <p2 x="-12500" y="-3020"/>
     </wire>
@@ -2984,6 +2976,14 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-13600" y="-3020"/>
       <p2 x="-13580" y="-3020"/>
+    </wire>
+    <wire>
+      <p1 x="-12200" y="-2380"/>
+      <p2 x="-12180" y="-2380"/>
+    </wire>
+    <wire>
+      <p1 x="-13940" y="-1740"/>
+      <p2 x="-11520" y="-1740"/>
     </wire>
     <wire>
       <p1 x="-13720" y="-1360"/>
@@ -3046,16 +3046,16 @@ memory block and a tunnel back.</string>
       <p2 x="-11740" y="-2900"/>
     </wire>
     <wire>
-      <p1 x="-12880" y="-2900"/>
-      <p2 x="-12760" y="-2900"/>
-    </wire>
-    <wire>
       <p1 x="-13600" y="-2900"/>
       <p2 x="-13580" y="-2900"/>
     </wire>
     <wire>
       <p1 x="-13140" y="-2900"/>
       <p2 x="-13060" y="-2900"/>
+    </wire>
+    <wire>
+      <p1 x="-12880" y="-2900"/>
+      <p2 x="-12760" y="-2900"/>
     </wire>
     <wire>
       <p1 x="-13060" y="-2900"/>
@@ -3122,14 +3122,6 @@ memory block and a tunnel back.</string>
       <p2 x="-13580" y="-2780"/>
     </wire>
     <wire>
-      <p1 x="-12200" y="-2400"/>
-      <p2 x="-12180" y="-2400"/>
-    </wire>
-    <wire>
-      <p1 x="-13920" y="-1760"/>
-      <p2 x="-11540" y="-1760"/>
-    </wire>
-    <wire>
       <p1 x="-11660" y="-3040"/>
       <p2 x="-11360" y="-3040"/>
     </wire>
@@ -3152,6 +3144,14 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-11360" y="-3040"/>
       <p2 x="-10820" y="-3040"/>
+    </wire>
+    <wire>
+      <p1 x="-12200" y="-2400"/>
+      <p2 x="-12180" y="-2400"/>
+    </wire>
+    <wire>
+      <p1 x="-13920" y="-1760"/>
+      <p2 x="-11540" y="-1760"/>
     </wire>
     <wire>
       <p1 x="-13720" y="-1380"/>
@@ -3734,12 +3734,12 @@ memory block and a tunnel back.</string>
       <p2 x="-9960" y="-2780"/>
     </wire>
     <wire>
-      <p1 x="-10860" y="-2980"/>
-      <p2 x="-10860" y="-2800"/>
-    </wire>
-    <wire>
       <p1 x="-14060" y="-2120"/>
       <p2 x="-14060" y="-1620"/>
+    </wire>
+    <wire>
+      <p1 x="-10860" y="-2980"/>
+      <p2 x="-10860" y="-2800"/>
     </wire>
     <wire>
       <p1 x="-11500" y="-1900"/>

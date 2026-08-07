@@ -589,7 +589,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4092</long>
+          <long>408</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2642,7 +2642,7 @@ can read them:</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4092</long>
+          <long>408</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -3598,7 +3598,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4100</long>
+          <long>65540</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -3612,7 +3612,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4104</long>
+          <long>65544</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -3626,7 +3626,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4108</long>
+          <long>65548</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -3640,7 +3640,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4112</long>
+          <long>65552</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -3654,7 +3654,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4116</long>
+          <long>65556</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -3668,7 +3668,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4120</long>
+          <long>65560</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -3682,7 +3682,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4124</long>
+          <long>65564</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -3696,7 +3696,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4128</long>
+          <long>65568</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -4256,7 +4256,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>4092</long>
+          <long>408</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -5040,7 +5040,7 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>Data</string>
-          <data>4*0,ffc,27*0,1004,1008,100c,1010,1014,1018,101c,1020</data>
+          <data>4*0,198,27*0,10004,10008,1000c,10010,10014,10018,1001c,10020</data>
         </entry>
         <entry>
           <string>Inputs</string>
