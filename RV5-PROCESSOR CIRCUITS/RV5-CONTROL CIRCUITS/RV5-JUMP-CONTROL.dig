@@ -19,7 +19,7 @@
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>24</int>
+          <int>23</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -27,7 +27,7 @@
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>34</int>
+          <int>38</int>
         </entry>
       </elementAttributes>
       <pos x="20" y="-60"/>
@@ -70,7 +70,7 @@
           <string>reg-wen</string>
         </entry>
       </elementAttributes>
-      <pos x="480" y="20"/>
+      <pos x="400" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -84,41 +84,7 @@
           <int>2</int>
         </entry>
       </elementAttributes>
-      <pos x="480" y="100"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Multiplexer</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-        <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="380" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Ground</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="360" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="360" y="120"/>
+      <pos x="400" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -132,41 +98,12 @@
           <int>2</int>
         </entry>
       </elementAttributes>
-      <pos x="480" y="160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Multiplexer</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-        <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="140" y="140"/>
+      <pos x="400" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="180"/>
+      <elementAttributes/>
+      <pos x="140" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -176,7 +113,7 @@
           <string>alu-bsel</string>
         </entry>
       </elementAttributes>
-      <pos x="480" y="60"/>
+      <pos x="400" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -190,45 +127,17 @@
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="480" y="220"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Multiplexer</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>3</int>
-        </entry>
-        <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="220" y="200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>4</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="200" y="240"/>
+      <pos x="400" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>3</int>
+          <int>2</int>
         </entry>
       </elementAttributes>
-      <pos x="200" y="200"/>
+      <pos x="200" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -238,7 +147,7 @@
           <string>jal-sel</string>
         </entry>
       </elementAttributes>
-      <pos x="480" y="280"/>
+      <pos x="400" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -248,23 +157,134 @@
           <string>jalr-sel</string>
         </entry>
       </elementAttributes>
-      <pos x="480" y="340"/>
+      <pos x="400" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="340" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>2,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="220" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="160" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
+          <string>textFontSize</string>
+          <int>11</int>
+        </entry>
+        <entry>
           <string>Description</string>
-          <string>TODO: DOC</string>
+          <string>Both jal and jalr need to save into rd.</string>
         </entry>
       </elementAttributes>
-      <pos x="40" y="360"/>
+      <pos x="560" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>11</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Both need the immediate.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>11</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>We need to grab pc+4 to store in rd.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>11</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Unlike jalr, jal is PC-relative.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>11</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Jal needs a J-type immediate.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="220"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
       <p1 x="180" y="160"/>
-      <p2 x="480" y="160"/>
+      <p2 x="400" y="160"/>
     </wire>
     <wire>
       <p1 x="140" y="0"/>
@@ -275,20 +295,40 @@
       <p2 x="200" y="0"/>
     </wire>
     <wire>
-      <p1 x="420" y="100"/>
-      <p2 x="480" y="100"/>
+      <p1 x="180" y="80"/>
+      <p2 x="300" y="80"/>
     </wire>
     <wire>
       <p1 x="160" y="100"/>
-      <p2 x="240" y="100"/>
+      <p2 x="220" y="100"/>
     </wire>
     <wire>
-      <p1 x="240" y="100"/>
-      <p2 x="280" y="100"/>
+      <p1 x="380" y="100"/>
+      <p2 x="400" y="100"/>
     </wire>
     <wire>
-      <p1 x="200" y="200"/>
-      <p2 x="220" y="200"/>
+      <p1 x="320" y="100"/>
+      <p2 x="360" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="100"/>
+      <p2 x="260" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="20"/>
+      <p2 x="320" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="20"/>
+      <p2 x="400" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="340"/>
+      <p2 x="400" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="180"/>
+      <p2 x="160" y="180"/>
     </wire>
     <wire>
       <p1 x="140" y="40"/>
@@ -299,52 +339,24 @@
       <p2 x="200" y="40"/>
     </wire>
     <wire>
-      <p1 x="120" y="140"/>
-      <p2 x="140" y="140"/>
+      <p1 x="340" y="120"/>
+      <p2 x="360" y="120"/>
     </wire>
     <wire>
-      <p1 x="360" y="80"/>
-      <p2 x="380" y="80"/>
+      <p1 x="260" y="280"/>
+      <p2 x="400" y="280"/>
     </wire>
     <wire>
-      <p1 x="180" y="80"/>
-      <p2 x="320" y="80"/>
+      <p1 x="200" y="220"/>
+      <p2 x="220" y="220"/>
     </wire>
     <wire>
-      <p1 x="200" y="240"/>
-      <p2 x="220" y="240"/>
+      <p1 x="240" y="220"/>
+      <p2 x="400" y="220"/>
     </wire>
     <wire>
-      <p1 x="120" y="180"/>
-      <p2 x="140" y="180"/>
-    </wire>
-    <wire>
-      <p1 x="280" y="20"/>
-      <p2 x="400" y="20"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="20"/>
-      <p2 x="480" y="20"/>
-    </wire>
-    <wire>
-      <p1 x="320" y="340"/>
-      <p2 x="480" y="340"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="120"/>
-      <p2 x="380" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="280" y="280"/>
-      <p2 x="480" y="280"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="60"/>
-      <p2 x="480" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="260" y="220"/>
-      <p2 x="480" y="220"/>
+      <p1 x="320" y="60"/>
+      <p2 x="400" y="60"/>
     </wire>
     <wire>
       <p1 x="160" y="40"/>
@@ -352,31 +364,31 @@
     </wire>
     <wire>
       <p1 x="160" y="100"/>
-      <p2 x="160" y="140"/>
+      <p2 x="160" y="160"/>
     </wire>
     <wire>
-      <p1 x="240" y="100"/>
-      <p2 x="240" y="200"/>
+      <p1 x="320" y="20"/>
+      <p2 x="320" y="60"/>
     </wire>
     <wire>
-      <p1 x="320" y="80"/>
-      <p2 x="320" y="340"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="20"/>
-      <p2 x="400" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="60"/>
-      <p2 x="400" y="80"/>
+      <p1 x="320" y="60"/>
+      <p2 x="320" y="100"/>
     </wire>
     <wire>
       <p1 x="180" y="0"/>
       <p2 x="180" y="80"/>
     </wire>
     <wire>
-      <p1 x="280" y="100"/>
-      <p2 x="280" y="280"/>
+      <p1 x="260" y="100"/>
+      <p2 x="260" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="100"/>
+      <p2 x="220" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="80"/>
+      <p2 x="300" y="340"/>
     </wire>
   </wires>
   <measurementOrdering/>

@@ -65,7 +65,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>UJimm32</string>
+          <string>Jimm32</string>
         </entry>
       </elementAttributes>
       <pos x="920" y="500"/>
@@ -252,7 +252,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>SBimm32</string>
+          <string>Bimm32</string>
         </entry>
       </elementAttributes>
       <pos x="1360" y="580"/>
@@ -457,7 +457,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>SBimm32</string>
+          <string>Bimm32</string>
         </entry>
       </elementAttributes>
       <pos x="1020" y="780"/>
@@ -485,7 +485,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>UJimm32</string>
+          <string>Jimm32</string>
         </entry>
       </elementAttributes>
       <pos x="1020" y="820"/>

@@ -1085,7 +1085,7 @@ works.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>system_imm</string>
+          <string>funct12</string>
         </entry>
       </elementAttributes>
       <pos x="-11920" y="-2160"/>
@@ -1095,7 +1095,7 @@ works.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>system_imm</string>
+          <string>funct12</string>
         </entry>
       </elementAttributes>
       <pos x="-12460" y="-2920"/>
@@ -1847,7 +1847,7 @@ memory block and a tunnel back.</string>
           <string>RISC-V CPU:</string>
         </entry>
       </elementAttributes>
-      <pos x="-13820" y="-3300"/>
+      <pos x="-13600" y="-3280"/>
     </visualElement>
     <visualElement>
       <elementName>RV5-DEBUG-MODULE.dig</elementName>
@@ -2161,7 +2161,7 @@ memory block and a tunnel back.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>eq</string>
+          <string>a=b</string>
         </entry>
       </elementAttributes>
       <pos x="-11080" y="-2600"/>
@@ -2171,7 +2171,7 @@ memory block and a tunnel back.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>slt</string>
+          <string>a&lt;b</string>
         </entry>
       </elementAttributes>
       <pos x="-11080" y="-2580"/>
@@ -2185,7 +2185,7 @@ memory block and a tunnel back.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>eq</string>
+          <string>a=b</string>
         </entry>
       </elementAttributes>
       <pos x="-11040" y="-1900"/>
@@ -2199,7 +2199,7 @@ memory block and a tunnel back.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>slt</string>
+          <string>a&lt;b</string>
         </entry>
       </elementAttributes>
       <pos x="-11020" y="-1900"/>
@@ -2223,7 +2223,7 @@ memory block and a tunnel back.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>IF-eq</string>
+          <string>IF-a=b</string>
         </entry>
       </elementAttributes>
       <pos x="-13600" y="-2140"/>
@@ -2233,7 +2233,7 @@ memory block and a tunnel back.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>IF-slt</string>
+          <string>IF-a&lt;b</string>
         </entry>
       </elementAttributes>
       <pos x="-13600" y="-2160"/>
@@ -2271,7 +2271,7 @@ memory block and a tunnel back.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>eq</string>
+          <string>IF-a=b</string>
         </entry>
       </elementAttributes>
       <pos x="-13360" y="-2740"/>
@@ -2285,7 +2285,7 @@ memory block and a tunnel back.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>slt</string>
+          <string>IF-a&lt;b</string>
         </entry>
       </elementAttributes>
       <pos x="-13360" y="-2720"/>
@@ -2299,7 +2299,7 @@ memory block and a tunnel back.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>carry</string>
+          <string>IF-carry</string>
         </entry>
       </elementAttributes>
       <pos x="-13360" y="-2700"/>

@@ -73,19 +73,19 @@
      r="3"
      cy="99.769234"
      cx="-0.2820513"
-     id="pin+:SUB" />
+     id="pin+:MOD" />
   <circle
      style="fill:#b20000"
      r="3"
      cy="20.871796"
      cx="80"
-     id="pin+:Y" />
+     id="pin+:AoB" />
   <circle
      style="fill:#b20000"
      r="3"
      cy="60.871796"
      cx="80"
-     id="pin+:EQ" />
+     id="pin+:A=B" />
   <circle
      style="fill:#b20000"
      r="3"
@@ -97,5 +97,5 @@
      r="3"
      cy="80.871796"
      cx="80"
-     id="pin+:SLT" />
+     id="pin+:A&lt;B" />
 </svg>

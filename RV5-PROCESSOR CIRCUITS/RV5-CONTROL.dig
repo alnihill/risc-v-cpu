@@ -122,7 +122,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>inst[20-31]</string>
+          <string>funct12</string>
         </entry>
       </elementAttributes>
       <pos x="-60" y="60"/>
@@ -734,7 +734,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>inst[20-31]</string>
+          <string>funct12</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -748,7 +748,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>inst[20-31]</string>
+          <string>funct12</string>
         </entry>
       </elementAttributes>
       <pos x="-620" y="-600"/>
@@ -1138,7 +1138,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>inst[20-31]</string>
+          <string>funct12</string>
         </entry>
       </elementAttributes>
       <pos x="-560" y="-560"/>
@@ -1180,10 +1180,15 @@
       <elementAttributes>
         <entry>
           <string>Description</string>
-          <string>TODO: DOC</string>
+          <string>With the opcode we can determine the
+category of instruction we&apos;re working with
+and handle it with the relevant sub-circuit.
+Sub-circuits that are non-active output zeros
+so that we can just sum everything together
+to get our final control signal outputs.</string>
         </entry>
       </elementAttributes>
-      <pos x="-600" y="320"/>
+      <pos x="-800" y="-100"/>
     </visualElement>
     <visualElement>
       <elementName>RV5-MEM-CONTROL.dig</elementName>

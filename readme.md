@@ -21,16 +21,16 @@
 # Todo: 
 ## Circuit Form
 RV5-PCU: **Done**  
-RV5-CONTROL: Needs documentation  
+RV5-CONTROL: **Done**  
 RV5-CSR: Needs logic simplification  
 RV5-IMM-GEN: **Done**  
 RV5-ALU: Needs documentation  
 RV5-MEMORY: Needs logic simplification  
 RV5-MEM-CONTROL: **Done**  
-RV5-ALU-CONTROL: Needs documentation  
-RV5-BRANCH-CONTROL: Needs documentation  
-RV5-JUMP-CONTROL: Needs documentation  
-RV5-SYSTEM-CONTROL: Needs documentation  
+RV5-ALU-CONTROL: **Done**  
+RV5-BRANCH-CONTROL: **Done**  
+RV5-JUMP-CONTROL: **Done**  
+RV5-SYSTEM-CONTROL: **Done**  
 Simplify is-debug and in-progbuf logic  
 Standardize tunnel naming scheme  
 ## Student Experience
