@@ -20,7 +20,7 @@
 
 # Todo: 
 ## Circuit Form
-RV5-PCU: Needs simplification & documentation  
+RV5-PCU: Needs documentation  
 RV5-CONTROL: Needs documentation  
 RV5-CSR: Needs documentation and logic simplification  
 RV5-IMM-GEN: **Done**  
