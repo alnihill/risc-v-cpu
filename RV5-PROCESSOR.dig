@@ -1907,11 +1907,6 @@ memory block and a tunnel back.</string>
       <pos x="-13360" y="-2780"/>
     </visualElement>
     <visualElement>
-      <elementName>RV5-PC-SELECT.dig</elementName>
-      <elementAttributes/>
-      <pos x="-13340" y="-3120"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -2437,6 +2432,11 @@ memory block and a tunnel back.</string>
         </entry>
       </elementAttributes>
       <pos x="-12460" y="-3000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RV5-PCU.dig</elementName>
+      <elementAttributes/>
+      <pos x="-13340" y="-3120"/>
     </visualElement>
   </visualElements>
   <wires>

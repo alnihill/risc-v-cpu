@@ -20,11 +20,11 @@
 
 # Todo: 
 ## Circuit Form
-RV5-PC-SELECT: Needs to transition to be RV5-PCU  
+RV5-PCU: Needs simplification & documentation  
 RV5-CONTROL: Needs documentation  
 RV5-CSR: Needs documentation and logic simplification  
 RV5-IMM-GEN: **Done**  
-RV5-ALU: Needs documentation and to transition to new output format  
+RV5-ALU: Needs documentation  
 RV5-MEMORY: Needs logic simplification  
 RV5-MEM-CONTROL: Needs documentation  
 RV5-ALU-CONTROL: Needs documentation  
