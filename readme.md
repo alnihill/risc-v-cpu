@@ -22,7 +22,7 @@
 ## Circuit Form
 RV5-PCU: Needs documentation  
 RV5-CONTROL: Needs documentation  
-RV5-CSR: Needs documentation and logic simplification  
+RV5-CSR: Needs logic simplification  
 RV5-IMM-GEN: **Done**  
 RV5-ALU: Needs documentation  
 RV5-MEMORY: Needs logic simplification  
