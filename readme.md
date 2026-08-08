@@ -24,7 +24,7 @@ RV5-PCU: **Done**
 RV5-CONTROL: **Done**  
 RV5-CSR: Needs logic simplification  
 RV5-IMM-GEN: **Done**  
-RV5-ALU: Needs documentation  
+RV5-ALU: **Done**  
 RV5-MEMORY: Needs logic simplification  
 RV5-MEM-CONTROL: **Done**  
 RV5-ALU-CONTROL: **Done**  

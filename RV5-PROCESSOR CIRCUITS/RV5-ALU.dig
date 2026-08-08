@@ -45,13 +45,6 @@
             </pin>
           </entry>
           <entry>
-            <string>AoB</string>
-            <pin>
-              <pos x="80" y="20"/>
-              <showLabel>true</showLabel>
-            </pin>
-          </entry>
-          <entry>
             <string>A=B</string>
             <pin>
               <pos x="80" y="60"/>
@@ -62,6 +55,13 @@
             <string>A&lt;B</string>
             <pin>
               <pos x="80" y="80"/>
+              <showLabel>true</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>Y</string>
+            <pin>
+              <pos x="80" y="20"/>
               <showLabel>true</showLabel>
             </pin>
           </entry>
@@ -152,14 +152,14 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>AoB</string>
+          <string>Y</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="1200" y="280"/>
+      <pos x="1180" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -173,7 +173,7 @@
           <string>y</string>
         </entry>
       </elementAttributes>
-      <pos x="1200" y="280"/>
+      <pos x="1180" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -865,7 +865,7 @@
           <string>A=B</string>
         </entry>
       </elementAttributes>
-      <pos x="1200" y="160"/>
+      <pos x="1180" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -879,7 +879,7 @@
           <string>eq</string>
         </entry>
       </elementAttributes>
-      <pos x="1200" y="160"/>
+      <pos x="1180" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -889,7 +889,7 @@
           <string>A&lt;B</string>
         </entry>
       </elementAttributes>
-      <pos x="1200" y="200"/>
+      <pos x="1180" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -903,7 +903,7 @@
           <string>slt</string>
         </entry>
       </elementAttributes>
-      <pos x="1200" y="200"/>
+      <pos x="1180" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -913,7 +913,7 @@
           <string>CRY</string>
         </entry>
       </elementAttributes>
-      <pos x="1200" y="240"/>
+      <pos x="1180" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -927,7 +927,7 @@
           <string>carry</string>
         </entry>
       </elementAttributes>
-      <pos x="1200" y="240"/>
+      <pos x="1180" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
