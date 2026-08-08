@@ -26,7 +26,7 @@ RV5-CSR: Needs logic simplification
 RV5-IMM-GEN: **Done**  
 RV5-ALU: Needs documentation  
 RV5-MEMORY: Needs logic simplification  
-RV5-MEM-CONTROL: Needs documentation  
+RV5-MEM-CONTROL: **Done**  
 RV5-ALU-CONTROL: Needs documentation  
 RV5-BRANCH-CONTROL: Needs documentation  
 RV5-JUMP-CONTROL: Needs documentation  
