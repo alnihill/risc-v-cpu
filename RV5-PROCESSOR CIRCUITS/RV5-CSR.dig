@@ -2745,12 +2745,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Outputs</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>73</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Outputs</string>
         </entry>
         <entry>
           <string>RectWidth</string>

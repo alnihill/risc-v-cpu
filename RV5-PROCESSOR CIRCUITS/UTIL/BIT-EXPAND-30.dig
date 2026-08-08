@@ -8,11 +8,11 @@
       <elementAttributes>
         <entry>
           <string>Input Splitting</string>
-          <string>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</string>
+          <string>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>32</string>
+          <string>30</string>
         </entry>
       </elementAttributes>
       <pos x="420" y="260"/>
@@ -36,7 +36,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>32</int>
+          <int>30</int>
         </entry>
       </elementAttributes>
       <pos x="520" y="260"/>
@@ -46,11 +46,11 @@
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>34</int>
+          <int>32</int>
         </entry>
         <entry>
           <string>Label</string>
-          <string>BIT-EXPAND-32</string>
+          <string>BIT-EXPAND-30</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -130,10 +130,6 @@
       <p2 x="420" y="540"/>
     </wire>
     <wire>
-      <p1 x="400" y="860"/>
-      <p2 x="420" y="860"/>
-    </wire>
-    <wire>
       <p1 x="400" y="480"/>
       <p2 x="420" y="480"/>
     </wire>
@@ -168,10 +164,6 @@
     <wire>
       <p1 x="400" y="560"/>
       <p2 x="420" y="560"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="880"/>
-      <p2 x="420" y="880"/>
     </wire>
     <wire>
       <p1 x="400" y="500"/>
@@ -258,10 +250,6 @@
       <p2 x="400" y="600"/>
     </wire>
     <wire>
-      <p1 x="400" y="840"/>
-      <p2 x="400" y="860"/>
-    </wire>
-    <wire>
       <p1 x="400" y="460"/>
       <p2 x="400" y="480"/>
     </wire>
@@ -276,10 +264,6 @@
     <wire>
       <p1 x="400" y="600"/>
       <p2 x="400" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="860"/>
-      <p2 x="400" y="880"/>
     </wire>
     <wire>
       <p1 x="400" y="480"/>
