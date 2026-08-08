@@ -695,30 +695,6 @@
       <pos x="1240" y="640"/>
     </visualElement>
     <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="1020" y="700"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>is-op</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1000" y="700"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -730,7 +706,7 @@
           <string>is-op|is-opp-imm</string>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="740"/>
+      <pos x="1100" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -954,10 +930,6 @@
       <p2 x="560" y="740"/>
     </wire>
     <wire>
-      <p1 x="1000" y="740"/>
-      <p2 x="1020" y="740"/>
-    </wire>
-    <wire>
       <p1 x="1200" y="740"/>
       <p2 x="1220" y="740"/>
     </wire>
@@ -1040,10 +1012,6 @@
     <wire>
       <p1 x="1000" y="760"/>
       <p2 x="1120" y="760"/>
-    </wire>
-    <wire>
-      <p1 x="1000" y="700"/>
-      <p2 x="1020" y="700"/>
     </wire>
     <wire>
       <p1 x="700" y="700"/>
