@@ -6,8 +6,11 @@ SECTIONS
 {
   /* The real entrypoint is at 0x0 */
   . = 0x0;
-  .text.init : {
-    *(.text.init)
+  .text.firmware.entry : {
+    *(.text.firmware.entry)
+  }
+  .text.firmware.predebug : {
+    *(.text.firmware.predebug)
   }
 
   /* The debug rom will always live at exactly 0x310 */
