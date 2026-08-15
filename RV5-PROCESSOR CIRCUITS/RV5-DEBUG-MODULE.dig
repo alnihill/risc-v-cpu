@@ -589,7 +589,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>792</long>
+          <long>1048</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2642,7 +2642,7 @@ can read them:</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>792</long>
+          <long>1048</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -4256,7 +4256,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>792</long>
+          <long>1048</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -5040,7 +5040,7 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>Data</string>
-          <data>4*0,318,27*0,10004,10008,1000c,10010,10014,10018,1001c,10020</data>
+          <data>4*0,418,27*0,10004,10008,1000c,10010,10014,10018,1001c,10020</data>
         </entry>
         <entry>
           <string>Inputs</string>

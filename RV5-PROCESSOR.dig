@@ -14,7 +14,7 @@
     </entry>
     <entry>
       <string>preloadProgramFile</string>
-      <file>./firmware.bin</file>
+      <file>./firmware-out/firmware.bin</file>
     </entry>
   </attributes>
   <visualElements>
@@ -146,7 +146,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>788</long>
+          <long>1044</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -248,7 +248,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>784</long>
+          <long>1040</long>
         </entry>
         <entry>
           <string>Bits</string>

@@ -14,17 +14,17 @@ SECTIONS
   }
 
   /* The debug rom will always live at exactly 0x310 */
-  . = 0x310;
+  . = 0x410;
   .debug_rom : {
     KEEP(*(.debug_rom))
   }
 
   /* data0 needs to be at a location smaller than 0x1000.
-     For now, this is 0x318.
+     For now, this is 0x418.
   */
 
   /* The c code is placed after all of that */
-  . = 0x31c;
+  . = 0x41c;
   .text : {
     *(.text .text.*)
   }

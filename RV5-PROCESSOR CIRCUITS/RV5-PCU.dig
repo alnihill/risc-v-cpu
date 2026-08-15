@@ -1111,7 +1111,7 @@ signals, which take priority over the PC increment.</string>
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>196</long>
+          <long>260</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1293,7 +1293,7 @@ signals, which take priority over the PC increment.</string>
       <elementAttributes>
         <entry>
           <string>Input Splitting</string>
-          <string>0-1,2-2,3-5,6-6,7-7,8-31</string>
+          <string>0-1,2-2,3-7,8-8,9-31</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
@@ -1331,7 +1331,7 @@ signals, which take priority over the PC increment.</string>
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>3</int>
+          <int>5</int>
         </entry>
       </elementAttributes>
       <pos x="1000" y="860"/>
@@ -1341,10 +1341,10 @@ signals, which take priority over the PC increment.</string>
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>24</int>
+          <int>23</int>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="920"/>
+      <pos x="1000" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1355,49 +1355,10 @@ signals, which take priority over the PC increment.</string>
         </entry>
         <entry>
           <string>Description</string>
-          <string>0xC4:</string>
+          <string>0x104:</string>
         </entry>
       </elementAttributes>
-      <pos x="920" y="860"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Splitter</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Input Splitting</string>
-          <string>0-0,1-1,2-2,3-5,6-6,7-7,8-29</string>
-        </entry>
-        <entry>
-          <string>Output Splitting</string>
-          <string>30</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1020" y="1040"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Ground</elementName>
-      <elementAttributes/>
-      <pos x="1000" y="1060"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Ground</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1000" y="1100"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Ground</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>22</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1000" y="1160"/>
+      <pos x="900" y="860"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -1408,10 +1369,10 @@ signals, which take priority over the PC increment.</string>
         </entry>
         <entry>
           <string>Description</string>
-          <string>0xC5:</string>
+          <string>0x105:</string>
         </entry>
       </elementAttributes>
-      <pos x="900" y="1120"/>
+      <pos x="900" y="1100"/>
     </visualElement>
     <visualElement>
       <elementName>RISING-EDGE.dig</elementName>
@@ -1710,12 +1671,12 @@ signals, which take priority over the PC increment.</string>
           <int>16</int>
         </entry>
         <entry>
-          <string>Label</string>
-          <string>Branch funct3 legend</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>14</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Branch funct3 legend</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -1723,6 +1684,45 @@ signals, which take priority over the PC increment.</string>
         </entry>
       </elementAttributes>
       <pos x="-400" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>0-0,1-1,2-2,3-7,8-8,9-31</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>30</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="1040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1000" y="1060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="1100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>23</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="1140"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -1771,12 +1771,12 @@ signals, which take priority over the PC increment.</string>
       <p2 x="900" y="260"/>
     </wire>
     <wire>
-      <p1 x="980" y="900"/>
-      <p2 x="1020" y="900"/>
-    </wire>
-    <wire>
       <p1 x="1100" y="900"/>
       <p2 x="1120" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="900"/>
+      <p2 x="1020" y="900"/>
     </wire>
     <wire>
       <p1 x="-740" y="520"/>
@@ -1789,10 +1789,6 @@ signals, which take priority over the PC increment.</string>
     <wire>
       <p1 x="1100" y="520"/>
       <p2 x="1120" y="520"/>
-    </wire>
-    <wire>
-      <p1 x="1000" y="1160"/>
-      <p2 x="1020" y="1160"/>
     </wire>
     <wire>
       <p1 x="880" y="1160"/>
@@ -1819,12 +1815,12 @@ signals, which take priority over the PC increment.</string>
       <p2 x="-720" y="400"/>
     </wire>
     <wire>
-      <p1 x="1040" y="1040"/>
-      <p2 x="1220" y="1040"/>
-    </wire>
-    <wire>
       <p1 x="820" y="1040"/>
       <p2 x="880" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="1040"/>
+      <p2 x="1220" y="1040"/>
     </wire>
     <wire>
       <p1 x="880" y="1040"/>
@@ -1865,10 +1861,6 @@ signals, which take priority over the PC increment.</string>
     <wire>
       <p1 x="1100" y="280"/>
       <p2 x="1120" y="280"/>
-    </wire>
-    <wire>
-      <p1 x="1000" y="920"/>
-      <p2 x="1020" y="920"/>
     </wire>
     <wire>
       <p1 x="1220" y="920"/>
@@ -2011,6 +2003,10 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1100" y="820"/>
     </wire>
     <wire>
+      <p1 x="980" y="1080"/>
+      <p2 x="1020" y="1080"/>
+    </wire>
+    <wire>
       <p1 x="480" y="440"/>
       <p2 x="520" y="440"/>
     </wire>
@@ -2021,10 +2017,6 @@ signals, which take priority over the PC increment.</string>
     <wire>
       <p1 x="-740" y="440"/>
       <p2 x="-720" y="440"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="1080"/>
-      <p2 x="1020" y="1080"/>
     </wire>
     <wire>
       <p1 x="760" y="-60"/>
@@ -2107,12 +2099,12 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1020" y="840"/>
     </wire>
     <wire>
-      <p1 x="560" y="460"/>
-      <p2 x="1000" y="460"/>
-    </wire>
-    <wire>
       <p1 x="1000" y="1100"/>
       <p2 x="1020" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="460"/>
+      <p2 x="1000" y="460"/>
     </wire>
     <wire>
       <p1 x="1100" y="80"/>
@@ -2191,6 +2183,10 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1020" y="860"/>
     </wire>
     <wire>
+      <p1 x="980" y="1120"/>
+      <p2 x="1020" y="1120"/>
+    </wire>
+    <wire>
       <p1 x="500" y="480"/>
       <p2 x="520" y="480"/>
     </wire>
@@ -2201,10 +2197,6 @@ signals, which take priority over the PC increment.</string>
     <wire>
       <p1 x="-740" y="480"/>
       <p2 x="-720" y="480"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="1120"/>
-      <p2 x="1020" y="1120"/>
     </wire>
     <wire>
       <p1 x="760" y="-100"/>
@@ -2287,6 +2279,10 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1020" y="880"/>
     </wire>
     <wire>
+      <p1 x="1000" y="1140"/>
+      <p2 x="1020" y="1140"/>
+    </wire>
+    <wire>
       <p1 x="660" y="500"/>
       <p2 x="760" y="500"/>
     </wire>
@@ -2301,10 +2297,6 @@ signals, which take priority over the PC increment.</string>
     <wire>
       <p1 x="760" y="500"/>
       <p2 x="900" y="500"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="1140"/>
-      <p2 x="1020" y="1140"/>
     </wire>
     <wire>
       <p1 x="1080" y="120"/>
@@ -2363,16 +2355,16 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1220" y="920"/>
     </wire>
     <wire>
-      <p1 x="1220" y="960"/>
-      <p2 x="1220" y="1040"/>
-    </wire>
-    <wire>
       <p1 x="1220" y="60"/>
       <p2 x="1220" y="160"/>
     </wire>
     <wire>
       <p1 x="1220" y="200"/>
       <p2 x="1220" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="960"/>
+      <p2 x="1220" y="1040"/>
     </wire>
     <wire>
       <p1 x="740" y="380"/>
@@ -2439,12 +2431,12 @@ signals, which take priority over the PC increment.</string>
       <p2 x="780" y="680"/>
     </wire>
     <wire>
-      <p1 x="880" y="1040"/>
-      <p2 x="880" y="1160"/>
-    </wire>
-    <wire>
       <p1 x="720" y="260"/>
       <p2 x="720" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="1040"/>
+      <p2 x="880" y="1160"/>
     </wire>
     <wire>
       <p1 x="980" y="840"/>
@@ -2459,16 +2451,8 @@ signals, which take priority over the PC increment.</string>
       <p2 x="980" y="1080"/>
     </wire>
     <wire>
-      <p1 x="980" y="880"/>
-      <p2 x="980" y="900"/>
-    </wire>
-    <wire>
       <p1 x="980" y="1080"/>
       <p2 x="980" y="1120"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="1120"/>
-      <p2 x="980" y="1140"/>
     </wire>
     <wire>
       <p1 x="760" y="500"/>

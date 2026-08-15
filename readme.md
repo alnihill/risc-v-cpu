@@ -35,8 +35,7 @@ Simplify is-debug and in-progbuf logic
 Standardize tunnel naming scheme  
 ## Student Experience
 ### Most important (nobody else could do as quickly as I could)
-- [ ] Implement syscalls for labs
-  - Part way there! I have syscalls for printing characters, strings, and getting numeric input.
+- [x] Implement syscalls for labs
 - [x] Finish the loader program
   - Just need to make it support custom .bin paths. Pretty easy.
 - [ ] Make dummy JTAG TAP for parallel writes. Potentially implement dmihardreset?

@@ -1,7 +1,4 @@
 local/
-*.o
-*.elf
-*.asm
-*.bin
+firmware-out/
 *.v
 .DS_Store
