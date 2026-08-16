@@ -4802,6 +4802,10 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
       <elementName>GdbServer</elementName>
       <elementAttributes>
         <entry>
+          <string>openOCDTargetArch</string>
+          <string>riscv</string>
+        </entry>
+        <entry>
           <string>openOCDChipName</string>
           <string>riscv</string>
         </entry>
