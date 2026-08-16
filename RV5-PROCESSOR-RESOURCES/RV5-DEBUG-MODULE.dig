@@ -4800,7 +4800,12 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
     </visualElement>
     <visualElement>
       <elementName>GdbServer</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>openOCDChipName</string>
+          <string>riscv</string>
+        </entry>
+      </elementAttributes>
       <pos x="-5020" y="-1580"/>
     </visualElement>
     <visualElement>
