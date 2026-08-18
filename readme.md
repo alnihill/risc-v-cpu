@@ -38,7 +38,7 @@ Standardize tunnel naming scheme
 - [x] Implement syscalls for labs
 - [x] Finish the loader program
   - Just need to make it support custom .bin paths. Pretty easy.
-- [ ] Make dummy JTAG TAP for parallel writes. Potentially implement dmihardreset?
+- [x] Make dummy JTAG TAP for parallel writes.
 - [ ] Document setup
 ### Less important (easy for anyone to do) 
 - [ ] Rewrite lab macro calls and pseudoinstructions to work with the GNU standard instead of RARS 
