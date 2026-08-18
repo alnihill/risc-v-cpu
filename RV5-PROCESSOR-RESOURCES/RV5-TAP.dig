@@ -584,20 +584,6 @@
       <pos x="-6620" y="-2400"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>DMI-STATUS</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-6620" y="-2260"/>
-    </visualElement>
-    <visualElement>
       <elementName>Register</elementName>
       <elementAttributes>
         <entry>
@@ -3177,54 +3163,6 @@
       <pos x="-6380" y="-2380"/>
     </visualElement>
     <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>dmi-status</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-6380" y="-2240"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Register</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-6460" y="-2260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>tck</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-6460" y="-2240"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>dmi-tx_end</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-6460" y="-2220"/>
-    </visualElement>
-    <visualElement>
       <elementName>Register</elementName>
       <elementAttributes>
         <entry>
@@ -3396,7 +3334,7 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[272]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[267]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -4654,16 +4592,6 @@ we write in parallel. It&apos;s pretty simple.</string>
       <pos x="-6700" y="-2320"/>
     </visualElement>
     <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>The status of the current operation.</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-6700" y="-2180"/>
-    </visualElement>
-    <visualElement>
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
@@ -5786,10 +5714,6 @@ to a location in the debug module.</string>
       <p2 x="-4380" y="-960"/>
     </wire>
     <wire>
-      <p1 x="-6400" y="-2240"/>
-      <p2 x="-6380" y="-2240"/>
-    </wire>
-    <wire>
       <p1 x="-5060" y="-2500"/>
       <p2 x="-5040" y="-2500"/>
     </wire>
@@ -5860,10 +5784,6 @@ to a location in the debug module.</string>
     <wire>
       <p1 x="-3540" y="-980"/>
       <p2 x="-3520" y="-980"/>
-    </wire>
-    <wire>
-      <p1 x="-6620" y="-2260"/>
-      <p2 x="-6460" y="-2260"/>
     </wire>
     <wire>
       <p1 x="-5060" y="-2520"/>
