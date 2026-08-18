@@ -32,7 +32,7 @@ RV5-BRANCH-CONTROL: **Done**
 RV5-JUMP-CONTROL: **Done**  
 RV5-SYSTEM-CONTROL: **Done**  
 Simplify is-debug and in-progbuf logic: **Done**  
-Standardize tunnel naming scheme  
+Standardize tunnel naming scheme: **Done** 
 ## Student Experience
 ### Most important (nobody else could do as quickly as I could)
 - [x] Implement syscalls for labs
