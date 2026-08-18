@@ -2141,7 +2141,7 @@ memory block and a tunnel back.</string>
         </entry>
         <entry>
           <string>Frequency</string>
-          <int>2147483647</int>
+          <int>50000</int>
         </entry>
       </elementAttributes>
       <pos x="-13700" y="-3120"/>
