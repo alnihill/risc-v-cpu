@@ -31,7 +31,7 @@ RV5-ALU-CONTROL: **Done**
 RV5-BRANCH-CONTROL: **Done**  
 RV5-JUMP-CONTROL: **Done**  
 RV5-SYSTEM-CONTROL: **Done**  
-Simplify is-debug and in-progbuf logic  
+Simplify is-debug and in-progbuf logic: **Done**  
 Standardize tunnel naming scheme  
 ## Student Experience
 ### Most important (nobody else could do as quickly as I could)

@@ -83,16 +83,6 @@
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
-          <string>NetName</string>
-          <string>is-debug</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-12920" y="-2160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
           <string>rotation</string>
           <rotation rotation="2"/>
         </entry>
@@ -130,147 +120,6 @@
         </entry>
       </elementAttributes>
       <pos x="-11920" y="-2000"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Comparator</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-13220" y="-2200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>1044</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-13320" y="-2180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="-13020" y="-2180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Comparator</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-13220" y="-2100"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>65539</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-13320" y="-2080"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Comparator</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-13220" y="-2000"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>65569</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-13320" y="-1980"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="-13080" y="-2040"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Comparator</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-13220" y="-2280"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="-13120" y="-2260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>1040</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-13320" y="-2260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>For now, address range check is
-the most robust way to know if
-we&apos;re in debug mode.
-Might change so debug ROM length
-is variable, but for now I KNOW this
-works.</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-13300" y="-2460"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -408,16 +257,6 @@ works.</string>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
-          <string>NetName</string>
-          <string>in-progbuf</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-12980" y="-2020"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
           <string>rotation</string>
           <rotation rotation="2"/>
         </entry>
@@ -427,16 +266,6 @@ works.</string>
         </entry>
       </elementAttributes>
       <pos x="-11860" y="-2840"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>DPC194</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-13140" y="-2180"/>
     </visualElement>
     <visualElement>
       <elementName>RV5-MEMORY.dig</elementName>
@@ -476,7 +305,7 @@ works.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[37]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[22]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -490,7 +319,7 @@ works.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[37]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[22]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -755,7 +584,7 @@ works.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[58]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[43]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -779,7 +608,7 @@ works.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[58]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[43]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -803,7 +632,7 @@ works.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[58]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[43]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -827,7 +656,7 @@ works.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[58]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[43]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -851,7 +680,7 @@ works.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[58]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[43]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -875,7 +704,7 @@ works.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[58]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[43]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -899,7 +728,7 @@ works.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[58]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[43]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -923,7 +752,7 @@ works.</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[58]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[43]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -1042,20 +871,6 @@ works.</string>
         </entry>
       </elementAttributes>
       <pos x="-11920" y="-2100"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>pc</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-13260" y="-2280"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -1561,7 +1376,7 @@ Instead, we have a tunnel to our
 memory block and a tunnel back.</string>
         </entry>
       </elementAttributes>
-      <pos x="-13120" y="-2860"/>
+      <pos x="-13100" y="-2860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1599,7 +1414,7 @@ memory block and a tunnel back.</string>
           <string>IF-imm</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-3120"/>
+      <pos x="-13360" y="-3100"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1613,7 +1428,7 @@ memory block and a tunnel back.</string>
           <string>IF-alu_out</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-3100"/>
+      <pos x="-13360" y="-3080"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1627,7 +1442,7 @@ memory block and a tunnel back.</string>
           <string>IF-mtvec</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-3080"/>
+      <pos x="-13360" y="-3060"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1641,7 +1456,7 @@ memory block and a tunnel back.</string>
           <string>IF-mepc</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-3060"/>
+      <pos x="-13360" y="-3040"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1655,7 +1470,7 @@ memory block and a tunnel back.</string>
           <string>IF-dpc</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-3040"/>
+      <pos x="-13360" y="-3020"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1669,7 +1484,7 @@ memory block and a tunnel back.</string>
           <string>branch_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-3020"/>
+      <pos x="-13360" y="-3000"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1683,7 +1498,7 @@ memory block and a tunnel back.</string>
           <string>jal_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-3000"/>
+      <pos x="-13360" y="-2980"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1697,7 +1512,7 @@ memory block and a tunnel back.</string>
           <string>IF-jalr_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2980"/>
+      <pos x="-13360" y="-2960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1711,20 +1526,6 @@ memory block and a tunnel back.</string>
           <string>IF-ecall_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2960"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>IF-mret_sel</string>
-        </entry>
-      </elementAttributes>
       <pos x="-13360" y="-2940"/>
     </visualElement>
     <visualElement>
@@ -1736,7 +1537,7 @@ memory block and a tunnel back.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>is-debug</string>
+          <string>IF-mret_sel</string>
         </entry>
       </elementAttributes>
       <pos x="-13360" y="-2920"/>
@@ -1753,7 +1554,7 @@ memory block and a tunnel back.</string>
           <string>IF-dcsr</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2880"/>
+      <pos x="-13360" y="-2900"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1767,7 +1568,7 @@ memory block and a tunnel back.</string>
           <string>IF-dret_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2860"/>
+      <pos x="-13360" y="-2880"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1781,7 +1582,7 @@ memory block and a tunnel back.</string>
           <string>haltreq</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2840"/>
+      <pos x="-13360" y="-2860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1795,7 +1596,7 @@ memory block and a tunnel back.</string>
           <string>command-reg_jumpprogbuf</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2820"/>
+      <pos x="-13360" y="-2840"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1809,7 +1610,7 @@ memory block and a tunnel back.</string>
           <string>dmcontrol_resumereq</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2800"/>
+      <pos x="-13360" y="-2820"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1823,7 +1624,7 @@ memory block and a tunnel back.</string>
           <string>IF-ebreak_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2780"/>
+      <pos x="-13360" y="-2800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2260,7 +2061,7 @@ memory block and a tunnel back.</string>
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2680"/>
+      <pos x="-13360" y="-2700"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2274,7 +2075,7 @@ memory block and a tunnel back.</string>
           <string>IF-a=b</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2740"/>
+      <pos x="-13360" y="-2760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2288,7 +2089,7 @@ memory block and a tunnel back.</string>
           <string>IF-a&lt;b</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2720"/>
+      <pos x="-13360" y="-2740"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2302,7 +2103,7 @@ memory block and a tunnel back.</string>
           <string>IF-carry</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2700"/>
+      <pos x="-13360" y="-2720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2340,7 +2141,7 @@ memory block and a tunnel back.</string>
           <string>IF-funct3</string>
         </entry>
       </elementAttributes>
-      <pos x="-13360" y="-2760"/>
+      <pos x="-13360" y="-2780"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2355,7 +2156,7 @@ memory block and a tunnel back.</string>
     <visualElement>
       <elementName>RV5-PCU.dig</elementName>
       <elementAttributes/>
-      <pos x="-13340" y="-3120"/>
+      <pos x="-13340" y="-3100"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2390,6 +2191,26 @@ memory block and a tunnel back.</string>
         </entry>
       </elementAttributes>
       <pos x="-12020" y="-3060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>is-debug</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-13200" y="-3080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>in-progbuf</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-13200" y="-3060"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -2436,18 +2257,6 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-11760" y="-2180"/>
       <p2 x="-11740" y="-2180"/>
-    </wire>
-    <wire>
-      <p1 x="-13320" y="-2180"/>
-      <p2 x="-13220" y="-2180"/>
-    </wire>
-    <wire>
-      <p1 x="-13160" y="-2180"/>
-      <p2 x="-13140" y="-2180"/>
-    </wire>
-    <wire>
-      <p1 x="-13040" y="-2180"/>
-      <p2 x="-13020" y="-2180"/>
     </wire>
     <wire>
       <p1 x="-13920" y="-2180"/>
@@ -2574,8 +2383,8 @@ memory block and a tunnel back.</string>
       <p2 x="-13200" y="-1300"/>
     </wire>
     <wire>
-      <p1 x="-13920" y="-1560"/>
-      <p2 x="-11000" y="-1560"/>
+      <p1 x="-13360" y="-2840"/>
+      <p2 x="-13340" y="-2840"/>
     </wire>
     <wire>
       <p1 x="-9940" y="-2840"/>
@@ -2598,28 +2407,28 @@ memory block and a tunnel back.</string>
       <p2 x="-10400" y="-2840"/>
     </wire>
     <wire>
-      <p1 x="-13360" y="-2840"/>
-      <p2 x="-13340" y="-2840"/>
+      <p1 x="-13920" y="-1560"/>
+      <p2 x="-11000" y="-1560"/>
     </wire>
     <wire>
       <p1 x="-11740" y="-2200"/>
       <p2 x="-11720" y="-2200"/>
     </wire>
     <wire>
-      <p1 x="-13240" y="-2200"/>
-      <p2 x="-13220" y="-2200"/>
-    </wire>
-    <wire>
       <p1 x="-13360" y="-3100"/>
       <p2 x="-13340" y="-3100"/>
     </wire>
     <wire>
-      <p1 x="-13060" y="-3100"/>
-      <p2 x="-12740" y="-3100"/>
+      <p1 x="-13200" y="-3100"/>
+      <p2 x="-13060" y="-3100"/>
     </wire>
     <wire>
       <p1 x="-11300" y="-3100"/>
       <p2 x="-10200" y="-3100"/>
+    </wire>
+    <wire>
+      <p1 x="-13060" y="-3100"/>
+      <p2 x="-12740" y="-3100"/>
     </wire>
     <wire>
       <p1 x="-12740" y="-3100"/>
@@ -2632,6 +2441,10 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-12200" y="-2460"/>
       <p2 x="-12180" y="-2460"/>
+    </wire>
+    <wire>
+      <p1 x="-13360" y="-2720"/>
+      <p2 x="-13340" y="-2720"/>
     </wire>
     <wire>
       <p1 x="-11280" y="-2720"/>
@@ -2654,10 +2467,6 @@ memory block and a tunnel back.</string>
       <p2 x="-11640" y="-2720"/>
     </wire>
     <wire>
-      <p1 x="-13360" y="-2720"/>
-      <p2 x="-13340" y="-2720"/>
-    </wire>
-    <wire>
       <p1 x="-11920" y="-2080"/>
       <p2 x="-11900" y="-2080"/>
     </wire>
@@ -2670,16 +2479,16 @@ memory block and a tunnel back.</string>
       <p2 x="-13600" y="-2080"/>
     </wire>
     <wire>
-      <p1 x="-13320" y="-2080"/>
-      <p2 x="-13220" y="-2080"/>
-    </wire>
-    <wire>
       <p1 x="-13560" y="-1440"/>
       <p2 x="-13540" y="-1440"/>
     </wire>
     <wire>
       <p1 x="-13220" y="-1440"/>
       <p2 x="-13200" y="-1440"/>
+    </wire>
+    <wire>
+      <p1 x="-13360" y="-2980"/>
+      <p2 x="-13340" y="-2980"/>
     </wire>
     <wire>
       <p1 x="-11600" y="-2980"/>
@@ -2700,10 +2509,6 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-12600" y="-2980"/>
       <p2 x="-12540" y="-2980"/>
-    </wire>
-    <wire>
-      <p1 x="-13360" y="-2980"/>
-      <p2 x="-13340" y="-2980"/>
     </wire>
     <wire>
       <p1 x="-12200" y="-2340"/>
@@ -2730,20 +2535,12 @@ memory block and a tunnel back.</string>
       <p2 x="-13600" y="-1960"/>
     </wire>
     <wire>
-      <p1 x="-13160" y="-1960"/>
-      <p2 x="-13100" y="-1960"/>
-    </wire>
-    <wire>
       <p1 x="-13560" y="-1320"/>
       <p2 x="-13540" y="-1320"/>
     </wire>
     <wire>
       <p1 x="-13220" y="-1320"/>
       <p2 x="-13200" y="-1320"/>
-    </wire>
-    <wire>
-      <p1 x="-13900" y="-1580"/>
-      <p2 x="-11020" y="-1580"/>
     </wire>
     <wire>
       <p1 x="-13360" y="-2860"/>
@@ -2770,12 +2567,8 @@ memory block and a tunnel back.</string>
       <p2 x="-10560" y="-2860"/>
     </wire>
     <wire>
-      <p1 x="-13140" y="-2220"/>
-      <p2 x="-13120" y="-2220"/>
-    </wire>
-    <wire>
-      <p1 x="-13360" y="-3120"/>
-      <p2 x="-13340" y="-3120"/>
+      <p1 x="-13900" y="-1580"/>
+      <p2 x="-11020" y="-1580"/>
     </wire>
     <wire>
       <p1 x="-13700" y="-3120"/>
@@ -2816,18 +2609,6 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-11920" y="-2100"/>
       <p2 x="-11900" y="-2100"/>
-    </wire>
-    <wire>
-      <p1 x="-13240" y="-2100"/>
-      <p2 x="-13220" y="-2100"/>
-    </wire>
-    <wire>
-      <p1 x="-13160" y="-2100"/>
-      <p2 x="-13100" y="-2100"/>
-    </wire>
-    <wire>
-      <p1 x="-13040" y="-2100"/>
-      <p2 x="-13000" y="-2100"/>
     </wire>
     <wire>
       <p1 x="-13840" y="-2100"/>
@@ -2882,20 +2663,12 @@ memory block and a tunnel back.</string>
       <p2 x="-13600" y="-1980"/>
     </wire>
     <wire>
-      <p1 x="-13320" y="-1980"/>
-      <p2 x="-13220" y="-1980"/>
-    </wire>
-    <wire>
       <p1 x="-13560" y="-1340"/>
       <p2 x="-13540" y="-1340"/>
     </wire>
     <wire>
       <p1 x="-13220" y="-1340"/>
       <p2 x="-13200" y="-1340"/>
-    </wire>
-    <wire>
-      <p1 x="-13880" y="-1600"/>
-      <p2 x="-11040" y="-1600"/>
     </wire>
     <wire>
       <p1 x="-13360" y="-2880"/>
@@ -2918,12 +2691,36 @@ memory block and a tunnel back.</string>
       <p2 x="-9980" y="-2880"/>
     </wire>
     <wire>
+      <p1 x="-13880" y="-1600"/>
+      <p2 x="-11040" y="-1600"/>
+    </wire>
+    <wire>
       <p1 x="-12800" y="-1860"/>
       <p2 x="-9880" y="-1860"/>
     </wire>
     <wire>
       <p1 x="-12200" y="-2500"/>
       <p2 x="-12180" y="-2500"/>
+    </wire>
+    <wire>
+      <p1 x="-13360" y="-2760"/>
+      <p2 x="-13340" y="-2760"/>
+    </wire>
+    <wire>
+      <p1 x="-10880" y="-2760"/>
+      <p2 x="-10560" y="-2760"/>
+    </wire>
+    <wire>
+      <p1 x="-12480" y="-2760"/>
+      <p2 x="-12400" y="-2760"/>
+    </wire>
+    <wire>
+      <p1 x="-12200" y="-2760"/>
+      <p2 x="-12180" y="-2760"/>
+    </wire>
+    <wire>
+      <p1 x="-11340" y="-2760"/>
+      <p2 x="-11260" y="-2760"/>
     </wire>
     <wire>
       <p1 x="-13860" y="-2120"/>
@@ -2958,26 +2755,6 @@ memory block and a tunnel back.</string>
       <p2 x="-13200" y="-1480"/>
     </wire>
     <wire>
-      <p1 x="-13360" y="-2760"/>
-      <p2 x="-13340" y="-2760"/>
-    </wire>
-    <wire>
-      <p1 x="-10880" y="-2760"/>
-      <p2 x="-10560" y="-2760"/>
-    </wire>
-    <wire>
-      <p1 x="-12480" y="-2760"/>
-      <p2 x="-12400" y="-2760"/>
-    </wire>
-    <wire>
-      <p1 x="-12200" y="-2760"/>
-      <p2 x="-12180" y="-2760"/>
-    </wire>
-    <wire>
-      <p1 x="-11340" y="-2760"/>
-      <p2 x="-11260" y="-2760"/>
-    </wire>
-    <wire>
       <p1 x="-13360" y="-3020"/>
       <p2 x="-13340" y="-3020"/>
     </wire>
@@ -3000,14 +2777,6 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-13740" y="-1740"/>
       <p2 x="-11560" y="-1740"/>
-    </wire>
-    <wire>
-      <p1 x="-13240" y="-2000"/>
-      <p2 x="-13220" y="-2000"/>
-    </wire>
-    <wire>
-      <p1 x="-13100" y="-2000"/>
-      <p2 x="-13080" y="-2000"/>
     </wire>
     <wire>
       <p1 x="-13740" y="-2000"/>
@@ -3046,16 +2815,8 @@ memory block and a tunnel back.</string>
       <p2 x="-11000" y="-2640"/>
     </wire>
     <wire>
-      <p1 x="-13860" y="-1620"/>
-      <p2 x="-11060" y="-1620"/>
-    </wire>
-    <wire>
-      <p1 x="-13160" y="-2260"/>
-      <p2 x="-13120" y="-2260"/>
-    </wire>
-    <wire>
-      <p1 x="-13320" y="-2260"/>
-      <p2 x="-13220" y="-2260"/>
+      <p1 x="-13360" y="-2900"/>
+      <p2 x="-13340" y="-2900"/>
     </wire>
     <wire>
       <p1 x="-11460" y="-2900"/>
@@ -3078,10 +2839,6 @@ memory block and a tunnel back.</string>
       <p2 x="-12760" y="-2900"/>
     </wire>
     <wire>
-      <p1 x="-13200" y="-2900"/>
-      <p2 x="-13060" y="-2900"/>
-    </wire>
-    <wire>
       <p1 x="-13060" y="-2900"/>
       <p2 x="-13040" y="-2900"/>
     </wire>
@@ -3090,12 +2847,24 @@ memory block and a tunnel back.</string>
       <p2 x="-11680" y="-2900"/>
     </wire>
     <wire>
+      <p1 x="-13860" y="-1620"/>
+      <p2 x="-11060" y="-1620"/>
+    </wire>
+    <wire>
       <p1 x="-12200" y="-2520"/>
       <p2 x="-12180" y="-2520"/>
     </wire>
     <wire>
-      <p1 x="-13040" y="-2140"/>
-      <p2 x="-13020" y="-2140"/>
+      <p1 x="-13360" y="-2780"/>
+      <p2 x="-13340" y="-2780"/>
+    </wire>
+    <wire>
+      <p1 x="-10580" y="-2780"/>
+      <p2 x="-10560" y="-2780"/>
+    </wire>
+    <wire>
+      <p1 x="-10220" y="-2780"/>
+      <p2 x="-9960" y="-2780"/>
     </wire>
     <wire>
       <p1 x="-11760" y="-2140"/>
@@ -3128,18 +2897,6 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-13220" y="-1500"/>
       <p2 x="-13200" y="-1500"/>
-    </wire>
-    <wire>
-      <p1 x="-13360" y="-2780"/>
-      <p2 x="-13340" y="-2780"/>
-    </wire>
-    <wire>
-      <p1 x="-10580" y="-2780"/>
-      <p2 x="-10560" y="-2780"/>
-    </wire>
-    <wire>
-      <p1 x="-10220" y="-2780"/>
-      <p2 x="-9960" y="-2780"/>
     </wire>
     <wire>
       <p1 x="-13360" y="-3040"/>
@@ -3178,26 +2935,6 @@ memory block and a tunnel back.</string>
       <p2 x="-11580" y="-1760"/>
     </wire>
     <wire>
-      <p1 x="-13000" y="-2020"/>
-      <p2 x="-12980" y="-2020"/>
-    </wire>
-    <wire>
-      <p1 x="-13760" y="-2020"/>
-      <p2 x="-13600" y="-2020"/>
-    </wire>
-    <wire>
-      <p1 x="-11920" y="-2020"/>
-      <p2 x="-11900" y="-2020"/>
-    </wire>
-    <wire>
-      <p1 x="-13560" y="-1380"/>
-      <p2 x="-13540" y="-1380"/>
-    </wire>
-    <wire>
-      <p1 x="-13220" y="-1380"/>
-      <p2 x="-13200" y="-1380"/>
-    </wire>
-    <wire>
       <p1 x="-12200" y="-2660"/>
       <p2 x="-11580" y="-2660"/>
     </wire>
@@ -3214,12 +2951,20 @@ memory block and a tunnel back.</string>
       <p2 x="-11240" y="-2660"/>
     </wire>
     <wire>
-      <p1 x="-13260" y="-2280"/>
-      <p2 x="-13240" y="-2280"/>
+      <p1 x="-13760" y="-2020"/>
+      <p2 x="-13600" y="-2020"/>
     </wire>
     <wire>
-      <p1 x="-13240" y="-2280"/>
-      <p2 x="-13220" y="-2280"/>
+      <p1 x="-11920" y="-2020"/>
+      <p2 x="-11900" y="-2020"/>
+    </wire>
+    <wire>
+      <p1 x="-13560" y="-1380"/>
+      <p2 x="-13540" y="-1380"/>
+    </wire>
+    <wire>
+      <p1 x="-13220" y="-1380"/>
+      <p2 x="-13200" y="-1380"/>
     </wire>
     <wire>
       <p1 x="-13360" y="-2920"/>
@@ -3254,12 +2999,24 @@ memory block and a tunnel back.</string>
       <p2 x="-11200" y="-2540"/>
     </wire>
     <wire>
-      <p1 x="-13900" y="-2160"/>
-      <p2 x="-13600" y="-2160"/>
+      <p1 x="-13360" y="-2800"/>
+      <p2 x="-13340" y="-2800"/>
     </wire>
     <wire>
-      <p1 x="-12940" y="-2160"/>
-      <p2 x="-12920" y="-2160"/>
+      <p1 x="-12160" y="-2800"/>
+      <p2 x="-12080" y="-2800"/>
+    </wire>
+    <wire>
+      <p1 x="-11920" y="-2800"/>
+      <p2 x="-11840" y="-2800"/>
+    </wire>
+    <wire>
+      <p1 x="-10860" y="-2800"/>
+      <p2 x="-10560" y="-2800"/>
+    </wire>
+    <wire>
+      <p1 x="-13900" y="-2160"/>
+      <p2 x="-13600" y="-2160"/>
     </wire>
     <wire>
       <p1 x="-11760" y="-2160"/>
@@ -3284,22 +3041,6 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-12440" y="-2160"/>
       <p2 x="-12420" y="-2160"/>
-    </wire>
-    <wire>
-      <p1 x="-13360" y="-2800"/>
-      <p2 x="-13340" y="-2800"/>
-    </wire>
-    <wire>
-      <p1 x="-12160" y="-2800"/>
-      <p2 x="-12080" y="-2800"/>
-    </wire>
-    <wire>
-      <p1 x="-11920" y="-2800"/>
-      <p2 x="-11840" y="-2800"/>
-    </wire>
-    <wire>
-      <p1 x="-10860" y="-2800"/>
-      <p2 x="-10560" y="-2800"/>
     </wire>
     <wire>
       <p1 x="-13360" y="-3060"/>
@@ -3330,8 +3071,12 @@ memory block and a tunnel back.</string>
       <p2 x="-11600" y="-1780"/>
     </wire>
     <wire>
-      <p1 x="-13100" y="-2040"/>
-      <p2 x="-13080" y="-2040"/>
+      <p1 x="-12200" y="-2680"/>
+      <p2 x="-11600" y="-2680"/>
+    </wire>
+    <wire>
+      <p1 x="-10580" y="-2680"/>
+      <p2 x="-10560" y="-2680"/>
     </wire>
     <wire>
       <p1 x="-13780" y="-2040"/>
@@ -3352,18 +3097,6 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-13220" y="-1400"/>
       <p2 x="-13200" y="-1400"/>
-    </wire>
-    <wire>
-      <p1 x="-13360" y="-2680"/>
-      <p2 x="-13340" y="-2680"/>
-    </wire>
-    <wire>
-      <p1 x="-12200" y="-2680"/>
-      <p2 x="-11600" y="-2680"/>
-    </wire>
-    <wire>
-      <p1 x="-10580" y="-2680"/>
-      <p2 x="-10560" y="-2680"/>
     </wire>
     <wire>
       <p1 x="-13360" y="-2940"/>
@@ -3526,14 +3259,6 @@ memory block and a tunnel back.</string>
       <p2 x="-10920" y="-2720"/>
     </wire>
     <wire>
-      <p1 x="-13100" y="-2100"/>
-      <p2 x="-13100" y="-2040"/>
-    </wire>
-    <wire>
-      <p1 x="-13100" y="-2000"/>
-      <p2 x="-13100" y="-1960"/>
-    </wire>
-    <wire>
       <p1 x="-13740" y="-2000"/>
       <p2 x="-13740" y="-1740"/>
     </wire>
@@ -3548,18 +3273,6 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-11060" y="-1900"/>
       <p2 x="-11060" y="-1620"/>
-    </wire>
-    <wire>
-      <p1 x="-13240" y="-2280"/>
-      <p2 x="-13240" y="-2200"/>
-    </wire>
-    <wire>
-      <p1 x="-13240" y="-2100"/>
-      <p2 x="-13240" y="-2000"/>
-    </wire>
-    <wire>
-      <p1 x="-13240" y="-2200"/>
-      <p2 x="-13240" y="-2100"/>
     </wire>
     <wire>
       <p1 x="-11320" y="-3080"/>
@@ -3622,10 +3335,6 @@ memory block and a tunnel back.</string>
       <p2 x="-12740" y="-3060"/>
     </wire>
     <wire>
-      <p1 x="-13000" y="-2100"/>
-      <p2 x="-13000" y="-2020"/>
-    </wire>
-    <wire>
       <p1 x="-13640" y="-1900"/>
       <p2 x="-13640" y="-1840"/>
     </wire>
@@ -3652,10 +3361,6 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-11600" y="-2980"/>
       <p2 x="-11600" y="-2680"/>
-    </wire>
-    <wire>
-      <p1 x="-13140" y="-2220"/>
-      <p2 x="-13140" y="-2180"/>
     </wire>
     <wire>
       <p1 x="-13780" y="-2040"/>
@@ -3744,14 +3449,6 @@ memory block and a tunnel back.</string>
     <wire>
       <p1 x="-10220" y="-3020"/>
       <p2 x="-10220" y="-2780"/>
-    </wire>
-    <wire>
-      <p1 x="-13040" y="-2140"/>
-      <p2 x="-13040" y="-2100"/>
-    </wire>
-    <wire>
-      <p1 x="-13040" y="-2240"/>
-      <p2 x="-13040" y="-2180"/>
     </wire>
     <wire>
       <p1 x="-13680" y="-1940"/>
