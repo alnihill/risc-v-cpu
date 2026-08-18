@@ -137,7 +137,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>src_1</string>
+          <string>rs1</string>
         </entry>
       </elementAttributes>
       <pos x="320" y="560"/>
@@ -151,7 +151,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>src_2</string>
+          <string>rs2</string>
         </entry>
       </elementAttributes>
       <pos x="320" y="580"/>
@@ -165,7 +165,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>src_1</string>
+          <string>rs1</string>
         </entry>
       </elementAttributes>
       <pos x="260" y="180"/>
@@ -179,7 +179,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>src_2</string>
+          <string>rs2</string>
         </entry>
       </elementAttributes>
       <pos x="260" y="300"/>
@@ -259,7 +259,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dst</string>
+          <string>rd</string>
         </entry>
       </elementAttributes>
       <pos x="320" y="520"/>
@@ -519,7 +519,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>RA</string>
+          <string>ra</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -533,7 +533,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>RB</string>
+          <string>rb</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -547,7 +547,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>RS1</string>
+          <string>rs1</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -561,7 +561,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>RS2</string>
+          <string>rs2</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -575,7 +575,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>D_in</string>
+          <string>rdin</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -589,7 +589,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>src_1</string>
+          <string>rs1</string>
         </entry>
       </elementAttributes>
       <pos x="180" y="360"/>
@@ -599,7 +599,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>src_2</string>
+          <string>rs2</string>
         </entry>
       </elementAttributes>
       <pos x="180" y="400"/>
@@ -629,7 +629,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>RD</string>
+          <string>rd</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -653,7 +653,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>WEN</string>
+          <string>wen</string>
         </entry>
       </elementAttributes>
       <pos x="180" y="520"/>
@@ -663,7 +663,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dst</string>
+          <string>rd</string>
         </entry>
       </elementAttributes>
       <pos x="180" y="440"/>
@@ -715,7 +715,7 @@ Immediate Selector</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dst</string>
+          <string>rd</string>
         </entry>
       </elementAttributes>
       <pos x="560" y="180"/>
@@ -725,7 +725,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>RD0</string>
+          <string>rd0</string>
         </entry>
       </elementAttributes>
       <pos x="720" y="220"/>

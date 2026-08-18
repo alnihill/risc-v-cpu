@@ -19,7 +19,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>is_load</string>
+          <string>is-load</string>
         </entry>
         <entry>
           <string>Inputs</string>
@@ -93,7 +93,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>is_op_imm</string>
+          <string>is-op-imm</string>
         </entry>
         <entry>
           <string>Inputs</string>
@@ -167,7 +167,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>is_auipc</string>
+          <string>is-auipc</string>
         </entry>
         <entry>
           <string>Inputs</string>
@@ -241,7 +241,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>is_store</string>
+          <string>is-store</string>
         </entry>
         <entry>
           <string>Inputs</string>
@@ -315,7 +315,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>is_op</string>
+          <string>is-op</string>
         </entry>
         <entry>
           <string>Inputs</string>
@@ -389,7 +389,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>is_lui</string>
+          <string>is-lui</string>
         </entry>
         <entry>
           <string>Inputs</string>
@@ -463,7 +463,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>is_branch</string>
+          <string>is-branch</string>
         </entry>
         <entry>
           <string>Inputs</string>
@@ -537,7 +537,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>is_jalr</string>
+          <string>is-jalr</string>
         </entry>
         <entry>
           <string>Inputs</string>
@@ -611,7 +611,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>is_jal</string>
+          <string>is-jal</string>
         </entry>
         <entry>
           <string>Inputs</string>
@@ -685,7 +685,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>is_system</string>
+          <string>is-system</string>
         </entry>
         <entry>
           <string>Inputs</string>

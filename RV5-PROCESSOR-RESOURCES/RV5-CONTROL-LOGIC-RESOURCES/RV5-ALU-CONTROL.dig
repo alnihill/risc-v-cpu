@@ -336,7 +336,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>is-op|is-opp-imm</string>
+          <string>is-op|is-op-imm</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="200"/>
@@ -350,7 +350,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>is-op|is-opp-imm</string>
+          <string>is-op|is-op-imm</string>
         </entry>
       </elementAttributes>
       <pos x="1280" y="500"/>
@@ -478,7 +478,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>is-op|is-opp-imm</string>
+          <string>is-op|is-op-imm</string>
         </entry>
       </elementAttributes>
       <pos x="740" y="200"/>
@@ -725,7 +725,7 @@ cases. However, auipc and lui need a forced addition.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>is-op|is-opp-imm</string>
+          <string>is-op|is-op-imm</string>
         </entry>
       </elementAttributes>
       <pos x="1120" y="660"/>

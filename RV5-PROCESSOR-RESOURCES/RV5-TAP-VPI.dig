@@ -23,7 +23,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>CLK</string>
+          <string>clk</string>
         </entry>
       </elementAttributes>
       <pos x="-7100" y="-2820"/>
@@ -33,7 +33,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>TDO</string>
+          <string>tdo</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -409,7 +409,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>ACK</string>
+          <string>ack</string>
         </entry>
       </elementAttributes>
       <pos x="-4900" y="-2000"/>
@@ -447,7 +447,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DMI-REQ</string>
+          <string>dmi-req</string>
         </entry>
       </elementAttributes>
       <pos x="-4920" y="-1920"/>
@@ -457,7 +457,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>REQ</string>
+          <string>req</string>
         </entry>
       </elementAttributes>
       <pos x="-7100" y="-2740"/>
@@ -467,7 +467,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>CMD</string>
+          <string>cmd</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -481,7 +481,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>NBITS</string>
+          <string>nbits</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -639,7 +639,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wen</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-4840" y="-1020"/>
@@ -653,7 +653,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wen</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-4840" y="-900"/>
@@ -667,7 +667,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wen</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-4840" y="-780"/>
@@ -789,7 +789,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3600" y="-900"/>
@@ -1897,7 +1897,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3600" y="-780"/>
@@ -1911,7 +1911,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3600" y="-60"/>
@@ -1925,7 +1925,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3600" y="-180"/>
@@ -1939,7 +1939,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3600" y="-300"/>
@@ -1953,7 +1953,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3600" y="-420"/>
@@ -1967,7 +1967,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3600" y="-540"/>
@@ -1981,7 +1981,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3600" y="-660"/>
@@ -2586,7 +2586,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-7000" y="-1860"/>
@@ -2624,7 +2624,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dmi_wen</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-7000" y="-1780"/>
@@ -2728,7 +2728,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DMI-WDATA</string>
+          <string>dmi-wdata</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -3157,7 +3157,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DMI-ADDR</string>
+          <string>dmi-addr</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -4050,10 +4050,13 @@ decode the current state.</string>
         <entry>
           <string>Description</string>
           <string>This is a version of the JTAG TAP modified
-for parallel reads and writes. This is 
-to make debugging performance better.
-If you want to see a real TAP, look at
-RV5-TAP.dig.</string>
+for parallel reads and writes for improved
+debugging performance. It is not how
+actual TAPs work! If you want to see
+something that is actually compliant,
+look at RV5-TAP.dig.
+This was based on that, so they look
+very similar. Do not get confused!</string>
         </entry>
       </elementAttributes>
       <pos x="-7880" y="-2860"/>
@@ -4307,7 +4310,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>TMS</string>
+          <string>tms</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -4321,7 +4324,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>TDI</string>
+          <string>tdi</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -4335,7 +4338,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DMI-ACK</string>
+          <string>dmi-ack</string>
         </entry>
       </elementAttributes>
       <pos x="-7100" y="-2520"/>
@@ -4345,7 +4348,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DMI-RDATA</string>
+          <string>dmi-rdata</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -4459,7 +4462,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseq</string>
+          <string>cmd-tms-seq</string>
         </entry>
       </elementAttributes>
       <pos x="-4860" y="-2480"/>
@@ -4536,7 +4539,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseq</string>
+          <string>cmd-tms-seq</string>
         </entry>
       </elementAttributes>
       <pos x="-5580" y="-2620"/>
@@ -4546,7 +4549,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseqenter</string>
+          <string>cmd-tms-enter</string>
         </entry>
       </elementAttributes>
       <pos x="-5480" y="-2640"/>
@@ -4560,7 +4563,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseqenter</string>
+          <string>cmd-tms-enter</string>
         </entry>
       </elementAttributes>
       <pos x="-6180" y="-2240"/>
@@ -4618,7 +4621,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseqenter</string>
+          <string>cmd-tms-enter</string>
         </entry>
       </elementAttributes>
       <pos x="-5000" y="-2460"/>
@@ -4682,7 +4685,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>cmd_reset</string>
+          <string>cmd-reset</string>
         </entry>
       </elementAttributes>
       <pos x="-5980" y="-2820"/>
@@ -4736,7 +4739,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>cmd_stopsimu</string>
+          <string>cmd-stop-sim</string>
         </entry>
       </elementAttributes>
       <pos x="-5980" y="-2580"/>
@@ -4746,7 +4749,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>cmd_scanchainfliptms</string>
+          <string>cmd-scan-flip-tms</string>
         </entry>
       </elementAttributes>
       <pos x="-5980" y="-2640"/>
@@ -4766,7 +4769,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>cmd_scanchain</string>
+          <string>cmd-scanchain</string>
         </entry>
       </elementAttributes>
       <pos x="-5980" y="-2700"/>
@@ -4776,7 +4779,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseq</string>
+          <string>cmd-tms-seq</string>
         </entry>
       </elementAttributes>
       <pos x="-5980" y="-2760"/>
@@ -4810,7 +4813,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_reset</string>
+          <string>cmd-reset</string>
         </entry>
       </elementAttributes>
       <pos x="-4480" y="-2760"/>
@@ -4820,7 +4823,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DMI-WRITE</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-4920" y="-1720"/>
@@ -4901,7 +4904,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseq</string>
+          <string>cmd-tms-seq</string>
         </entry>
       </elementAttributes>
       <pos x="-5200" y="-2820"/>
@@ -4929,7 +4932,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseqdone</string>
+          <string>cmd-tms-done</string>
         </entry>
       </elementAttributes>
       <pos x="-5020" y="-2880"/>
@@ -5318,7 +5321,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseq</string>
+          <string>cmd-tms-seq</string>
         </entry>
       </elementAttributes>
       <pos x="-4800" y="-2560"/>
@@ -5332,7 +5335,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_scanchainfliptms</string>
+          <string>cmd-scan-flip-tms</string>
         </entry>
       </elementAttributes>
       <pos x="-4840" y="-2620"/>
@@ -5390,7 +5393,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseq</string>
+          <string>cmd-tms-seq</string>
         </entry>
       </elementAttributes>
       <pos x="-5640" y="-2300"/>
@@ -5409,7 +5412,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseq</string>
+          <string>cmd-tms-seq</string>
         </entry>
       </elementAttributes>
       <pos x="-5520" y="-2260"/>
@@ -5491,7 +5494,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_scanchainfliptms</string>
+          <string>cmd-scan-flip-tms</string>
         </entry>
       </elementAttributes>
       <pos x="-5720" y="-2440"/>
@@ -5505,7 +5508,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_scanchain</string>
+          <string>cmd-scanchain</string>
         </entry>
       </elementAttributes>
       <pos x="-5720" y="-2480"/>
@@ -5519,7 +5522,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseqdone</string>
+          <string>cmd-tms-done</string>
         </entry>
       </elementAttributes>
       <pos x="-5660" y="-2520"/>
@@ -5548,7 +5551,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseqoperating</string>
+          <string>cmd-tms-busy</string>
         </entry>
       </elementAttributes>
       <pos x="-4500" y="-2720"/>
@@ -5586,7 +5589,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseqoperating</string>
+          <string>cmd-tms-busy</string>
         </entry>
       </elementAttributes>
       <pos x="-5460" y="-2740"/>
@@ -5624,7 +5627,7 @@ to a location in the debug module.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseqdone</string>
+          <string>cmd-tms-done</string>
         </entry>
       </elementAttributes>
       <pos x="-5640" y="-2720"/>
@@ -5639,7 +5642,7 @@ to a location in the debug module.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>cmd_tmsseqdone</string>
+          <string>cmd-tms-done</string>
         </entry>
       </elementAttributes>
       <pos x="-5380" y="-2280"/>

@@ -51,7 +51,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wdata</string>
+          <string>dmi-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="-4880" y="-1000"/>
@@ -99,7 +99,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dm</string>
+          <string>dm-mem-addr</string>
         </entry>
       </elementAttributes>
       <pos x="-2240" y="840"/>
@@ -354,7 +354,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wdata</string>
+          <string>dmi-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="-4940" y="-280"/>
@@ -406,7 +406,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wdata</string>
+          <string>dmi-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="-4940" y="-200"/>
@@ -468,7 +468,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wdata</string>
+          <string>dmi-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="-4940" y="-120"/>
@@ -530,7 +530,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wdata</string>
+          <string>dmi-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="-4940" y="-40"/>
@@ -626,7 +626,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wen</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-2480" y="680"/>
@@ -650,7 +650,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dm_wen</string>
+          <string>dm-mem-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-2240" y="720"/>
@@ -664,7 +664,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wdata</string>
+          <string>dmi-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="-2320" y="560"/>
@@ -712,7 +712,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dm_wdata</string>
+          <string>dm-mem-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="-2240" y="580"/>
@@ -2142,7 +2142,7 @@ also expose this:)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wdata</string>
+          <string>dmi-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="-1600" y="-980"/>
@@ -2318,7 +2318,7 @@ also expose this:)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>command-unsuported_sel</string>
+          <string>cmd-unsupported-sel</string>
         </entry>
       </elementAttributes>
       <pos x="-1780" y="-880"/>
@@ -2847,7 +2847,7 @@ We choose to process it entirely on the same cycle it is written.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>command-unsuported_sel</string>
+          <string>cmd-unsupported-sel</string>
         </entry>
       </elementAttributes>
       <pos x="1160" y="-160"/>
@@ -3399,7 +3399,7 @@ command:</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>command-reg_jumpprogbuf</string>
+          <string>jump-progbuf</string>
         </entry>
       </elementAttributes>
       <pos x="1880" y="280"/>
@@ -3515,7 +3515,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wdata</string>
+          <string>dmi-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="2420" y="-900"/>
@@ -4363,7 +4363,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wdata</string>
+          <string>dmi-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="940" y="-820"/>
@@ -4415,7 +4415,7 @@ is bugged and requires it. (riscv-collab/riscv-openocd/issues/587)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wdata</string>
+          <string>dmi-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="1120" y="-760"/>
@@ -5080,7 +5080,7 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wen</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3800" y="-1780"/>
@@ -5204,7 +5204,7 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>out_dm</string>
+          <string>dm-mem-rdata</string>
         </entry>
       </elementAttributes>
       <pos x="-3820" y="-2120"/>
@@ -5298,7 +5298,7 @@ requires us to do so.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dmi_rdata</string>
+          <string>dmi-rdata</string>
         </entry>
       </elementAttributes>
       <pos x="-3440" y="-2040"/>
@@ -5332,7 +5332,7 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_ren</string>
+          <string>dmi-ren</string>
         </entry>
       </elementAttributes>
       <pos x="-3640" y="-2040"/>
@@ -5360,7 +5360,7 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>in-progbuf</string>
+          <string>is-progbuf</string>
         </entry>
       </elementAttributes>
       <pos x="-820" y="-900"/>
@@ -5370,7 +5370,7 @@ requires us to do so.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dmi_wdata</string>
+          <string>dmi-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="-4540" y="-1540"/>
@@ -5566,7 +5566,7 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>in-progbuf</string>
+          <string>is-progbuf</string>
         </entry>
       </elementAttributes>
       <pos x="-3180" y="-2040"/>
@@ -5625,7 +5625,7 @@ requires us to do so.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dmi_wen</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-4220" y="-1480"/>
@@ -5645,7 +5645,7 @@ requires us to do so.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dmi_ren</string>
+          <string>dmi-ren</string>
         </entry>
       </elementAttributes>
       <pos x="-4220" y="-1380"/>
@@ -5784,7 +5784,7 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>out_dm</string>
+          <string>dm-mem-rdata</string>
         </entry>
       </elementAttributes>
       <pos x="-1900" y="620"/>
@@ -6138,7 +6138,7 @@ from the circuit.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_ren</string>
+          <string>dmi-ren</string>
         </entry>
       </elementAttributes>
       <pos x="-3580" y="480"/>
@@ -6162,7 +6162,7 @@ from the circuit.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wen</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3580" y="520"/>
@@ -6281,40 +6281,6 @@ back. We don&apos;t want duplicate execution!)</string>
       <pos x="-1500" y="520"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>dcsr</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-2460" y="-2160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>dcsr</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2440" y="-2160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>clk</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2440" y="-2120"/>
-    </visualElement>
-    <visualElement>
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
@@ -6322,75 +6288,65 @@ back. We don&apos;t want duplicate execution!)</string>
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="-2460" y="-2120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>d_regwen</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2460" y="-2080"/>
+      <pos x="-2400" y="-2160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>d_regwen</string>
+          <string>dcsr</string>
         </entry>
       </elementAttributes>
-      <pos x="-2440" y="-2080"/>
+      <pos x="-2380" y="-2120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2380" y="-2160"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>d_rdin</string>
+          <string>dcsr</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-2460" y="-2040"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>d_rdin</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2440" y="-2040"/>
+      <pos x="-2400" y="-2120"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>out_dm</string>
+          <string>dm-mem-rdata</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-2460" y="-2000"/>
+      <pos x="-2400" y="-2080"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>out_dm</string>
+          <string>d_regwen</string>
         </entry>
       </elementAttributes>
-      <pos x="-2440" y="-2000"/>
+      <pos x="-2380" y="-1920"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -6404,7 +6360,47 @@ back. We don&apos;t want duplicate execution!)</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-2460" y="-1960"/>
+      <pos x="-2400" y="-2040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>d_rdin</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2380" y="-1880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>is-debug</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2400" y="-2000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>dm-mem-rdata</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2380" y="-2080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>is-progbuf</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2400" y="-1960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -6414,17 +6410,17 @@ back. We don&apos;t want duplicate execution!)</string>
           <string>ra</string>
         </entry>
       </elementAttributes>
-      <pos x="-2440" y="-1960"/>
+      <pos x="-2380" y="-2040"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>is-debug</string>
+          <string>d_regwen</string>
         </entry>
       </elementAttributes>
-      <pos x="-2460" y="-1920"/>
+      <pos x="-2400" y="-1920"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -6434,27 +6430,31 @@ back. We don&apos;t want duplicate execution!)</string>
           <string>is-debug</string>
         </entry>
       </elementAttributes>
-      <pos x="-2440" y="-1920"/>
+      <pos x="-2380" y="-2000"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>in-progbuf</string>
+          <string>d_rdin</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-2460" y="-1880"/>
+      <pos x="-2400" y="-1880"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>in-progbuf</string>
+          <string>is-progbuf</string>
         </entry>
       </elementAttributes>
-      <pos x="-2440" y="-1880"/>
+      <pos x="-2380" y="-1960"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -6464,7 +6464,7 @@ back. We don&apos;t want duplicate execution!)</string>
           <string>d_memwen</string>
         </entry>
       </elementAttributes>
-      <pos x="-2460" y="-1840"/>
+      <pos x="-2400" y="-1840"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -6474,7 +6474,7 @@ back. We don&apos;t want duplicate execution!)</string>
           <string>d_memwen</string>
         </entry>
       </elementAttributes>
-      <pos x="-2440" y="-1840"/>
+      <pos x="-2380" y="-1840"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -6488,7 +6488,7 @@ back. We don&apos;t want duplicate execution!)</string>
           <int>5</int>
         </entry>
       </elementAttributes>
-      <pos x="-2460" y="-1800"/>
+      <pos x="-2400" y="-1800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -6498,7 +6498,7 @@ back. We don&apos;t want duplicate execution!)</string>
           <string>d_rd</string>
         </entry>
       </elementAttributes>
-      <pos x="-2440" y="-1800"/>
+      <pos x="-2380" y="-1800"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -6512,7 +6512,7 @@ back. We don&apos;t want duplicate execution!)</string>
           <int>5</int>
         </entry>
       </elementAttributes>
-      <pos x="-2460" y="-1760"/>
+      <pos x="-2400" y="-1760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -6522,21 +6522,17 @@ back. We don&apos;t want duplicate execution!)</string>
           <string>d_rs1</string>
         </entry>
       </elementAttributes>
-      <pos x="-2440" y="-1760"/>
+      <pos x="-2380" y="-1760"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>d_rd*</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>5</int>
+          <string>haltreq</string>
         </entry>
       </elementAttributes>
-      <pos x="-2080" y="-1800"/>
+      <pos x="-2020" y="-2160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -6550,7 +6546,239 @@ back. We don&apos;t want duplicate execution!)</string>
           <string>d_rd*</string>
         </entry>
       </elementAttributes>
-      <pos x="-2100" y="-1800"/>
+      <pos x="-2040" y="-1800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>resumereq</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2020" y="-2120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>d_rs1*</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2040" y="-1760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>jump-progbuf</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2020" y="-2080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>d_rdin*</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2040" y="-1880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>dm-mem-wdata</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2020" y="-2040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>d_regwen*</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2040" y="-1920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>dm-mem-wen</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2020" y="-2000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>d_memwen*</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2040" y="-1840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>dmcontrol_resumereq</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2040" y="-2120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>dm-mem-addr</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2020" y="-1960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>jump-progbuf</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2040" y="-2080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>d_regwen*</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2020" y="-1920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>haltreq</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2040" y="-2160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>d_rdin*</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2020" y="-1880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>d_memwen*</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2020" y="-1840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>dm-mem-wdata</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2040" y="-2040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>d_rd*</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2020" y="-1800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>dm-mem-wen</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2040" y="-2000"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -6564,7 +6792,7 @@ back. We don&apos;t want duplicate execution!)</string>
           <int>5</int>
         </entry>
       </elementAttributes>
-      <pos x="-2080" y="-1760"/>
+      <pos x="-2020" y="-1760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -6575,238 +6803,10 @@ back. We don&apos;t want duplicate execution!)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>d_rs1*</string>
+          <string>dm-mem-addr</string>
         </entry>
       </elementAttributes>
-      <pos x="-2100" y="-1760"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>d_rdin*</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-2080" y="-2040"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>d_rdin*</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2100" y="-2040"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>d_regwen*</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2080" y="-2080"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>d_regwen*</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2100" y="-2080"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>d_memwen*</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2080" y="-1840"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>d_memwen*</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2100" y="-1840"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>dmcontrol_resumereq</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2100" y="-2120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>dmcontrol_resumereq</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2080" y="-2120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>command-reg_jumpprogbuf</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2100" y="-2160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>command-reg_jumpprogbuf</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2080" y="-2160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>haltreq</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2100" y="-1880"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>haltreq</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2080" y="-1880"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>dm_wdata</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-2080" y="-2000"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>dm_wdata</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2100" y="-2000"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>dm_wen</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2080" y="-1960"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>dm_wen</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2100" y="-1960"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>addr_dm</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-2080" y="-1920"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>addr_dm</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-2100" y="-1920"/>
+      <pos x="-2040" y="-1960"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -6821,7 +6821,7 @@ back. We don&apos;t want duplicate execution!)</string>
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>45</int>
+          <int>44</int>
         </entry>
       </elementAttributes>
       <pos x="-2640" y="-2200"/>
@@ -6835,7 +6835,7 @@ back. We don&apos;t want duplicate execution!)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_rdata</string>
+          <string>dmi-rdata</string>
         </entry>
       </elementAttributes>
       <pos x="-4840" y="-1460"/>
@@ -6989,12 +6989,12 @@ reads.)</string>
       <p2 x="-3720" y="-1800"/>
     </wire>
     <wire>
-      <p1 x="-2460" y="-1800"/>
-      <p2 x="-2440" y="-1800"/>
+      <p1 x="-2040" y="-1800"/>
+      <p2 x="-2020" y="-1800"/>
     </wire>
     <wire>
-      <p1 x="-2100" y="-1800"/>
-      <p2 x="-2080" y="-1800"/>
+      <p1 x="-2400" y="-1800"/>
+      <p2 x="-2380" y="-1800"/>
     </wire>
     <wire>
       <p1 x="-4800" y="-520"/>
@@ -7173,12 +7173,12 @@ reads.)</string>
       <p2 x="-3800" y="-2080"/>
     </wire>
     <wire>
-      <p1 x="-2100" y="-2080"/>
-      <p2 x="-2080" y="-2080"/>
+      <p1 x="-2400" y="-2080"/>
+      <p2 x="-2380" y="-2080"/>
     </wire>
     <wire>
-      <p1 x="-2460" y="-2080"/>
-      <p2 x="-2440" y="-2080"/>
+      <p1 x="-2040" y="-2080"/>
+      <p2 x="-2020" y="-2080"/>
     </wire>
     <wire>
       <p1 x="940" y="-800"/>
@@ -7325,12 +7325,12 @@ reads.)</string>
       <p2 x="-3720" y="-1840"/>
     </wire>
     <wire>
-      <p1 x="-2100" y="-1840"/>
-      <p2 x="-2080" y="-1840"/>
+      <p1 x="-2040" y="-1840"/>
+      <p2 x="-2020" y="-1840"/>
     </wire>
     <wire>
-      <p1 x="-2460" y="-1840"/>
-      <p2 x="-2440" y="-1840"/>
+      <p1 x="-2400" y="-1840"/>
+      <p2 x="-2380" y="-1840"/>
     </wire>
     <wire>
       <p1 x="1800" y="-560"/>
@@ -7449,6 +7449,14 @@ reads.)</string>
       <p2 x="-4840" y="-320"/>
     </wire>
     <wire>
+      <p1 x="-3060" y="-1860"/>
+      <p2 x="-3020" y="-1860"/>
+    </wire>
+    <wire>
+      <p1 x="-3980" y="-1860"/>
+      <p2 x="-3960" y="-1860"/>
+    </wire>
+    <wire>
       <p1 x="1800" y="-580"/>
       <p2 x="1880" y="-580"/>
     </wire>
@@ -7467,14 +7475,6 @@ reads.)</string>
     <wire>
       <p1 x="960" y="-580"/>
       <p2 x="1060" y="-580"/>
-    </wire>
-    <wire>
-      <p1 x="-3060" y="-1860"/>
-      <p2 x="-3020" y="-1860"/>
-    </wire>
-    <wire>
-      <p1 x="-3980" y="-1860"/>
-      <p2 x="-3960" y="-1860"/>
     </wire>
     <wire>
       <p1 x="-1900" y="580"/>
@@ -7517,12 +7517,12 @@ reads.)</string>
       <p2 x="-3800" y="-2120"/>
     </wire>
     <wire>
-      <p1 x="-2100" y="-2120"/>
-      <p2 x="-2080" y="-2120"/>
+      <p1 x="-2400" y="-2120"/>
+      <p2 x="-2380" y="-2120"/>
     </wire>
     <wire>
-      <p1 x="-2460" y="-2120"/>
-      <p2 x="-2440" y="-2120"/>
+      <p1 x="-2040" y="-2120"/>
+      <p2 x="-2020" y="-2120"/>
     </wire>
     <wire>
       <p1 x="-1900" y="840"/>
@@ -7589,6 +7589,22 @@ reads.)</string>
       <p2 x="1180" y="-340"/>
     </wire>
     <wire>
+      <p1 x="-2040" y="-1880"/>
+      <p2 x="-2020" y="-1880"/>
+    </wire>
+    <wire>
+      <p1 x="-3980" y="-1880"/>
+      <p2 x="-3960" y="-1880"/>
+    </wire>
+    <wire>
+      <p1 x="-3900" y="-1880"/>
+      <p2 x="-3780" y="-1880"/>
+    </wire>
+    <wire>
+      <p1 x="-2400" y="-1880"/>
+      <p2 x="-2380" y="-1880"/>
+    </wire>
+    <wire>
       <p1 x="-4340" y="-600"/>
       <p2 x="-4300" y="-600"/>
     </wire>
@@ -7607,22 +7623,6 @@ reads.)</string>
     <wire>
       <p1 x="1140" y="-600"/>
       <p2 x="1160" y="-600"/>
-    </wire>
-    <wire>
-      <p1 x="-3980" y="-1880"/>
-      <p2 x="-3960" y="-1880"/>
-    </wire>
-    <wire>
-      <p1 x="-3900" y="-1880"/>
-      <p2 x="-3780" y="-1880"/>
-    </wire>
-    <wire>
-      <p1 x="-2460" y="-1880"/>
-      <p2 x="-2440" y="-1880"/>
-    </wire>
-    <wire>
-      <p1 x="-2100" y="-1880"/>
-      <p2 x="-2080" y="-1880"/>
     </wire>
     <wire>
       <p1 x="-1840" y="600"/>
@@ -7793,12 +7793,12 @@ reads.)</string>
       <p2 x="3080" y="-880"/>
     </wire>
     <wire>
-      <p1 x="-2100" y="-2160"/>
-      <p2 x="-2080" y="-2160"/>
+      <p1 x="-2400" y="-2160"/>
+      <p2 x="-2380" y="-2160"/>
     </wire>
     <wire>
-      <p1 x="-2460" y="-2160"/>
-      <p2 x="-2440" y="-2160"/>
+      <p1 x="-2040" y="-2160"/>
+      <p2 x="-2020" y="-2160"/>
     </wire>
     <wire>
       <p1 x="-1760" y="880"/>
@@ -7865,16 +7865,16 @@ reads.)</string>
       <p2 x="-4160" y="-1660"/>
     </wire>
     <wire>
+      <p1 x="-2040" y="-1920"/>
+      <p2 x="-2020" y="-1920"/>
+    </wire>
+    <wire>
       <p1 x="-3980" y="-1920"/>
       <p2 x="-3960" y="-1920"/>
     </wire>
     <wire>
-      <p1 x="-2100" y="-1920"/>
-      <p2 x="-2080" y="-1920"/>
-    </wire>
-    <wire>
-      <p1 x="-2460" y="-1920"/>
-      <p2 x="-2440" y="-1920"/>
+      <p1 x="-2400" y="-1920"/>
+      <p2 x="-2380" y="-1920"/>
     </wire>
     <wire>
       <p1 x="-3340" y="-640"/>
@@ -8109,12 +8109,12 @@ reads.)</string>
       <p2 x="-3960" y="-1700"/>
     </wire>
     <wire>
-      <p1 x="-2100" y="-1960"/>
-      <p2 x="-2080" y="-1960"/>
+      <p1 x="-2400" y="-1960"/>
+      <p2 x="-2380" y="-1960"/>
     </wire>
     <wire>
-      <p1 x="-2460" y="-1960"/>
-      <p2 x="-2440" y="-1960"/>
+      <p1 x="-2040" y="-1960"/>
+      <p2 x="-2020" y="-1960"/>
     </wire>
     <wire>
       <p1 x="-3340" y="-680"/>
@@ -8373,16 +8373,16 @@ reads.)</string>
       <p2 x="-1240" y="460"/>
     </wire>
     <wire>
-      <p1 x="-2100" y="-2000"/>
-      <p2 x="-2080" y="-2000"/>
-    </wire>
-    <wire>
-      <p1 x="-2460" y="-2000"/>
-      <p2 x="-2440" y="-2000"/>
-    </wire>
-    <wire>
       <p1 x="-3820" y="-2000"/>
       <p2 x="-3800" y="-2000"/>
+    </wire>
+    <wire>
+      <p1 x="-2400" y="-2000"/>
+      <p2 x="-2380" y="-2000"/>
+    </wire>
+    <wire>
+      <p1 x="-2040" y="-2000"/>
+      <p2 x="-2020" y="-2000"/>
     </wire>
     <wire>
       <p1 x="2460" y="-720"/>
@@ -8533,12 +8533,12 @@ reads.)</string>
       <p2 x="1120" y="220"/>
     </wire>
     <wire>
-      <p1 x="-2100" y="-1760"/>
-      <p2 x="-2080" y="-1760"/>
+      <p1 x="-2400" y="-1760"/>
+      <p2 x="-2380" y="-1760"/>
     </wire>
     <wire>
-      <p1 x="-2460" y="-1760"/>
-      <p2 x="-2440" y="-1760"/>
+      <p1 x="-2040" y="-1760"/>
+      <p2 x="-2020" y="-1760"/>
     </wire>
     <wire>
       <p1 x="-3740" y="-1760"/>
@@ -8729,12 +8729,12 @@ reads.)</string>
       <p2 x="-4140" y="500"/>
     </wire>
     <wire>
-      <p1 x="-2100" y="-2040"/>
-      <p2 x="-2080" y="-2040"/>
+      <p1 x="-2040" y="-2040"/>
+      <p2 x="-2020" y="-2040"/>
     </wire>
     <wire>
-      <p1 x="-2460" y="-2040"/>
-      <p2 x="-2440" y="-2040"/>
+      <p1 x="-2400" y="-2040"/>
+      <p2 x="-2380" y="-2040"/>
     </wire>
     <wire>
       <p1 x="-3820" y="-2040"/>

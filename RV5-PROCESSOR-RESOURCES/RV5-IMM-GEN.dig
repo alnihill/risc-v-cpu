@@ -65,7 +65,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>Jimm32</string>
+          <string>imm-j</string>
         </entry>
       </elementAttributes>
       <pos x="920" y="500"/>
@@ -79,7 +79,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>Uimm32</string>
+          <string>imm-u</string>
         </entry>
       </elementAttributes>
       <pos x="960" y="540"/>
@@ -135,7 +135,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>Simm32</string>
+          <string>imm-s</string>
         </entry>
       </elementAttributes>
       <pos x="1180" y="580"/>
@@ -145,7 +145,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>imm</string>
+          <string>out</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -191,7 +191,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>Iimm32</string>
+          <string>imm-i</string>
         </entry>
       </elementAttributes>
       <pos x="1520" y="580"/>
@@ -252,7 +252,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>Bimm32</string>
+          <string>imm-b</string>
         </entry>
       </elementAttributes>
       <pos x="1360" y="580"/>
@@ -288,7 +288,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>sgn-ext-imm32</string>
+          <string>imm-signext</string>
         </entry>
       </elementAttributes>
       <pos x="1500" y="760"/>
@@ -318,7 +318,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>INSTR_32</string>
+          <string>inst</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -387,7 +387,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>imm_sel</string>
+          <string>imm-sel</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -401,7 +401,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>imm_sel</string>
+          <string>imm-sel</string>
         </entry>
       </elementAttributes>
       <pos x="620" y="600"/>
@@ -429,7 +429,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>Iimm32</string>
+          <string>imm-i</string>
         </entry>
       </elementAttributes>
       <pos x="1020" y="740"/>
@@ -443,7 +443,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>Simm32</string>
+          <string>imm-s</string>
         </entry>
       </elementAttributes>
       <pos x="1020" y="760"/>
@@ -457,7 +457,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>Bimm32</string>
+          <string>imm-b</string>
         </entry>
       </elementAttributes>
       <pos x="1020" y="780"/>
@@ -471,7 +471,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>Uimm32</string>
+          <string>imm-u</string>
         </entry>
       </elementAttributes>
       <pos x="1020" y="800"/>
@@ -485,7 +485,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>Jimm32</string>
+          <string>imm-j</string>
         </entry>
       </elementAttributes>
       <pos x="1020" y="820"/>
@@ -513,7 +513,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>imm_sel</string>
+          <string>imm-sel</string>
         </entry>
       </elementAttributes>
       <pos x="1040" y="920"/>
@@ -523,7 +523,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>sgn-ext-imm32</string>
+          <string>imm-signext</string>
         </entry>
       </elementAttributes>
       <pos x="1100" y="820"/>

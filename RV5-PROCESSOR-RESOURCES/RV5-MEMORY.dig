@@ -40,7 +40,7 @@
           <string>2-25</string>
         </entry>
       </elementAttributes>
-      <pos x="440" y="1720"/>
+      <pos x="420" y="1720"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -122,7 +122,7 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="520" y="1680"/>
+      <pos x="500" y="1680"/>
     </visualElement>
     <visualElement>
       <elementName>RAMDualAccess</elementName>
@@ -144,7 +144,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="540" y="1660"/>
+      <pos x="520" y="1660"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -218,7 +218,7 @@
           <string>addr</string>
         </entry>
       </elementAttributes>
-      <pos x="400" y="1720"/>
+      <pos x="380" y="1720"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -310,7 +310,7 @@
           <string>wen</string>
         </entry>
       </elementAttributes>
-      <pos x="360" y="1640"/>
+      <pos x="340" y="1640"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -320,7 +320,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="360" y="1640"/>
+      <pos x="340" y="1640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -334,7 +334,7 @@
           <string>addr-ram</string>
         </entry>
       </elementAttributes>
-      <pos x="360" y="1680"/>
+      <pos x="340" y="1680"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -348,7 +348,7 @@
           <string>addr-terminal</string>
         </entry>
       </elementAttributes>
-      <pos x="360" y="2300"/>
+      <pos x="340" y="2300"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -358,7 +358,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="360" y="2300"/>
+      <pos x="340" y="2300"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -372,7 +372,7 @@
           <string>wen</string>
         </entry>
       </elementAttributes>
-      <pos x="360" y="2340"/>
+      <pos x="340" y="2340"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -421,10 +421,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_0</string>
+          <string>dm-addr-progbuf_0</string>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="1680"/>
+      <pos x="2320" y="1680"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -438,7 +438,7 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="1680"/>
+      <pos x="2420" y="1680"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -448,7 +448,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="1680"/>
+      <pos x="2320" y="1680"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -459,10 +459,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wen_dm</string>
+          <string>dm-wen</string>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="1720"/>
+      <pos x="2320" y="1720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -473,10 +473,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wdata_dm</string>
+          <string>dm-wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="1660"/>
+      <pos x="2420" y="1660"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -490,7 +490,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="1660"/>
+      <pos x="2420" y="1660"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -514,7 +514,7 @@
           <string>progbuf_0</string>
         </entry>
       </elementAttributes>
-      <pos x="2500" y="1680"/>
+      <pos x="2480" y="1680"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -822,10 +822,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_1</string>
+          <string>dm-addr-progbuf_1</string>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="1800"/>
+      <pos x="2320" y="1800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -839,7 +839,7 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="1800"/>
+      <pos x="2420" y="1800"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -849,7 +849,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="1800"/>
+      <pos x="2320" y="1800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -860,10 +860,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wen_dm</string>
+          <string>dm-wen</string>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="1840"/>
+      <pos x="2320" y="1840"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -874,10 +874,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wdata_dm</string>
+          <string>dm-wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="1780"/>
+      <pos x="2420" y="1780"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -891,7 +891,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="1780"/>
+      <pos x="2420" y="1780"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -901,7 +901,7 @@
           <string>progbuf_1</string>
         </entry>
       </elementAttributes>
-      <pos x="2500" y="1800"/>
+      <pos x="2480" y="1800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -912,100 +912,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_2</string>
+          <string>dm-addr-progbuf_2</string>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="1920"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>clk</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2440" y="1920"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="2340" y="1920"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>wen_dm</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2340" y="1960"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>wdata_dm</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2440" y="1900"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Register</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>progbuf_2</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="2440" y="1900"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>progbuf_2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2500" y="1920"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>addr_dm-progbuf_3</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2340" y="2040"/>
+      <pos x="2320" y="1920"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1019,7 +929,7 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="2040"/>
+      <pos x="2420" y="1920"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -1029,7 +939,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="2040"/>
+      <pos x="2320" y="1920"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1040,10 +950,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wen_dm</string>
+          <string>dm-wen</string>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="2080"/>
+      <pos x="2320" y="1960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1054,10 +964,100 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wdata_dm</string>
+          <string>dm-wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="2020"/>
+      <pos x="2420" y="1900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>progbuf_2</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="2420" y="1900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>progbuf_2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2480" y="1920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>dm-addr-progbuf_3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2320" y="2040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2420" y="2040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2320" y="2040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>dm-wen</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2320" y="2080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>dm-wdata</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2420" y="2020"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -1071,7 +1071,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="2020"/>
+      <pos x="2420" y="2020"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1081,7 +1081,7 @@
           <string>progbuf_3</string>
         </entry>
       </elementAttributes>
-      <pos x="2500" y="2040"/>
+      <pos x="2480" y="2040"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1151,7 +1151,7 @@
           <string>addr-data0</string>
         </entry>
       </elementAttributes>
-      <pos x="2320" y="2940"/>
+      <pos x="2300" y="2940"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1165,7 +1165,7 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="2620" y="2880"/>
+      <pos x="2600" y="2880"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -1175,7 +1175,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2320" y="2940"/>
+      <pos x="2300" y="2940"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1189,7 +1189,7 @@
           <string>wen</string>
         </entry>
       </elementAttributes>
-      <pos x="2320" y="2980"/>
+      <pos x="2300" y="2980"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1203,7 +1203,7 @@
           <string>wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="2420" y="2780"/>
+      <pos x="2400" y="2780"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -1217,7 +1217,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2620" y="2860"/>
+      <pos x="2600" y="2860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1227,7 +1227,7 @@
           <string>data0</string>
         </entry>
       </elementAttributes>
-      <pos x="2680" y="2880"/>
+      <pos x="2660" y="2880"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -1296,7 +1296,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1310,7 +1310,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
       <pos x="280" y="600"/>
@@ -1327,7 +1327,7 @@
           <string>2-25</string>
         </entry>
       </elementAttributes>
-      <pos x="440" y="1760"/>
+      <pos x="420" y="1760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1338,17 +1338,17 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
-      <pos x="400" y="1760"/>
+      <pos x="380" y="1760"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>out_inst</string>
+          <string>inst-out</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1362,7 +1362,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>addr_dm</string>
+          <string>dm-addr</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1376,7 +1376,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dm</string>
+          <string>dm-addr</string>
         </entry>
       </elementAttributes>
       <pos x="280" y="1020"/>
@@ -1386,7 +1386,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>wen_dm</string>
+          <string>dm-wen</string>
         </entry>
       </elementAttributes>
       <pos x="280" y="1080"/>
@@ -1396,7 +1396,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>wen_dm</string>
+          <string>dm-wen</string>
         </entry>
       </elementAttributes>
       <pos x="280" y="1080"/>
@@ -1406,7 +1406,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>wdata_dm</string>
+          <string>dm-wdata</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1420,7 +1420,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>wdata_dm</string>
+          <string>dm-wdata</string>
         </entry>
       </elementAttributes>
       <pos x="280" y="1140"/>
@@ -1444,7 +1444,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm</string>
+          <string>dm-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1880" y="580"/>
@@ -1482,7 +1482,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm</string>
+          <string>dm-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1880" y="660"/>
@@ -1520,7 +1520,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm</string>
+          <string>dm-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1880" y="740"/>
@@ -1558,7 +1558,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm</string>
+          <string>dm-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1880" y="820"/>
@@ -1582,7 +1582,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_0</string>
+          <string>dm-addr-progbuf_0</string>
         </entry>
       </elementAttributes>
       <pos x="1980" y="600"/>
@@ -1592,7 +1592,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_1</string>
+          <string>dm-addr-progbuf_1</string>
         </entry>
       </elementAttributes>
       <pos x="1980" y="680"/>
@@ -1602,7 +1602,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_2</string>
+          <string>dm-addr-progbuf_2</string>
         </entry>
       </elementAttributes>
       <pos x="1980" y="760"/>
@@ -1612,7 +1612,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_3</string>
+          <string>dm-addr-progbuf_3</string>
         </entry>
       </elementAttributes>
       <pos x="1980" y="840"/>
@@ -1636,7 +1636,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm</string>
+          <string>dm-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1880" y="500"/>
@@ -1660,7 +1660,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-data0</string>
+          <string>dm-addr-data0</string>
         </entry>
       </elementAttributes>
       <pos x="1980" y="520"/>
@@ -1673,7 +1673,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2420" y="2780"/>
+      <pos x="2400" y="2780"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -1683,7 +1683,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2460" y="2880"/>
+      <pos x="2440" y="2880"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1694,10 +1694,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-data0</string>
+          <string>dm-addr-data0</string>
         </entry>
       </elementAttributes>
-      <pos x="2320" y="2860"/>
+      <pos x="2300" y="2860"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -1707,7 +1707,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2320" y="2860"/>
+      <pos x="2300" y="2860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1718,10 +1718,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wen_dm</string>
+          <string>dm-wen</string>
         </entry>
       </elementAttributes>
-      <pos x="2320" y="2900"/>
+      <pos x="2300" y="2900"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1732,10 +1732,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wdata_dm</string>
+          <string>dm-wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="2420" y="2820"/>
+      <pos x="2400" y="2820"/>
     </visualElement>
     <visualElement>
       <elementName>PriorityEncoder</elementName>
@@ -1757,7 +1757,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-range</string>
+          <string>dm-addr-range</string>
         </entry>
       </elementAttributes>
       <pos x="3340" y="1200"/>
@@ -1771,7 +1771,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_0</string>
+          <string>dm-addr-progbuf_0</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1260"/>
@@ -1785,7 +1785,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_1</string>
+          <string>dm-addr-progbuf_1</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1280"/>
@@ -1799,7 +1799,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_2</string>
+          <string>dm-addr-progbuf_2</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1300"/>
@@ -1813,7 +1813,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_3</string>
+          <string>dm-addr-progbuf_3</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1320"/>
@@ -1837,7 +1837,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-data0</string>
+          <string>dm-addr-data0</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1420"/>
@@ -1861,7 +1861,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>out_dm</string>
+          <string>dm-out</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1913,7 +1913,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-range</string>
+          <string>dm-addr-range</string>
         </entry>
       </elementAttributes>
       <pos x="3840" y="1320"/>
@@ -2017,7 +2017,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm</string>
+          <string>dm-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1880" y="900"/>
@@ -2041,7 +2041,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_4</string>
+          <string>dm-addr-progbuf_4</string>
         </entry>
       </elementAttributes>
       <pos x="1980" y="920"/>
@@ -2065,7 +2065,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm</string>
+          <string>dm-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1880" y="980"/>
@@ -2089,7 +2089,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_5</string>
+          <string>dm-addr-progbuf_5</string>
         </entry>
       </elementAttributes>
       <pos x="1980" y="1000"/>
@@ -2113,7 +2113,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm</string>
+          <string>dm-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1880" y="1060"/>
@@ -2137,7 +2137,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_6</string>
+          <string>dm-addr-progbuf_6</string>
         </entry>
       </elementAttributes>
       <pos x="1980" y="1080"/>
@@ -2161,7 +2161,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm</string>
+          <string>dm-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1880" y="1140"/>
@@ -2185,7 +2185,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_7</string>
+          <string>dm-addr-progbuf_7</string>
         </entry>
       </elementAttributes>
       <pos x="1980" y="1160"/>
@@ -2396,7 +2396,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_4</string>
+          <string>dm-addr-progbuf_4</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1340"/>
@@ -2410,7 +2410,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_5</string>
+          <string>dm-addr-progbuf_5</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1360"/>
@@ -2424,7 +2424,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_6</string>
+          <string>dm-addr-progbuf_6</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1380"/>
@@ -2438,7 +2438,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_7</string>
+          <string>dm-addr-progbuf_7</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1400"/>
@@ -2720,10 +2720,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_4</string>
+          <string>dm-addr-progbuf_4</string>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="2160"/>
+      <pos x="2320" y="2160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2737,7 +2737,7 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="2160"/>
+      <pos x="2420" y="2160"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -2747,7 +2747,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="2160"/>
+      <pos x="2320" y="2160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2758,10 +2758,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wen_dm</string>
+          <string>dm-wen</string>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="2200"/>
+      <pos x="2320" y="2200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2772,10 +2772,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wdata_dm</string>
+          <string>dm-wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="2140"/>
+      <pos x="2420" y="2140"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -2789,7 +2789,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="2140"/>
+      <pos x="2420" y="2140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2799,7 +2799,7 @@
           <string>progbuf_4</string>
         </entry>
       </elementAttributes>
-      <pos x="2500" y="2160"/>
+      <pos x="2480" y="2160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2810,10 +2810,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_5</string>
+          <string>dm-addr-progbuf_5</string>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="2280"/>
+      <pos x="2320" y="2280"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2827,7 +2827,7 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="2280"/>
+      <pos x="2420" y="2280"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -2837,7 +2837,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="2280"/>
+      <pos x="2320" y="2280"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2848,10 +2848,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wen_dm</string>
+          <string>dm-wen</string>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="2320"/>
+      <pos x="2320" y="2320"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2862,10 +2862,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wdata_dm</string>
+          <string>dm-wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="2260"/>
+      <pos x="2420" y="2260"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -2879,7 +2879,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="2260"/>
+      <pos x="2420" y="2260"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2889,7 +2889,7 @@
           <string>progbuf_5</string>
         </entry>
       </elementAttributes>
-      <pos x="2500" y="2280"/>
+      <pos x="2480" y="2280"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2900,100 +2900,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_dm-progbuf_6</string>
+          <string>dm-addr-progbuf_6</string>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="2400"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>clk</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2440" y="2400"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="2340" y="2400"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>wen_dm</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2340" y="2440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>wdata_dm</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2440" y="2380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Register</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>progbuf_6</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="2440" y="2380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>progbuf_6</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2500" y="2400"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>addr_dm-progbuf_7</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2340" y="2520"/>
+      <pos x="2320" y="2400"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3007,7 +2917,7 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="2520"/>
+      <pos x="2420" y="2400"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -3017,7 +2927,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="2520"/>
+      <pos x="2320" y="2400"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3028,10 +2938,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wen_dm</string>
+          <string>dm-wen</string>
         </entry>
       </elementAttributes>
-      <pos x="2340" y="2560"/>
+      <pos x="2320" y="2440"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3042,10 +2952,100 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wdata_dm</string>
+          <string>dm-wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="2500"/>
+      <pos x="2420" y="2380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>progbuf_6</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="2420" y="2380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>progbuf_6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2480" y="2400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>dm-addr-progbuf_7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2320" y="2520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2420" y="2520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="2320" y="2520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>dm-wen</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2320" y="2560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>dm-wdata</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2420" y="2500"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -3059,7 +3059,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2440" y="2500"/>
+      <pos x="2420" y="2500"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3069,7 +3069,7 @@
           <string>progbuf_7</string>
         </entry>
       </elementAttributes>
-      <pos x="2500" y="2520"/>
+      <pos x="2480" y="2520"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -3114,7 +3114,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-range</string>
+          <string>inst-addr-range</string>
         </entry>
       </elementAttributes>
       <pos x="3840" y="1840"/>
@@ -3295,7 +3295,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-range</string>
+          <string>inst-addr-range</string>
         </entry>
       </elementAttributes>
       <pos x="3340" y="840"/>
@@ -3309,7 +3309,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-terminal</string>
+          <string>inst-addr-terminal</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="880"/>
@@ -3323,7 +3323,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-ram</string>
+          <string>inst-addr-ram</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="860"/>
@@ -3337,7 +3337,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_0</string>
+          <string>inst-addr-progbuf_0</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="900"/>
@@ -3351,7 +3351,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_1</string>
+          <string>inst-addr-progbuf_1</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="920"/>
@@ -3365,7 +3365,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_2</string>
+          <string>inst-addr-progbuf_2</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="940"/>
@@ -3379,7 +3379,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_3</string>
+          <string>inst-addr-progbuf_3</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="960"/>
@@ -3393,7 +3393,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-data0</string>
+          <string>inst-addr-data0</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1060"/>
@@ -3422,7 +3422,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_4</string>
+          <string>inst-addr-progbuf_4</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="980"/>
@@ -3436,7 +3436,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_5</string>
+          <string>inst-addr-progbuf_5</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1000"/>
@@ -3450,7 +3450,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_6</string>
+          <string>inst-addr-progbuf_6</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1020"/>
@@ -3464,7 +3464,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_7</string>
+          <string>inst-addr-progbuf_7</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1040"/>
@@ -3488,7 +3488,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="580"/>
@@ -3526,7 +3526,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="660"/>
@@ -3564,7 +3564,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="740"/>
@@ -3602,7 +3602,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="820"/>
@@ -3640,7 +3640,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="900"/>
@@ -3664,7 +3664,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_0</string>
+          <string>inst-addr-progbuf_0</string>
         </entry>
       </elementAttributes>
       <pos x="1320" y="680"/>
@@ -3674,7 +3674,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_1</string>
+          <string>inst-addr-progbuf_1</string>
         </entry>
       </elementAttributes>
       <pos x="1320" y="760"/>
@@ -3684,7 +3684,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_2</string>
+          <string>inst-addr-progbuf_2</string>
         </entry>
       </elementAttributes>
       <pos x="1320" y="840"/>
@@ -3694,7 +3694,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_3</string>
+          <string>inst-addr-progbuf_3</string>
         </entry>
       </elementAttributes>
       <pos x="1320" y="920"/>
@@ -3704,7 +3704,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-terminal</string>
+          <string>inst-addr-terminal</string>
         </entry>
       </elementAttributes>
       <pos x="1320" y="600"/>
@@ -3728,7 +3728,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="500"/>
@@ -3752,7 +3752,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-data0</string>
+          <string>inst-addr-data0</string>
         </entry>
       </elementAttributes>
       <pos x="1320" y="520"/>
@@ -3776,7 +3776,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="980"/>
@@ -3814,7 +3814,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="1060"/>
@@ -3852,7 +3852,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="1140"/>
@@ -3890,7 +3890,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="1220"/>
@@ -3914,7 +3914,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_4</string>
+          <string>inst-addr-progbuf_4</string>
         </entry>
       </elementAttributes>
       <pos x="1320" y="1000"/>
@@ -3924,7 +3924,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_5</string>
+          <string>inst-addr-progbuf_5</string>
         </entry>
       </elementAttributes>
       <pos x="1320" y="1080"/>
@@ -3934,7 +3934,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_6</string>
+          <string>inst-addr-progbuf_6</string>
         </entry>
       </elementAttributes>
       <pos x="1320" y="1160"/>
@@ -3944,7 +3944,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-progbuf_7</string>
+          <string>inst-addr-progbuf_7</string>
         </entry>
       </elementAttributes>
       <pos x="1320" y="1240"/>
@@ -3952,7 +3952,7 @@
     <visualElement>
       <elementName>InteractiveTerminal</elementName>
       <elementAttributes/>
-      <pos x="540" y="2300"/>
+      <pos x="520" y="2300"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3966,7 +3966,7 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="540" y="2360"/>
+      <pos x="520" y="2360"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3980,7 +3980,7 @@
           <string>wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="540" y="2300"/>
+      <pos x="520" y="2300"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3994,7 +3994,7 @@
           <string>addr-terminal</string>
         </entry>
       </elementAttributes>
-      <pos x="360" y="2380"/>
+      <pos x="340" y="2380"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -4004,7 +4004,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="360" y="2380"/>
+      <pos x="340" y="2380"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4018,7 +4018,7 @@
           <string>ren</string>
         </entry>
       </elementAttributes>
-      <pos x="360" y="2420"/>
+      <pos x="340" y="2420"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4028,7 +4028,7 @@
           <string>terminal</string>
         </entry>
       </elementAttributes>
-      <pos x="860" y="2240"/>
+      <pos x="840" y="2240"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4056,7 +4056,7 @@
           <string>32</string>
         </entry>
       </elementAttributes>
-      <pos x="800" y="2240"/>
+      <pos x="780" y="2240"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -4066,7 +4066,7 @@
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="780" y="2260"/>
+      <pos x="760" y="2260"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -4076,7 +4076,7 @@
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="700" y="2220"/>
+      <pos x="680" y="2220"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -4090,7 +4090,7 @@
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="680" y="2220"/>
+      <pos x="660" y="2220"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -4152,7 +4152,7 @@
           <string>addr</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="1620"/>
+      <pos x="1260" y="1620"/>
     </visualElement>
     <visualElement>
       <elementName>Sub</elementName>
@@ -4162,7 +4162,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="1620"/>
+      <pos x="1280" y="1620"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -4176,12 +4176,12 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="1640"/>
+      <pos x="1260" y="1640"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="1280" y="1660"/>
+      <pos x="1260" y="1660"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4195,7 +4195,7 @@
           <string>addr-filemap</string>
         </entry>
       </elementAttributes>
-      <pos x="1360" y="1800"/>
+      <pos x="1340" y="1800"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -4205,7 +4205,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1360" y="1800"/>
+      <pos x="1340" y="1800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4219,7 +4219,7 @@
           <string>wen</string>
         </entry>
       </elementAttributes>
-      <pos x="1360" y="1840"/>
+      <pos x="1340" y="1840"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4233,7 +4233,7 @@
           <string>addr-filemap</string>
         </entry>
       </elementAttributes>
-      <pos x="1360" y="1880"/>
+      <pos x="1340" y="1880"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4247,7 +4247,7 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="1580" y="1720"/>
+      <pos x="1560" y="1720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4285,7 +4285,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="1600" y="1620"/>
+      <pos x="1580" y="1620"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4296,7 +4296,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>filemap_inst</string>
+          <string>inst-filemap-out</string>
         </entry>
       </elementAttributes>
       <pos x="3800" y="1740"/>
@@ -4310,7 +4310,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-filemap</string>
+          <string>inst-addr-filemap</string>
         </entry>
       </elementAttributes>
       <pos x="3220" y="1080"/>
@@ -4334,7 +4334,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="1300"/>
@@ -4358,7 +4358,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-filemap</string>
+          <string>inst-addr-filemap</string>
         </entry>
       </elementAttributes>
       <pos x="1320" y="1300"/>
@@ -4375,7 +4375,7 @@
           <string>addr-ram</string>
         </entry>
       </elementAttributes>
-      <pos x="520" y="1700"/>
+      <pos x="500" y="1700"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -4385,7 +4385,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1360" y="1880"/>
+      <pos x="1340" y="1880"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4396,10 +4396,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-filemap</string>
+          <string>inst-addr-filemap</string>
         </entry>
       </elementAttributes>
-      <pos x="1360" y="1920"/>
+      <pos x="1340" y="1920"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4410,10 +4410,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>addr_inst</string>
+          <string>inst-addr</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="1720"/>
+      <pos x="1260" y="1720"/>
     </visualElement>
     <visualElement>
       <elementName>Sub</elementName>
@@ -4423,7 +4423,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="1720"/>
+      <pos x="1280" y="1720"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -4437,22 +4437,22 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="1740"/>
+      <pos x="1260" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="1280" y="1760"/>
+      <pos x="1260" y="1760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>filemap_inst</string>
+          <string>inst-filemap-out</string>
         </entry>
       </elementAttributes>
-      <pos x="1660" y="1640"/>
+      <pos x="1640" y="1640"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -4492,7 +4492,7 @@
           <string>filemap</string>
         </entry>
       </elementAttributes>
-      <pos x="2020" y="1660"/>
+      <pos x="2000" y="1660"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4506,7 +4506,7 @@
           <string>addr</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="1680"/>
+      <pos x="760" y="1680"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4520,7 +4520,7 @@
           <string>byte</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="1700"/>
+      <pos x="760" y="1700"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4534,7 +4534,7 @@
           <string>half</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="1720"/>
+      <pos x="760" y="1720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4548,7 +4548,7 @@
           <string>signext</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="1740"/>
+      <pos x="760" y="1740"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4562,7 +4562,7 @@
           <string>addr</string>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="1640"/>
+      <pos x="1820" y="1640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4576,7 +4576,7 @@
           <string>byte</string>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="1660"/>
+      <pos x="1820" y="1660"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4590,7 +4590,7 @@
           <string>half</string>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="1680"/>
+      <pos x="1820" y="1680"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4604,17 +4604,17 @@
           <string>signext</string>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="1700"/>
+      <pos x="1820" y="1700"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>ram_inst</string>
+          <string>inst-ram-out</string>
         </entry>
       </elementAttributes>
-      <pos x="620" y="1680"/>
+      <pos x="600" y="1680"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4625,7 +4625,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>ram_inst</string>
+          <string>inst-ram-out</string>
         </entry>
       </elementAttributes>
       <pos x="3800" y="1520"/>
@@ -4638,7 +4638,7 @@
           <string>ram</string>
         </entry>
       </elementAttributes>
-      <pos x="960" y="1700"/>
+      <pos x="940" y="1700"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4657,7 +4657,7 @@
     <visualElement>
       <elementName>MASKED-OVERLAY.dig</elementName>
       <elementAttributes/>
-      <pos x="260" y="1800"/>
+      <pos x="240" y="1800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4671,7 +4671,7 @@
           <string>wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="240" y="1820"/>
+      <pos x="220" y="1820"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4685,7 +4685,7 @@
           <string>addr</string>
         </entry>
       </elementAttributes>
-      <pos x="240" y="1840"/>
+      <pos x="220" y="1840"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4699,7 +4699,7 @@
           <string>byte</string>
         </entry>
       </elementAttributes>
-      <pos x="240" y="1860"/>
+      <pos x="220" y="1860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4713,7 +4713,7 @@
           <string>half</string>
         </entry>
       </elementAttributes>
-      <pos x="240" y="1880"/>
+      <pos x="220" y="1880"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -4731,7 +4731,7 @@
           <int>47</int>
         </entry>
       </elementAttributes>
-      <pos x="140" y="1460"/>
+      <pos x="120" y="1460"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -4743,7 +4743,7 @@ and reading at address 1B. I&apos;m using 1A for instruction operations and
 1B for instruction reads.</string>
         </entry>
       </elementAttributes>
-      <pos x="160" y="1480"/>
+      <pos x="140" y="1480"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -4760,7 +4760,7 @@ of the old word and merge them
 with our new bytes.</string>
         </entry>
       </elementAttributes>
-      <pos x="200" y="1920"/>
+      <pos x="180" y="1920"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -4777,17 +4777,17 @@ or a half, we need to isolate that
 value from the rest of the word.</string>
         </entry>
       </elementAttributes>
-      <pos x="740" y="1780"/>
+      <pos x="720" y="1780"/>
     </visualElement>
     <visualElement>
       <elementName>ISOLATE-SIGNEXT.dig</elementName>
       <elementAttributes/>
-      <pos x="800" y="1660"/>
+      <pos x="780" y="1660"/>
     </visualElement>
     <visualElement>
       <elementName>ISOLATE-SIGNEXT.dig</elementName>
       <elementAttributes/>
-      <pos x="1860" y="1620"/>
+      <pos x="1840" y="1620"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -4805,7 +4805,7 @@ value from the rest of the word.</string>
           <int>51</int>
         </entry>
       </elementAttributes>
-      <pos x="1100" y="1460"/>
+      <pos x="1080" y="1460"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -4817,7 +4817,7 @@ address 0x0) and potentially a mapped file (at relative address 0x1000).
 The contents can be executed.</string>
         </entry>
       </elementAttributes>
-      <pos x="1120" y="1480"/>
+      <pos x="1100" y="1480"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -4832,10 +4832,10 @@ The contents can be executed.</string>
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>41</int>
+          <int>42</int>
         </entry>
       </elementAttributes>
-      <pos x="2140" y="1460"/>
+      <pos x="2120" y="1460"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -4848,7 +4848,7 @@ it is read by three things: the debug module, the instruction
 decoder, and instruction execution.</string>
         </entry>
       </elementAttributes>
-      <pos x="2160" y="1480"/>
+      <pos x="2140" y="1480"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -4866,7 +4866,7 @@ decoder, and instruction execution.</string>
           <int>45</int>
         </entry>
       </elementAttributes>
-      <pos x="140" y="2060"/>
+      <pos x="120" y="2060"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -4878,7 +4878,7 @@ is queued, and a value of 4 (EOT in ASCII) means there is currently
 nothing left.</string>
         </entry>
       </elementAttributes>
-      <pos x="160" y="2080"/>
+      <pos x="140" y="2080"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -4893,10 +4893,10 @@ nothing left.</string>
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>41</int>
+          <int>42</int>
         </entry>
       </elementAttributes>
-      <pos x="2140" y="2640"/>
+      <pos x="2120" y="2640"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -4908,7 +4908,7 @@ debug module can read and write to. Oftentimes it&apos;s used in
 conjunction with progbuf to move data in and out of memory.</string>
         </entry>
       </elementAttributes>
-      <pos x="2160" y="2660"/>
+      <pos x="2140" y="2660"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -5000,10 +5000,10 @@ what ranges our addresses are in.</string>
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>143</int>
+          <int>144</int>
         </entry>
       </elementAttributes>
-      <pos x="120" y="1420"/>
+      <pos x="100" y="1420"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -5018,10 +5018,10 @@ what ranges our addresses are in.</string>
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>15</int>
+          <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="120" y="400"/>
+      <pos x="100" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -5088,10 +5088,10 @@ three data outputs, and three sets of control signals.</string>
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>197</int>
+          <int>198</int>
         </entry>
       </elementAttributes>
-      <pos x="100" y="340"/>
+      <pos x="80" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -5108,7 +5108,7 @@ or a half, we need to isolate that
 value from the rest of the word.</string>
         </entry>
       </elementAttributes>
-      <pos x="1780" y="1760"/>
+      <pos x="1760" y="1760"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -5165,7 +5165,7 @@ value from the rest of the word.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>addr_inst-ram</string>
+          <string>inst-addr-ram</string>
         </entry>
       </elementAttributes>
       <pos x="1720" y="560"/>
@@ -5173,7 +5173,7 @@ value from the rest of the word.</string>
     <visualElement>
       <elementName>MASKED-OVERLAY.dig</elementName>
       <elementAttributes/>
-      <pos x="1320" y="1960"/>
+      <pos x="1300" y="1960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5187,7 +5187,7 @@ value from the rest of the word.</string>
           <string>wdata</string>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="1980"/>
+      <pos x="1280" y="1980"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5201,7 +5201,7 @@ value from the rest of the word.</string>
           <string>addr</string>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="2000"/>
+      <pos x="1280" y="2000"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5215,7 +5215,7 @@ value from the rest of the word.</string>
           <string>byte</string>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="2020"/>
+      <pos x="1280" y="2020"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5229,7 +5229,7 @@ value from the rest of the word.</string>
           <string>half</string>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="2040"/>
+      <pos x="1280" y="2040"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -5246,7 +5246,7 @@ of the old word and merge them
 with our new bytes.</string>
         </entry>
       </elementAttributes>
-      <pos x="1260" y="2080"/>
+      <pos x="1240" y="2080"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -5264,7 +5264,7 @@ with our new bytes.</string>
           <string>32</string>
         </entry>
       </elementAttributes>
-      <pos x="1480" y="1620"/>
+      <pos x="1460" y="1620"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -5278,7 +5278,7 @@ with our new bytes.</string>
           <string>2-31</string>
         </entry>
       </elementAttributes>
-      <pos x="1400" y="1620"/>
+      <pos x="1380" y="1620"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -5288,7 +5288,7 @@ with our new bytes.</string>
           <int>2</int>
         </entry>
       </elementAttributes>
-      <pos x="1460" y="1600"/>
+      <pos x="1440" y="1600"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -5306,7 +5306,7 @@ with our new bytes.</string>
           <string>32</string>
         </entry>
       </elementAttributes>
-      <pos x="1440" y="1720"/>
+      <pos x="1420" y="1720"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -5320,7 +5320,7 @@ with our new bytes.</string>
           <string>2-31</string>
         </entry>
       </elementAttributes>
-      <pos x="1360" y="1720"/>
+      <pos x="1340" y="1720"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -5330,7 +5330,7 @@ with our new bytes.</string>
           <int>2</int>
         </entry>
       </elementAttributes>
-      <pos x="1420" y="1700"/>
+      <pos x="1400" y="1700"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -5355,8 +5355,8 @@ with our new bytes.</string>
       <p2 x="3820" y="640"/>
     </wire>
     <wire>
-      <p1 x="2420" y="2180"/>
-      <p2 x="2440" y="2180"/>
+      <p1 x="2400" y="2180"/>
+      <p2 x="2420" y="2180"/>
     </wire>
     <wire>
       <p1 x="3220" y="900"/>
@@ -5379,8 +5379,8 @@ with our new bytes.</string>
       <p2 x="3820" y="1540"/>
     </wire>
     <wire>
-      <p1 x="240" y="1800"/>
-      <p2 x="260" y="1800"/>
+      <p1 x="220" y="1800"/>
+      <p2 x="240" y="1800"/>
     </wire>
     <wire>
       <p1 x="3800" y="1800"/>
@@ -5455,8 +5455,8 @@ with our new bytes.</string>
       <p2 x="1980" y="1160"/>
     </wire>
     <wire>
-      <p1 x="2420" y="2060"/>
-      <p2 x="2440" y="2060"/>
+      <p1 x="2400" y="2060"/>
+      <p2 x="2420" y="2060"/>
     </wire>
     <wire>
       <p1 x="3220" y="1420"/>
@@ -5471,40 +5471,40 @@ with our new bytes.</string>
       <p2 x="3820" y="780"/>
     </wire>
     <wire>
-      <p1 x="440" y="2320"/>
-      <p2 x="540" y="2320"/>
+      <p1 x="420" y="2320"/>
+      <p2 x="520" y="2320"/>
     </wire>
     <wire>
-      <p1 x="600" y="2320"/>
-      <p2 x="720" y="2320"/>
+      <p1 x="580" y="2320"/>
+      <p2 x="700" y="2320"/>
     </wire>
     <wire>
-      <p1 x="780" y="1680"/>
-      <p2 x="800" y="1680"/>
+      <p1 x="760" y="1680"/>
+      <p2 x="780" y="1680"/>
     </wire>
     <wire>
-      <p1 x="520" y="1680"/>
-      <p2 x="540" y="1680"/>
+      <p1 x="500" y="1680"/>
+      <p2 x="520" y="1680"/>
     </wire>
     <wire>
-      <p1 x="600" y="1680"/>
-      <p2 x="620" y="1680"/>
+      <p1 x="580" y="1680"/>
+      <p2 x="600" y="1680"/>
     </wire>
     <wire>
       <p1 x="3800" y="1680"/>
       <p2 x="3820" y="1680"/>
     </wire>
     <wire>
-      <p1 x="1480" y="1680"/>
-      <p2 x="1600" y="1680"/>
+      <p1 x="1460" y="1680"/>
+      <p2 x="1580" y="1680"/>
     </wire>
     <wire>
-      <p1 x="1840" y="1680"/>
-      <p2 x="1860" y="1680"/>
+      <p1 x="1820" y="1680"/>
+      <p2 x="1840" y="1680"/>
     </wire>
     <wire>
-      <p1 x="2400" y="2960"/>
-      <p2 x="2420" y="2960"/>
+      <p1 x="2380" y="2960"/>
+      <p2 x="2400" y="2960"/>
     </wire>
     <wire>
       <p1 x="3220" y="1040"/>
@@ -5551,8 +5551,8 @@ with our new bytes.</string>
       <p2 x="1900" y="660"/>
     </wire>
     <wire>
-      <p1 x="2420" y="1940"/>
-      <p2 x="2440" y="1940"/>
+      <p1 x="2400" y="1940"/>
+      <p2 x="2420" y="1940"/>
     </wire>
     <wire>
       <p1 x="3220" y="920"/>
@@ -5607,52 +5607,52 @@ with our new bytes.</string>
       <p2 x="3820" y="1180"/>
     </wire>
     <wire>
-      <p1 x="240" y="1820"/>
-      <p2 x="260" y="1820"/>
+      <p1 x="220" y="1820"/>
+      <p2 x="240" y="1820"/>
     </wire>
     <wire>
-      <p1 x="2420" y="1820"/>
-      <p2 x="2440" y="1820"/>
+      <p1 x="2400" y="1820"/>
+      <p2 x="2420" y="1820"/>
     </wire>
     <wire>
-      <p1 x="1440" y="1820"/>
-      <p2 x="1480" y="1820"/>
+      <p1 x="1420" y="1820"/>
+      <p2 x="1460" y="1820"/>
     </wire>
     <wire>
       <p1 x="3220" y="1440"/>
       <p2 x="3240" y="1440"/>
     </wire>
     <wire>
-      <p1 x="1500" y="1700"/>
-      <p2 x="1600" y="1700"/>
+      <p1 x="1480" y="1700"/>
+      <p2 x="1580" y="1700"/>
     </wire>
     <wire>
-      <p1 x="1840" y="1700"/>
-      <p2 x="1860" y="1700"/>
+      <p1 x="1820" y="1700"/>
+      <p2 x="1840" y="1700"/>
     </wire>
     <wire>
-      <p1 x="520" y="1700"/>
-      <p2 x="540" y="1700"/>
+      <p1 x="500" y="1700"/>
+      <p2 x="520" y="1700"/>
     </wire>
     <wire>
-      <p1 x="780" y="1700"/>
-      <p2 x="800" y="1700"/>
+      <p1 x="760" y="1700"/>
+      <p2 x="780" y="1700"/>
     </wire>
     <wire>
-      <p1 x="940" y="1700"/>
-      <p2 x="960" y="1700"/>
+      <p1 x="920" y="1700"/>
+      <p2 x="940" y="1700"/>
     </wire>
     <wire>
-      <p1 x="2420" y="1700"/>
-      <p2 x="2440" y="1700"/>
+      <p1 x="2400" y="1700"/>
+      <p2 x="2420" y="1700"/>
     </wire>
     <wire>
       <p1 x="3800" y="1700"/>
       <p2 x="3820" y="1700"/>
     </wire>
     <wire>
-      <p1 x="1420" y="1700"/>
-      <p2 x="1440" y="1700"/>
+      <p1 x="1400" y="1700"/>
+      <p2 x="1420" y="1700"/>
     </wire>
     <wire>
       <p1 x="3220" y="1060"/>
@@ -5675,8 +5675,8 @@ with our new bytes.</string>
       <p2 x="1900" y="1060"/>
     </wire>
     <wire>
-      <p1 x="460" y="2340"/>
-      <p2 x="540" y="2340"/>
+      <p1 x="440" y="2340"/>
+      <p2 x="520" y="2340"/>
     </wire>
     <wire>
       <p1 x="3220" y="1320"/>
@@ -5739,28 +5739,28 @@ with our new bytes.</string>
       <p2 x="1980" y="680"/>
     </wire>
     <wire>
-      <p1 x="1120" y="1960"/>
-      <p2 x="1320" y="1960"/>
+      <p1 x="1100" y="1960"/>
+      <p2 x="1300" y="1960"/>
     </wire>
     <wire>
       <p1 x="3220" y="940"/>
       <p2 x="3240" y="940"/>
     </wire>
     <wire>
-      <p1 x="2520" y="2860"/>
-      <p2 x="2620" y="2860"/>
+      <p1 x="2500" y="2860"/>
+      <p2 x="2600" y="2860"/>
     </wire>
     <wire>
-      <p1 x="680" y="2220"/>
-      <p2 x="700" y="2220"/>
+      <p1 x="660" y="2220"/>
+      <p2 x="680" y="2220"/>
     </wire>
     <wire>
       <p1 x="3800" y="1580"/>
       <p2 x="3820" y="1580"/>
     </wire>
     <wire>
-      <p1 x="1120" y="1580"/>
-      <p2 x="1680" y="1580"/>
+      <p1 x="1100" y="1580"/>
+      <p2 x="1660" y="1580"/>
     </wire>
     <wire>
       <p1 x="1700" y="560"/>
@@ -5787,12 +5787,12 @@ with our new bytes.</string>
       <p2 x="1520" y="560"/>
     </wire>
     <wire>
-      <p1 x="240" y="1840"/>
-      <p2 x="260" y="1840"/>
+      <p1 x="220" y="1840"/>
+      <p2 x="240" y="1840"/>
     </wire>
     <wire>
-      <p1 x="400" y="1840"/>
-      <p2 x="520" y="1840"/>
+      <p1 x="380" y="1840"/>
+      <p2 x="500" y="1840"/>
     </wire>
     <wire>
       <p1 x="3800" y="1200"/>
@@ -5823,32 +5823,32 @@ with our new bytes.</string>
       <p2 x="1900" y="820"/>
     </wire>
     <wire>
-      <p1 x="1580" y="1720"/>
-      <p2 x="1600" y="1720"/>
+      <p1 x="1560" y="1720"/>
+      <p2 x="1580" y="1720"/>
     </wire>
     <wire>
-      <p1 x="780" y="1720"/>
-      <p2 x="800" y="1720"/>
+      <p1 x="760" y="1720"/>
+      <p2 x="780" y="1720"/>
     </wire>
     <wire>
-      <p1 x="460" y="1720"/>
-      <p2 x="540" y="1720"/>
+      <p1 x="440" y="1720"/>
+      <p2 x="520" y="1720"/>
     </wire>
     <wire>
-      <p1 x="400" y="1720"/>
-      <p2 x="440" y="1720"/>
+      <p1 x="380" y="1720"/>
+      <p2 x="420" y="1720"/>
     </wire>
     <wire>
-      <p1 x="1280" y="1720"/>
-      <p2 x="1300" y="1720"/>
+      <p1 x="1260" y="1720"/>
+      <p2 x="1280" y="1720"/>
     </wire>
     <wire>
       <p1 x="3800" y="1720"/>
       <p2 x="3820" y="1720"/>
     </wire>
     <wire>
-      <p1 x="1380" y="1720"/>
-      <p2 x="1440" y="1720"/>
+      <p1 x="1360" y="1720"/>
+      <p2 x="1420" y="1720"/>
     </wire>
     <wire>
       <p1 x="3220" y="1080"/>
@@ -5911,44 +5911,44 @@ with our new bytes.</string>
       <p2 x="1500" y="1340"/>
     </wire>
     <wire>
-      <p1 x="1300" y="1980"/>
-      <p2 x="1320" y="1980"/>
+      <p1 x="1280" y="1980"/>
+      <p2 x="1300" y="1980"/>
     </wire>
     <wire>
       <p1 x="3800" y="1600"/>
       <p2 x="3820" y="1600"/>
     </wire>
     <wire>
-      <p1 x="240" y="1600"/>
-      <p2 x="620" y="1600"/>
+      <p1 x="220" y="1600"/>
+      <p2 x="600" y="1600"/>
     </wire>
     <wire>
-      <p1 x="1460" y="1600"/>
-      <p2 x="1480" y="1600"/>
+      <p1 x="1440" y="1600"/>
+      <p2 x="1460" y="1600"/>
     </wire>
     <wire>
       <p1 x="3220" y="960"/>
       <p2 x="3240" y="960"/>
     </wire>
     <wire>
-      <p1 x="2400" y="2880"/>
+      <p1 x="2380" y="2880"/>
+      <p2 x="2420" y="2880"/>
+    </wire>
+    <wire>
+      <p1 x="2420" y="2880"/>
       <p2 x="2440" y="2880"/>
     </wire>
     <wire>
-      <p1 x="2440" y="2880"/>
-      <p2 x="2460" y="2880"/>
+      <p1 x="800" y="2240"/>
+      <p2 x="840" y="2240"/>
     </wire>
     <wire>
-      <p1 x="820" y="2240"/>
-      <p2 x="860" y="2240"/>
+      <p1 x="720" y="2240"/>
+      <p2 x="780" y="2240"/>
     </wire>
     <wire>
-      <p1 x="740" y="2240"/>
-      <p2 x="800" y="2240"/>
-    </wire>
-    <wire>
-      <p1 x="240" y="1860"/>
-      <p2 x="260" y="1860"/>
+      <p1 x="220" y="1860"/>
+      <p2 x="240" y="1860"/>
     </wire>
     <wire>
       <p1 x="3220" y="580"/>
@@ -6035,16 +6035,16 @@ with our new bytes.</string>
       <p2 x="3820" y="1740"/>
     </wire>
     <wire>
-      <p1 x="520" y="1740"/>
-      <p2 x="540" y="1740"/>
+      <p1 x="500" y="1740"/>
+      <p2 x="520" y="1740"/>
     </wire>
     <wire>
-      <p1 x="780" y="1740"/>
-      <p2 x="800" y="1740"/>
+      <p1 x="760" y="1740"/>
+      <p2 x="780" y="1740"/>
     </wire>
     <wire>
-      <p1 x="1280" y="1740"/>
-      <p2 x="1300" y="1740"/>
+      <p1 x="1260" y="1740"/>
+      <p2 x="1280" y="1740"/>
     </wire>
     <wire>
       <p1 x="3220" y="1100"/>
@@ -6071,40 +6071,40 @@ with our new bytes.</string>
       <p2 x="3820" y="720"/>
     </wire>
     <wire>
-      <p1 x="1300" y="2000"/>
-      <p2 x="1320" y="2000"/>
+      <p1 x="1280" y="2000"/>
+      <p2 x="1300" y="2000"/>
     </wire>
     <wire>
-      <p1 x="1460" y="2000"/>
-      <p2 x="1520" y="2000"/>
+      <p1 x="1440" y="2000"/>
+      <p2 x="1500" y="2000"/>
     </wire>
     <wire>
-      <p1 x="1500" y="1620"/>
-      <p2 x="1600" y="1620"/>
+      <p1 x="1480" y="1620"/>
+      <p2 x="1580" y="1620"/>
     </wire>
     <wire>
-      <p1 x="1360" y="1620"/>
-      <p2 x="1400" y="1620"/>
+      <p1 x="1340" y="1620"/>
+      <p2 x="1380" y="1620"/>
     </wire>
     <wire>
-      <p1 x="1660" y="1620"/>
-      <p2 x="1680" y="1620"/>
+      <p1 x="1640" y="1620"/>
+      <p2 x="1660" y="1620"/>
     </wire>
     <wire>
       <p1 x="3800" y="1620"/>
       <p2 x="3820" y="1620"/>
     </wire>
     <wire>
-      <p1 x="1280" y="1620"/>
-      <p2 x="1300" y="1620"/>
+      <p1 x="1260" y="1620"/>
+      <p2 x="1280" y="1620"/>
     </wire>
     <wire>
-      <p1 x="1420" y="1620"/>
-      <p2 x="1480" y="1620"/>
+      <p1 x="1400" y="1620"/>
+      <p2 x="1460" y="1620"/>
     </wire>
     <wire>
-      <p1 x="1680" y="1620"/>
-      <p2 x="1860" y="1620"/>
+      <p1 x="1660" y="1620"/>
+      <p2 x="1840" y="1620"/>
     </wire>
     <wire>
       <p1 x="3220" y="980"/>
@@ -6127,20 +6127,20 @@ with our new bytes.</string>
       <p2 x="640" y="980"/>
     </wire>
     <wire>
-      <p1 x="2540" y="2900"/>
-      <p2 x="2620" y="2900"/>
+      <p1 x="2520" y="2900"/>
+      <p2 x="2600" y="2900"/>
     </wire>
     <wire>
-      <p1 x="780" y="2260"/>
-      <p2 x="800" y="2260"/>
+      <p1 x="760" y="2260"/>
+      <p2 x="780" y="2260"/>
     </wire>
     <wire>
-      <p1 x="680" y="2260"/>
-      <p2 x="700" y="2260"/>
+      <p1 x="660" y="2260"/>
+      <p2 x="680" y="2260"/>
     </wire>
     <wire>
-      <p1 x="240" y="1880"/>
-      <p2 x="260" y="1880"/>
+      <p1 x="220" y="1880"/>
+      <p2 x="240" y="1880"/>
     </wire>
     <wire>
       <p1 x="3220" y="600"/>
@@ -6223,16 +6223,16 @@ with our new bytes.</string>
       <p2 x="3820" y="1760"/>
     </wire>
     <wire>
-      <p1 x="400" y="1760"/>
-      <p2 x="440" y="1760"/>
+      <p1 x="380" y="1760"/>
+      <p2 x="420" y="1760"/>
     </wire>
     <wire>
-      <p1 x="460" y="1760"/>
-      <p2 x="540" y="1760"/>
+      <p1 x="440" y="1760"/>
+      <p2 x="520" y="1760"/>
     </wire>
     <wire>
-      <p1 x="1280" y="1760"/>
-      <p2 x="1300" y="1760"/>
+      <p1 x="1260" y="1760"/>
+      <p2 x="1280" y="1760"/>
     </wire>
     <wire>
       <p1 x="3220" y="480"/>
@@ -6247,12 +6247,12 @@ with our new bytes.</string>
       <p2 x="3820" y="480"/>
     </wire>
     <wire>
-      <p1 x="440" y="2400"/>
-      <p2 x="460" y="2400"/>
+      <p1 x="420" y="2400"/>
+      <p2 x="440" y="2400"/>
     </wire>
     <wire>
-      <p1 x="1300" y="2020"/>
-      <p2 x="1320" y="2020"/>
+      <p1 x="1280" y="2020"/>
+      <p2 x="1300" y="2020"/>
     </wire>
     <wire>
       <p1 x="3220" y="740"/>
@@ -6279,20 +6279,20 @@ with our new bytes.</string>
       <p2 x="3240" y="1380"/>
     </wire>
     <wire>
-      <p1 x="1840" y="1640"/>
-      <p2 x="1860" y="1640"/>
+      <p1 x="1820" y="1640"/>
+      <p2 x="1840" y="1640"/>
     </wire>
     <wire>
       <p1 x="3800" y="1640"/>
       <p2 x="3820" y="1640"/>
     </wire>
     <wire>
-      <p1 x="1280" y="1640"/>
-      <p2 x="1300" y="1640"/>
+      <p1 x="1260" y="1640"/>
+      <p2 x="1280" y="1640"/>
     </wire>
     <wire>
-      <p1 x="1460" y="1640"/>
-      <p2 x="1600" y="1640"/>
+      <p1 x="1440" y="1640"/>
+      <p2 x="1580" y="1640"/>
     </wire>
     <wire>
       <p1 x="3220" y="1000"/>
@@ -6327,12 +6327,12 @@ with our new bytes.</string>
       <p2 x="1980" y="1000"/>
     </wire>
     <wire>
-      <p1 x="2420" y="2920"/>
-      <p2 x="2460" y="2920"/>
+      <p1 x="2400" y="2920"/>
+      <p2 x="2440" y="2920"/>
     </wire>
     <wire>
-      <p1 x="1440" y="1900"/>
-      <p2 x="1500" y="1900"/>
+      <p1 x="1420" y="1900"/>
+      <p2 x="1480" y="1900"/>
     </wire>
     <wire>
       <p1 x="700" y="620"/>
@@ -6359,8 +6359,8 @@ with our new bytes.</string>
       <p2 x="3820" y="1260"/>
     </wire>
     <wire>
-      <p1 x="2420" y="2540"/>
-      <p2 x="2440" y="2540"/>
+      <p1 x="2400" y="2540"/>
+      <p2 x="2420" y="2540"/>
     </wire>
     <wire>
       <p1 x="3220" y="880"/>
@@ -6371,8 +6371,8 @@ with our new bytes.</string>
       <p2 x="3820" y="1520"/>
     </wire>
     <wire>
-      <p1 x="2460" y="2800"/>
-      <p2 x="2520" y="2800"/>
+      <p1 x="2440" y="2800"/>
+      <p2 x="2500" y="2800"/>
     </wire>
     <wire>
       <p1 x="620" y="500"/>
@@ -6439,12 +6439,12 @@ with our new bytes.</string>
       <p2 x="3820" y="1780"/>
     </wire>
     <wire>
-      <p1 x="2420" y="2420"/>
-      <p2 x="2440" y="2420"/>
+      <p1 x="2400" y="2420"/>
+      <p2 x="2420" y="2420"/>
     </wire>
     <wire>
-      <p1 x="1300" y="2040"/>
-      <p2 x="1320" y="2040"/>
+      <p1 x="1280" y="2040"/>
+      <p2 x="1300" y="2040"/>
     </wire>
     <wire>
       <p1 x="620" y="760"/>
@@ -6483,12 +6483,12 @@ with our new bytes.</string>
       <p2 x="3240" y="1400"/>
     </wire>
     <wire>
-      <p1 x="2000" y="1660"/>
-      <p2 x="2020" y="1660"/>
+      <p1 x="1980" y="1660"/>
+      <p2 x="2000" y="1660"/>
     </wire>
     <wire>
-      <p1 x="1840" y="1660"/>
-      <p2 x="1860" y="1660"/>
+      <p1 x="1820" y="1660"/>
+      <p2 x="1840" y="1660"/>
     </wire>
     <wire>
       <p1 x="3800" y="1660"/>
@@ -6499,24 +6499,24 @@ with our new bytes.</string>
       <p2 x="3880" y="1660"/>
     </wire>
     <wire>
+      <p1 x="580" y="1660"/>
+      <p2 x="600" y="1660"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="1660"/>
+      <p2 x="520" y="1660"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="1660"/>
+      <p2 x="1280" y="1660"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1660"/>
+      <p2 x="1580" y="1660"/>
+    </wire>
+    <wire>
       <p1 x="600" y="1660"/>
-      <p2 x="620" y="1660"/>
-    </wire>
-    <wire>
-      <p1 x="440" y="1660"/>
-      <p2 x="540" y="1660"/>
-    </wire>
-    <wire>
-      <p1 x="1280" y="1660"/>
-      <p2 x="1300" y="1660"/>
-    </wire>
-    <wire>
-      <p1 x="1520" y="1660"/>
-      <p2 x="1600" y="1660"/>
-    </wire>
-    <wire>
-      <p1 x="620" y="1660"/>
-      <p2 x="800" y="1660"/>
+      <p2 x="780" y="1660"/>
     </wire>
     <wire>
       <p1 x="3220" y="1020"/>
@@ -6527,12 +6527,12 @@ with our new bytes.</string>
       <p2 x="3820" y="1020"/>
     </wire>
     <wire>
-      <p1 x="600" y="2300"/>
-      <p2 x="680" y="2300"/>
+      <p1 x="580" y="2300"/>
+      <p2 x="660" y="2300"/>
     </wire>
     <wire>
-      <p1 x="2420" y="2300"/>
-      <p2 x="2440" y="2300"/>
+      <p1 x="2400" y="2300"/>
+      <p2 x="2420" y="2300"/>
     </wire>
     <wire>
       <p1 x="3840" y="800"/>
@@ -6551,20 +6551,16 @@ with our new bytes.</string>
       <p2 x="1600" y="1320"/>
     </wire>
     <wire>
-      <p1 x="1120" y="1580"/>
-      <p2 x="1120" y="1960"/>
+      <p1 x="2400" y="2920"/>
+      <p2 x="2400" y="2960"/>
     </wire>
     <wire>
-      <p1 x="520" y="1740"/>
-      <p2 x="520" y="1840"/>
+      <p1 x="1440" y="1640"/>
+      <p2 x="1440" y="1720"/>
     </wire>
     <wire>
-      <p1 x="680" y="2260"/>
-      <p2 x="680" y="2300"/>
-    </wire>
-    <wire>
-      <p1 x="2440" y="2820"/>
-      <p2 x="2440" y="2880"/>
+      <p1 x="2500" y="2800"/>
+      <p2 x="2500" y="2860"/>
     </wire>
     <wire>
       <p1 x="1320" y="500"/>
@@ -6575,52 +6571,56 @@ with our new bytes.</string>
       <p2 x="1480" y="1320"/>
     </wire>
     <wire>
-      <p1 x="1480" y="1680"/>
-      <p2 x="1480" y="1820"/>
+      <p1 x="1480" y="1700"/>
+      <p2 x="1480" y="1900"/>
     </wire>
     <wire>
-      <p1 x="620" y="1600"/>
-      <p2 x="620" y="1660"/>
-    </wire>
-    <wire>
-      <p1 x="460" y="2340"/>
-      <p2 x="460" y="2400"/>
+      <p1 x="1100" y="1580"/>
+      <p2 x="1100" y="1960"/>
     </wire>
     <wire>
       <p1 x="720" y="500"/>
       <p2 x="720" y="520"/>
     </wire>
     <wire>
-      <p1 x="720" y="2260"/>
-      <p2 x="720" y="2320"/>
+      <p1 x="500" y="1740"/>
+      <p2 x="500" y="1840"/>
     </wire>
     <wire>
-      <p1 x="240" y="1600"/>
-      <p2 x="240" y="1800"/>
+      <p1 x="660" y="2260"/>
+      <p2 x="660" y="2300"/>
     </wire>
     <wire>
-      <p1 x="1520" y="1660"/>
-      <p2 x="1520" y="2000"/>
+      <p1 x="2420" y="2820"/>
+      <p2 x="2420" y="2880"/>
     </wire>
     <wire>
-      <p1 x="1680" y="1580"/>
-      <p2 x="1680" y="1620"/>
+      <p1 x="1460" y="1680"/>
+      <p2 x="1460" y="1820"/>
     </wire>
     <wire>
       <p1 x="980" y="580"/>
       <p2 x="980" y="1340"/>
     </wire>
     <wire>
-      <p1 x="2420" y="2920"/>
-      <p2 x="2420" y="2960"/>
+      <p1 x="600" y="1600"/>
+      <p2 x="600" y="1660"/>
     </wire>
     <wire>
-      <p1 x="1460" y="1640"/>
-      <p2 x="1460" y="1720"/>
+      <p1 x="440" y="2340"/>
+      <p2 x="440" y="2400"/>
     </wire>
     <wire>
-      <p1 x="2520" y="2800"/>
-      <p2 x="2520" y="2860"/>
+      <p1 x="700" y="2260"/>
+      <p2 x="700" y="2320"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="1600"/>
+      <p2 x="220" y="1800"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="1660"/>
+      <p2 x="1500" y="2000"/>
     </wire>
     <wire>
       <p1 x="1500" y="560"/>
@@ -6631,8 +6631,8 @@ with our new bytes.</string>
       <p2 x="1500" y="520"/>
     </wire>
     <wire>
-      <p1 x="1500" y="1700"/>
-      <p2 x="1500" y="1900"/>
+      <p1 x="1660" y="1580"/>
+      <p2 x="1660" y="1620"/>
     </wire>
     <wire>
       <p1 x="860" y="560"/>

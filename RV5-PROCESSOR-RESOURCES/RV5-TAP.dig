@@ -23,7 +23,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>TCK</string>
+          <string>tck</string>
         </entry>
       </elementAttributes>
       <pos x="-6620" y="-2760"/>
@@ -33,7 +33,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>TMS</string>
+          <string>tms</string>
         </entry>
       </elementAttributes>
       <pos x="-6620" y="-2680"/>
@@ -43,7 +43,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>TDO</string>
+          <string>tdo</string>
         </entry>
       </elementAttributes>
       <pos x="-4920" y="-2040"/>
@@ -127,7 +127,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>TDI</string>
+          <string>tdi</string>
         </entry>
       </elementAttributes>
       <pos x="-6620" y="-2600"/>
@@ -512,7 +512,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DMI-REQ</string>
+          <string>dmi-req</string>
         </entry>
       </elementAttributes>
       <pos x="-4920" y="-1920"/>
@@ -550,7 +550,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DMI-WDATA</string>
+          <string>dmi-wdata</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -564,7 +564,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DMI-ACK</string>
+          <string>dmi-ack</string>
         </entry>
       </elementAttributes>
       <pos x="-6620" y="-2520"/>
@@ -574,7 +574,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DMI-RDATA</string>
+          <string>dmi-rdata</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -732,7 +732,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wen</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-5200" y="-1020"/>
@@ -802,7 +802,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wen</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-5200" y="-900"/>
@@ -816,7 +816,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmi_wen</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-5200" y="-780"/>
@@ -938,7 +938,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3960" y="-900"/>
@@ -2228,7 +2228,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3960" y="-780"/>
@@ -2242,7 +2242,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3960" y="-60"/>
@@ -2256,7 +2256,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3960" y="-180"/>
@@ -2270,7 +2270,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3960" y="-300"/>
@@ -2284,7 +2284,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3960" y="-420"/>
@@ -2298,7 +2298,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3960" y="-540"/>
@@ -2312,7 +2312,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-3960" y="-660"/>
@@ -2905,7 +2905,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dtcms_wen</string>
+          <string>dtmcs_wen</string>
         </entry>
       </elementAttributes>
       <pos x="-7000" y="-1860"/>
@@ -2939,7 +2939,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dmi_wen</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-7000" y="-1780"/>
@@ -3043,7 +3043,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DMI-ADDR</string>
+          <string>dmi-addr</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -3472,7 +3472,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DMI-WRITE</string>
+          <string>dmi-wen</string>
         </entry>
       </elementAttributes>
       <pos x="-4920" y="-1720"/>

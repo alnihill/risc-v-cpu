@@ -113,7 +113,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>want-half</string>
+          <string>half</string>
         </entry>
       </elementAttributes>
       <pos x="840" y="220"/>
@@ -127,7 +127,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>want-byte</string>
+          <string>byte</string>
         </entry>
       </elementAttributes>
       <pos x="780" y="220"/>
@@ -323,7 +323,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>want-byte</string>
+          <string>byte</string>
         </entry>
       </elementAttributes>
       <pos x="-40" y="240"/>
@@ -333,7 +333,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>want-half</string>
+          <string>half</string>
         </entry>
       </elementAttributes>
       <pos x="-40" y="280"/>
@@ -353,7 +353,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>want-byte</string>
+          <string>byte</string>
         </entry>
       </elementAttributes>
       <pos x="-20" y="240"/>
@@ -363,7 +363,7 @@ for all read sizes.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>want-half</string>
+          <string>half</string>
         </entry>
       </elementAttributes>
       <pos x="-20" y="280"/>

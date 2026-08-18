@@ -80,7 +80,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>is-opimm</string>
+          <string>is-op-imm</string>
         </entry>
       </elementAttributes>
       <pos x="940" y="200"/>

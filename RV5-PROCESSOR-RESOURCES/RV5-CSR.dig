@@ -37,7 +37,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>R_DATA</string>
+          <string>csr-out</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -95,7 +95,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>w_data</string>
+          <string>wdata</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -109,7 +109,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>w_data</string>
+          <string>wdata</string>
         </entry>
       </elementAttributes>
       <pos x="-200" y="200"/>
@@ -139,7 +139,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>pc_in</string>
+          <string>pc</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -153,7 +153,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>pc_in</string>
+          <string>pc</string>
         </entry>
       </elementAttributes>
       <pos x="-200" y="280"/>
@@ -163,7 +163,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>ecall_sel</string>
+          <string>ecall-sel</string>
         </entry>
       </elementAttributes>
       <pos x="-200" y="320"/>
@@ -173,7 +173,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>ecall_sel</string>
+          <string>ecall-sel</string>
         </entry>
       </elementAttributes>
       <pos x="-200" y="320"/>
@@ -183,7 +183,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>mret_sel</string>
+          <string>mret-sel</string>
         </entry>
       </elementAttributes>
       <pos x="-200" y="360"/>
@@ -193,7 +193,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>mret_sel</string>
+          <string>mret-sel</string>
         </entry>
       </elementAttributes>
       <pos x="-200" y="360"/>
@@ -203,7 +203,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>MTVEC_OUT</string>
+          <string>mtvec</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -217,7 +217,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>MEPC_OUT</string>
+          <string>mepc</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -231,7 +231,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>ebreak_sel</string>
+          <string>ebreak-sel</string>
         </entry>
       </elementAttributes>
       <pos x="-200" y="400"/>
@@ -241,7 +241,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>ebreak_sel</string>
+          <string>ebreak-sel</string>
         </entry>
       </elementAttributes>
       <pos x="-200" y="400"/>
@@ -271,7 +271,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DCSR_OUT</string>
+          <string>dcsr</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -601,7 +601,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>w_data</string>
+          <string>wdata</string>
         </entry>
       </elementAttributes>
       <pos x="960" y="260"/>
@@ -615,7 +615,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>w_data</string>
+          <string>wdata</string>
         </entry>
       </elementAttributes>
       <pos x="960" y="420"/>
@@ -629,7 +629,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>w_data</string>
+          <string>wdata</string>
         </entry>
       </elementAttributes>
       <pos x="960" y="520"/>
@@ -643,7 +643,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>w_data</string>
+          <string>wdata</string>
         </entry>
       </elementAttributes>
       <pos x="1120" y="840"/>
@@ -667,7 +667,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>ecall_sel</string>
+          <string>ecall-sel</string>
         </entry>
       </elementAttributes>
       <pos x="920" y="1020"/>
@@ -739,7 +739,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>pc_in</string>
+          <string>pc</string>
         </entry>
       </elementAttributes>
       <pos x="1120" y="880"/>
@@ -753,7 +753,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>w_data</string>
+          <string>wdata</string>
         </entry>
       </elementAttributes>
       <pos x="1120" y="940"/>
@@ -805,7 +805,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>w_data</string>
+          <string>wdata</string>
         </entry>
       </elementAttributes>
       <pos x="1280" y="1140"/>
@@ -885,7 +885,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>w_data</string>
+          <string>wdata</string>
         </entry>
       </elementAttributes>
       <pos x="1100" y="1320"/>
@@ -965,7 +965,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>w_data</string>
+          <string>wdata</string>
         </entry>
       </elementAttributes>
       <pos x="960" y="640"/>
@@ -1045,7 +1045,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>w_data</string>
+          <string>wdata</string>
         </entry>
       </elementAttributes>
       <pos x="960" y="760"/>
@@ -1121,7 +1121,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>ebreak_sel</string>
+          <string>ebreak-sel</string>
         </entry>
       </elementAttributes>
       <pos x="920" y="1400"/>
@@ -1159,7 +1159,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>pc_in</string>
+          <string>pc</string>
         </entry>
       </elementAttributes>
       <pos x="1100" y="1360"/>
@@ -1216,7 +1216,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>ebreak_sel</string>
+          <string>ebreak-sel</string>
         </entry>
       </elementAttributes>
       <pos x="820" y="1060"/>
@@ -1263,7 +1263,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>ecall_sel</string>
+          <string>ecall-sel</string>
         </entry>
       </elementAttributes>
       <pos x="1080" y="1020"/>
@@ -2149,7 +2149,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>DPC_OUT</string>
+          <string>dpc</string>
         </entry>
         <entry>
           <string>Bits</string>
