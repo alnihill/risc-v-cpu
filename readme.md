@@ -43,5 +43,5 @@ Standardize tunnel naming scheme: **Done**
 ### Less important (easy for anyone to do) 
 - [ ] Rewrite lab macro calls and pseudoinstructions to work with the GNU standard instead of RARS 
 ## Digital Fork
-- [ ] Finalize FileMapper
+- [x] Finalize FileMapper
 - [x] Make GdbServer configureable
