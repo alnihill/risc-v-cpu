@@ -39,7 +39,14 @@ static uint32_t handle_modes[16];
 
 static inline uint32_t open_file(const char *path, uint32_t mode)
 {
+    if (highest_handle >= 15 && highest_handle != (uint32_t)-1) {
+        return (uint32_t)-1;
+    }
+
     uint32_t handle = ++highest_handle;
+    if (handle >= 16) {
+        return (uint32_t)-1;
+    }
 
     unsigned int i = 0;
     while (*path && i < 255) {
@@ -74,13 +81,17 @@ static inline uint32_t open_file(const char *path, uint32_t mode)
     if (*(volatile unsigned int*)(FILEMAP_ERROR) == 1)
         return handle;
     else
-        return -1;
+        return (uint32_t)-1;
 }
 
 static inline uint32_t write_file(uint32_t handle, const uint8_t *buffer, uint32_t len)
 {
+    if (handle >= 16) {
+        return 0;
+    }
+
     switch (handle_modes[handle]) {
-        case 1: // write-only
+        case 1: { // write-only
             *(volatile unsigned int*)(FILEMAP_HANDLE) = handle;
 
             // Change the len!
@@ -102,7 +113,8 @@ static inline uint32_t write_file(uint32_t handle, const uint8_t *buffer, uint32
                 return len;
             else
                 return 0;
-        case 9: // append
+        }
+        case 9: { // append
             *(volatile unsigned int*)(FILEMAP_HANDLE) = handle;
             uint8_t *end = (uint8_t*)FILEMAP_BUFFER + handle_sizes[handle];
 
@@ -125,6 +137,7 @@ static inline uint32_t write_file(uint32_t handle, const uint8_t *buffer, uint32
                 return len;
             else
                 return 0;
+        }
         default:
             return 0;
     }

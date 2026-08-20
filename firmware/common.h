@@ -11,9 +11,9 @@
 #define FILEMAP_HANDLE FILEMAP_BASE + 0x10C
 #define FILEMAP_BUFFER FILEMAP_BASE + 0x1000
 
-#define GETNUM_NO_INPUT   4u
-#define GETNUM_SUBMIT    10u // \n
-#define GETNUM_BACKSPACE  8u // backspace
+#define GETNUM_NO_INPUT   ((uint8_t)4)
+#define GETNUM_SUBMIT     ((uint8_t)10) // \n
+#define GETNUM_BACKSPACE  ((uint8_t)8)  // backspace
 
 static inline uint32_t udivmod32(uint32_t dividend, uint32_t divisor, uint32_t *remainder_out)
 {
@@ -54,20 +54,23 @@ static inline void print_char(uint8_t c)
 }
 
 static inline void print_str(const char* s) {
-    while (*s) print_char(*s++);
+    while (*s) print_char((uint8_t)*s++);
 }
 
-static inline char read_char() {
-    volatile char *to_read = (volatile char*)0x10000;
-    return *to_read;
+static inline uint8_t read_char(void) {
+    uint8_t c;
+    do {
+        c = *CONSOLE_IO;
+    } while (c == GETNUM_NO_INPUT);
+    return c;
 }
 
-__attribute((optimize("Os")))
-static inline uint32_t read_number(void)
+static inline int32_t read_number(void)
 {
     uint32_t undo[32];
     uint32_t depth = 0;
     uint32_t value = 0;
+    bool is_negative = false;
 
     for (;;) {
         uint8_t byte = *CONSOLE_IO;
@@ -81,21 +84,40 @@ static inline uint32_t read_number(void)
         if (byte == GETNUM_BACKSPACE) {
             if (depth == 0) continue;
             print_char(GETNUM_BACKSPACE);
-            value = undo[--depth];
+            depth--;
+            if (depth == 0 && is_negative) {
+                is_negative = false;
+                value = 0;
+            } else {
+                value = undo[depth];
+            }
             continue;
         }
 
-        print_char(byte);
-        if (depth < (sizeof(undo) / sizeof(undo[0]))) {
-            undo[depth++] = value;
+        if (byte == '-' && depth == 0 && !is_negative) {
+            print_char('-');
+            is_negative = true;
+            if (depth < (sizeof(undo) / sizeof(undo[0]))) {
+                undo[depth++] = 0;
+            }
+            continue;
         }
-        value = value * 10u + (uint32_t)(byte - '0');
+
+        if (byte >= '0' && byte <= '9') {
+            print_char(byte);
+            if (depth < (sizeof(undo) / sizeof(undo[0]))) {
+                undo[depth++] = value;
+            }
+            value = value * 10u + (uint32_t)(byte - '0');
+        }
     }
 
-    return value;
+    if (is_negative) {
+        return (int32_t)(0u - value);
+    }
+    return (int32_t)value;
 }
 
-__attribute((optimize("Os")))
 static inline void print_uint32(uint32_t mag)
 {
     uint8_t digits[11];

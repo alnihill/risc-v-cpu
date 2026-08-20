@@ -92,15 +92,17 @@ int shell_main() {
             if (!command[5]) {
                 print_str("load needs an argument!\n");
             }
-            unsigned int size;
-            unsigned int status = map_file(&command[5], &size);
-            if (status == 2 || status == 3) {
-                print_str("Failed to map file\n");
-            }
             else {
-                print_str("Branching to file..!\n"); 
-                Entrypoint entrypoint = (Entrypoint)(FILEMAP_BUFFER);
-                entrypoint();
+                unsigned int size;
+                unsigned int status = map_file(&command[5], &size);
+                if (status == 2 || status == 3) {
+                    print_str("Failed to map file\n");
+                }
+                else {
+                    print_str("Branching to file..!\n");
+                    Entrypoint entrypoint = (Entrypoint)(FILEMAP_BUFFER);
+                    entrypoint();
+                }
             }
         }
         else {
