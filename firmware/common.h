@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include <stdbool.h>
 
 #define CONSOLE_IO      ((volatile uint8_t *)0x10000u)
 
