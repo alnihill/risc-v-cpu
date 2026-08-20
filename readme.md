@@ -10,9 +10,10 @@
 6. My Digital fork uses a special program called OpenOCD for facilitating debugging. Install this with ``brew install openocd``. 
 7. And of course, you'll need a copy of this repo! Either ``git clone https://github.com/alnihill/risc-v-cpu.git`` or head to Code > Download ZIP in GitHub.
 ### Manual
+This method isn't super reccomended because you'll be pushing through a *ton* of permission prompts. You'll need Settings > Privacy & Security open for basically the entire time so that you can tell it that each and every executable or shared library you're opening is not in fact malware.
 1. If you don't have Java, download it [here](https://adoptium.net/temurin/releases) and install it. 
 2. You'll need my [fork of Digital](https://github.com/alnihill/Digital/releases/latest).
-3. Download the darwin version of [the riscv gcc xpack](https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/latest). If you are on Apple Silicon, this will be the one ending in ``darwin-arm64.tar.gz``. If you have an Intel CPU, this will end in ``darwin-x64.tar.gz``. Extract this somewhere nice. Edit your ~/.zshrc (or ~/.bashrc if you use bash instead of zsh) to include ``export PATH="[path to the bin directory of the extracted archive]:$PATH"``. Restart your shell and give ``riscv-none-elf-gcc`` a spin. Your system will probably complain about its signing and refuse to run it. Head to Privacy & Security in Settings to allow it. It loads some shared libraries that are also not signed, so keep running it and allowing things in Settings until it loads up cleanly. 
+3. Download the darwin version of [the riscv gcc xpack](https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/latest). If you are on Apple Silicon, this will be the one ending in ``darwin-arm64.tar.gz``. If you have an Intel CPU, this will end in ``darwin-x64.tar.gz``. Extract this somewhere nice. Edit your ~/.zshrc (or ~/.bashrc if you use bash instead of zsh) to include ``export PATH="[path to the bin directory of the extracted archive]:$PATH"``. Restart your shell and give ``riscv-none-elf-gcc`` a spin. 
 4. The version of gdb you'll need is bundled with the xpack you installed for gcc. Run ``riscv-none-elf-gdb`` and sort through the security errors. **Remember this command - it is how you will run gdb!**
 5. Download the correct darwin version of [the riscv openocd xpack](https://github.com/xpack-dev-tools/openocd-xpack/releases/latest). Extract it somewhere. You can add its bin directory to the path just like what you did with gcc, or you can point Digital to the openocd executable in Digital settings. Whatever you want. 
 6. And of course, you'll need a copy of this repo! Either ``git clone https://github.com/alnihill/risc-v-cpu.git`` or head to Code > Download ZIP in GitHub.
@@ -29,9 +30,10 @@
 4. Finally, download or clone this repo!
 ### Fedora-based
 1. If you don't have Java: ``sudo dnf install java-latest-openjdk``.
-2. Get a copy of my [Digital fork](https://github.com/alnihill/Digital/releases/latest).
-3. Run: ``sudo dnf install gcc-riscv64-unknown-elf gdb openocd``. **Your gdb executable will simply be ``gdb``.**
-4. Of course, download or clone this repo!
+2. If you don't have make: ``sudo dnf install make``.
+3. Get a copy of my [Digital fork](https://github.com/alnihill/Digital/releases/latest).
+4. Run: ``sudo dnf install gcc-riscv64-unknown-elf gdb openocd``. **Your gdb executable will simply be ``gdb``.**
+5. Of course, download or clone this repo!
 
 # Usage
 ## Running the CPU
