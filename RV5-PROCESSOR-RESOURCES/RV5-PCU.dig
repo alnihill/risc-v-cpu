@@ -1707,21 +1707,7 @@ signals, which take priority over the PC increment.</string>
     <visualElement>
       <elementName>RS_FF</elementName>
       <elementAttributes/>
-      <pos x="1820" y="580"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>haltreq</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1800" y="580"/>
+      <pos x="40" y="940"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1735,7 +1721,7 @@ signals, which take priority over the PC increment.</string>
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="1800" y="600"/>
+      <pos x="20" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -1745,7 +1731,7 @@ signals, which take priority over the PC increment.</string>
           <string>is-debug</string>
         </entry>
       </elementAttributes>
-      <pos x="1920" y="580"/>
+      <pos x="140" y="940"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1759,12 +1745,12 @@ signals, which take priority over the PC increment.</string>
           <string>jump-progbuf</string>
         </entry>
       </elementAttributes>
-      <pos x="1820" y="680"/>
+      <pos x="40" y="1040"/>
     </visualElement>
     <visualElement>
       <elementName>RS_FF</elementName>
       <elementAttributes/>
-      <pos x="1840" y="680"/>
+      <pos x="60" y="1040"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1778,7 +1764,7 @@ signals, which take priority over the PC increment.</string>
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="1820" y="700"/>
+      <pos x="40" y="1060"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1792,7 +1778,7 @@ signals, which take priority over the PC increment.</string>
           <string>dret-sel</string>
         </entry>
       </elementAttributes>
-      <pos x="1800" y="620"/>
+      <pos x="20" y="980"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1806,7 +1792,7 @@ signals, which take priority over the PC increment.</string>
           <string>ebreak-sel</string>
         </entry>
       </elementAttributes>
-      <pos x="1820" y="720"/>
+      <pos x="40" y="1080"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -1816,7 +1802,7 @@ signals, which take priority over the PC increment.</string>
           <string>is-progbuf</string>
         </entry>
       </elementAttributes>
-      <pos x="1920" y="680"/>
+      <pos x="140" y="1040"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1826,7 +1812,96 @@ signals, which take priority over the PC increment.</string>
           <string>is-debug</string>
         </entry>
       </elementAttributes>
-      <pos x="1920" y="540"/>
+      <pos x="140" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="-100" y="920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>haltreq</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-120" y="920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>32</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>15-15</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-260" y="980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>dcsr</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-300" y="980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>ebreak-sel</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-220" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="-200" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>We use some of the seame conditions as the PC
+select to figure out if we&apos;re in the debug ROM/progbuf.
+We could do an address range check, which would
+be hard to get wrong.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-400" y="780"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -1883,6 +1958,10 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1020" y="900"/>
     </wire>
     <wire>
+      <p1 x="120" y="900"/>
+      <p2 x="140" y="900"/>
+    </wire>
+    <wire>
       <p1 x="520" y="520"/>
       <p2 x="540" y="520"/>
     </wire>
@@ -1921,6 +2000,14 @@ signals, which take priority over the PC increment.</string>
     <wire>
       <p1 x="1040" y="1040"/>
       <p2 x="1220" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="1040"/>
+      <p2 x="60" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="1040"/>
+      <p2 x="140" y="1040"/>
     </wire>
     <wire>
       <p1 x="880" y="1040"/>
@@ -1971,6 +2058,10 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1240" y="920"/>
     </wire>
     <wire>
+      <p1 x="-120" y="920"/>
+      <p2 x="-100" y="920"/>
+    </wire>
+    <wire>
       <p1 x="420" y="540"/>
       <p2 x="440" y="540"/>
     </wire>
@@ -1981,10 +2072,6 @@ signals, which take priority over the PC increment.</string>
     <wire>
       <p1 x="1200" y="540"/>
       <p2 x="1340" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="1900" y="540"/>
-      <p2 x="1920" y="540"/>
     </wire>
     <wire>
       <p1 x="860" y="1180"/>
@@ -2019,6 +2106,10 @@ signals, which take priority over the PC increment.</string>
       <p2 x="760" y="1060"/>
     </wire>
     <wire>
+      <p1 x="40" y="1060"/>
+      <p2 x="60" y="1060"/>
+    </wire>
+    <wire>
       <p1 x="740" y="-40"/>
       <p2 x="780" y="-40"/>
     </wire>
@@ -2051,14 +2142,6 @@ signals, which take priority over the PC increment.</string>
       <p2 x="900" y="680"/>
     </wire>
     <wire>
-      <p1 x="1820" y="680"/>
-      <p2 x="1840" y="680"/>
-    </wire>
-    <wire>
-      <p1 x="1900" y="680"/>
-      <p2 x="1920" y="680"/>
-    </wire>
-    <wire>
       <p1 x="-740" y="680"/>
       <p2 x="-720" y="680"/>
     </wire>
@@ -2077,6 +2160,22 @@ signals, which take priority over the PC increment.</string>
     <wire>
       <p1 x="820" y="940"/>
       <p2 x="860" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="-220" y="940"/>
+      <p2 x="-200" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="940"/>
+      <p2 x="120" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="940"/>
+      <p2 x="40" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="940"/>
+      <p2 x="140" y="940"/>
     </wire>
     <wire>
       <p1 x="860" y="940"/>
@@ -2113,6 +2212,10 @@ signals, which take priority over the PC increment.</string>
     <wire>
       <p1 x="1040" y="820"/>
       <p2 x="1100" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="1080"/>
+      <p2 x="60" y="1080"/>
     </wire>
     <wire>
       <p1 x="980" y="1080"/>
@@ -2159,16 +2262,12 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1020" y="700"/>
     </wire>
     <wire>
-      <p1 x="1820" y="700"/>
-      <p2 x="1840" y="700"/>
+      <p1 x="20" y="960"/>
+      <p2 x="40" y="960"/>
     </wire>
     <wire>
-      <p1 x="1100" y="320"/>
-      <p2 x="1120" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="-740" y="320"/>
-      <p2 x="-720" y="320"/>
+      <p1 x="-120" y="960"/>
+      <p2 x="-100" y="960"/>
     </wire>
     <wire>
       <p1 x="1000" y="960"/>
@@ -2179,8 +2278,12 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1240" y="960"/>
     </wire>
     <wire>
-      <p1 x="1800" y="580"/>
-      <p2 x="1820" y="580"/>
+      <p1 x="1100" y="320"/>
+      <p2 x="1120" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="-740" y="320"/>
+      <p2 x="-720" y="320"/>
     </wire>
     <wire>
       <p1 x="900" y="580"/>
@@ -2189,14 +2292,6 @@ signals, which take priority over the PC increment.</string>
     <wire>
       <p1 x="960" y="580"/>
       <p2 x="1000" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="1880" y="580"/>
-      <p2 x="1900" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="1900" y="580"/>
-      <p2 x="1920" y="580"/>
     </wire>
     <wire>
       <p1 x="1220" y="200"/>
@@ -2251,12 +2346,24 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1480" y="720"/>
     </wire>
     <wire>
-      <p1 x="1820" y="720"/>
-      <p2 x="1840" y="720"/>
-    </wire>
-    <wire>
       <p1 x="-740" y="720"/>
       <p2 x="-720" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="20" y="980"/>
+      <p2 x="40" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="980"/>
+      <p2 x="-200" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="980"/>
+      <p2 x="1020" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="980"/>
+      <p2 x="-260" y="980"/>
     </wire>
     <wire>
       <p1 x="900" y="340"/>
@@ -2267,16 +2374,8 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1000" y="340"/>
     </wire>
     <wire>
-      <p1 x="980" y="980"/>
-      <p2 x="1020" y="980"/>
-    </wire>
-    <wire>
       <p1 x="-740" y="600"/>
       <p2 x="-720" y="600"/>
-    </wire>
-    <wire>
-      <p1 x="1800" y="600"/>
-      <p2 x="1820" y="600"/>
     </wire>
     <wire>
       <p1 x="560" y="600"/>
@@ -2355,16 +2454,16 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1020" y="740"/>
     </wire>
     <wire>
+      <p1 x="1000" y="1000"/>
+      <p2 x="1020" y="1000"/>
+    </wire>
+    <wire>
       <p1 x="1080" y="360"/>
       <p2 x="1100" y="360"/>
     </wire>
     <wire>
       <p1 x="-740" y="360"/>
       <p2 x="-720" y="360"/>
-    </wire>
-    <wire>
-      <p1 x="1000" y="1000"/>
-      <p2 x="1020" y="1000"/>
     </wire>
     <wire>
       <p1 x="660" y="620"/>
@@ -2375,12 +2474,16 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1000" y="620"/>
     </wire>
     <wire>
-      <p1 x="1800" y="620"/>
-      <p2 x="1820" y="620"/>
-    </wire>
-    <wire>
       <p1 x="780" y="620"/>
       <p2 x="900" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="880"/>
+      <p2 x="1220" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="880"/>
+      <p2 x="1020" y="880"/>
     </wire>
     <wire>
       <p1 x="1080" y="240"/>
@@ -2409,14 +2512,6 @@ signals, which take priority over the PC increment.</string>
     <wire>
       <p1 x="1740" y="240"/>
       <p2 x="1900" y="240"/>
-    </wire>
-    <wire>
-      <p1 x="1200" y="880"/>
-      <p2 x="1220" y="880"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="880"/>
-      <p2 x="1020" y="880"/>
     </wire>
     <wire>
       <p1 x="1000" y="1140"/>
@@ -2535,10 +2630,6 @@ signals, which take priority over the PC increment.</string>
       <p2 x="1900" y="240"/>
     </wire>
     <wire>
-      <p1 x="1900" y="540"/>
-      <p2 x="1900" y="580"/>
-    </wire>
-    <wire>
       <p1 x="1100" y="80"/>
       <p2 x="1100" y="120"/>
     </wire>
@@ -2597,6 +2688,10 @@ signals, which take priority over the PC increment.</string>
     <wire>
       <p1 x="980" y="1080"/>
       <p2 x="980" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="900"/>
+      <p2 x="120" y="940"/>
     </wire>
     <wire>
       <p1 x="1880" y="120"/>
