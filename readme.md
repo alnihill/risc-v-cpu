@@ -19,6 +19,7 @@ This method isn't super reccomended because you'll be pushing through a *ton* of
 6. And of course, you'll need a copy of this repo! Either ``git clone https://github.com/alnihill/risc-v-cpu.git`` or head to Code > Download ZIP in GitHub.
 ## Linux
 ### Debian-based (Debian, Ubuntu, Linux Mint, etc.)
+NOTE: Apparently, the openocd that ships on Debian-based systems does not support JTAG VPI. Supposedly the one on Linuxbrew is fine... or you can get around this issue by swapping the GdbServerVPI and RV5-TAP-VPI in the debug module out for the non-vpi variants. (If you do so, remember to configure the GdbServer component to expect riscv!)
 1. If you don't have Java: ``sudo apt install default-jre``. 
 2. Get a copy of my [Digital fork](https://github.com/alnihill/Digital/releases/latest).
 3. Install everything else: ``sudo apt install gcc-riscv64-unknown-elf gdb-multiarch openocd``. **Your gdb command will be ``gdb-multiarch``**
