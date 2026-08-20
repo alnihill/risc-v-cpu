@@ -28,12 +28,6 @@ This method isn't super reccomended because you'll be pushing through a *ton* of
 2. Get a copy of my [Digital fork](https://github.com/alnihill/Digital/releases/latest).
 3. Grab important stuff: ``sudo pacman -S riscv64-elf-gcc riscv64-elf-gdb openocd``. **Your gdb executable will be called ``riscv64-elf-gdb``**
 4. Finally, download or clone this repo!
-### Fedora-based
-1. If you don't have Java: ``sudo dnf install java-latest-openjdk``.
-2. If you don't have make: ``sudo dnf install make``.
-3. Get a copy of my [Digital fork](https://github.com/alnihill/Digital/releases/latest).
-4. Run: ``sudo dnf install gcc-riscv64-unknown-elf gdb openocd``. **Your gdb executable will simply be ``gdb``.**
-5. Of course, download or clone this repo!
 
 # Usage
 ## Running the CPU
