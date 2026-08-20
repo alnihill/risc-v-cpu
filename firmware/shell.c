@@ -1,5 +1,13 @@
 #include "common.h"
 
+// The file mapper supports mounting a nothing string to treat it as RAM.
+static inline unsigned int map_ram() {
+    *(volatile char*)(FILEMAP_PATH) = '\0'; // We want this to be ram!
+    *(volatile unsigned int*)(FILEMAP_HANDLE) = -1; // use our reserved handle
+    *(volatile unsigned int*)(FILEMAP_COMMAND) = 2; // Open in write mode
+    return *(volatile unsigned int*)(FILEMAP_ERROR);
+}
+
 static inline unsigned int map_file(const char *path, unsigned int* size) {
     // Write our file path
     unsigned int i = 0;
@@ -48,6 +56,7 @@ static inline void print_about() {
 typedef void (*Entrypoint)(void);
 
 int shell_main() {
+    map_ram(); // So we can write to this location from gdb or whatever.
     print_help();
 
     char command[COMMAND_LEN];

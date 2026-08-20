@@ -9,7 +9,7 @@ LD      := $(CROSS_COMPILE)ld -m elf32lriscv --no-warn-rwx-segments
 OBJCOPY := $(CROSS_COMPILE)objcopy
 OBJDUMP := $(CROSS_COMPILE)objdump
 
-.PHONY: all firmware clean $(filter %.s %.S,$(MAKECMDGOALS))
+.PHONY: all firmware clean $(filter %.s %.S %.asm %.ASM,$(MAKECMDGOALS))
 
 all: firmware
 
@@ -24,11 +24,11 @@ firmware-out/firmware.bin: firmware/firmware.c firmware/shell.c firmware/firmwar
 	$(OBJDUMP) -D -b binary -m riscv:rv32i firmware-out/firmware.bin > firmware-out/firmware.asm
 	@echo "Built: firmware-out/firmware.bin"
 
-# Build any assembly file
-$(filter %.s %.S,$(MAKECMDGOALS)):
+# Build any assembly file (e.g. 'make Lab3.s' or 'make Lab3.asm' -> creates 'Lab3.bin')
+$(filter %.s %.S %.asm %.ASM,$(MAKECMDGOALS)):
 	@dir="$$(dirname "$@")"; \
 	stem="$$(basename "$@" | sed 's/\.[^.]*$$//')"; \
-	$(CC) -x assembler-with-cpp -I"$$dir" -I. -I"local/fixed labs" -c "$@" -o "$$dir/$$stem.o" && \
+	$(CC) -g -x assembler-with-cpp -I"$$dir" -I. -I"local/fixed labs" -c "$@" -o "$$dir/$$stem.o" && \
 	$(LD) -T link.ld "$$dir/$$stem.o" -o "$$dir/$$stem.elf" && \
 	$(OBJCOPY) -O binary "$$dir/$$stem.elf" "$$dir/$$stem.bin" && \
 	rm -f "$$dir/$$stem.o" && \
