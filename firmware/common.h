@@ -11,7 +11,7 @@
 #define FILEMAP_HANDLE FILEMAP_BASE + 0x10C
 #define FILEMAP_BUFFER FILEMAP_BASE + 0x1000
 
-#define GETNUM_NO_INPUT   ((uint8_t)4)
+#define GETNUM_NO_INPUT   ((uint8_t)0)
 #define GETNUM_SUBMIT     ((uint8_t)10) // \n
 #define GETNUM_BACKSPACE  ((uint8_t)8)  // backspace
 
