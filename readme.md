@@ -70,7 +70,7 @@ Standardize tunnel naming scheme: **Done**
 - [x] Finish the loader program
   - Just need to make it support custom .bin paths. Pretty easy.
 - [x] Make dummy JTAG TAP for parallel writes.
-- [ ] Document setup
+- [x] Document setup
 ### Less important (easy for anyone to do) 
 - [ ] Rewrite lab macro calls and pseudoinstructions to work with the GNU standard instead of RARS 
 ## Digital Fork
