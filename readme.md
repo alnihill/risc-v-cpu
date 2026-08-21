@@ -44,8 +44,8 @@ Open a terminal and navigate to your copy of this repository. Run ``make firmwar
 Of course, a CPU that does nothing is boring. Why don't you write some assembly for it? When you're done, run ``make [your .s/.asm file]``. This will produce an output called ``[your file's name].bin``. To try it out, run the simulation and enter the command: ``load [your file's name].bin``. (Ex: you write ``main.s``, you run ``make main.s``, you get ``main.bin``, you run the sim and enter ``load main.bin`` into the console).
 ## Debugging your program
 Oh no! Your program isn't working as expected. Or maybe you just want to look around its internals at runtime. Either way, gdb has you covered.
-1. Run your gdb command in a terminal somewhere and then start the sim.
-2. Then, tell gdb: ``set remotetimeout unlimited`` and ``target extended-remote localhost:3333`` (the first is optional but can help with dropped connections on slow sims). This will connect your debugger and pause the CPU. 3
+1. Run your gdb command in a terminal in the root directory of the repository and then start the sim.
+2. Then, tell gdb: ``target extended-remote localhost:3333``. This will connect your debugger and pause the CPU.
 3. If you run ``layout asm`` you'll get to see the instruction you halted on. Right now, it will just be somewhere in the firmware. 
 4. Instead of calling ``load [your file's name].bin`` inside the simulation's console, run ``load [your file's name].elf`` inside GDB. Then run ``add-symbol-file [your file's name].elf``. (Note the ".elf". Also, it is important to note that this filepath is relative to where *gdb* was started.)
 
