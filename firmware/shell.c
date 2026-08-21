@@ -51,7 +51,7 @@ static inline void print_about() {
     print_char('\n');
 }
 
-#define COMMAND_LEN 26
+#define COMMAND_LEN 56
 
 typedef void (*Entrypoint)(void);
 

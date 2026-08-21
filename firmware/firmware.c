@@ -37,7 +37,8 @@ static uint32_t highest_handle = -1; // We reserve file handle -1 for the loader
 static uint32_t handle_sizes[16];
 static uint32_t handle_modes[16];
 
-static inline uint32_t open_file(const char *path, uint32_t mode)
+__attribute__((noinline, section(".text")))
+static uint32_t open_file(const char *path, uint32_t mode)
 {
     if (highest_handle >= 15 && highest_handle != (uint32_t)-1) {
         return (uint32_t)-1;
@@ -84,7 +85,36 @@ static inline uint32_t open_file(const char *path, uint32_t mode)
         return (uint32_t)-1;
 }
 
-static inline uint32_t write_file(uint32_t handle, const uint8_t *buffer, uint32_t len)
+__attribute__((noinline, section(".text")))
+static uint32_t read_file(uint32_t handle, uint8_t *buffer, uint32_t len)
+{
+    if (handle >= 16) {
+        return 0;
+    }
+
+    if (handle_modes[handle] != 0) {
+        return 0;
+    }
+
+    uint32_t to_read = len;
+    if (to_read > handle_sizes[handle]) {
+        to_read = handle_sizes[handle];
+    }
+
+    *(volatile unsigned int*)(FILEMAP_HANDLE) = handle;
+
+    for (uint32_t i = 0; i < to_read; i++) {
+        buffer[i] = ((volatile uint8_t*)FILEMAP_BUFFER)[i];
+    }
+    buffer[to_read] = '\0';
+
+    *(volatile unsigned int*)(FILEMAP_HANDLE) = -1;
+
+    return to_read;
+}
+
+__attribute__((noinline, section(".text")))
+static uint32_t write_file(uint32_t handle, const uint8_t *buffer, uint32_t len)
 {
     if (handle >= 16) {
         return 0;
@@ -172,8 +202,11 @@ static uint32_t trap_dispatch(uint32_t arg0, uint32_t arg1, uint32_t arg2, uint3
     case SYS_OPENFILE:
         result = open_file((char*)arg0, (uint32_t)arg1);
         break;
+    case SYS_READFILE:
+        result = read_file(arg0, (uint8_t*)arg1, arg2);
+        break;
     case SYS_WRITEFILE:
-        write_file(arg0, (uint8_t*)arg1, arg2);
+        result = write_file(arg0, (uint8_t*)arg1, arg2);
         break;
     case SYS_CLOSEFILE:
         break; // Currently nothing to do

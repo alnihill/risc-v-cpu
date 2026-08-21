@@ -6862,12 +6862,12 @@ back. We don&apos;t want duplicate execution!)</string>
           <string>riscv</string>
         </entry>
         <entry>
-          <string>openOCDDebugLevel</string>
-          <int>3</int>
-        </entry>
-        <entry>
           <string>jtagVpiWordWidth</string>
           <int>41</int>
+        </entry>
+        <entry>
+          <string>openOCDDebugLevel</string>
+          <int>3</int>
         </entry>
       </elementAttributes>
       <pos x="-5060" y="-1580"/>
