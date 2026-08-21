@@ -47,7 +47,7 @@ Oh no! Your program isn't working as expected. Or maybe you just want to look ar
 1. Run your gdb command in a terminal somewhere and then start the sim.
 2. Then, tell gdb: ``set remotetimeout unlimited`` and ``target extended-remote localhost:3333`` (the first is optional but can help with dropped connections on slow sims). This will connect your debugger and pause the CPU. 3
 3. If you run ``layout asm`` you'll get to see the instruction you halted on. Right now, it will just be somewhere in the firmware. 
-4. Instead of calling ``load [your file's name].bin`` inside the simulation's console, run ``load [your file's name].elf`` inside GDB. Then run  (Note the ".elf". Also, it is important to note that this filepath is relative to where *gdb* was started.)
+4. Instead of calling ``load [your file's name].bin`` inside the simulation's console, run ``load [your file's name].elf`` inside GDB. Then run ``add-symbol-file [your file's name].elf``. (Note the ".elf". Also, it is important to note that this filepath is relative to where *gdb* was started.)
 
 # Todo: 
 ## Circuit Form
