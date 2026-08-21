@@ -65,11 +65,13 @@ int shell_main() {
         print_char(' ');
         char input = '\0';
         unsigned int i = 0;
-        while ((input = read_char()) != '\n' && i < COMMAND_LEN - 1) {
+        while ((input = read_char()) != '\n') {
             if (input >= 32 && input <= 126) {
-                print_char(input);
-                command[i] = input;
-                i++;
+                if (i < COMMAND_LEN - 1) {
+                    print_char(input);
+                    command[i] = input;
+                    i++;
+                }
             }
             if (input == '\b' && i > 0) {
                 print_char('\b');
