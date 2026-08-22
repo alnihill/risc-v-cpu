@@ -1753,7 +1753,7 @@ memory block and a tunnel back.</string>
         </entry>
         <entry>
           <string>Frequency</string>
-          <int>2147483647</int>
+          <int>5000</int>
         </entry>
       </elementAttributes>
       <pos x="-13520" y="-3140"/>
@@ -2449,6 +2449,28 @@ memory block and a tunnel back.</string>
         </entry>
       </elementAttributes>
       <pos x="-11600" y="-2600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>10</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Note: In the debug module I have
+something set-up to override
+this clock to maximum when debug
+work needs to be done.
+It&apos;s definitely a hack but worth it
+for the debugging performance.
+TLDR: The clock speed that you set 
+here really just dictates how 
+fast it will go *most* of the time.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-13620" y="-3120"/>
     </visualElement>
   </visualElements>
   <wires>

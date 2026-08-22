@@ -6855,24 +6855,6 @@ back. We don&apos;t want duplicate execution!)</string>
       <pos x="-4840" y="-1480"/>
     </visualElement>
     <visualElement>
-      <elementName>GdbServerVpi</elementName>
-      <elementAttributes>
-        <entry>
-          <string>openOCDTargetArch</string>
-          <string>riscv</string>
-        </entry>
-        <entry>
-          <string>jtagVpiWordWidth</string>
-          <int>41</int>
-        </entry>
-        <entry>
-          <string>openOCDDebugLevel</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-5060" y="-1580"/>
-    </visualElement>
-    <visualElement>
       <elementName>RV5-TAP-VPI.dig</elementName>
       <elementAttributes/>
       <pos x="-4820" y="-1600"/>
@@ -6949,6 +6931,44 @@ reads.)</string>
         </entry>
       </elementAttributes>
       <pos x="-3140" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>GdbServerVpi</elementName>
+      <elementAttributes>
+        <entry>
+          <string>openOCDDebugLevel</string>
+          <int>3</int>
+        </entry>
+        <entry>
+          <string>jtagVpiWordWidth</string>
+          <int>41</int>
+        </entry>
+        <entry>
+          <string>gdbCheatBurstClock</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>openOCDCustomCommands</string>
+          <string>set _CHIPNAME chip
+jtag newtap $_CHIPNAME cpu -irlen 5 -expected-id 1
+set _TARGETNAME $_CHIPNAME.cpu
+target create $_TARGETNAME riscv -chain-position $_TARGETNAME
+
+$_TARGETNAME configure -event resumed  { poll on }
+$_TARGETNAME configure -event halted   { poll off }
+$_TARGETNAME configure -event step-end { poll off }
+
+riscv set_enable_virt2phys off
+riscv set_enable_virtual off
+poll_period 500
+riscv set_mem_access progbuf abstract
+riscv set_command_timeout_sec 1
+riscv set_reset_timeout_sec 1
+gdb_memory_map disable
+gdb_report_data_abort enable</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-5060" y="-1580"/>
     </visualElement>
   </visualElements>
   <wires>
