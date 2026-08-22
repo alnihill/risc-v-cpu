@@ -1098,7 +1098,7 @@
           <string>csr-out</string>
         </entry>
       </elementAttributes>
-      <pos x="-11640" y="-2520"/>
+      <pos x="-11640" y="-2600"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2825,6 +2825,10 @@ fast it will go *most* of the time.</string>
       <p2 x="-12120" y="-2600"/>
     </wire>
     <wire>
+      <p1 x="-11640" y="-2600"/>
+      <p2 x="-10460" y="-2600"/>
+    </wire>
+    <wire>
       <p1 x="-11920" y="-2220"/>
       <p2 x="-11900" y="-2220"/>
     </wire>
@@ -3171,10 +3175,6 @@ fast it will go *most* of the time.</string>
     <wire>
       <p1 x="-11740" y="-2900"/>
       <p2 x="-11680" y="-2900"/>
-    </wire>
-    <wire>
-      <p1 x="-11640" y="-2520"/>
-      <p2 x="-10460" y="-2520"/>
     </wire>
     <wire>
       <p1 x="-12200" y="-2520"/>
@@ -3642,7 +3642,7 @@ fast it will go *most* of the time.</string>
     </wire>
     <wire>
       <p1 x="-10460" y="-2820"/>
-      <p2 x="-10460" y="-2520"/>
+      <p2 x="-10460" y="-2600"/>
     </wire>
     <wire>
       <p1 x="-10460" y="-2860"/>
