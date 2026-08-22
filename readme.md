@@ -49,6 +49,9 @@ Oh no! Your program isn't working as expected. Or maybe you just want to look ar
 3. If you run ``layout asm`` you'll get to see the instruction you halted on. Right now, it will just be somewhere in the firmware. 
 4. Instead of calling ``load [your file's name].bin`` inside the simulation's console, run ``load [your file's name].elf`` inside GDB. Then run ``add-symbol-file [your file's name].elf``. (Note the ".elf". Also, it is important to note that this filepath is relative to where *gdb* was started.)
 
+## Environment Calls (ecalls)
+For a complete reference on all supported `ecall` / syscall services (such as console I/O, file reading/writing via FileMapper, and exit), see [ecalls.md](docs/ecalls.md).
+
 # Todo: 
 ## Circuit Form
 RV5-PCU: **Done**  
