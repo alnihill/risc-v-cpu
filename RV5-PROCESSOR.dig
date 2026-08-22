@@ -1198,10 +1198,18 @@
           <string>In a harvard-style CPU, there would
 be actual instruction memory here.
 Instead, we have a tunnel to our
-memory block and a tunnel back.</string>
+memory block and a tunnel back.
+
+This is a good compromise for us.
+However, another option is doing
+a fetch/execute design, where
+we spend a clock cycle getting the
+instruction and then another using it.
+(Or, of course, we could pipeline
+this processor.)</string>
         </entry>
       </elementAttributes>
-      <pos x="-13020" y="-2860"/>
+      <pos x="-13020" y="-2880"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
