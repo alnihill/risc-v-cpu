@@ -27,7 +27,7 @@
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>148</int>
+          <int>126</int>
         </entry>
       </elementAttributes>
       <pos x="-400" y="40"/>
@@ -44,7 +44,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2140" y="760"/>
+      <pos x="1900" y="740"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -210,7 +210,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2140" y="120"/>
+      <pos x="1740" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -224,7 +224,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2140" y="180"/>
+      <pos x="1740" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -278,7 +278,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2140" y="240"/>
+      <pos x="1740" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -1560,7 +1560,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2140" y="300"/>
+      <pos x="1740" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1574,7 +1574,7 @@
           <string>mepc</string>
         </entry>
       </elementAttributes>
-      <pos x="2120" y="180"/>
+      <pos x="1720" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1588,7 +1588,7 @@
           <string>mtvec</string>
         </entry>
       </elementAttributes>
-      <pos x="2120" y="120"/>
+      <pos x="1720" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1602,7 +1602,7 @@
           <string>dcsr</string>
         </entry>
       </elementAttributes>
-      <pos x="2120" y="240"/>
+      <pos x="1720" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1616,7 +1616,7 @@
           <string>dpc</string>
         </entry>
       </elementAttributes>
-      <pos x="2120" y="300"/>
+      <pos x="1720" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -1631,7 +1631,7 @@
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>46</int>
+          <int>24</int>
         </entry>
       </elementAttributes>
       <pos x="1620" y="80"/>
@@ -2030,7 +2030,7 @@ a breakpoint or act on haltreq:</string>
           <int>10</int>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="560"/>
+      <pos x="1800" y="540"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2044,7 +2044,7 @@ a breakpoint or act on haltreq:</string>
           <string>mstatus_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="560"/>
+      <pos x="1800" y="540"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2058,7 +2058,7 @@ a breakpoint or act on haltreq:</string>
           <string>misa_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="580"/>
+      <pos x="1800" y="560"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2072,7 +2072,7 @@ a breakpoint or act on haltreq:</string>
           <string>mtvec_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="600"/>
+      <pos x="1800" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2086,7 +2086,7 @@ a breakpoint or act on haltreq:</string>
           <string>mscratch_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="620"/>
+      <pos x="1800" y="600"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2100,7 +2100,7 @@ a breakpoint or act on haltreq:</string>
           <string>mepc_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="640"/>
+      <pos x="1800" y="620"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2114,7 +2114,7 @@ a breakpoint or act on haltreq:</string>
           <string>mcause_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="660"/>
+      <pos x="1800" y="640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2128,7 +2128,7 @@ a breakpoint or act on haltreq:</string>
           <string>dcsr_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="680"/>
+      <pos x="1800" y="660"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2142,7 +2142,7 @@ a breakpoint or act on haltreq:</string>
           <string>dpc_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="700"/>
+      <pos x="1800" y="680"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2156,7 +2156,7 @@ a breakpoint or act on haltreq:</string>
           <string>dscratch0_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="720"/>
+      <pos x="1800" y="700"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2170,7 +2170,7 @@ a breakpoint or act on haltreq:</string>
           <string>dscratch1_sel</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="740"/>
+      <pos x="1800" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2184,7 +2184,7 @@ a breakpoint or act on haltreq:</string>
           <string>mstatus</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="780"/>
+      <pos x="1800" y="760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2198,7 +2198,7 @@ a breakpoint or act on haltreq:</string>
           <string>misa</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="800"/>
+      <pos x="1800" y="780"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2212,7 +2212,7 @@ a breakpoint or act on haltreq:</string>
           <string>mtvec</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="820"/>
+      <pos x="1800" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2226,7 +2226,7 @@ a breakpoint or act on haltreq:</string>
           <string>mscratch</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="840"/>
+      <pos x="1800" y="820"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2240,7 +2240,7 @@ a breakpoint or act on haltreq:</string>
           <string>mepc</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="860"/>
+      <pos x="1800" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2254,7 +2254,7 @@ a breakpoint or act on haltreq:</string>
           <string>mcause</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="880"/>
+      <pos x="1800" y="860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2268,7 +2268,7 @@ a breakpoint or act on haltreq:</string>
           <string>dcsr</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="900"/>
+      <pos x="1800" y="880"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2282,7 +2282,7 @@ a breakpoint or act on haltreq:</string>
           <string>dpc</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="920"/>
+      <pos x="1800" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2296,7 +2296,7 @@ a breakpoint or act on haltreq:</string>
           <string>dscratch0</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="940"/>
+      <pos x="1800" y="920"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2310,7 +2310,7 @@ a breakpoint or act on haltreq:</string>
           <string>dscratch1</string>
         </entry>
       </elementAttributes>
-      <pos x="2040" y="960"/>
+      <pos x="1800" y="940"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -2321,7 +2321,7 @@ a breakpoint or act on haltreq:</string>
 faster in the sim.)</string>
         </entry>
       </elementAttributes>
-      <pos x="1900" y="1000"/>
+      <pos x="1660" y="980"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -2332,6 +2332,10 @@ faster in the sim.)</string>
     <wire>
       <p1 x="1040" y="960"/>
       <p2 x="1060" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="320"/>
+      <p2 x="1740" y="320"/>
     </wire>
     <wire>
       <p1 x="1280" y="900"/>
@@ -2354,12 +2358,20 @@ faster in the sim.)</string>
       <p2 x="1280" y="1220"/>
     </wire>
     <wire>
+      <p1 x="1720" y="260"/>
+      <p2 x="1740" y="260"/>
+    </wire>
+    <wire>
       <p1 x="1320" y="1160"/>
       <p2 x="1400" y="1160"/>
     </wire>
     <wire>
       <p1 x="200" y="200"/>
       <p2 x="220" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="200"/>
+      <p2 x="1740" y="200"/>
     </wire>
     <wire>
       <p1 x="1020" y="780"/>
@@ -2470,6 +2482,10 @@ faster in the sim.)</string>
       <p2 x="920" y="1380"/>
     </wire>
     <wire>
+      <p1 x="1880" y="740"/>
+      <p2 x="1900" y="740"/>
+    </wire>
+    <wire>
       <p1 x="920" y="680"/>
       <p2 x="960" y="680"/>
     </wire>
@@ -2488,10 +2504,6 @@ faster in the sim.)</string>
     <wire>
       <p1 x="1460" y="1000"/>
       <p2 x="1480" y="1000"/>
-    </wire>
-    <wire>
-      <p1 x="2120" y="300"/>
-      <p2 x="2140" y="300"/>
     </wire>
     <wire>
       <p1 x="920" y="300"/>
@@ -2514,28 +2526,12 @@ faster in the sim.)</string>
       <p2 x="1100" y="1200"/>
     </wire>
     <wire>
-      <p1 x="2120" y="240"/>
-      <p2 x="2140" y="240"/>
-    </wire>
-    <wire>
       <p1 x="1300" y="880"/>
       <p2 x="1400" y="880"/>
     </wire>
     <wire>
-      <p1 x="2120" y="180"/>
-      <p2 x="2140" y="180"/>
-    </wire>
-    <wire>
-      <p1 x="2120" y="760"/>
-      <p2 x="2140" y="760"/>
-    </wire>
-    <wire>
       <p1 x="1020" y="440"/>
       <p2 x="1040" y="440"/>
-    </wire>
-    <wire>
-      <p1 x="2120" y="120"/>
-      <p2 x="2140" y="120"/>
     </wire>
     <wire>
       <p1 x="1000" y="1400"/>
@@ -2544,6 +2540,10 @@ faster in the sim.)</string>
     <wire>
       <p1 x="1380" y="1400"/>
       <p2 x="1400" y="1400"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="380"/>
+      <p2 x="1740" y="380"/>
     </wire>
     <wire>
       <p1 x="1140" y="1340"/>

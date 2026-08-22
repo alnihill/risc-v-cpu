@@ -1195,7 +1195,7 @@
         </entry>
         <entry>
           <string>Description</string>
-          <string>In a harvard-style CPU, there would
+          <string>In a Harvard-style CPU, there would
 be actual instruction memory here.
 Instead, we have a tunnel to our
 memory block and a tunnel back.
@@ -2497,6 +2497,62 @@ fast it will go *most* of the time.</string>
         </entry>
       </elementAttributes>
       <pos x="-11860" y="-2940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>50</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>About the CPU</string>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>34</int>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>62</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-12860" y="-1700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>This is a single-cycle RV32I processor. In addition to the base instruction set, it also implements
+the Ziscr extension and contains a debug module.
+
+Although it is single-cycle, it is organized according to pipeline stages. 
+Tunnels that cross stages are aliased as prefixed with their destination stage; for example, alu-out
+becomes IF-alu-out when crossing into the IF stage. Because this CPU is single-cycle, these tunnels
+are equivilent, and at this point it is simply an organizational tool.
+
+Additionally, this is a Von Neumann architecture, and so instruction memory and data memory are
+merged. This makes it look slightly different than some educational datapath diagrams you might
+see, which sometimes show the Harvard style.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-12840" y="-1680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Involved with the Ziscr extension.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-12280" y="-2020"/>
     </visualElement>
   </visualElements>
   <wires>
