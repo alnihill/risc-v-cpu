@@ -231,7 +231,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmcontrol_resumereq</string>
+          <string>resumereq</string>
         </entry>
       </elementAttributes>
       <pos x="-4880" y="480"/>
@@ -564,7 +564,7 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dmcontrol_resumereq</string>
+          <string>resumereq</string>
         </entry>
       </elementAttributes>
       <pos x="-4720" y="-60"/>
@@ -912,7 +912,7 @@ for the clock cycle that they&apos;re written:</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmcontrol_resumereq</string>
+          <string>resumereq</string>
         </entry>
       </elementAttributes>
       <pos x="-4340" y="-620"/>
@@ -1899,7 +1899,7 @@ also expose this:)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmcontrol_resumereq</string>
+          <string>resumereq</string>
         </entry>
       </elementAttributes>
       <pos x="-3340" y="-680"/>
@@ -5673,7 +5673,7 @@ requires us to do so.</string>
           <int>5</int>
         </entry>
       </elementAttributes>
-      <pos x="-1880" y="480"/>
+      <pos x="-1860" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5687,7 +5687,7 @@ requires us to do so.</string>
           <string>command-reg_exec</string>
         </entry>
       </elementAttributes>
-      <pos x="-1860" y="540"/>
+      <pos x="-1840" y="540"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5701,7 +5701,7 @@ requires us to do so.</string>
           <string>command-reg_gprno</string>
         </entry>
       </elementAttributes>
-      <pos x="-1900" y="520"/>
+      <pos x="-1880" y="520"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5712,20 +5712,20 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>d_rs1</string>
+          <string>rs1</string>
         </entry>
       </elementAttributes>
-      <pos x="-1900" y="480"/>
+      <pos x="-1880" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>d_rs1*</string>
+          <string>rs1*</string>
         </entry>
       </elementAttributes>
-      <pos x="-1820" y="500"/>
+      <pos x="-1800" y="500"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5736,20 +5736,20 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>d_rdin</string>
+          <string>R_rd-in</string>
         </entry>
       </elementAttributes>
-      <pos x="-1900" y="580"/>
+      <pos x="-1880" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>d_rdin*</string>
+          <string>R_rd-in*</string>
         </entry>
       </elementAttributes>
-      <pos x="-1820" y="600"/>
+      <pos x="-1800" y="600"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -5759,7 +5759,7 @@ requires us to do so.</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-1880" y="580"/>
+      <pos x="-1860" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5773,7 +5773,7 @@ requires us to do so.</string>
           <string>command-reg_exec</string>
         </entry>
       </elementAttributes>
-      <pos x="-1860" y="640"/>
+      <pos x="-1840" y="640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5787,7 +5787,7 @@ requires us to do so.</string>
           <string>dm-mem-rdata</string>
         </entry>
       </elementAttributes>
-      <pos x="-1900" y="620"/>
+      <pos x="-1880" y="620"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5798,20 +5798,20 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>d_regwen</string>
+          <string>regwen</string>
         </entry>
       </elementAttributes>
-      <pos x="-1900" y="800"/>
+      <pos x="-1880" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>d_regwen*</string>
+          <string>regwen*</string>
         </entry>
       </elementAttributes>
-      <pos x="-1700" y="840"/>
+      <pos x="-1680" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5825,7 +5825,7 @@ requires us to do so.</string>
           <string>command-reg_regwen</string>
         </entry>
       </elementAttributes>
-      <pos x="-1900" y="840"/>
+      <pos x="-1880" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -5835,17 +5835,17 @@ requires us to do so.</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-1880" y="800"/>
+      <pos x="-1860" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
       <elementAttributes/>
-      <pos x="-1760" y="820"/>
+      <pos x="-1740" y="820"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="-1780" y="860"/>
+      <pos x="-1760" y="860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5859,7 +5859,7 @@ requires us to do so.</string>
           <string>haltreq</string>
         </entry>
       </elementAttributes>
-      <pos x="-1760" y="880"/>
+      <pos x="-1740" y="880"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -5869,7 +5869,7 @@ requires us to do so.</string>
           <int>5</int>
         </entry>
       </elementAttributes>
-      <pos x="-1880" y="700"/>
+      <pos x="-1860" y="700"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5883,7 +5883,7 @@ requires us to do so.</string>
           <string>command-reg_regwen</string>
         </entry>
       </elementAttributes>
-      <pos x="-1860" y="760"/>
+      <pos x="-1840" y="760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5897,17 +5897,17 @@ requires us to do so.</string>
           <string>command-reg_gprno</string>
         </entry>
       </elementAttributes>
-      <pos x="-1900" y="740"/>
+      <pos x="-1880" y="740"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>d_rd*</string>
+          <string>rd*</string>
         </entry>
       </elementAttributes>
-      <pos x="-1820" y="720"/>
+      <pos x="-1800" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -5918,10 +5918,10 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>d_rd</string>
+          <string>rd</string>
         </entry>
       </elementAttributes>
-      <pos x="-1900" y="700"/>
+      <pos x="-1880" y="700"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -5961,7 +5961,7 @@ requires us to do so.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>d_memwen</string>
+          <string>memwen</string>
         </entry>
       </elementAttributes>
       <pos x="-1360" y="440"/>
@@ -5971,7 +5971,7 @@ requires us to do so.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>d_memwen*</string>
+          <string>memwen*</string>
         </entry>
       </elementAttributes>
       <pos x="-1240" y="460"/>
@@ -6343,7 +6343,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>d_regwen</string>
+          <string>regwen</string>
         </entry>
       </elementAttributes>
       <pos x="-2380" y="-1920"/>
@@ -6367,7 +6367,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>d_rdin</string>
+          <string>R_rd-in</string>
         </entry>
       </elementAttributes>
       <pos x="-2380" y="-1880"/>
@@ -6417,7 +6417,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>d_regwen</string>
+          <string>regwen</string>
         </entry>
       </elementAttributes>
       <pos x="-2400" y="-1920"/>
@@ -6437,7 +6437,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>d_rdin</string>
+          <string>R_rd-in</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -6461,7 +6461,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>d_memwen</string>
+          <string>memwen</string>
         </entry>
       </elementAttributes>
       <pos x="-2400" y="-1840"/>
@@ -6471,7 +6471,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>d_memwen</string>
+          <string>memwen</string>
         </entry>
       </elementAttributes>
       <pos x="-2380" y="-1840"/>
@@ -6481,7 +6481,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>d_rd</string>
+          <string>rd</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -6495,7 +6495,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>d_rd</string>
+          <string>rd</string>
         </entry>
       </elementAttributes>
       <pos x="-2380" y="-1800"/>
@@ -6505,7 +6505,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>d_rs1</string>
+          <string>rs1</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -6519,7 +6519,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>d_rs1</string>
+          <string>rs1</string>
         </entry>
       </elementAttributes>
       <pos x="-2380" y="-1760"/>
@@ -6543,7 +6543,7 @@ back. We don&apos;t want duplicate execution!)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>d_rd*</string>
+          <string>rd*</string>
         </entry>
       </elementAttributes>
       <pos x="-2040" y="-1800"/>
@@ -6567,7 +6567,7 @@ back. We don&apos;t want duplicate execution!)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>d_rs1*</string>
+          <string>rs1*</string>
         </entry>
       </elementAttributes>
       <pos x="-2040" y="-1760"/>
@@ -6591,7 +6591,7 @@ back. We don&apos;t want duplicate execution!)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>d_rdin*</string>
+          <string>R_rd-in*</string>
         </entry>
       </elementAttributes>
       <pos x="-2040" y="-1880"/>
@@ -6619,7 +6619,7 @@ back. We don&apos;t want duplicate execution!)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>d_regwen*</string>
+          <string>regwen*</string>
         </entry>
       </elementAttributes>
       <pos x="-2040" y="-1920"/>
@@ -6643,7 +6643,7 @@ back. We don&apos;t want duplicate execution!)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>d_memwen*</string>
+          <string>memwen*</string>
         </entry>
       </elementAttributes>
       <pos x="-2040" y="-1840"/>
@@ -6657,7 +6657,7 @@ back. We don&apos;t want duplicate execution!)</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>dmcontrol_resumereq</string>
+          <string>resumereq</string>
         </entry>
       </elementAttributes>
       <pos x="-2040" y="-2120"/>
@@ -6695,7 +6695,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>d_regwen*</string>
+          <string>regwen*</string>
         </entry>
       </elementAttributes>
       <pos x="-2020" y="-1920"/>
@@ -6719,7 +6719,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>d_rdin*</string>
+          <string>R_rd-in*</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -6733,7 +6733,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>d_memwen*</string>
+          <string>memwen*</string>
         </entry>
       </elementAttributes>
       <pos x="-2020" y="-1840"/>
@@ -6757,7 +6757,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>d_rd*</string>
+          <string>rd*</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -6785,7 +6785,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>d_rs1*</string>
+          <string>rs1*</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -7021,8 +7021,8 @@ gdb_report_data_abort enable</string>
       <p2 x="-4780" y="-520"/>
     </wire>
     <wire>
-      <p1 x="-1900" y="520"/>
-      <p2 x="-1880" y="520"/>
+      <p1 x="-1880" y="520"/>
+      <p2 x="-1860" y="520"/>
     </wire>
     <wire>
       <p1 x="-3580" y="520"/>
@@ -7233,8 +7233,8 @@ gdb_report_data_abort enable</string>
       <p2 x="-3940" y="-800"/>
     </wire>
     <wire>
-      <p1 x="-1900" y="800"/>
-      <p2 x="-1880" y="800"/>
+      <p1 x="-1880" y="800"/>
+      <p2 x="-1860" y="800"/>
     </wire>
     <wire>
       <p1 x="-3200" y="800"/>
@@ -7405,8 +7405,8 @@ gdb_report_data_abort enable</string>
       <p2 x="-3800" y="-2100"/>
     </wire>
     <wire>
-      <p1 x="-1800" y="820"/>
-      <p2 x="-1760" y="820"/>
+      <p1 x="-1780" y="820"/>
+      <p2 x="-1740" y="820"/>
     </wire>
     <wire>
       <p1 x="-3180" y="820"/>
@@ -7497,8 +7497,8 @@ gdb_report_data_abort enable</string>
       <p2 x="1060" y="-580"/>
     </wire>
     <wire>
-      <p1 x="-1900" y="580"/>
-      <p2 x="-1880" y="580"/>
+      <p1 x="-1880" y="580"/>
+      <p2 x="-1860" y="580"/>
     </wire>
     <wire>
       <p1 x="-2260" y="580"/>
@@ -7545,12 +7545,12 @@ gdb_report_data_abort enable</string>
       <p2 x="-2020" y="-2120"/>
     </wire>
     <wire>
-      <p1 x="-1900" y="840"/>
-      <p2 x="-1880" y="840"/>
+      <p1 x="-1880" y="840"/>
+      <p2 x="-1860" y="840"/>
     </wire>
     <wire>
-      <p1 x="-1720" y="840"/>
-      <p2 x="-1700" y="840"/>
+      <p1 x="-1700" y="840"/>
+      <p2 x="-1680" y="840"/>
     </wire>
     <wire>
       <p1 x="-2260" y="840"/>
@@ -7645,8 +7645,8 @@ gdb_report_data_abort enable</string>
       <p2 x="1160" y="-600"/>
     </wire>
     <wire>
-      <p1 x="-1840" y="600"/>
-      <p2 x="-1820" y="600"/>
+      <p1 x="-1820" y="600"/>
+      <p2 x="-1800" y="600"/>
     </wire>
     <wire>
       <p1 x="-2320" y="600"/>
@@ -7685,8 +7685,8 @@ gdb_report_data_abort enable</string>
       <p2 x="-3800" y="-2140"/>
     </wire>
     <wire>
-      <p1 x="-1780" y="860"/>
-      <p2 x="-1760" y="860"/>
+      <p1 x="-1760" y="860"/>
+      <p2 x="-1740" y="860"/>
     </wire>
     <wire>
       <p1 x="-2320" y="860"/>
@@ -7765,8 +7765,8 @@ gdb_report_data_abort enable</string>
       <p2 x="-3960" y="-1900"/>
     </wire>
     <wire>
-      <p1 x="-1900" y="620"/>
-      <p2 x="-1880" y="620"/>
+      <p1 x="-1880" y="620"/>
+      <p2 x="-1860" y="620"/>
     </wire>
     <wire>
       <p1 x="-3640" y="620"/>
@@ -7821,8 +7821,8 @@ gdb_report_data_abort enable</string>
       <p2 x="-2020" y="-2160"/>
     </wire>
     <wire>
-      <p1 x="-1760" y="880"/>
-      <p2 x="-1740" y="880"/>
+      <p1 x="-1740" y="880"/>
+      <p2 x="-1720" y="880"/>
     </wire>
     <wire>
       <p1 x="-3500" y="880"/>
@@ -8297,8 +8297,8 @@ gdb_report_data_abort enable</string>
       <p2 x="-3160" y="700"/>
     </wire>
     <wire>
-      <p1 x="-1900" y="700"/>
-      <p2 x="-1880" y="700"/>
+      <p1 x="-1880" y="700"/>
+      <p2 x="-1860" y="700"/>
     </wire>
     <wire>
       <p1 x="-360" y="-960"/>
@@ -8469,8 +8469,8 @@ gdb_report_data_abort enable</string>
       <p2 x="-3600" y="720"/>
     </wire>
     <wire>
-      <p1 x="-1840" y="720"/>
-      <p2 x="-1820" y="720"/>
+      <p1 x="-1820" y="720"/>
+      <p2 x="-1800" y="720"/>
     </wire>
     <wire>
       <p1 x="-360" y="-980"/>
@@ -8569,8 +8569,8 @@ gdb_report_data_abort enable</string>
       <p2 x="-4780" y="-480"/>
     </wire>
     <wire>
-      <p1 x="-1900" y="480"/>
-      <p2 x="-1880" y="480"/>
+      <p1 x="-1880" y="480"/>
+      <p2 x="-1860" y="480"/>
     </wire>
     <wire>
       <p1 x="-3580" y="480"/>
@@ -8645,8 +8645,8 @@ gdb_report_data_abort enable</string>
       <p2 x="-3160" y="740"/>
     </wire>
     <wire>
-      <p1 x="-1900" y="740"/>
-      <p2 x="-1880" y="740"/>
+      <p1 x="-1880" y="740"/>
+      <p2 x="-1860" y="740"/>
     </wire>
     <wire>
       <p1 x="-3080" y="740"/>
@@ -8721,8 +8721,8 @@ gdb_report_data_abort enable</string>
       <p2 x="-3720" y="-1780"/>
     </wire>
     <wire>
-      <p1 x="-1840" y="500"/>
-      <p2 x="-1820" y="500"/>
+      <p1 x="-1820" y="500"/>
+      <p2 x="-1800" y="500"/>
     </wire>
     <wire>
       <p1 x="-3480" y="500"/>
@@ -8829,18 +8829,6 @@ gdb_report_data_abort enable</string>
       <p2 x="-3780" y="-1880"/>
     </wire>
     <wire>
-      <p1 x="-1860" y="620"/>
-      <p2 x="-1860" y="640"/>
-    </wire>
-    <wire>
-      <p1 x="-1860" y="520"/>
-      <p2 x="-1860" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="-1860" y="740"/>
-      <p2 x="-1860" y="760"/>
-    </wire>
-    <wire>
       <p1 x="-1800" y="-820"/>
       <p2 x="-1800" y="-780"/>
     </wire>
@@ -8855,10 +8843,6 @@ gdb_report_data_abort enable</string>
     <wire>
       <p1 x="1160" y="-760"/>
       <p2 x="1160" y="-600"/>
-    </wire>
-    <wire>
-      <p1 x="-1740" y="860"/>
-      <p2 x="-1740" y="880"/>
     </wire>
     <wire>
       <p1 x="-3280" y="720"/>
@@ -8941,6 +8925,18 @@ gdb_report_data_abort enable</string>
       <p2 x="-4460" y="-1360"/>
     </wire>
     <wire>
+      <p1 x="-1840" y="620"/>
+      <p2 x="-1840" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="-1840" y="520"/>
+      <p2 x="-1840" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="-1840" y="740"/>
+      <p2 x="-1840" y="760"/>
+    </wire>
+    <wire>
       <p1 x="-4400" y="-1500"/>
       <p2 x="-4400" y="-1400"/>
     </wire>
@@ -8951,6 +8947,10 @@ gdb_report_data_abort enable</string>
     <wire>
       <p1 x="-1780" y="-800"/>
       <p2 x="-1780" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="-1720" y="860"/>
+      <p2 x="-1720" y="880"/>
     </wire>
     <wire>
       <p1 x="-3320" y="680"/>

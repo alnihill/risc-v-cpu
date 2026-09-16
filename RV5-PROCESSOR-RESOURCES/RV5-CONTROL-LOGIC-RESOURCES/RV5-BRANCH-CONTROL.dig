@@ -71,24 +71,14 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>alu-mod</string>
-        </entry>
-      </elementAttributes>
-      <pos x="880" y="180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>alu-op</string>
         </entry>
         <entry>
           <string>Bits</string>
-          <int>3</int>
+          <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="880" y="260"/>
+      <pos x="880" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -128,12 +118,12 @@ it&apos;s useful for some types of conditions.</string>
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
-          <string>Input Splitting</string>
-          <string>1,1,1</string>
-        </entry>
-        <entry>
           <string>mirror</string>
           <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1,1</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
@@ -171,7 +161,7 @@ it&apos;s useful for some types of conditions.</string>
         <entry>
           <string>Description</string>
           <string>We can directly use funct3 as the
-alu op.</string>
+main alu op.</string>
         </entry>
       </elementAttributes>
       <pos x="1040" y="240"/>
@@ -195,6 +185,68 @@ alu op.</string>
       </elementAttributes>
       <pos x="640" y="160"/>
     </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>3,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="840" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>alu-op1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>alu-op2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>alu-op1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>alu-op2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="320"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -204,6 +256,10 @@ alu op.</string>
     <wire>
       <p1 x="520" y="160"/>
       <p2 x="540" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="320"/>
+      <p2 x="840" y="320"/>
     </wire>
     <wire>
       <p1 x="780" y="180"/>
@@ -228,6 +284,14 @@ alu op.</string>
     <wire>
       <p1 x="500" y="200"/>
       <p2 x="640" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="300"/>
+      <p2 x="880" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="300"/>
+      <p2 x="840" y="300"/>
     </wire>
     <wire>
       <p1 x="500" y="140"/>

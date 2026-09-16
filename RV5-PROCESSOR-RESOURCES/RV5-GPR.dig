@@ -519,7 +519,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>ra</string>
+          <string>R_rs1</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -533,7 +533,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>rb</string>
+          <string>R_rs2</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -575,7 +575,7 @@ Immediate Selector</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>rdin</string>
+          <string>R_rd-in</string>
         </entry>
         <entry>
           <string>Bits</string>

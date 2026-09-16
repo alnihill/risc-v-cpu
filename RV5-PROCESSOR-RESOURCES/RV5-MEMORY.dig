@@ -2791,16 +2791,6 @@ with our new bytes.</string>
       <pos x="1260" y="1220"/>
     </visualElement>
     <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>dm-addr-ram</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1260" y="1260"/>
-    </visualElement>
-    <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
@@ -4362,10 +4352,6 @@ more performant in the sim.)</string>
     <wire>
       <p1 x="1420" y="1900"/>
       <p2 x="1480" y="1900"/>
-    </wire>
-    <wire>
-      <p1 x="1240" y="1260"/>
-      <p2 x="1260" y="1260"/>
     </wire>
     <wire>
       <p1 x="2400" y="2540"/>

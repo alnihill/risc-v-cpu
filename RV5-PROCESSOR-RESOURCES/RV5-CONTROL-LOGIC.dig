@@ -103,34 +103,6 @@
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>funct3</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>funct12</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
           <string>NetName</string>
           <string>mem-ctrl-reg-wen</string>
         </entry>
@@ -162,16 +134,6 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>sys-ctrl-reg-wen</string>
-        </entry>
-      </elementAttributes>
-      <pos x="180" y="40"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
           <string>mem-ctrl-imm-sel</string>
         </entry>
       </elementAttributes>
@@ -195,7 +157,7 @@
           <string>br-ctrl-imm-sel</string>
         </entry>
       </elementAttributes>
-      <pos x="180" y="-220"/>
+      <pos x="180" y="-240"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -226,16 +188,6 @@
         </entry>
       </elementAttributes>
       <pos x="120" y="-120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>sys-ctrl-wb-sel</string>
-        </entry>
-      </elementAttributes>
-      <pos x="180" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -305,27 +257,7 @@
           <string>br-ctrl-op</string>
         </entry>
       </elementAttributes>
-      <pos x="180" y="-240"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>br-ctrl-mod</string>
-        </entry>
-      </elementAttributes>
       <pos x="180" y="-260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>alu-ctrl-mod</string>
-        </entry>
-      </elementAttributes>
-      <pos x="180" y="-340"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -339,7 +271,7 @@
           <string>mem-ctrl-reg-wen</string>
         </entry>
       </elementAttributes>
-      <pos x="580" y="-480"/>
+      <pos x="580" y="-460"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -353,7 +285,7 @@
           <string>alu-ctrl-reg-wen</string>
         </entry>
       </elementAttributes>
-      <pos x="580" y="-460"/>
+      <pos x="580" y="-440"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -370,20 +302,6 @@
       <pos x="580" y="-420"/>
     </visualElement>
     <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>sys-ctrl-reg-wen</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="-400"/>
-    </visualElement>
-    <visualElement>
       <elementName>Or</elementName>
       <elementAttributes>
         <entry>
@@ -392,10 +310,10 @@
         </entry>
         <entry>
           <string>Inputs</string>
-          <int>4</int>
+          <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="600" y="-480"/>
+      <pos x="600" y="-460"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -407,10 +325,6 @@
         <entry>
           <string>wideShape</string>
           <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>3</int>
         </entry>
       </elementAttributes>
       <pos x="600" y="-360"/>
@@ -606,7 +520,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>3</int>
+          <int>4</int>
         </entry>
         <entry>
           <string>wideShape</string>
@@ -642,44 +556,6 @@
         </entry>
       </elementAttributes>
       <pos x="580" y="460"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="600" y="520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>alu-ctrl-mod</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>br-ctrl-mod</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="560"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -794,25 +670,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>wb-sel</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="-340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>ram-wen</string>
+          <string>mem-wen</string>
         </entry>
       </elementAttributes>
       <pos x="740" y="-660"/>
@@ -826,10 +684,24 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>ram-ren</string>
+          <string>mem-ren</string>
         </entry>
       </elementAttributes>
       <pos x="740" y="-640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>mem-b</string>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="-540"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -843,20 +715,6 @@
           <string>jump-ctrl-wb-sel</string>
         </entry>
       </elementAttributes>
-      <pos x="580" y="-340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>sys-ctrl-wb-sel</string>
-        </entry>
-      </elementAttributes>
       <pos x="580" y="-320"/>
     </visualElement>
     <visualElement>
@@ -868,21 +726,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>ram-b</string>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="-540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>ram-h</string>
+          <string>mem-h</string>
         </entry>
       </elementAttributes>
       <pos x="740" y="-520"/>
@@ -928,24 +772,6 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>alu-op</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
           <string>alu-bsel</string>
         </entry>
       </elementAttributes>
@@ -960,10 +786,14 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>alu-mod</string>
+          <string>alu-op</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="740" y="540"/>
+      <pos x="740" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -1016,108 +846,14 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>csr-wen</string>
+          <string>wb-sel</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
         </entry>
       </elementAttributes>
-      <pos x="740" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>csr-opset</string>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="100"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>csr-opclear</string>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>csr-useimm</string>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>ecall-sel</string>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>ebreak-sel</string>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>mret-sel</string>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>dret-sel</string>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="220"/>
+      <pos x="740" y="-340"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1162,7 +898,7 @@
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>66</int>
+          <int>61</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -1200,13 +936,12 @@ to get our final control signal outputs.</string>
       <elementAttributes/>
       <pos x="-40" y="-440"/>
     </visualElement>
-    <visualElement>
-      <elementName>RV5-SYSTEM-CONTROL.dig</elementName>
-      <elementAttributes/>
-      <pos x="-40" y="40"/>
-    </visualElement>
   </visualElements>
   <wires>
+    <wire>
+      <p1 x="680" y="320"/>
+      <p2 x="740" y="320"/>
+    </wire>
     <wire>
       <p1 x="580" y="-260"/>
       <p2 x="600" y="-260"/>
@@ -1224,12 +959,12 @@ to get our final control signal outputs.</string>
       <p2 x="180" y="-260"/>
     </wire>
     <wire>
-      <p1 x="160" y="-520"/>
-      <p2 x="740" y="-520"/>
+      <p1 x="160" y="-580"/>
+      <p2 x="180" y="-580"/>
     </wire>
     <wire>
-      <p1 x="580" y="520"/>
-      <p2 x="600" y="520"/>
+      <p1 x="160" y="-520"/>
+      <p2 x="740" y="-520"/>
     </wire>
     <wire>
       <p1 x="-140" y="-140"/>
@@ -1248,12 +983,12 @@ to get our final control signal outputs.</string>
       <p2 x="740" y="-140"/>
     </wire>
     <wire>
-      <p1 x="160" y="140"/>
-      <p2 x="740" y="140"/>
+      <p1 x="580" y="-460"/>
+      <p2 x="600" y="-460"/>
     </wire>
     <wire>
-      <p1 x="580" y="-400"/>
-      <p2 x="600" y="-400"/>
+      <p1 x="580" y="460"/>
+      <p2 x="600" y="460"/>
     </wire>
     <wire>
       <p1 x="-440" y="-400"/>
@@ -1272,6 +1007,10 @@ to get our final control signal outputs.</string>
       <p2 x="180" y="-400"/>
     </wire>
     <wire>
+      <p1 x="100" y="-80"/>
+      <p2 x="120" y="-80"/>
+    </wire>
+    <wire>
       <p1 x="-260" y="-660"/>
       <p2 x="-40" y="-660"/>
     </wire>
@@ -1284,12 +1023,36 @@ to get our final control signal outputs.</string>
       <p2 x="740" y="-20"/>
     </wire>
     <wire>
+      <p1 x="-60" y="-340"/>
+      <p2 x="-40" y="-340"/>
+    </wire>
+    <wire>
+      <p1 x="-280" y="-340"/>
+      <p2 x="-160" y="-340"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-340"/>
+      <p2 x="740" y="-340"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="340"/>
+      <p2 x="600" y="340"/>
+    </wire>
+    <wire>
       <p1 x="-280" y="-280"/>
       <p2 x="-40" y="-280"/>
     </wire>
     <wire>
       <p1 x="160" y="-280"/>
       <p2 x="740" y="-280"/>
+    </wire>
+    <wire>
+      <p1 x="-640" y="-600"/>
+      <p2 x="-620" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-600"/>
+      <p2 x="180" y="-600"/>
     </wire>
     <wire>
       <p1 x="580" y="280"/>
@@ -1300,20 +1063,16 @@ to get our final control signal outputs.</string>
       <p2 x="740" y="-540"/>
     </wire>
     <wire>
-      <p1 x="680" y="540"/>
-      <p2 x="740" y="540"/>
+      <p1 x="-280" y="-220"/>
+      <p2 x="-180" y="-220"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-220"/>
+      <p2 x="600" y="-220"/>
     </wire>
     <wire>
       <p1 x="580" y="-160"/>
       <p2 x="600" y="-160"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="160"/>
-      <p2 x="740" y="160"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="-420"/>
-      <p2 x="600" y="-420"/>
     </wire>
     <wire>
       <p1 x="-240" y="-420"/>
@@ -1322,6 +1081,14 @@ to get our final control signal outputs.</string>
     <wire>
       <p1 x="160" y="-420"/>
       <p2 x="180" y="-420"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-420"/>
+      <p2 x="600" y="-420"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="-100"/>
+      <p2 x="120" y="-100"/>
     </wire>
     <wire>
       <p1 x="580" y="420"/>
@@ -1334,170 +1101,6 @@ to get our final control signal outputs.</string>
     <wire>
       <p1 x="100" y="-40"/>
       <p2 x="740" y="-40"/>
-    </wire>
-    <wire>
-      <p1 x="-180" y="40"/>
-      <p2 x="-40" y="40"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="40"/>
-      <p2 x="180" y="40"/>
-    </wire>
-    <wire>
-      <p1 x="-280" y="-300"/>
-      <p2 x="-180" y="-300"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="300"/>
-      <p2 x="600" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="-500" y="-560"/>
-      <p2 x="-480" y="-560"/>
-    </wire>
-    <wire>
-      <p1 x="-560" y="-560"/>
-      <p2 x="-520" y="-560"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="-560"/>
-      <p2 x="180" y="-560"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="560"/>
-      <p2 x="600" y="560"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="180"/>
-      <p2 x="740" y="180"/>
-    </wire>
-    <wire>
-      <p1 x="-220" y="-440"/>
-      <p2 x="-40" y="-440"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="-440"/>
-      <p2 x="180" y="-440"/>
-    </wire>
-    <wire>
-      <p1 x="680" y="-440"/>
-      <p2 x="740" y="-440"/>
-    </wire>
-    <wire>
-      <p1 x="680" y="440"/>
-      <p2 x="740" y="440"/>
-    </wire>
-    <wire>
-      <p1 x="100" y="-60"/>
-      <p2 x="120" y="-60"/>
-    </wire>
-    <wire>
-      <p1 x="-60" y="60"/>
-      <p2 x="-40" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="60"/>
-      <p2 x="180" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="-280" y="-320"/>
-      <p2 x="-220" y="-320"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="-320"/>
-      <p2 x="600" y="-320"/>
-    </wire>
-    <wire>
-      <p1 x="680" y="320"/>
-      <p2 x="740" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="-580"/>
-      <p2 x="180" y="-580"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="200"/>
-      <p2 x="740" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="-460"/>
-      <p2 x="600" y="-460"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="460"/>
-      <p2 x="600" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="100" y="-80"/>
-      <p2 x="120" y="-80"/>
-    </wire>
-    <wire>
-      <p1 x="-60" y="80"/>
-      <p2 x="-40" y="80"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="80"/>
-      <p2 x="740" y="80"/>
-    </wire>
-    <wire>
-      <p1 x="-60" y="-340"/>
-      <p2 x="-40" y="-340"/>
-    </wire>
-    <wire>
-      <p1 x="-280" y="-340"/>
-      <p2 x="-160" y="-340"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="-340"/>
-      <p2 x="180" y="-340"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="-340"/>
-      <p2 x="600" y="-340"/>
-    </wire>
-    <wire>
-      <p1 x="680" y="-340"/>
-      <p2 x="740" y="-340"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="340"/>
-      <p2 x="600" y="340"/>
-    </wire>
-    <wire>
-      <p1 x="-640" y="-600"/>
-      <p2 x="-620" y="-600"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="-600"/>
-      <p2 x="180" y="-600"/>
-    </wire>
-    <wire>
-      <p1 x="-280" y="-220"/>
-      <p2 x="-180" y="-220"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="-220"/>
-      <p2 x="180" y="-220"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="-220"/>
-      <p2 x="600" y="-220"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="220"/>
-      <p2 x="740" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="-480"/>
-      <p2 x="600" y="-480"/>
-    </wire>
-    <wire>
-      <p1 x="100" y="-100"/>
-      <p2 x="120" y="-100"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="100"/>
-      <p2 x="740" y="100"/>
     </wire>
     <wire>
       <p1 x="580" y="-360"/>
@@ -1520,6 +1123,10 @@ to get our final control signal outputs.</string>
       <p2 x="600" y="360"/>
     </wire>
     <wire>
+      <p1 x="-280" y="-300"/>
+      <p2 x="-180" y="-300"/>
+    </wire>
+    <wire>
       <p1 x="-60" y="-620"/>
       <p2 x="-40" y="-620"/>
     </wire>
@@ -1528,12 +1135,28 @@ to get our final control signal outputs.</string>
       <p2 x="180" y="-620"/>
     </wire>
     <wire>
-      <p1 x="-280" y="-240"/>
-      <p2 x="-160" y="-240"/>
+      <p1 x="580" y="300"/>
+      <p2 x="600" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="-500" y="-560"/>
+      <p2 x="-480" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="-560" y="-560"/>
+      <p2 x="-520" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-560"/>
+      <p2 x="180" y="-560"/>
     </wire>
     <wire>
       <p1 x="160" y="-240"/>
       <p2 x="180" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="-280" y="-240"/>
+      <p2 x="-160" y="-240"/>
     </wire>
     <wire>
       <p1 x="680" y="-240"/>
@@ -1542,6 +1165,22 @@ to get our final control signal outputs.</string>
     <wire>
       <p1 x="160" y="-500"/>
       <p2 x="740" y="-500"/>
+    </wire>
+    <wire>
+      <p1 x="-220" y="-440"/>
+      <p2 x="-40" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-440"/>
+      <p2 x="180" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-440"/>
+      <p2 x="600" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-440"/>
+      <p2 x="740" y="-440"/>
     </wire>
     <wire>
       <p1 x="-160" y="-120"/>
@@ -1556,8 +1195,12 @@ to get our final control signal outputs.</string>
       <p2 x="600" y="-120"/>
     </wire>
     <wire>
-      <p1 x="160" y="120"/>
-      <p2 x="740" y="120"/>
+      <p1 x="680" y="440"/>
+      <p2 x="740" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="-60"/>
+      <p2 x="120" y="-60"/>
     </wire>
     <wire>
       <p1 x="-200" y="-380"/>
@@ -1570,6 +1213,14 @@ to get our final control signal outputs.</string>
     <wire>
       <p1 x="160" y="-380"/>
       <p2 x="180" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="-280" y="-320"/>
+      <p2 x="-220" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-320"/>
+      <p2 x="600" y="-320"/>
     </wire>
     <wire>
       <p1 x="-160" y="-640"/>
@@ -1586,10 +1237,6 @@ to get our final control signal outputs.</string>
     <wire>
       <p1 x="-180" y="-400"/>
       <p2 x="-180" y="-300"/>
-    </wire>
-    <wire>
-      <p1 x="-180" y="-220"/>
-      <p2 x="-180" y="40"/>
     </wire>
     <wire>
       <p1 x="-260" y="-660"/>

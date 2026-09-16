@@ -81,7 +81,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>ram-wen</string>
+          <string>mem-wen</string>
         </entry>
       </elementAttributes>
       <pos x="780" y="220"/>
@@ -91,7 +91,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>ram-ren</string>
+          <string>mem-ren</string>
         </entry>
       </elementAttributes>
       <pos x="780" y="260"/>
@@ -149,7 +149,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>ram-b</string>
+          <string>mem-b</string>
         </entry>
       </elementAttributes>
       <pos x="780" y="460"/>
@@ -159,7 +159,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>ram-h</string>
+          <string>mem-h</string>
         </entry>
       </elementAttributes>
       <pos x="780" y="520"/>
