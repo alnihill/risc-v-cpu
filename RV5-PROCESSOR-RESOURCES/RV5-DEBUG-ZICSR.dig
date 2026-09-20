@@ -23,7 +23,7 @@
         </entry>
         <entry>
           <string>Description</string>
-          <string>Debug &amp; system control:</string>
+          <string>Debug &amp; Zicsr control:</string>
         </entry>
       </elementAttributes>
       <pos x="-5100" y="-2340"/>

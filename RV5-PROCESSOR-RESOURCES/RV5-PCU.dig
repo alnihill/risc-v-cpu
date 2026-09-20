@@ -19,38 +19,34 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>imm-signext</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-860" y="-40"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>alu-out</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-860" y="0"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>jalr-sel</string>
         </entry>
       </elementAttributes>
       <pos x="-860" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-860" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>_npc*</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="280" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -105,10 +101,14 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>br-jmp</string>
+          <string>alu-out</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="-860" y="40"/>
+      <pos x="-860" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -125,14 +125,14 @@
       <pos x="300" y="-20"/>
     </visualElement>
     <visualElement>
-      <elementName>Clock</elementName>
+      <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>clk</string>
+          <string>br-jmp</string>
         </entry>
       </elementAttributes>
-      <pos x="-860" y="120"/>
+      <pos x="-860" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -381,14 +381,14 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>_npc*</string>
+          <string>imm-signext</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="280" y="220"/>
+      <pos x="-860" y="-40"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -481,6 +481,21 @@
         </entry>
       </elementAttributes>
       <pos x="160" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>10</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>you can pretend it goes
+straight across.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-60" y="0"/>
     </visualElement>
   </visualElements>
   <wires>

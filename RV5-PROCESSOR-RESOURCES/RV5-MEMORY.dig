@@ -10,7 +10,7 @@
     </entry>
     <entry>
       <string>Width</string>
-      <int>7</int>
+      <int>9</int>
     </entry>
   </attributes>
   <visualElements>
@@ -19,14 +19,14 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>out</string>
+          <string>inst-out</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="3320" y="900"/>
+      <pos x="3320" y="1460"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -47,6 +47,20 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
+          <string>inst-addr</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="280" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
           <string>addr</string>
         </entry>
         <entry>
@@ -55,20 +69,6 @@
         </entry>
       </elementAttributes>
       <pos x="280" y="540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>wdata</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="280" y="660"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -791,14 +791,14 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>inst-addr</string>
+          <string>dm-addr</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="280" y="600"/>
+      <pos x="280" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -843,30 +843,6 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>dm-addr</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-      </elementAttributes>
-      <pos x="280" y="1020"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>dm-addr</string>
-        </entry>
-      </elementAttributes>
-      <pos x="280" y="1020"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>dm-wen</string>
         </entry>
       </elementAttributes>
@@ -877,10 +853,10 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>dm-wen</string>
+          <string>dm-addr</string>
         </entry>
       </elementAttributes>
-      <pos x="280" y="1080"/>
+      <pos x="280" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -895,6 +871,30 @@
         </entry>
       </elementAttributes>
       <pos x="280" y="1140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>dm-wen</string>
+        </entry>
+      </elementAttributes>
+      <pos x="280" y="1080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>wdata</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="280" y="660"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -983,14 +983,14 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>inst-out</string>
+          <string>out</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="3320" y="1460"/>
+      <pos x="3320" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>

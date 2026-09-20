@@ -457,7 +457,7 @@
           <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="600" y="280"/>
+      <pos x="600" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -471,7 +471,7 @@
           <string>mem-ctrl-imm-sel</string>
         </entry>
       </elementAttributes>
-      <pos x="580" y="280"/>
+      <pos x="580" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -485,7 +485,7 @@
           <string>alu-ctrl-imm-sel</string>
         </entry>
       </elementAttributes>
-      <pos x="580" y="300"/>
+      <pos x="580" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -499,7 +499,7 @@
           <string>br-ctrl-imm-sel</string>
         </entry>
       </elementAttributes>
-      <pos x="580" y="340"/>
+      <pos x="580" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -513,7 +513,7 @@
           <string>jump-ctrl-imm-sel</string>
         </entry>
       </elementAttributes>
-      <pos x="580" y="360"/>
+      <pos x="580" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -527,7 +527,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="600" y="420"/>
+      <pos x="600" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -541,7 +541,7 @@
           <string>alu-ctrl-op</string>
         </entry>
       </elementAttributes>
-      <pos x="580" y="420"/>
+      <pos x="580" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -555,7 +555,7 @@
           <string>br-ctrl-op</string>
         </entry>
       </elementAttributes>
-      <pos x="580" y="460"/>
+      <pos x="580" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -645,7 +645,7 @@
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="740" y="320"/>
+      <pos x="740" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -793,7 +793,7 @@
           <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="740" y="440"/>
+      <pos x="740" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -898,7 +898,7 @@
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>61</int>
+          <int>49</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -924,7 +924,7 @@ so that we can just sum everything together
 to get our final control signal outputs.</string>
         </entry>
       </elementAttributes>
-      <pos x="-800" y="-100"/>
+      <pos x="-800" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>RV5-MEM-CONTROL.dig</elementName>
@@ -938,10 +938,6 @@ to get our final control signal outputs.</string>
     </visualElement>
   </visualElements>
   <wires>
-    <wire>
-      <p1 x="680" y="320"/>
-      <p2 x="740" y="320"/>
-    </wire>
     <wire>
       <p1 x="580" y="-260"/>
       <p2 x="600" y="-260"/>
@@ -967,6 +963,10 @@ to get our final control signal outputs.</string>
       <p2 x="740" y="-520"/>
     </wire>
     <wire>
+      <p1 x="680" y="200"/>
+      <p2 x="740" y="200"/>
+    </wire>
+    <wire>
       <p1 x="-140" y="-140"/>
       <p2 x="-40" y="-140"/>
     </wire>
@@ -987,10 +987,6 @@ to get our final control signal outputs.</string>
       <p2 x="600" y="-460"/>
     </wire>
     <wire>
-      <p1 x="580" y="460"/>
-      <p2 x="600" y="460"/>
-    </wire>
-    <wire>
       <p1 x="-440" y="-400"/>
       <p2 x="-420" y="-400"/>
     </wire>
@@ -1009,6 +1005,10 @@ to get our final control signal outputs.</string>
     <wire>
       <p1 x="100" y="-80"/>
       <p2 x="120" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="80"/>
+      <p2 x="740" y="80"/>
     </wire>
     <wire>
       <p1 x="-260" y="-660"/>
@@ -1035,10 +1035,6 @@ to get our final control signal outputs.</string>
       <p2 x="740" y="-340"/>
     </wire>
     <wire>
-      <p1 x="580" y="340"/>
-      <p2 x="600" y="340"/>
-    </wire>
-    <wire>
       <p1 x="-280" y="-280"/>
       <p2 x="-40" y="-280"/>
     </wire>
@@ -1055,20 +1051,16 @@ to get our final control signal outputs.</string>
       <p2 x="180" y="-600"/>
     </wire>
     <wire>
-      <p1 x="580" y="280"/>
-      <p2 x="600" y="280"/>
-    </wire>
-    <wire>
       <p1 x="160" y="-540"/>
       <p2 x="740" y="-540"/>
     </wire>
     <wire>
-      <p1 x="-280" y="-220"/>
-      <p2 x="-180" y="-220"/>
-    </wire>
-    <wire>
       <p1 x="580" y="-220"/>
       <p2 x="600" y="-220"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="220"/>
+      <p2 x="600" y="220"/>
     </wire>
     <wire>
       <p1 x="580" y="-160"/>
@@ -1091,8 +1083,8 @@ to get our final control signal outputs.</string>
       <p2 x="120" y="-100"/>
     </wire>
     <wire>
-      <p1 x="580" y="420"/>
-      <p2 x="600" y="420"/>
+      <p1 x="580" y="100"/>
+      <p2 x="600" y="100"/>
     </wire>
     <wire>
       <p1 x="-640" y="-680"/>
@@ -1119,8 +1111,8 @@ to get our final control signal outputs.</string>
       <p2 x="180" y="-360"/>
     </wire>
     <wire>
-      <p1 x="580" y="360"/>
-      <p2 x="600" y="360"/>
+      <p1 x="580" y="40"/>
+      <p2 x="600" y="40"/>
     </wire>
     <wire>
       <p1 x="-280" y="-300"/>
@@ -1133,10 +1125,6 @@ to get our final control signal outputs.</string>
     <wire>
       <p1 x="160" y="-620"/>
       <p2 x="180" y="-620"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="300"/>
-      <p2 x="600" y="300"/>
     </wire>
     <wire>
       <p1 x="-500" y="-560"/>
@@ -1167,6 +1155,10 @@ to get our final control signal outputs.</string>
       <p2 x="740" y="-500"/>
     </wire>
     <wire>
+      <p1 x="580" y="180"/>
+      <p2 x="600" y="180"/>
+    </wire>
+    <wire>
       <p1 x="-220" y="-440"/>
       <p2 x="-40" y="-440"/>
     </wire>
@@ -1195,8 +1187,8 @@ to get our final control signal outputs.</string>
       <p2 x="600" y="-120"/>
     </wire>
     <wire>
-      <p1 x="680" y="440"/>
-      <p2 x="740" y="440"/>
+      <p1 x="580" y="120"/>
+      <p2 x="600" y="120"/>
     </wire>
     <wire>
       <p1 x="100" y="-60"/>
@@ -1213,6 +1205,10 @@ to get our final control signal outputs.</string>
     <wire>
       <p1 x="160" y="-380"/>
       <p2 x="180" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="60"/>
+      <p2 x="600" y="60"/>
     </wire>
     <wire>
       <p1 x="-280" y="-320"/>

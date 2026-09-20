@@ -19,63 +19,56 @@
           <entry>
             <string>A</string>
             <pin>
-              <pos x="0" y="0"/>
+              <pos x="0" y="20"/>
               <showLabel>true</showLabel>
             </pin>
           </entry>
           <entry>
             <string>OP</string>
             <pin>
-              <pos x="0" y="20"/>
-              <showLabel>true</showLabel>
+              <pos x="40" y="0"/>
+              <showLabel>false</showLabel>
             </pin>
           </entry>
           <entry>
             <string>B</string>
             <pin>
-              <pos x="0" y="80"/>
-              <showLabel>true</showLabel>
-            </pin>
-          </entry>
-          <entry>
-            <string>MOD</string>
-            <pin>
-              <pos x="0" y="100"/>
+              <pos x="0" y="120"/>
               <showLabel>true</showLabel>
             </pin>
           </entry>
           <entry>
             <string>A=B</string>
             <pin>
-              <pos x="80" y="60"/>
+              <pos x="80" y="80"/>
               <showLabel>true</showLabel>
             </pin>
           </entry>
           <entry>
             <string>A&lt;B</string>
             <pin>
-              <pos x="80" y="80"/>
+              <pos x="80" y="100"/>
               <showLabel>true</showLabel>
             </pin>
           </entry>
           <entry>
             <string>Y</string>
             <pin>
-              <pos x="80" y="20"/>
+              <pos x="80" y="40"/>
               <showLabel>true</showLabel>
             </pin>
           </entry>
           <entry>
             <string>CRY</string>
             <pin>
-              <pos x="80" y="40"/>
+              <pos x="80" y="60"/>
               <showLabel>true</showLabel>
             </pin>
           </entry>
         </pins>
         <drawables>
           <poly>
-            <poly path="M 0,-30 L 80,10 L 80,90 L 0,130 L 0,60 L 30,50 L 0,40 Z" evenOdd="false"/>
+            <poly path="M 0,-20 L 80,20 L 80,120 L 0,160 L 0,80 L 30,70 L 0,60 Z" evenOdd="false"/>
             <thickness>4</thickness>
             <filled>true</filled>
             <color>
@@ -86,7 +79,7 @@
             </color>
           </poly>
           <poly>
-            <poly path="M 0,-30 L 80,10 L 80,90 L 0,130 L 0,60 L 30,50 L 0,40 Z" evenOdd="false"/>
+            <poly path="M 0,-20 L 80,20 L 80,120 L 0,160 L 0,80 L 30,70 L 0,60 Z" evenOdd="false"/>
             <thickness>4</thickness>
             <filled>false</filled>
             <color>
@@ -96,6 +89,19 @@
               <alpha>255</alpha>
             </color>
           </poly>
+          <text>
+            <p1 x="30" y="6"/>
+            <p2 x="30" y="7"/>
+            <text>OP</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
         </drawables>
       </shape>
     </entry>

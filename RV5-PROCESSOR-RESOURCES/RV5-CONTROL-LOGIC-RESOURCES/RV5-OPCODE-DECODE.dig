@@ -156,16 +156,6 @@
       <pos x="940" y="480"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>is-system</string>
-        </entry>
-      </elementAttributes>
-      <pos x="940" y="520"/>
-    </visualElement>
-    <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
@@ -252,10 +242,6 @@ spec for brevity.</string>
       <p2 x="940" y="360"/>
     </wire>
     <wire>
-      <p1 x="760" y="520"/>
-      <p2 x="940" y="520"/>
-    </wire>
-    <wire>
       <p1 x="660" y="300"/>
       <p2 x="800" y="300"/>
     </wire>
@@ -282,10 +268,6 @@ spec for brevity.</string>
     <wire>
       <p1 x="660" y="180"/>
       <p2 x="920" y="180"/>
-    </wire>
-    <wire>
-      <p1 x="660" y="340"/>
-      <p2 x="760" y="340"/>
     </wire>
     <wire>
       <p1 x="500" y="280"/>
@@ -334,10 +316,6 @@ spec for brevity.</string>
     <wire>
       <p1 x="840" y="260"/>
       <p2 x="840" y="360"/>
-    </wire>
-    <wire>
-      <p1 x="760" y="340"/>
-      <p2 x="760" y="520"/>
     </wire>
     <wire>
       <p1 x="860" y="240"/>
