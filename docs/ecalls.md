@@ -1,15 +1,15 @@
-The RV5 processor firmware currently supports a core subset of system calls originally supported by MARS and RARS, matching the calling conventions and call numbers of the [RARS Environment Calls specification](https://github.com/TheThirdOne/rars/wiki/Environment-Calls).
+The RV5 processor firmware supports a subset of the system calls supported by MARS and RARS, matching the calling conventions and call numbers of the [RARS Environment Calls specification](https://github.com/TheThirdOne/rars/wiki/Environment-Calls).
 
-They can be called by loading the call number into `a7`, any other arguments into `a0`-`a6`, and calling `ecall`. The following exits the program:
+They can be called by loading the call number into `a7`, any other arguments into `a0`-`a6`, and calling `ecall`. For example, the following exits the program:
 
 ```assembly
 li a7, 10
 ecall
 ```
 
-Note: all registers besides the output are guaranteed not to change.
+System calls will not change anything but the output register, which is typically a0.
 
-All supported system calls are shown below.
+Currently supported system calls:
 
 | Name | Call Number (a7) | Description | Inputs | Outputs |
 | --- | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ All supported system calls are shown below.
 
 File services (`Open`, `Read`, `Write`, `Close`) interact with host files through the memory-mapped `FileMapper` component in Digital.
 
-- **File Descriptors**: Up to 16 user file handles (`0`–`15`) can be open simultaneously. Handle `-1` is reserved for the loader.
+- **File Descriptors**: Up to 16 user file handles (`0`–`15`) can be open simultaneously. Handle `-1` is reserved for the program loader.
 - **Open Flags (`a1`)**:
   - `0`: Read-only
   - `1`: Write-only (creates file if it does not exist)
