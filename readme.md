@@ -52,30 +52,3 @@ Oh no! Your program isn't working as expected. Or maybe you just want to look ar
 ## Environment Calls (ecalls)
 For a complete reference on all supported `ecall` / syscall services (such as console I/O, file reading/writing via FileMapper, and exit), see [ecalls.md](docs/ecalls.md).
 
-# Todo: 
-## Circuit Form
-RV5-PCU: **Done**  
-RV5-CONTROL: **Done**  
-RV5-CSR: **Done**  
-RV5-IMM-GEN: **Done**  
-RV5-ALU: **Done**  
-RV5-MEMORY: **Done**  
-RV5-MEM-CONTROL: **Done**  
-RV5-ALU-CONTROL: **Done**  
-RV5-BRANCH-CONTROL: **Done**  
-RV5-JUMP-CONTROL: **Done**  
-RV5-SYSTEM-CONTROL: **Done**  
-Simplify is-debug and in-progbuf logic: **Done**  
-Standardize tunnel naming scheme: **Done** 
-## Student Experience
-### Most important (nobody else could do as quickly as I could)
-- [x] Implement syscalls for labs
-- [x] Finish the loader program
-  - Just need to make it support custom .bin paths. Pretty easy.
-- [x] Make dummy JTAG TAP for parallel writes.
-- [x] Document setup
-### Less important (easy for anyone to do) 
-- [ ] Rewrite lab macro calls and pseudoinstructions to work with the GNU standard instead of RARS 
-## Digital Fork
-- [x] Finalize FileMapper
-- [x] Make GdbServer configureable
