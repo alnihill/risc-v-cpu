@@ -28,8 +28,18 @@ static inline unsigned int map_file(const char *path, unsigned int* size) {
     return *(volatile unsigned int*)(FILEMAP_ERROR); // error
 }
 
-static inline char read_file(unsigned int address) {
-    return *(volatile char*)(FILEMAP_BUFFER + address);
+uint8_t g_input_buffer[INPUT_BUF_SIZE];
+uint32_t g_input_len = 0;
+uint32_t g_input_pos = 0;
+
+#define AUTORUN_FILE "autorun.bin"
+
+static inline void check_input_file(void) {
+    uint32_t handle = open_file("input.txt", 0);
+    if (handle != (uint32_t)-1) {
+        g_input_len = read_file(handle, g_input_buffer, sizeof(g_input_buffer) - 1);
+        g_input_pos = 0;
+    }
 }
 
 static inline void print_help() {
@@ -55,8 +65,37 @@ static inline void print_about() {
 
 typedef void (*Entrypoint)(void);
 
+static volatile uint32_t autorun_state = 0;
+
 int shell_main() {
     map_ram(); // So we can write to this location from gdb or whatever.
+
+    if (autorun_state == 1) {
+        autorun_state = 2;
+        print_str("--- END PROGRAM OUTPUT ---\n");
+        while (true) { }
+    }
+
+    if (autorun_state == 0) {
+        check_input_file();
+        unsigned int size = 0;
+        unsigned int status = map_file(AUTORUN_FILE, &size);
+
+        if (status == 1 && size > 0) {
+            autorun_state = 1;
+            print_str("--- BEGIN PROGRAM OUTPUT ---\n");
+            Entrypoint entrypoint = (Entrypoint)(FILEMAP_BUFFER);
+            entrypoint();
+
+            autorun_state = 2;
+            print_str("--- END PROGRAM OUTPUT ---\n");
+            while (true) { }
+        }
+
+        autorun_state = 2;
+        map_ram();
+    }
+
     print_help();
 
     char command[COMMAND_LEN];

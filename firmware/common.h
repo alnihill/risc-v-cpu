@@ -57,7 +57,18 @@ static inline void print_str(const char* s) {
     while (*s) print_char((uint8_t)*s++);
 }
 
+#define INPUT_BUF_SIZE 512
+extern uint8_t g_input_buffer[INPUT_BUF_SIZE];
+extern uint32_t g_input_len;
+extern uint32_t g_input_pos;
+
+uint32_t open_file(const char *path, uint32_t mode);
+uint32_t read_file(uint32_t handle, uint8_t *buffer, uint32_t len);
+
 static inline uint8_t read_char(void) {
+    if (g_input_pos < g_input_len) {
+        return g_input_buffer[g_input_pos++];
+    }
     uint8_t c;
     do {
         c = *CONSOLE_IO;
@@ -73,7 +84,7 @@ static inline int32_t read_number(void)
     bool is_negative = false;
 
     for (;;) {
-        uint8_t byte = *CONSOLE_IO;
+        uint8_t byte = read_char();
         if (byte == GETNUM_NO_INPUT) continue;
 
         if (byte == GETNUM_SUBMIT) {

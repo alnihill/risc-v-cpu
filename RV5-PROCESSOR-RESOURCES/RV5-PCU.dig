@@ -200,10 +200,6 @@
       <elementName>Add</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>PC_Incr</string>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>

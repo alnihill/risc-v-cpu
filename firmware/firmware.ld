@@ -36,7 +36,11 @@ SECTIONS
     *(.data .data.*)
   }
   .bss : {
+    _bss_start = .;
+    *(.sbss .sbss.*)
     *(.bss .bss.*)
+    *(COMMON)
+    _bss_end = .;
   }
 
   _stack_top = 0x0FC00;

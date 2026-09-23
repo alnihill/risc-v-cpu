@@ -38,7 +38,7 @@ static uint32_t handle_sizes[16];
 static uint32_t handle_modes[16];
 
 __attribute__((noinline, section(".text")))
-static uint32_t open_file(const char *path, uint32_t mode)
+uint32_t open_file(const char *path, uint32_t mode)
 {
     if (highest_handle >= 15 && highest_handle != (uint32_t)-1) {
         return (uint32_t)-1;
@@ -86,7 +86,7 @@ static uint32_t open_file(const char *path, uint32_t mode)
 }
 
 __attribute__((noinline, section(".text")))
-static uint32_t read_file(uint32_t handle, uint8_t *buffer, uint32_t len)
+uint32_t read_file(uint32_t handle, uint8_t *buffer, uint32_t len)
 {
     if (handle >= 16) {
         return 0;
@@ -176,8 +176,14 @@ static uint32_t write_file(uint32_t handle, const uint8_t *buffer, uint32_t len)
 __attribute__((section(".text.firmware.predebug"), used))
 static uint32_t trap_dispatch(uint32_t arg0, uint32_t arg1, uint32_t arg2, uint32_t arg3, uint32_t arg4, uint32_t arg5, uint32_t arg6, uint32_t syscall_num)
 {
-    if (csr_read_mcause() != MCAUSE_ECALL_M) {
-        for (;;) { } // Wasn't an ecall.. I guess just hang here.
+    uint32_t cause = csr_read_mcause();
+    if (cause != MCAUSE_ECALL_M) {
+        print_str("\nTrap: mcause=");
+        print_uint32(cause);
+        print_str(" mepc=");
+        print_uint32(csr_read_mepc());
+        print_str("\n");
+        for (;;) { }
     }
 
     uint32_t result = arg0;
