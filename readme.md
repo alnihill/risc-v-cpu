@@ -49,7 +49,7 @@ Oh no! Your program isn't working as expected. Or maybe you just want to look ar
 3. If you run ``layout asm`` you'll get to see the instruction you halted on. Right now, it will just be somewhere in the firmware. 
 4. Instead of calling ``load [your file's name].bin`` inside the simulation's console, run ``load [your file's name].elf`` inside GDB. Then run ``add-symbol-file [your file's name].elf``. (Note the ".elf". Also, it is important to note that this filepath is relative to where *gdb* was started.)
 
-## Environment call reference
+# Environment call reference
 The RV5 processor firmware supports a subset of the system calls supported by MARS and RARS, matching the calling conventions and call numbers of the [RARS Environment Calls specification](https://github.com/TheThirdOne/rars/wiki/Environment-Calls).
 
 They can be called by loading the call number into `a7`, any other arguments into `a0`-`a6`, and calling `ecall`. For example, the following exits the program:
