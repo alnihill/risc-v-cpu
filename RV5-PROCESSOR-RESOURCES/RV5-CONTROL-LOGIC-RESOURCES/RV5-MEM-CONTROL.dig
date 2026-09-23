@@ -19,7 +19,7 @@
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>28</int>
+          <int>27</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -27,7 +27,7 @@
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>57</int>
+          <int>58</int>
         </entry>
       </elementAttributes>
       <pos x="60" y="100"/>
@@ -281,7 +281,7 @@
 to be able to write to memory.</string>
         </entry>
       </elementAttributes>
-      <pos x="940" y="200"/>
+      <pos x="960" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -334,7 +334,7 @@ able to read from memory and
 write to our destination register.</string>
         </entry>
       </elementAttributes>
-      <pos x="940" y="260"/>
+      <pos x="960" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -349,7 +349,7 @@ write to our destination register.</string>
 to select memory.</string>
         </entry>
       </elementAttributes>
-      <pos x="940" y="320"/>
+      <pos x="960" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -364,7 +364,7 @@ to select memory.</string>
 load or store.</string>
         </entry>
       </elementAttributes>
-      <pos x="940" y="360"/>
+      <pos x="960" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -376,10 +376,11 @@ load or store.</string>
         <entry>
           <string>Description</string>
           <string>If storing we need an S-type immediate.
-(I-type is default).</string>
+(I-type is default, so we leave it be for
+load).</string>
         </entry>
       </elementAttributes>
-      <pos x="940" y="420"/>
+      <pos x="960" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -390,10 +391,12 @@ load or store.</string>
         </entry>
         <entry>
           <string>Description</string>
-          <string>We parse out our loading characteristics.</string>
+          <string>We parse out our loading characteristics:
+whether we&apos;re loading a byte, a half, and
+whether we need to sign extend.</string>
         </entry>
       </elementAttributes>
-      <pos x="940" y="480"/>
+      <pos x="960" y="480"/>
     </visualElement>
   </visualElements>
   <wires>

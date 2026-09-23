@@ -262,7 +262,7 @@
       <elementAttributes>
         <entry>
           <string>RectHeight</string>
-          <int>48</int>
+          <int>42</int>
         </entry>
         <entry>
           <string>RectInside</string>
@@ -301,7 +301,7 @@
           <string>Immediate Selector MUX</string>
         </entry>
       </elementAttributes>
-      <pos x="900" y="1060"/>
+      <pos x="900" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -527,6 +527,23 @@
         </entry>
       </elementAttributes>
       <pos x="1100" y="820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Different instruction types have different layouts, 
+so we need different logic to extract the immediates.
+Additionally, all but U-type instruction immediates
+need to be sign-extended.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="680"/>
     </visualElement>
   </visualElements>
   <wires>

@@ -493,6 +493,60 @@ straight across.</string>
       </elementAttributes>
       <pos x="-60" y="0"/>
     </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>10</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>If we&apos;re in any sort of branch and jump
+and the condition is met (represented by
+br-jmp), we add the immediate to
+the pc. Otherwise, we just add 4.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-380" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>10</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>But if the current instruction is jalr,
+we jump to the destination supplied
+by the ALU.</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-180" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>10</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>The spec requires the zeroing of the
+bottom bit of the ALU output to find
+jalr-dest. This is because instructions
+will never be one byte, so certain 
+addresses are invalid. It doesn&apos;t require
+zeroing the two&apos;s place because there
+exists a compressed-instruction extension.
+(Which we don&apos;t happen to implement.)</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-740" y="20"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>

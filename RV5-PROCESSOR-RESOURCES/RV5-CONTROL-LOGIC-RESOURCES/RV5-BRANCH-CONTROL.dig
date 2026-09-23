@@ -161,7 +161,8 @@ it&apos;s useful for some types of conditions.</string>
         <entry>
           <string>Description</string>
           <string>We can directly use funct3 as the
-main alu op.</string>
+main alu op.
+(Weren&apos;t the risc-v authors nice?)</string>
         </entry>
       </elementAttributes>
       <pos x="1040" y="240"/>

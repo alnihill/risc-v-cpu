@@ -27,7 +27,7 @@
         </entry>
         <entry>
           <string>RectWidth</string>
-          <int>73</int>
+          <int>69</int>
         </entry>
       </elementAttributes>
       <pos x="180" y="-920"/>
@@ -40,7 +40,7 @@
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="-800"/>
+      <pos x="920" y="-800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -54,7 +54,7 @@
           <string>funct3</string>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="-640"/>
+      <pos x="940" y="-640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -64,7 +64,7 @@
           <string>br-cond</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="-720"/>
+      <pos x="960" y="-720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -78,7 +78,7 @@
           <string>eq</string>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="-800"/>
+      <pos x="920" y="-800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -92,22 +92,22 @@
           <string>eq</string>
         </entry>
       </elementAttributes>
-      <pos x="960" y="-780"/>
+      <pos x="880" y="-780"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
-      <pos x="960" y="-780"/>
+      <pos x="880" y="-780"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="980" y="-760"/>
+      <pos x="900" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="980" y="-740"/>
+      <pos x="900" y="-740"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -121,7 +121,7 @@
           <string>slt</string>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="-720"/>
+      <pos x="920" y="-720"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -135,12 +135,12 @@
           <string>slt</string>
         </entry>
       </elementAttributes>
-      <pos x="960" y="-700"/>
+      <pos x="880" y="-700"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
-      <pos x="960" y="-700"/>
+      <pos x="880" y="-700"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -154,12 +154,12 @@
           <string>carry</string>
         </entry>
       </elementAttributes>
-      <pos x="960" y="-680"/>
+      <pos x="880" y="-680"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
-      <pos x="960" y="-680"/>
+      <pos x="880" y="-680"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -173,7 +173,7 @@
           <string>carry</string>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="-660"/>
+      <pos x="920" y="-660"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -190,17 +190,21 @@
 7: bgeu</string>
         </entry>
       </elementAttributes>
-      <pos x="740" y="-800"/>
+      <pos x="660" y="-800"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
+          <string>textFontSize</string>
+          <int>16</int>
+        </entry>
+        <entry>
           <string>Description</string>
-          <string>If this is a conditional branch, should we branch?</string>
+          <string>br-cond = is the conditional jump condition met?</string>
         </entry>
       </elementAttributes>
-      <pos x="580" y="-880"/>
+      <pos x="600" y="-860"/>
     </visualElement>
     <visualElement>
       <elementName>Rectangle</elementName>
@@ -222,7 +226,7 @@
           <int>9</int>
         </entry>
       </elementAttributes>
-      <pos x="720" y="-820"/>
+      <pos x="640" y="-820"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -356,7 +360,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1400" y="-780"/>
+      <pos x="1320" y="-780"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -370,7 +374,7 @@
           <string>br-cond</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="-760"/>
+      <pos x="1200" y="-760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -384,7 +388,7 @@
           <string>branch-sel</string>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="-800"/>
+      <pos x="1200" y="-800"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -394,7 +398,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="-800"/>
+      <pos x="1220" y="-800"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -408,7 +412,7 @@
           <string>jal-sel</string>
         </entry>
       </elementAttributes>
-      <pos x="1380" y="-740"/>
+      <pos x="1300" y="-740"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -418,17 +422,35 @@
           <string>br-jmp</string>
         </entry>
       </elementAttributes>
-      <pos x="1500" y="-760"/>
+      <pos x="1420" y="-760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>br-jmp = should we branch/jump?
+(Excluding jalr, since that&apos;s an
+absolute jump and we handle it
+differently than relative jumps in
+the PCU.)</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1140" y="-700"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="980" y="-740"/>
-      <p2 x="1000" y="-740"/>
+      <p1 x="900" y="-740"/>
+      <p2 x="920" y="-740"/>
     </wire>
     <wire>
-      <p1 x="1380" y="-740"/>
-      <p2 x="1400" y="-740"/>
+      <p1 x="1300" y="-740"/>
+      <p2 x="1320" y="-740"/>
     </wire>
     <wire>
       <p1 x="400" y="-580"/>
@@ -443,16 +465,16 @@
       <p2 x="420" y="-820"/>
     </wire>
     <wire>
-      <p1 x="980" y="-760"/>
-      <p2 x="1000" y="-760"/>
+      <p1 x="900" y="-760"/>
+      <p2 x="920" y="-760"/>
     </wire>
     <wire>
-      <p1 x="1280" y="-760"/>
-      <p2 x="1300" y="-760"/>
+      <p1 x="1200" y="-760"/>
+      <p2 x="1220" y="-760"/>
     </wire>
     <wire>
-      <p1 x="1480" y="-760"/>
-      <p2 x="1500" y="-760"/>
+      <p1 x="1400" y="-760"/>
+      <p2 x="1420" y="-760"/>
     </wire>
     <wire>
       <p1 x="400" y="-620"/>
@@ -467,12 +489,12 @@
       <p2 x="420" y="-540"/>
     </wire>
     <wire>
-      <p1 x="1380" y="-780"/>
-      <p2 x="1400" y="-780"/>
+      <p1 x="1300" y="-780"/>
+      <p2 x="1320" y="-780"/>
     </wire>
     <wire>
-      <p1 x="1280" y="-800"/>
-      <p2 x="1300" y="-800"/>
+      <p1 x="1200" y="-800"/>
+      <p2 x="1220" y="-800"/>
     </wire>
   </wires>
   <measurementOrdering/>

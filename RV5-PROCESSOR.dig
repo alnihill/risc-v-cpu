@@ -97,33 +97,6 @@ see, which sometimes show the Harvard style.</string>
       <pos x="-12840" y="-2040"/>
     </visualElement>
     <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>TODO: 
-
-scrap pipeline stage division - done
-
-R_rs1 &amp; R_rs2 - done
-
-op1 &amp; op2 for ALU instead of mod - done
-
-tri-state for one-hot mux - done
-
-PCU simplify: branch condition in control logic - done
-
-alu_asel = 2 -&gt; Can be done via r0? - No, we would need a mux to select rs1,
-so we would just be moving the mux somewhere else.
-
-Startup script
-
-Debug sep - done</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-14760" y="-2920"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
