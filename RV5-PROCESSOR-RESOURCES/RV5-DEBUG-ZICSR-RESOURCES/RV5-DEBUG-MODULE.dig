@@ -688,7 +688,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>ra</string>
+          <string>R_rs1</string>
         </entry>
       </elementAttributes>
       <pos x="-2320" y="600"/>
@@ -6353,7 +6353,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>ra</string>
+          <string>R_rs1</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -6407,7 +6407,7 @@ back. We don&apos;t want duplicate execution!)</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>ra</string>
+          <string>R_rs1</string>
         </entry>
       </elementAttributes>
       <pos x="-2380" y="-2040"/>

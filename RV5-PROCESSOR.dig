@@ -476,7 +476,7 @@ see, which sometimes show the Harvard style.</string>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>imm-sel</string>
+          <string>inst-format</string>
         </entry>
       </elementAttributes>
       <pos x="-13020" y="-2920"/>
@@ -730,7 +730,7 @@ see, which sometimes show the Harvard style.</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>imm-sel</string>
+          <string>inst-format</string>
         </entry>
       </elementAttributes>
       <pos x="-13080" y="-2260"/>
@@ -1636,10 +1636,6 @@ instruction from memory and the next is spent executing it.</string>
       <p2 x="-13020" y="-2920"/>
     </wire>
     <wire>
-      <p1 x="-12960" y="-2280"/>
-      <p2 x="-12940" y="-2280"/>
-    </wire>
-    <wire>
       <p1 x="-12280" y="-2280"/>
       <p2 x="-12260" y="-2280"/>
     </wire>
@@ -1649,6 +1645,10 @@ instruction from memory and the next is spent executing it.</string>
     </wire>
     <wire>
       <p1 x="-12940" y="-2280"/>
+      <p2 x="-12920" y="-2280"/>
+    </wire>
+    <wire>
+      <p1 x="-12920" y="-2280"/>
       <p2 x="-12560" y="-2280"/>
     </wire>
     <wire>
@@ -1664,16 +1664,16 @@ instruction from memory and the next is spent executing it.</string>
       <p2 x="-11420" y="-2540"/>
     </wire>
     <wire>
-      <p1 x="-13400" y="-2160"/>
-      <p2 x="-12940" y="-2160"/>
-    </wire>
-    <wire>
       <p1 x="-13420" y="-2800"/>
       <p2 x="-13380" y="-2800"/>
     </wire>
     <wire>
       <p1 x="-13040" y="-2800"/>
       <p2 x="-13020" y="-2800"/>
+    </wire>
+    <wire>
+      <p1 x="-13400" y="-2160"/>
+      <p2 x="-12920" y="-2160"/>
     </wire>
     <wire>
       <p1 x="-12580" y="-2420"/>
@@ -1788,10 +1788,6 @@ instruction from memory and the next is spent executing it.</string>
       <p2 x="-13420" y="-2140"/>
     </wire>
     <wire>
-      <p1 x="-12940" y="-2280"/>
-      <p2 x="-12940" y="-2160"/>
-    </wire>
-    <wire>
       <p1 x="-11660" y="-2580"/>
       <p2 x="-11660" y="-2440"/>
     </wire>
@@ -1850,6 +1846,10 @@ instruction from memory and the next is spent executing it.</string>
     <wire>
       <p1 x="-13400" y="-2380"/>
       <p2 x="-13400" y="-2160"/>
+    </wire>
+    <wire>
+      <p1 x="-12920" y="-2280"/>
+      <p2 x="-12920" y="-2160"/>
     </wire>
     <wire>
       <p1 x="-12380" y="-2420"/>
