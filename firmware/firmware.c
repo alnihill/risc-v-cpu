@@ -76,10 +76,12 @@ uint32_t open_file(const char *path, uint32_t mode)
     // We get our size:
     handle_sizes[handle] = *(volatile unsigned int*)(FILEMAP_SIZE);
 
+    uint32_t err = *(volatile unsigned int*)(FILEMAP_ERROR);
+
     // Now go back to the loader's handle so that loaded programs can properly run
     *(volatile unsigned int*)(FILEMAP_HANDLE) = -1;
 
-    if (*(volatile unsigned int*)(FILEMAP_ERROR) == 1)
+    if (err == 1)
         return handle;
     else
         return (uint32_t)-1;
@@ -136,10 +138,12 @@ static uint32_t write_file(uint32_t handle, const uint8_t *buffer, uint32_t len)
             // Do our write!
             *(volatile unsigned int*)(FILEMAP_COMMAND) = 4;
 
+            uint32_t err = *(volatile unsigned int*)(FILEMAP_ERROR);
+
             // Reset our handle to the loader reserved one:
             *(volatile unsigned int*)(FILEMAP_HANDLE) = -1;
             
-            if (*(volatile unsigned int*)(FILEMAP_ERROR) == 1)
+            if (err == 1)
                 return len;
             else
                 return 0;
@@ -160,10 +164,12 @@ static uint32_t write_file(uint32_t handle, const uint8_t *buffer, uint32_t len)
             // Do our write!
             *(volatile unsigned int*)(FILEMAP_COMMAND) = 4;
 
+            uint32_t err = *(volatile unsigned int*)(FILEMAP_ERROR);
+
             // Reset our handle to the loader reserved one:
             *(volatile unsigned int*)(FILEMAP_HANDLE) = -1;
 
-            if (*(volatile unsigned int*)(FILEMAP_ERROR) == 1)
+            if (err == 1)
                 return len;
             else
                 return 0;

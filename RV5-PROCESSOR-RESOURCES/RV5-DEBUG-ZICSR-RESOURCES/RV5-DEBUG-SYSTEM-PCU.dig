@@ -1251,6 +1251,10 @@ be hard to get wrong.</string>
     </wire>
     <wire>
       <p1 x="1220" y="200"/>
+      <p2 x="1300" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="200"/>
       <p2 x="1360" y="200"/>
     </wire>
     <wire>
@@ -1379,15 +1383,7 @@ be hard to get wrong.</string>
     </wire>
     <wire>
       <p1 x="1220" y="220"/>
-      <p2 x="1280" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="1300" y="220"/>
       <p2 x="1320" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="1280" y="220"/>
-      <p2 x="1300" y="220"/>
     </wire>
     <wire>
       <p1 x="1320" y="220"/>
@@ -1543,6 +1539,10 @@ be hard to get wrong.</string>
     </wire>
     <wire>
       <p1 x="1220" y="180"/>
+      <p2 x="1280" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="180"/>
       <p2 x="1360" y="180"/>
     </wire>
     <wire>
@@ -1595,7 +1595,7 @@ be hard to get wrong.</string>
     </wire>
     <wire>
       <p1 x="1280" y="80"/>
-      <p2 x="1280" y="220"/>
+      <p2 x="1280" y="180"/>
     </wire>
     <wire>
       <p1 x="1600" y="120"/>
@@ -1655,7 +1655,7 @@ be hard to get wrong.</string>
     </wire>
     <wire>
       <p1 x="1300" y="100"/>
-      <p2 x="1300" y="220"/>
+      <p2 x="1300" y="200"/>
     </wire>
     <wire>
       <p1 x="120" y="900"/>
